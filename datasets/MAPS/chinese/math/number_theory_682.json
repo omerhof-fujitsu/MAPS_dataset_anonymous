@@ -1,0 +1,6 @@
+{
+  "problem": "令 $n$ 为大于或等于 $3$ 的正整数。设 $a, b$ 为整数，使得 $ab$ 模 $n$ 可逆，且 $(ab)^{-1} \\equiv 2 \\pmod{n}$。已知 $a+b$ 模 $n$ 也可逆，求 $(a+b)^{-1}(a^{-1}+b^{-1})$ 除以 $n$ 的余数。",
+  "solution": "我们可以巧妙地利用 $x\\cdot x^{-1}\\equiv 1\\pmod n$ 这一性质，对于所有可逆的 $x$，有：\n\\begin{align*}\n& (a+b)^{-1}(a^{-1}+b^{-1})\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}+b^{-1})(ab)(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}ab+abb^{-1})(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a+b)(ab)^{-1}\\\\\n\\equiv~ & (ab)^{-1}\\\\\n\\equiv~ & \\boxed{2}\\pmod n\n\\end{align*}",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

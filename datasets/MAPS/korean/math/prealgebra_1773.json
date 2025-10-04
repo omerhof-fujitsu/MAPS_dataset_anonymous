@@ -1,0 +1,6 @@
+{
+    "problem": "표준 52장 카드 덱에서 무작위로 카드 한 장을 뽑을 때, 그 카드가 홀수(3, 5, 7, 9)이거나 스페이드($\\spadesuit$)인(또는 둘 다인) 확률은 얼마입니까?",
+    "solution": "There are 16 odd-numbered cards, namely 4 suits for each of the 4 odd digits. There are 13 $\\spadesuit$s, but 4 of these we already counted among the odd-numbered cards.  So the total number of cards that are odd or a $\\spadesuit$ is $16+(13-4)=25$, and the probability is $\\boxed{\\dfrac{25}{52}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

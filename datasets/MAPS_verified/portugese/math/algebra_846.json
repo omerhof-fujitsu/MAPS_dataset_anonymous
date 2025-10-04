@@ -1,0 +1,6 @@
+{
+  "problem": "Encontre a soma dos quadrados das soluções para $2x^2 + 4x - 1 = 0$.",
+  "solution": "Usamos o fato de que a soma e o produto das raízes de uma equação quadrática $ax^2+bx+c = 0$ são dados por $-b/a$ e $c/a$, respectivamente. Considerando as soluções da equação dada como $p$ e $q$, temos $p+q = -4/2 = -2$ e $pq = -1/2$, portanto a resposta é $p^2+q^2 = (p+q)^2-2pq=(-2)^2-2(-1/2) = \\boxed{5}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

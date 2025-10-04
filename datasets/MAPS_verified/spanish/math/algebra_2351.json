@@ -1,0 +1,6 @@
+{
+  "problem": "La parábola con ecuación $y=ax^2+bx+c$ y vértice $(h,k)$ se refleja respecto a la recta $y=k$. Esto da como resultado la parábola con ecuación $y=dx^2+ex+f$. En términos de $k$, ¿cuál es el valor de $a+b+c+d+e+f$?",
+  "solution": "Podemos reescribir la ecuación de la parábola original como $y=f(x)=a(x-h)^2+k$ (para algún $a$). Tras la reflexión de la parábola, la ecuación se convierte en $y=g(x)=-a(x-h)^2+k$. Observamos que $f(x)+g(x)=2k$. Como $f(1)=a+b+c$ y $g(1)=d+e+f$, tenemos $a+b+c+d+e+f=f(1)+g(1)=\\boxed{2k}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

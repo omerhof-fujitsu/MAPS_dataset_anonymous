@@ -1,0 +1,6 @@
+{
+  "problem": "Ermitteln Sie alle Werte von \\( k \\), sodass sich die Graphen von \\( x^2 + y^2 = 4 + 12x + 6y \\) und \\( x^2 + y^2 = k + 4x + 12y \\) schneiden. Geben Sie Ihre Antwort in Intervallnotation an.",
+  "solution": "Wenn wir das Quadrat in der ersten Gleichung vervollständigen, erhalten wir \\[(x - 6)^2 + (y - 3)^2 = 7^2,\\], was einen Kreis mit Mittelpunkt $(6,3)$ und Radius 7 darstellt.\n\nWenn wir das Quadrat in der zweiten Gleichung vervollständigen, erhalten wir \\[(x - 2)^2 + (y - 6)^2 = k + 40,\\], was einen Kreis mit Mittelpunkt $(2,6)$ und Radius $\\sqrt{k + 40}$ darstellt.\n\n[asy]\nunitsize(0.3 cm);\n\ndraw(Circle((6,3),7),red);\ndraw(Circle((2,6),2),blue);\ndraw(Circle((2,6),12),blue);\n\ndot(\"$(6,3)$\", (6,3), NE);\ndot((2,6));\nlabel(\"$(2,6)$\", (2,6), NE, UnFill);\n[/asy]\n\nDer Abstand zwischen den Mittelpunkten beträgt $\\sqrt{4^2 + 3^2} = 5$, sodass sich die beiden Kreise schneiden, wenn der Radius des zweiten Kreises zwischen $7 - 5 = 2$ und $7 + 5 = 12$ liegt. Dies ergibt uns \n\\[2^2 \\le k + 40 \\le 12^2,\\]\noder $k \\in \\boxed{[-36,104]}$.",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

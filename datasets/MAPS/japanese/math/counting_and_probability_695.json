@@ -1,0 +1,6 @@
+{
+    "problem": "マリアは同じリンゴを3個とオレンジを3個持っています。ジャッキーにオレンジを渡さない場合、4人の友達に果物を分配する方法は何通りありますか？（注：マリア自身は果物を一切受け取らず、友達の中には果物を受け取らない人もいる可能性があります。）",
+    "solution": "First, just consider the apples. Imagine putting three dividers among the apples, so that Maria's first friend gets the apples to the left of the first divider, Maria's second friend gets the apples between the first and second dividers, Maria's third friend gets the apples between the second and third dividers, and Maria's last friend gets the apples after the third divider. With three dividers and three apples, there are $\\binom{6}{3}=20$ ways to arrange the dividers. Now, consider the oranges. Since Maria won't give Jacky any oranges, Maria has to distribute the oranges among her other three friends. With three oranges and two dividers, there are $\\binom{5}{2}=10$ ways for Maria to distribute the oranges. The total number of ways for Maria to distribute the fruit is $20\\cdot 10=\\boxed{200}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

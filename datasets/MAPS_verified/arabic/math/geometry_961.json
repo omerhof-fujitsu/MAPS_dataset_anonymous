@@ -1,0 +1,6 @@
+{
+  "problem": "يتقاطع قطرا المستطيل $PQRS$ عند النقطة $X$. إذا كان $PS = 6$ و $RS = 8$، فما قيمة $\\sin \\angle PXS$؟",
+  "solution": "لإيجاد قيمة $\\sin \\angle PXS$، نرسم مثلثًا قائم الزاوية حيث تكون $\\angle PXS$ إحدى زواياه الحادة. يتم ذلك برسم الارتفاع $\\overline{SF}$ من النقطة $S$ إلى القطر $\\overline{PR}$ كما هو موضح. بذلك نحصل على $\\sin \\angle PXS = \\sin\\angle FXS = \\frac{FS}{XS}$.\n\nتُعطينا نظرية فيثاغورس $PR = QS = 10$، وبالتالي $SX = \\frac{QS}{2} = 5$. لدينا أيضًا تشابه بين $\\triangle FPS$ و $\\triangle SPR$ وفقًا لتشابه الزوايا AA (كلاهما مثلثان قائما الزاوية و$\\angle SPR = \\angle FPS$)، لذا:\n\\[\\frac{FS}{PS} = \\frac{SR}{PR}.\\]\nهذا يعطينا:\n\\[FS = PS \\cdot \\frac{SR}{PR} = \\frac{6 \\cdot 8}{10} = \\frac{24}{5}.\\]\nوأخيرًا، لدينا:\n\\[\\sin \\angle PXS = \\frac{FS}{XS} = \\frac{\\frac{24}{5}}{5} = \\boxed{\\frac{24}{25}}.\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

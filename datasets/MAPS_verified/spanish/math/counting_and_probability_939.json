@@ -1,0 +1,6 @@
+{
+  "problem": "¿Cuántos triples $(a,b,c)$ de enteros positivos pares cumplen $a^3 + b^2 + c \\leq 50$?",
+  "solution": "Si $a \\geq 4$, entonces $a^3+b^2+c>a^3\\geq 4^3>50$. Pero queremos $a^3+b^2+c \\leq 50$, por lo que debemos tener $a=2$. Ahora sustituimos $a=2$ en $a^3+b^2+c \\leq 50$, lo que da $b^2+c\\leq 42$. Como $b^2<42$, sabemos que $b$ debe ser uno de los siguientes: 2, 4 o 6. \n\nSi $b=2$, entonces $c\\leq 38$. Hay 19 enteros pares positivos menores o iguales a 38, a saber: $2\\times 1$, $2\\times 2$, $\\ldots$, $2\\times 19$.\n\nSi $b=4$, entonces $c\\leq 26$. Hay 13 enteros pares positivos menores o iguales a 26.\n\nSi $b=6$, entonces $c\\leq 6$. Hay 3 enteros pares positivos menores o iguales a 6.\n\nPor lo tanto, la respuesta es $19+13+3=\\boxed{35}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

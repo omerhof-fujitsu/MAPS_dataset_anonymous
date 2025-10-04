@@ -1,0 +1,6 @@
+{
+  "problem": "Uma vara de 10 cm tem uma marca a cada centímetro. Ao quebrar a vara em duas dessas nove marcas aleatoriamente, ela é dividida em três pedaços, cada um de comprimento inteiro. Qual é a probabilidade de que os três comprimentos possam ser os lados de um triângulo? Expresse sua resposta como uma fração comum.",
+  "solution": "Os comprimentos podem formar um triângulo se, e somente se, a soma dos dois menores exceder o comprimento do maior. Mas a soma dos três pedaços é 10, o que significa que o maior pedaço não pode ter comprimento maior que 4. (Se o maior pedaço for 5 ou maior, os três comprimentos violarão a Desigualdade Triangular.) No entanto, o maior pedaço claramente deve ser maior que 3. Assim, os únicos conjuntos aceitáveis de comprimentos de lados são $\\{3,3,4\\}$ e $\\{2,4,4\\}$. Como podemos obtê-los de 6 maneiras, e o palito pode ser quebrado de $\\binom{9}{2} = 36$ maneiras diferentes, nossa probabilidade total é $\\frac{6}{36} = \\boxed{\\frac{1}{6}}$.",
+  "level": "Level 5",
+  "type": "Geometry"
+}

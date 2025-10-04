@@ -1,0 +1,6 @@
+{
+    "problem": "22 persone partecipano a una festa. Ogni persona stringe la mano a un massimo di 20 altre persone. Qual è il numero massimo possibile di strette di mano, supponendo che due persone qualsiasi possano stringersi la mano al massimo una volta?",
+    "solution": "If each person shakes hands with exactly 20 other people, then there will be $\\frac{22 \\cdot 20}{2} = \\boxed{220}$ handshakes, since two people are required to complete a handshake. To achieve 220 handshakes, we arrange the participants in a circle. Each person shakes hands with everyone except the person directly across from himself or herself (and himself or herself).",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

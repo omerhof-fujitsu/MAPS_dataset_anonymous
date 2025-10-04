@@ -1,0 +1,6 @@
+{
+    "problem": "चतुर्भुज $ABCD$ एक समांतर चतुर्भुज है। यदि कोण $A$ का माप 62 डिग्री है और कोण $ADB$ का माप 75 डिग्री है, तो कोण $ADC$ का माप, डिग्री में, क्या है?",
+    "solution": "Since adjacent angles of a parallelogram add up to $180^{\\circ}$, $ADC=180^{\\circ}-A=180^{\\circ}-62^{\\circ}=\\boxed{118^{\\circ}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

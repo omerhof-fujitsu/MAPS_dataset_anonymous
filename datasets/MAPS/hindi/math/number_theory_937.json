@@ -1,0 +1,6 @@
+{
+    "problem": "1 से 1000 के बीच $n$ के कितने पूर्णांक मानों के लिए $\\frac{n}{1375}$ का दशमलव प्रतिनिधित्व समाप्त हो जाता है?",
+    "solution": "The decimal representation of a simplified fraction terminates if and only if the denominator is divisible by no primes other than 2 and 5. The prime factorization of $1375$ is $11 \\cdot 5^3$. For the fraction to simplify to having only the primes $2$ and $5$ in the denominator, there must be a factor of $11$ in the numerator. There are $\\left\\lfloor\\frac{1000}{11}\\right\\rfloor=90$ multiples of $11$ between $1$ and $1000$, so there are $\\boxed{90}$ integers values for $n$.",
+    "level": "Level 5",
+    "type": "Number Theory"
+}

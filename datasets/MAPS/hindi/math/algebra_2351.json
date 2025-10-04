@@ -1,0 +1,6 @@
+{
+    "problem": "समीकरण $y=ax^2+bx+c$ और शीर्ष $(h,k)$ वाला परवलय रेखा $y=k$ के बारे में परावर्तित होता है। इसके परिणामस्वरूप समीकरण $y=dx^2+ex+f$ वाला परवलय प्राप्त होता है। $k$ के संदर्भ में, $a+b+c+d+e+f$ का मान **$2k$** है।",
+    "solution": "We can rewrite the equation of the original parabola as $y=f(x)=a(x-h)^2+k$ (for some $a$). After reflection of the parabola, the equation becomes $y=g(x)=-a(x-h)^2+k$. Notice that $f(x)+g(x)=2k$. Since $f(1)=a+b+c$ and $g(1)=d+e+f$, we have $a+b+c+d+e+f=f(1)+g(1)=\\boxed{2k}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "直径为 $12^{\\prime \\prime}$ 的披萨的面积为 $\\pi \\left(\\frac{12}{2}\\right)^2 = 36\\pi$ 平方英寸，因此每片面积为 $\\frac{36\\pi}{8} = \\frac{9\\pi}{2}$ 平方英寸。简吃了三片，所以她吃了 $3 \\times \\frac{9\\pi}{2} = \\frac{27\\pi}{2}$ 平方英寸。\n\n直径为 $16^{\\prime \\prime}$ 的披萨的面积为 $\\pi \\left(\\frac{16}{2}\\right)^2 = 64\\pi$ 平方英寸，因此每片面积为 $\\frac{64\\pi}{8} = 8\\pi$ 平方英寸。马克吃了三片，所以他吃了 $3 \\times 8\\pi = 24\\pi$ 平方英寸。\n\n马克比简多吃了 $24\\pi - \\frac{27\\pi}{2} = \\frac{48\\pi - 27\\pi}{2} = \\frac{21\\pi}{2}$ 平方英寸。\n\n**答案：** $\\boxed{\\frac{21\\pi}{2}}$",
+  "solution": "他们都吃了 $\\frac{3}{8}$ 个披萨。因此，马克比简多吃的量仅仅是 $\\frac{3}{8} \\times$ 披萨总面积的差异。16 英寸披萨的面积为 $64\\pi$，而 12 英寸披萨的面积为 $36\\pi$，总面积差异为 $28\\pi$。$\\frac{3}{8} \\times 28\\pi = \\boxed{\\frac{21}{2}\\pi}$",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

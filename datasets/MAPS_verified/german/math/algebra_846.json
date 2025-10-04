@@ -1,0 +1,6 @@
+{
+  "problem": "Ermitteln Sie die Summe der Quadrate der Lösungen von $2x^2+4x-1=0$.",
+  "solution": "Wir nutzen die Tatsache, dass die Summe und das Produkt der Wurzeln einer quadratischen Gleichung $ax^2+bx+c = 0$ durch $-b/a$ bzw. $c/a$ gegeben sind. Wenn die Lösungen der gegebenen Gleichung $p$ und $q$ lauten, erhalten wir $p+q = -4/2 = -2$ und $pq = -1/2$, sodass die Antwort $p^2+q^2 = (p+q)^2-2pq=(-2)^2-2(-1/2) = \\boxed{5}$ lautet.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

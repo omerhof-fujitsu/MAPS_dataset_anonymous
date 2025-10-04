@@ -1,0 +1,6 @@
+{
+    "problem": "삼각형 $ABC$는 직각 삼각형입니다. 각 $PAB$의 크기가 $x^\\circ$이고 각 $ACB$의 크기가 $(Mx+N)^\\circ$으로 표현되며, $M=1$일 때, $M+N$의 값은 얼마입니까?",
+    "solution": "Since $\\angle PAB$ and $\\angle BAC$ are supplementary, $\\angle BAC = 180^{\\circ} - x^\\circ$.  Since the three angles of a triangle add up to $ 180^{\\circ} $, we have $\\angle ACB = 180^{\\circ} - 90^{\\circ} - (180^{\\circ} - x^\\circ) = x^\\circ - 90^{\\circ}$.  Thus, $M + N = \\boxed{-89}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

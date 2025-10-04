@@ -1,0 +1,6 @@
+{
+  "problem": "모든 실수 $x$ 및 $y$에 대한 식 \\[2x^2 + 2xy + 4y + 5y^2 - x\\]의 최소값을 구하세요.",
+  "solution": "표현식을 다음과 같이 쓸 수 있습니다.\n\\begin{align*}\n2x^2 + 2xy + 4y + 5y^2 - x &= (x^2 + 2xy + y^2) + \\left( x^2 - x + \\frac{1}{4} \\right) + (4y^2 + 4y + 1) - \\frac{1}{4} - 1 \\\\\n&= (x + y)^2 + \\left( x - \\frac{1}{2} \\right)^2 + (2y + 1)^2 - \\frac{5}{4}.\n\\end{align*}\n최소값은 $\\boxed{-\\frac{5}{4}}$이며, 이는 $x = \\frac{1}{2}$과 $y = -\\frac{1}{2}$에서 발생합니다.",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

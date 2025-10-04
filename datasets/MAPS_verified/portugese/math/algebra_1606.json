@@ -1,0 +1,6 @@
+{
+  "problem": "Suponha que \\( x \\) e \\( y \\) sejam números reais que satisfazem\n\\begin{align*}\n4y - 4x^2 &= 1 \\\\\n4x - 4y^2 &= 1.\n\\end{align*}\nQual é o valor de \\( \\dfrac{1}{x^3 + y^3} \\)?",
+  "solution": "As equações são equivalentes a \n\\begin{align*}\n4x^2 - 4y + 1 &= 0, \\\\\n4y^2 - 4x + 1 &= 0.\n\\end{align*}\nSomando essas equações, obtemos\n$$4x^2 - 4y + 1 + 4y^2 - 4x + 1 = 0,$$\nou\n$$(4x^2 - 4x + 1) + (4y^2 - 4y + 1) = 0.$$\nFatorando os quadrados de binômios, temos\n$$(2x - 1)^2 + (2y - 1)^2 = 0.$$\nComo os quadrados são sempre não negativos, segue-se que\n$$2x - 1 = 2y - 1 = 0,$$\nportanto, $x = y = \\frac{1}{2}$. A resposta desejada é $\\frac{1}{\\frac{1}{8} + \\frac{1}{8}} = \\boxed{4}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

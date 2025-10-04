@@ -1,0 +1,6 @@
+{
+  "problem": "Suponha que $*(n) = \\left\\{ n-2, n+2, 2n, \\frac{n}{2} \\right\\}$. Por exemplo, $*(6) = \\{4, 8, 12, 3\\}$. Para quantos inteiros distintos $n$ o conjunto $*(n)$ tem exatamente três elementos distintos?",
+  "solution": "Para ter três elementos distintos, dois de $n-2$, $n+2$, $2n$ e $\\frac{n}{2}$ devem ser iguais. É claro que $n-2$ nunca pode ser igual a $n+2$. No entanto, qualquer outro par de igualdade entre os quatro é possível, então simplesmente verificamos a distinção. Se $2n = \\frac{n}{2}$, a solução é $n = 0$. Se $n + 2 = 2n$, $n = 2$. Se $n - 2 = 2n$, $n = -2$. Se $\\frac{n}{2} = n - 2$, $n = 4$. Finalmente, se $\\frac{n}{2} = n + 2$, $n = -4$. Portanto, existem $\\boxed{5}$ tais $n$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

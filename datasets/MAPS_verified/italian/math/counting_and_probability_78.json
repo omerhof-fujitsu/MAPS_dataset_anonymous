@@ -1,0 +1,6 @@
+{
+  "problem": "Per quanti numeri interi $n$ dove $2 \\le n \\le 100$ è $\\binom{n}{2}$ dispari?",
+  "solution": "$\\binom{n}{2} = \\frac{n(n-1)}{2}$. Affinché questa frazione sia dispari, né $n$ né $n-1$ possono essere divisibili per $4$, poiché solo uno tra $n$ e $n-1$ può essere pari. Ci sono $25$ interi per cui $n$ è divisibile per $4$, ovvero i multipli di $4$ da $4$ a $100$. Ci sono $24$ interi per cui $n-1$ è divisibile per $4$. Possiamo ottenere questi interi incrementando tutti i multipli di $4$ di $1$, ma dobbiamo escludere $100$ poiché $100+1 = 101 > 100$. Pertanto, ci sono $49$ interi non validi, quindi ci sono $99 - 49 = \\boxed{50}$ interi validi.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Wenn die Quadratwurzel der Länge der Hypotenuse eines rechtwinkligen Dreiecks 2 Einheiten beträgt, wie groß ist dann die Summe der Quadrate der Längen der beiden anderen Seiten?",
+  "solution": "Lassen Sie $c$ die Länge der Hypotenuse darstellen. Uns wurde gesagt, dass $\\sqrt{c}=2$, also $c=4$. Nach dem Satz des Pythagoras ist die Summe der Quadrate der Längen der beiden anderen Seiten gleich dem Quadrat der Länge der Hypotenuse ($a^2+b^2=c^2$), also lautet unsere Antwort $c^2=\\boxed{16}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

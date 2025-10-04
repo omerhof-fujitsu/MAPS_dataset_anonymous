@@ -1,0 +1,6 @@
+{
+  "problem": "Trova tutti i valori di $k$ in modo che i grafici di $x^2 + y^2 = 4 + 12x + 6y$ e $x^2 + y^2 = k + 4x + 12y$ si intersechino. Inserisci la risposta usando la notazione per intervalli.",
+  "solution": "Completando il quadrato nella prima equazione, otteniamo\n\\[(x - 6)^2 + (y - 3)^2 = 7^2,\\]che rappresenta un cerchio di centro $(6,3)$ con raggio 7.\n\nCompletando il quadrato nella seconda equazione, otteniamo\n\\[(x - 2)^2 + (y - 6)^2 = k + 40,\\]che rappresenta un cerchio di centro $(2,6)$ con raggio $\\sqrt{k + 40}.$\n\n[asy]\nunitsize(0.3 cm);\n\ndraw(Circle((6,3),7),red);\ndraw(Circle((2,6),2),blue);\ndraw(Circle((2,6),12),blue);\n\ndot(\"$(6,3)$\", (6,3), NE);\ndot((2,6));\nlabel(\"$(2,6)$\", (2,6), NE, UnFill);\n[/asy]\n\nLa distanza tra i centri è $\\sqrt{4^2 + 3^2} = 5$, quindi i due cerchi si intersecano quando il raggio del secondo cerchio è compreso tra $7 - 5 = 2$ e $7 + 5 = 12$. Questo ci dà\n\\[2^2 \\le k + 40 \\le 12^2,\\]oppure $k \\in \\boxed{[-36,104]}.$",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

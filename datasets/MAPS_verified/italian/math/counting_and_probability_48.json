@@ -1,0 +1,6 @@
+{
+  "problem": "Krishanu e Shaunak scelgono a caso un numero intero compreso tra 1 e 10 inclusi. Qual è la probabilità che il prodotto dei loro numeri sia maggiore di 10? Esprimi la tua risposta come una frazione comune.",
+  "solution": "Poiché 10 è un valore piccolo per un prodotto, consideriamo la probabilità complementare, ovvero che il loro prodotto sia al massimo 10. Per fare ciò, contiamo il numero di coppie ordinate di interi positivi $(m,n)$ con $mn\\le10$ ($m$ è il numero di Krishanu e $n$ è il numero di Shaunak). Se $m=1$, ci sono 10 coppie di questo tipo; se $m=2$, ce ne sono 5; se $m=3$, ce ne sono 3; se $m=4$ o $m=5$, ce ne sono 2, e se $m=6,7,8,9,10$, ce n'è 1, per un totale di $$10+5+3+2+2+1+1+1+1+1=27$$ coppie ordinate con prodotto al massimo 10. La probabilità che venga estratta una di queste è quindi $27/100$, poiché ci sono $10\\cdot10=100$ possibili coppie ordinate. Pertanto, la probabilità che il prodotto dei loro numeri sia maggiore di 10 è $1-27/100=\\boxed{\\frac{73}{100}}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

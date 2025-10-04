@@ -1,0 +1,6 @@
+{
+  "problem": "Para quantos valores inteiros de $n$ entre 1 e 1000 inclusive a representação decimal de $\\frac{n}{1375}$ termina?",
+  "solution": "A representação decimal de uma fração simplificada termina se, e somente se, o denominador não for divisível por nenhum primo além de 2 e 5. A fatoração prima de $1375$ é $11 \\cdot 5^3$. Para que a fração simplifique e tenha apenas os primos $2$ e $5$ no denominador, deve haver um fator de $11$ no numerador. Há $\\left\\lfloor\\frac{1000}{11}\\right\\rfloor=90$ múltiplos de $11$ entre $1$ e $1000$, portanto há $\\boxed{90}$ valores inteiros para $n$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

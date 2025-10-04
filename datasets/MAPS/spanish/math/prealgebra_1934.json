@@ -1,0 +1,6 @@
+{
+    "problem": "La expresión $\\sqrt{(\\sqrt{56})(\\sqrt{126})}$ se puede simplificar a $a\\sqrt{b}$, donde $a$ y $b$ son números enteros y $b$ no es divisible por ningún cuadrado perfecto mayor que 1. ¿Cuál es $a+b$?",
+    "solution": "Since 56 is a multiple of 4 and 126 is a multiple of 9, we can factor squares out of both terms, getting $\\sqrt{(2\\sqrt{14})(3\\sqrt{14})}=\\sqrt{2\\cdot3\\cdot14}$. Then, we can factor $2^2$ out of the outer square root to get $2\\sqrt{21}$. Thus $a=2$ and $b=21$, yielding $a+b=\\boxed{23}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "圆锥体的表面积是 $\\pi$ 乘以 $6$。\n\n**改进翻译：**\n\n圆锥体的表面积是 $\\pi$ 乘以 $\\boxed{6}$。",
+  "solution": "绕三角形的一条直角边旋转，会生成一个半径为 2、高度为 2 的圆锥体：[asy]\nsize(90);\nimport solids; currentprojection = orthographic(5,0,1);\nrevolution c = cone((0,0,0), 2,2);\ndraw(c,heavycyan);\ndraw((0,0,0)--(0,2,0)--(0,0,2)--cycle);\nlabel(\"2\",(0,1,0),S); label(\"2\",(0,0,1),W);\n[/asy] 圆锥体的底面是一个半径为 2 的圆，其面积为 $2^2\\pi=4\\pi$。展开后，圆锥的侧面变为一个圆的平面扇形：[asy]\nsize(110);\ndraw(Arc((0,0),1,0,254.56),heavycyan);\ndraw(Arc((0,0),1,254.56,360),heavycyan+linetype(\"2 4\"));\ndraw((cos(4.44),sin(4.44))--(0,0)--(1,0),heavycyan);\n[/asy] 扇形的半径是圆锥的斜高，根据勾股定理，斜高为 \\[\\sqrt{2^2+2^2}=2\\sqrt{2}.\\]扇形的弧长是圆锥的底面周长，为 \\[2\\pi(2)=4\\pi.\\]圆的周长为 \\[2\\pi(2\\sqrt{2}) = 4\\sqrt{2}\\pi,\\]因此，扇形面积与圆面积之比为 $\\frac{4\\pi}{4\\sqrt{2}\\pi}=\\frac{1}{\\sqrt{2}}$。圆的面积为 \\[(2\\sqrt{2})^2\\pi=8\\pi,\\]所以扇形的面积为 \\[\\frac{1}{\\sqrt{2}}\\cdot 8\\pi = 4\\sqrt{2}\\pi.\\]将侧面积和底面积相加可得出总表面积为 $4\\sqrt{2}\\pi+4\\pi$，所以它的总表面积为 $\\boxed{4\\sqrt{2} + 4}$ 乘以 $\\pi$。",
+  "level": "Level 5",
+  "type": "Geometry"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Encontre o valor mínimo possível do maior entre $xy$, $1 - x - y + xy$ e $x + y - 2xy$, dado que $0 \\leq x \\leq y \\leq 1$.",
+  "solution": "Afirmamos que o mínimo é $\\frac{4}{9}.$ Quando $x = y = \\frac{1}{3},$\n\\begin{align*}\nxy &= \\frac{1}{9}, \\\\\n(1 - x)(1 - y) &= \\frac{4}{9}, \\\\\nx + y - 2xy &= \\frac{4}{9}.\n\\end{align*}\nO restante consiste em mostrar que um dos valores $xy,$ $(1 - x)(1 - y),$ $x + y - 2xy$ é sempre pelo menos $\\frac{4}{9}.$\n\nObserve que\n\\[xy + (1 - x - y + xy) + (x + y - 2xy) = 1.\\]\nIsso significa que se qualquer uma dessas três expressões for no máximo $\\frac{1}{9},$ então as outras duas somam pelo menos $\\frac{8}{9},$ então uma delas deve ser pelo menos $\\frac{4}{9}.$\n\nSejam $s = x + y$ e $p = xy.$ Então\n\\[s^2 - 4p = (x + y)^2 - 4xy = (x - y)^2 \\ge 0.\\]\nSuponha $x + y - 2xy = s - 2p < \\frac{4}{9}.$ Então\n\\[0 \\le s^2 - 4p < \\left( 2p + \\frac{4}{9} \\right)^2 - 4p.\\]\nIsso simplifica para $81p^2 - 45p + 4 > 0,$ que fatora como $(9p - 1)(9p - 4) > 0.$ Isso significa que $p < \\frac{1}{9}$ ou $p > \\frac{4}{9}$; de qualquer forma, concluímos.\n\nPortanto, o valor máximo é $\\boxed{\\frac{4}{9}}.$",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

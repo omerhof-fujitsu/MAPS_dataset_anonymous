@@ -1,0 +1,6 @@
+{
+    "problem": "אלנה יוצרת כדור מגומיות. כאשר לכדור יש 54 גומיות, קוטרו 3 ס\"מ. כמה גומיות אלנה צריכה להוסיף לכדור כדי להגדיל את קוטרו ב-1 ס\"מ? נניח שכל הגומיות של אלנה הן בעלות אותו נפח.",
+    "solution": "Since the volume of a sphere is directly proportional to its diameter cubed, the ratio of the volume of the ball with a diameter of 4 cm to the volume of the ball with a diameter of 3 cm is $(4/3)^3\n= 64/27$.  Since all of the rubber bands have the same volume, it follows that the number of rubber bands in the ball with diameter 4 is \\[ (4/3)^3 \\cdot 54 = \\frac{64}{27} \\cdot 54 = 64 \\cdot 2 = 128. \\]Therefore the number of rubber bands that Alana needs to add to the ball is $128 - 54 = \\boxed{74}$.",
+    "level": "Level 5",
+    "type": "Geometry"
+}

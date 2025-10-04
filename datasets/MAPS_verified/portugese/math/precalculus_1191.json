@@ -1,0 +1,6 @@
+{
+  "problem": "Para uma constante dada $b > 10$, há dois triângulos possíveis $ABC$ que satisfazem $AB = 10$, $AC = b$ e $\\sin B = \\frac{3}{5}$. Encontre a diferença positiva entre os comprimentos do lado $\\overline{BC}$ nesses dois triângulos.",
+  "solution": "Temos que \n\\[\\cos^2 B = 1 - \\sin^2 B = \\frac{16}{25},\\]\nentão $\\cos B = \\pm \\frac{4}{5}.$\n\nPara $\\cos B = \\frac{4}{5},$ seja $a_1 = BC.$ Então, pela Lei dos Cossenos,\n\\[b^2 = a_1^2 + 100 - 20a_1 \\cdot \\frac{4}{5} = a_1^2 - 16a_1 + 100.\\]\n\nPara $\\cos B = -\\frac{4}{5},$ seja $a_2 = BC.$ Então, pela Lei dos Cossenos,\n\\[b^2 = a_2^2 + 100 - 20a_2 \\cdot \\left( -\\frac{4}{5} \\right) = a_2^2 + 16a_2 + 100.\\]\n\nSubtraindo essas equações, obtemos\n\\[a_2^2 - a_1^2 + 16a_2 + 16a_1 = 0.\\]\n\nPodemos fatorar como\n\\[(a_2 - a_1)(a_2 + a_1) + 16(a_2 + a_1) = 0.\\]\n\nComo $a_1 + a_2$ é positivo, podemos dividir ambos os lados por $a_1 + a_2$ com segurança, para obter\n\\[a_2 - a_1 + 16 = 0.\\]\n\nPortanto, $a_1 - a_2 = \\boxed{16}.$",
+  "level": "Level 5",
+  "type": "Precalculus"
+}

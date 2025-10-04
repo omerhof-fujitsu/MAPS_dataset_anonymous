@@ -1,0 +1,6 @@
+{
+  "problem": "Supponiamo che $N$ possa essere scritto in base $6$ come $531340_6$ e in base $8$ come $124154_8$. In base $10$, qual è il resto quando $N$ viene diviso per $210$?",
+  "solution": "La scomposizione in fattori primi di $210 = 2 \\cdot 3 \\cdot 5 \\cdot 7$. Per il Teorema Cinese del Resto, è sufficiente trovare i residui di $N$ modulo $5$, $6$ e $7$. Poiché la cifra delle unità di $N$ in base $6$ è uguale a $0$, ne consegue che $N$ è divisibile per $6$. Inoltre, notiamo che $N$ è congruente modulo $b-1$ alla somma delle sue cifre in base $b$. Infatti, se $N$ può essere rappresentato come $(\\overline{a_ka_{k-1}\\cdots a_0})_b$, allora \n\\begin{align*}\nN &\\equiv a_k \\cdot b^k + a_{k-1} \\cdot b^{k-1} + \\cdots + a_1 \\cdot b + a_0 \\\\\n&\\equiv a_k \\cdot ((b-1) + 1)^k + \\cdots + a_1 \\cdot ((b-1) + 1) + a_0 \\\\\n&\\equiv a_k + a_{k-1} + \\cdots + a_1 + a_0 \\pmod{b-1}.\n\\end{align*}\nNe consegue che $N \\equiv 5+3+1+3+4+0 \\equiv 1 \\pmod{5}$ e che $N \\equiv 1 + 2 + 4 + 1 + 5 + 4 \\equiv 3 \\pmod{7}$. Per il Teorema Cinese del Resto e ispezione, determiniamo che $N \\equiv 31 \\pmod{35}$, quindi (di nuovo per il Teorema Cinese del Resto) $N \\equiv \\boxed{66} \\pmod{210}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Die Gleichung des Kreises, der durch den Punkt $(-1,6)$ verläuft und dessen Mittelpunkt bei $(2,3)$ liegt, kann in der Form $x^2 + y^2 + Ax + By + C = 0$ geschrieben werden. Gesucht ist das Produkt $A \\times B \\times C$.",
+  "solution": "Da sich der Mittelpunkt des Kreises am Punkt $(2,3)$ und ein Punkt des Kreises am Punkt $(-1,6)$ befindet, ergibt sich gemäß der Abstandsformel ein Radius von $\\sqrt{(2-(-1))^2 + (3-6)^2} = \\sqrt{3^2 + (-3)^2} = \\sqrt{18}$. Die Gleichung des Kreises lautet dann $(x - 2)^2 + (y - 3)^2 = 18$, und nach Erweiterung ergibt sich $$x^2 - 4x + 4 + y^2 - 6y + 9 - 18 = 0 \\Longrightarrow x^2 + y^2 - 4x - 6y - 5 = 0.$$ Somit ist $A \\times B \\times C = -4 \\times -6 \\times -5 = \\boxed{-120}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

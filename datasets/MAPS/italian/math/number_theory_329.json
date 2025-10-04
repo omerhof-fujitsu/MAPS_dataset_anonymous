@@ -1,0 +1,6 @@
+{
+    "problem": "Viene estratto a caso un numero di tre cifre in base 10, $n$. Qual è la probabilità che la rappresentazione in base 9 e quella in base 11 di $n$ siano entrambe numeri di tre cifre?",
+    "solution": "The largest base-9 three-digit number is $9^3-1=728$ and the smallest base-11 three-digit number is $11^2=121$. There are $608$ integers that satisfy $121\\le n\\le 728$, and 900 three-digit numbers altogether, so the probability is $608/900=\\boxed{\\frac{152}{225}}$.",
+    "level": "Level 5",
+    "type": "Number Theory"
+}

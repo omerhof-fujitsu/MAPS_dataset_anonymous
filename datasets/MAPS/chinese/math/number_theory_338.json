@@ -1,0 +1,6 @@
+{
+  "problem": "144 的所有不同正两位数因数的总和是多少？",
+  "solution": "将 $144$ 分解质因数得到 $144=2^4\\cdot3^2$。144 的两位数正因数之和为 $2^4+2\\cdot3^2+2^2\\cdot3+2^2\\cdot3^2+2^3\\cdot3+2^3\\cdot3^2+2^4\\cdot3=\\boxed{226}$。",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

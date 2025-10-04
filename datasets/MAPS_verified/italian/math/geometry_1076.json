@@ -1,0 +1,6 @@
+{
+  "problem": "I punti $A\\, (5,-5)$ e $B\\, (-1,-1)$ sono gli estremi dell'ipotenusa di un triangolo rettangolo isoscele $\\triangle ABC$. Qual è l'area di $ABC$?",
+  "solution": "La lunghezza dell'ipotenusa è data dalla formula della distanza ed è $\\sqrt{(5-(-1))^2 + (-5-(-1))^2} = \\sqrt{6^2+4^2} = \\sqrt{52}$. La lunghezza del cateto è quindi $\\sqrt{52}/\\sqrt{2} = \\sqrt{26}$ (in alternativa, si può applicare il teorema di Pitagora), e l'area del triangolo rettangolo isoscele è quindi uguale a $\\frac{1}{2} \\cdot \\sqrt{26} \\cdot \\sqrt{26} = \\boxed{13}$.",
+  "level": "Level 5",
+  "type": "Geometry"
+}

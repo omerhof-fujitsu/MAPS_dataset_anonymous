@@ -1,0 +1,6 @@
+{
+    "problem": "세 커플이 영화관에 갔습니다. 최대한의 즐거움을 위해 함께 앉고 싶어 하지만, 대신 무작위로 여섯 개의 좌석이 있는 줄에 앉습니다. 각자가 파트너 옆에 앉는 사회적으로 최적의 배열이 될 확률은 얼마입니까?",
+    "solution": "There are $\\binom{6}{2} = 15$ ways to pick people to fill the first two seats, and 3 ways for those two people to be a couple, for a probability $3/15 = 1/5$ that the first two seats are a couple. If a couple is seated successfully, there are $\\binom{4}{2} = 6$ ways to seat people in the next two seats, and 2 ways for those two people to be a couple (you could pick either of the two remaining couples), for a probability $2/6 = 1/3$ that those two seats are a couple. If the first two couples are seated successfully, the last two seats will be guaranteed to go to the last couple. So, the probability that everything goes right is $1/5 \\cdot 1/3 = \\boxed{\\frac{1}{15}}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

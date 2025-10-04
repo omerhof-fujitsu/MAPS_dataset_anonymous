@@ -1,0 +1,6 @@
+{
+    "problem": "नैन्सी एक छह-पक्षीय पासे को दो बार घुमाकर एक दो अंकों का पूर्णांक उत्पन्न करती है। उसके पहले रोल का परिणाम दहाई का अंक होता है, और दूसरे रोल का परिणाम इकाई का अंक होता है। यह क्या संभावना है कि परिणामी पूर्णांक 8 से विभाज्य है? अपने उत्तर को एक सामान्य अंश के रूप में व्यक्त करें।",
+    "solution": "The largest number Nancy can generate is 66.  The positive two-digit multiples of 8 less than 66 are 16, 24, 32, 40, 48, 56, and 64.  40 and 48 cannot be produced from the numbers on a 6-sided die, but the other 5 multiples of 8 in the list can.  Therefore, there are 5 equally likely ways to produce a multiple of 8 out of the $6\\cdot6=36$ total combinations for the two dice, so the desired probability is $\\boxed{\\dfrac{5}{36}}$.\n\n(Special thanks to 5849206328x for this solution.)",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

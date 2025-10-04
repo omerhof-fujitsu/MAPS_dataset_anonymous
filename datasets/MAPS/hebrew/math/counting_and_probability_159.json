@@ -1,0 +1,6 @@
+{
+    "problem": "בוועדת סנאט חברים 5 דמוקרטים, 5 רפובליקנים ועצמאי אחד. בכמה דרכים הם יכולים לשבת סביב שולחן עגול אם כל חברי כל מפלגה יושבים זה לצד זה? (שני סידורי ישיבה נחשבים שווי ערך אם אחד הוא סיבוב של השני.)",
+    "solution": "Choose any seat in which to place the Independent -- it doesn't matter which seat that we choose, since we can rotate the table. Once the Independent's seat has been chosen, either all the Democrats sit to their left and all the Republicans sit to their right, or the other way around. Either way, there are $5!$ ways to put the Democrats in their seats, and $5!$ ways to put the Republicans in their seats. So, the total number of ways to seat the people around the table is $2\\cdot5!\\cdot5!=2\\cdot120\\cdot120=\\boxed{28800}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

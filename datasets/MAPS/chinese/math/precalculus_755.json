@@ -1,0 +1,6 @@
+{
+  "problem": "找到与投影到向量 $\\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix}$ 对应的矩阵。",
+  "solution": "根据投影公式，向量 $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ 在 $\\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix}$ 上的投影为：\n\n\\[\n\\operatorname{proj}_{\\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix}} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\frac{\\begin{pmatrix} x \\\\ y \\end{pmatrix} \\cdot \\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix}}{\\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix} \\cdot \\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix}} \\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix} = \\frac{x + 7y}{50} \\begin{pmatrix} 1 \\\\ 7 \\end{pmatrix} = \\begin{pmatrix} \\frac{x + 7y}{50} \\\\ \\frac{7x + 49y}{50} \\end{pmatrix}.\n\\]\n\n为了找到投影矩阵，我们将此向量表示为矩阵与向量 $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ 的乘积：\n\n\\[\n\\begin{pmatrix} \\frac{x + 7y}{50} \\\\ \\frac{7x + 49y}{50} \\end{pmatrix} = \\begin{pmatrix} 1/50 & 7/50 \\\\ 7/50 & 49/50 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix}.\n\\]\n\n因此，此变换的矩阵为 $\\boxed{\\begin{pmatrix} 1/50 & 7/50 \\\\ 7/50 & 49/50 \\end{pmatrix}}.$",
+  "level": "Level 5",
+  "type": "Precalculus"
+}

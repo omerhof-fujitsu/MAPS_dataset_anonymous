@@ -1,0 +1,6 @@
+{
+  "problem": "Eine zufällig ausgewählte dreistellige Zahl $n$ zur Basis 10 wird betrachtet. Wie hoch ist die Wahrscheinlichkeit, dass sowohl die Darstellung von $n$ zur Basis 9 als auch zur Basis 11 dreistellig ist?",
+  "solution": "Die größte dreistellige Zahl im Neunersystem ist $9^3-1=728$ und die kleinste dreistellige Zahl im Elfersystem ist $11^2=121$. Es gibt $608$ ganze Zahlen, die die Bedingung $121\\le n\\le 728$ erfüllen, und insgesamt 900 dreistellige Zahlen, sodass die Wahrscheinlichkeit $608/900=\\boxed{\\frac{152}{225}}$ beträgt.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

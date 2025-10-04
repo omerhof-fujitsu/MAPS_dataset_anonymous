@@ -1,0 +1,6 @@
+{
+  "problem": "四边形$ABCD$是一个梯形，其中$AB$与$CD$平行。已知$AB = 20$，$CD = 12$。三角形$ACB$的面积与梯形$ABCD$的面积之比是多少？请用常见分数形式表达你的答案。",
+  "solution": "假设梯形 $ABCD$ 的高为 $h$；注意，这也是三角形 $ACB$ 到底边 $AB$ 的高。那么 $ABCD$ 的面积为 $\\frac{20 + 12}{2}\\cdot h = 16h$。另一方面，三角形 $ACB$ 的面积为 $\\frac{1}{2}\\cdot 20\\cdot h = 10h$。因此，所需的比例为 $\\frac{10}{16} = \\boxed{\\frac{5}{8}}$。",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

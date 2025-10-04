@@ -1,0 +1,6 @@
+{
+  "problem": "Se selecciona al azar un número de tres dígitos en base-10, $n$. ¿Cuál es la probabilidad de que tanto la representación en base-9 como la representación en base-11 de $n$ sean números de tres dígitos?",
+  "solution": "El mayor número de tres dígitos en base 9 es $9^3-1=728$ y el menor de tres dígitos en base 11 es $11^2=121$. Hay $608$ enteros que cumplen $121\\le n\\le 728$, y en total hay 900 números de tres dígitos, por lo que la probabilidad es $608/900=\\boxed{\\frac{152}{225}}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

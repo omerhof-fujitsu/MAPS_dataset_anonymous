@@ -1,0 +1,6 @@
+{
+  "problem": "¿Para cuántos valores enteros de $n$ entre 1 y 1000 inclusive termina la representación decimal de $\\frac{n}{1375}$?",
+  "solution": "La representación decimal de una fracción simplificada termina si y solo si el denominador no es divisible por ningún primo distinto de 2 y 5. La factorización prima de $1375$ es $11 \\cdot 5^3$. Para que la fracción se simplifique y tenga solo los primos $2$ y $5$ en el denominador, debe haber un factor de $11$ en el numerador. Hay $\\left\\lfloor\\frac{1000}{11}\\right\\rfloor=90$ múltiplos de $11$ entre $1$ y $1000$, por lo que hay $\\boxed{90}$ valores enteros para $n$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

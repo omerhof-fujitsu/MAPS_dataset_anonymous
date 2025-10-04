@@ -1,0 +1,6 @@
+{
+    "problem": "الشكل الرباعي $ABCD$ متوازي أضلاع. إذا كان قياس الزاوية $A$ هو 62 درجة، وقياس الزاوية $ADB$ هو 75 درجة، فما قياس الزاوية $ADC$ بالدرجات؟",
+    "solution": "Since adjacent angles of a parallelogram add up to $180^{\\circ}$, $ADC=180^{\\circ}-A=180^{\\circ}-62^{\\circ}=\\boxed{118^{\\circ}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

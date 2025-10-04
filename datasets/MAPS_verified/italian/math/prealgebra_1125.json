@@ -1,0 +1,6 @@
+{
+  "problem": "Ai campionati nazionali di curling, ci sono tre squadre composte da quattro giocatori ciascuna. Dopo la fine del campionato, i cortesissimi partecipanti stringono la mano tre volte a ogni membro delle squadre avversarie e una volta a ogni membro della propria squadra.\n\n**Quante strette di mano ci sono in totale?**",
+  "solution": "Per ogni partecipante, ci sono 8 avversari con cui stringere la mano e 3 membri della squadra con cui stringere la mano, dando $3\\times8+3=27$ strette di mano per ogni singolo partecipante.\n\nCi sono 12 giocatori in totale, il che porta a $12\\times27=324$ strette di mano, ma poiché una stretta di mano avviene tra due persone, abbiamo contato ogni stretta di mano due volte.\n\nIl risultato finale è $\\dfrac{324}{2}=\\boxed{162}$ strette di mano.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

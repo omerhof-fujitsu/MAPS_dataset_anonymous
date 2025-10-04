@@ -1,0 +1,6 @@
+{
+  "problem": "点 $A\\, (5,-5)$ 和 $B\\, (-1,-1)$ 是等腰直角三角形 $\\triangle ABC$ 的斜边端点。$\\triangle ABC$ 的面积是多少？",
+  "solution": "斜边的长度由距离公式计算得出，为 $\\sqrt{(5-(-1))^2 + (-5-(-1))^2} = \\sqrt{6^2+4^2} = \\sqrt{52}$。直角边的长度为 $\\sqrt{52}/\\sqrt{2} = \\sqrt{26}$（或者，也可以应用勾股定理），等腰直角三角形的面积为 $\\frac{1}{2} \\cdot \\sqrt{26} \\cdot \\sqrt{26} = \\boxed{13}$。",
+  "level": "Level 5",
+  "type": "Geometry"
+}

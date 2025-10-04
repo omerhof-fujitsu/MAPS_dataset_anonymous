@@ -1,0 +1,6 @@
+{
+  "problem": "Bestimme die Anzahl der geordneten Tripel $(x, y, z)$ reeller Zahlen, die die folgenden Gleichungen erfüllen:\n\\begin{align*}\nx + 2y + 4z &= 12, \\\\\nxy + 2xz + 4yz &= 22, \\\\\nxyz &= 6.\n\\end{align*}",
+  "solution": "Seien $a = x,$ $b = 2y,$ und $c = 4z.$ Dann gilt $x = a,$ $y = \\frac{1}{2} b,$ und $z = \\frac{1}{4} c,$ sodass das gegebene System zu\n\\begin{align*}\na + b + c &= 12, \\\\\nab + ac + bc &= 44, \\\\\nabc &= 48.\n\\end{align*}\nwird. Nach Vietas Formeln sind $a,$ $b,$ und $c$ die Wurzeln von\n\\[t^3 - 12t^2 + 44t - 48 = 0.\\]\nDies faktorisiert sich zu $(t - 2)(t - 4)(t - 6) = 0,$ also sind $a,$ $b,$ $c$ die Zahlen 2, 4, 6, in einer beliebigen Reihenfolge. Es gibt $3! = 6$ Möglichkeiten, die Zahlen 2, 4, 6 den Variablen $a,$ $b,$ und $c$ zuzuordnen. Diese erzeugen $\\boxed{6}$ verschiedene Lösungen $(x,y,z),$ durch die Substitution $x = a,$ $y = \\frac{1}{2} b,$ $z = \\frac{1}{4} c.$",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

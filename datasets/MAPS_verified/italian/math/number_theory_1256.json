@@ -1,0 +1,6 @@
+{
+  "problem": "Qual è la somma di tutti i valori interi di $x$ tali che $\\frac{67}{2x - 23}$ sia un intero?",
+  "solution": "Controllando i numeri primi minori di $\\sqrt{67}$, ovvero 2, 3, 5 e 7, come potenziali divisori, troviamo che 67 è primo. Pertanto, $\\frac{67}{2x-23}$ è un intero se e solo se $2x-23=\\pm1$ o $2x-23=\\pm67$. La prima equazione fornisce $x=12$ o $x=11$ e la seconda fornisce $x=45$ o $x=-22$. La somma è $12+11+45-22=\\boxed{46}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

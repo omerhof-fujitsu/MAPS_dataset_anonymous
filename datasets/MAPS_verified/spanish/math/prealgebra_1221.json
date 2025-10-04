@@ -1,0 +1,6 @@
+{
+  "problem": "Las calificaciones de un examen de preálgebra se organizaron en un diagrama de tallo y hojas, como se ilustra. ¿Cuál es la media aritmética de la mediana y la moda de los datos dados? \n\n\\begin{tabular}{ c | c c c ccc c c c}\n4&1&&&&&&&&\\\\\n5&2&&&&&&&&\\\\\n6&7&8&8&&&&&&\\\\\n7&1&1&2&3&3&3&5&6&8\\\\\n8&0&4&4&6&6&6&6&8&\\\\\n9&1&3&5&5&7&&&&\\\\\n\\end{tabular}",
+  "solution": "Cada dígito a la derecha de la barra vertical representa (el dígito de las unidades de) una calificación de examen. Al contar los dígitos, vemos que hay $27$ calificaciones de examen en total. Por lo tanto, la $14^{\\rm th}$ calificación en orden creciente es la mediana (ya que hay $13$ calificaciones menores que ella y $13$ calificaciones mayores que ella). El gráfico facilita la lectura de las calificaciones en orden creciente; simplemente leemos a lo largo de las filas, de arriba a abajo. La $14^{\\rm th}$ entrada es $78,$ por lo que esa es la calificación mediana. La moda es la calificación que aparece con más frecuencia. En este caso, es $86,$ que aparece cuatro veces en el gráfico. La media aritmética de la mediana y la moda de los datos es $\\dfrac{1}{2}(78+86),$ o $\\boxed{82}.$",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

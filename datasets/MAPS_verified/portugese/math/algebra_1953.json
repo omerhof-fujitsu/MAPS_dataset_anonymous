@@ -1,0 +1,6 @@
+{
+  "problem": "O gráfico da equação $y = ax^2 + bx - 6$ está completamente abaixo do eixo $x$. Se $a^2 = 49$, qual é o maior valor integral possível de $b$?",
+  "solution": "Como a parábola está completamente abaixo do eixo $x$, sua concavidade deve ser para baixo (caso contrário, ela teria que cruzar o eixo $x$ em sua subida). Isso significa que $a < 0$. Temos $a^2 = 49$, então $a = \\pm 7$, mas como $a$ é negativo, $a = -7$.\n\nComo o gráfico não toca o eixo $x$, não há soluções reais. Como todas as soluções devem ser imaginárias, o discriminante deve ser negativo, ou seja:\n\\begin{align*}\nb^2 - 4ac &< 0 \\quad \\Rightarrow \\\\\nb^2 - 4(-7)(-6) &< 0 \\quad \\Rightarrow \\\\\nb^2 - 168 &< 0 \\quad \\Rightarrow \\\\\nb^2 &< 168.\n\\end{align*}\nIsso significa que $-\\sqrt{168} < b < \\sqrt{168}$. O maior valor inteiro de $b$ é o maior inteiro menor que $\\sqrt{168}$. Como $13^2 = 169$, sabemos que $\\sqrt{168}$ é um pouco menor que $13$, mas maior que $12$. Portanto, o maior valor inteiro de $b$ é $\\boxed{12}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

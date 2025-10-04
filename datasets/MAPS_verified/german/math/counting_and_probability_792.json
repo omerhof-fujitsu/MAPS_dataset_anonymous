@@ -1,0 +1,6 @@
+{
+  "problem": "Camy hat eine Liste aller möglichen **unterschiedlichen** fünfstelligen positiven Ganzzahlen erstellt, die sich bilden lassen, indem jede der Ziffern 1, 3, 4, 5 und 9 **genau einmal** in jeder Ganzzahl verwendet wird. Wie groß ist die Summe der Ganzzahlen auf Camys Liste?",
+  "solution": "Beachten Sie, dass es $4! = 24$ Zahlen gibt, die auf 1 enden, da wir vier Möglichkeiten für die Zehnerstelle, drei Möglichkeiten für die Hunderterstelle, zwei Möglichkeiten für die Tausenderstelle und eine Möglichkeit für die verbleibende Ziffer haben. Somit gibt es auch jeweils 24 Zahlen, die auf 3, 4, 5 und 9 enden, und der Gesamtbeitrag der Einerstellen zur Summe beträgt $24 (1 + 3 + 4 + 5 + 9) = 528$. Ein ähnliches Argument lässt sich jedoch auch für den Beitrag der Ziffern an den anderen Stellen (Zehner, Hunderter usw.) anführen, sodass unsere Gesamtsumme $528 + 5280 + \\ldots + 5280000 = 528 (1 + 10 + \\ldots + 10000) = 528 \\cdot 11.111 = \\boxed{5.866.608}$ lautet.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

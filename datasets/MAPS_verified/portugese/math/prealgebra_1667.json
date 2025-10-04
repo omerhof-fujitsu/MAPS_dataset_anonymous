@@ -1,0 +1,6 @@
+{
+  "problem": "O número 64 possui a propriedade de ser divisível pelo seu algarismo das unidades. Quantos números inteiros entre 10 e 50 possuem essa propriedade?",
+  "solution": "Doze números terminados em 1, 2 ou 5 têm essa propriedade. São eles: 11, 12, 15, 21, 22, 25, 31, 32, 35, 41, 42 e 45. Além disso, temos 33, 24, 44, 36 e 48, totalizando $\\boxed{17}$. (Observe que 20, 30 e 40 não são divisíveis por 0, pois a divisão por 0 não está definida.)",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

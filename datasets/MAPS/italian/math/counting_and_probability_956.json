@@ -1,0 +1,6 @@
+{
+    "problem": "Si devono scegliere a caso due numeri tra $0$ e $1$ su una retta numerica. Qual è la probabilità che il secondo numero scelto superi il primo di una distanza maggiore di $\\frac{1}{4}$ unità sulla retta numerica? Esprimi la tua risposta come frazione comune.",
+    "solution": "The probability that the second number is more than $\\frac14$ unit greater than the first number decreases linearly from $\\frac34$ to $0$ as the first number increases linearly from $0$ to $\\frac34$. The average of this probability is $\\frac12 \\cdot \\frac34= \\frac38$. Since there is a $\\frac34$ chance of choosing a number from $0$ to $\\frac34$, the probability is $\\frac34 \\cdot \\frac38 = \\boxed{\\frac{9}{32}}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

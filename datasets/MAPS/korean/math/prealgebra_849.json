@@ -1,0 +1,6 @@
+{
+    "problem": "22명이 파티에 참석합니다. 각 사람은 최대 20명과 악수합니다. 두 사람이 최대 한 번만 악수할 수 있다고 가정할 때, 가능한 최대 악수 횟수는 몇 번입니까?",
+    "solution": "If each person shakes hands with exactly 20 other people, then there will be $\\frac{22 \\cdot 20}{2} = \\boxed{220}$ handshakes, since two people are required to complete a handshake. To achieve 220 handshakes, we arrange the participants in a circle. Each person shakes hands with everyone except the person directly across from himself or herself (and himself or herself).",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

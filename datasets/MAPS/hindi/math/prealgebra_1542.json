@@ -1,0 +1,6 @@
+{
+    "problem": "त्रिभुज $ABC$ एक समकोण त्रिभुज है। यदि कोण $PAB$ का माप $x^\\circ$ है और कोण $ACB$ का माप $(Mx+N)^\\circ$ के रूप में व्यक्त किया जाता है, जहाँ $M=1$, तो $M+N$ का मान क्या है?",
+    "solution": "Since $\\angle PAB$ and $\\angle BAC$ are supplementary, $\\angle BAC = 180^{\\circ} - x^\\circ$.  Since the three angles of a triangle add up to $ 180^{\\circ} $, we have $\\angle ACB = 180^{\\circ} - 90^{\\circ} - (180^{\\circ} - x^\\circ) = x^\\circ - 90^{\\circ}$.  Thus, $M + N = \\boxed{-89}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

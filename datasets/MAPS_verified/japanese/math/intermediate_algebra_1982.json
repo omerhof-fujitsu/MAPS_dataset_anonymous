@@ -1,0 +1,6 @@
+{
+  "problem": "すべての実数$x$と$y$にわたって、\\[2x^2 + 2xy + 4y + 5y^2 - x\\]の最小値を求めよ。",
+  "solution": "この式は次のように書くことができます。\n\\begin{align*}\n2x^2 + 2xy + 4y + 5y^2 - x &= (x^2 + 2xy + y^2) + \\left( x^2 - x + \\frac{1}{4} \\right) + (4y^2 + 4y + 1) - \\frac{1}{4} - 1 \\\\\n&= (x + y)^2 + \\left( x - \\frac{1}{2} \\right)^2 + (2y + 1)^2 - \\frac{5}{4}.\n\\end{align*}\n最小値は $\\boxed{-\\frac{5}{4}}$ であり、これは $x = \\frac{1}{2}$ および $y = -\\frac{1}{2}$ で発生します。",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

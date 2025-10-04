@@ -1,0 +1,6 @@
+{
+  "problem": "Was ist die Summe aller ganzzahligen Werte von $x$, sodass $\\frac{67}{2x - 23}$ eine ganze Zahl ist?",
+  "solution": "Wenn wir die Primzahlen kleiner als $\\sqrt{67}$, nämlich 2, 3, 5 und 7, als mögliche Teiler prüfen, stellen wir fest, dass 67 eine Primzahl ist. Somit ist $\\frac{67}{2x-23}$ genau dann eine ganze Zahl, wenn $2x-23=\\pm1$ oder $2x-23=\\pm67$ gilt. Die erste Gleichung liefert $x=12$ oder $x=11$, und die zweite Gleichung ergibt $x=45$ oder $x=-22$. Die Summe ist $12+11+45-22=\\boxed{46}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

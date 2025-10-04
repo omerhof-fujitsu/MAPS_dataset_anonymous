@@ -1,0 +1,6 @@
+{
+  "problem": "Die Zahl 64 ist durch ihre Einerziffer teilbar. Wie viele ganze Zahlen zwischen 10 und 50 haben diese Eigenschaft?",
+  "solution": "Zwölf Zahlen, die auf 1, 2 oder 5 enden, besitzen diese Eigenschaft. Dies sind 11, 12, 15, 21, 22, 25, 31, 32, 35, 41, 42 und 45. Darüber hinaus gibt es 33, 24, 44, 36 und 48, was insgesamt $\\boxed{17}$ ergibt. (Beachten Sie, dass 20, 30 und 40 nicht durch 0 teilbar sind, da die Division durch 0 nicht definiert ist.)",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

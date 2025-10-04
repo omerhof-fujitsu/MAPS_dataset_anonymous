@@ -1,0 +1,6 @@
+{
+  "problem": "أوجد الحد الأدنى لقيمة\n\\[2x^2 + 2xy + 4y + 5y^2 - x\\]\nلجميع الأعداد الحقيقية $x$ و $y$.",
+  "solution": "يمكننا كتابة التعبير على النحو التالي:\n\\begin{align*}\n2x^2 + 2xy + 4y + 5y^2 - x &= (x^2 + 2xy + y^2) + \\left( x^2 - x + \\frac{1}{4} \\right) + (4y^2 + 4y + 1) - \\frac{1}{4} - 1 \\\\\n&= (x + y)^2 + \\left( x - \\frac{1}{2} \\right)^2 + (2y + 1)^2 - \\frac{5}{4}.\n\\end{align*}نلاحظ أن القيمة الدنيا هي $\\boxed{-\\frac{5}{4}},$ والتي تحدث عند $x = \\frac{1}{2}$ و $y = -\\frac{1}{2}.$",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

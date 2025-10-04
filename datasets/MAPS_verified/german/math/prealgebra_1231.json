@@ -1,0 +1,6 @@
+{
+  "problem": "Achtundvierzig kongruente Parallelogramme mit den Seitenlängen 62 Fuß und 20 Fuß sind in einem Zickzackmuster angeordnet und bilden das Sechseck $ABCDEF$, wie abgebildet. Wie groß ist der Umfang des Sechsecks $ABCDEF$?\n\n[asy]\nunitsize (0.1 cm);\n\ndraw((16,-20)--(-3,-20)--(0,0)--(-3,20)--(16,20));\ndraw((0,0)--(16,0));\ndraw((5,20)--(8,0)--(5,-20));\ndraw((13,20)--(16,0)--(13,-20));\ndot((18,0));\ndot((20,0));\ndot((22,0));\ndraw((24,0)--(50,0));\ndraw((23,20)--(47,20)--(50,0)--(47,-20)--(21,-20));\ndraw((23,20)--(26,0)--(23,-20));\ndraw((31,20)--(34,0)--(31,-20));\ndraw((39,20)--(42,0)--(39,-20));\ndraw((39,21)--(39,25));\ndraw((47,21)--(47,25));\ndraw((39,23)--(47,23));\nlabel(\"$A$\",(-3,20),NW);\nlabel(\"$B$\",(47,20),NE);\nlabel(\"$C$\",(50,0),E);\nlabel(\"$D$\",(47,-20),SE);\nlabel(\"$E$\",(-3,-20),SW);\nlabel(\"$F$\",(0,0),W);\nlabel(\"20'\",(43,23),N);\nlabel(\"62'\",(49,10),E);\n[/asy]",
+  "solution": "$AB$ besteht aus 24 Segmenten, jedes mit einer Länge von 20 Fuß, und misst somit $24\\cdot20=480$ Fuß. Ähnlich verhält es sich mit $DE$, das ebenfalls $480$ Fuß misst. Die Strecken $BC$, $CD$, $EF$ und $FA$ sind jeweils 62 Fuß lang. Der Gesamtumfang beträgt $480+480+62+62+62+62=\\boxed{1208}$ Fuß.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

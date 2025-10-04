@@ -1,0 +1,6 @@
+{
+  "problem": "Für jede positive Ganzzahl $k$ bezeichne $S_k$ die **steigende** arithmetische Folge von Ganzzahlen, deren erster Term 1 und deren gemeinsame Differenz $k$ ist. Beispielsweise ist $S_3$ die Folge $1, 4, 7, \\ldots$. Für wie viele Werte von $k$ enthält $S_k$ die Zahl $2005$ als Term?",
+  "solution": "Der allgemeine Term der Folge ist $a_n = 1 + kn$, wobei $a_0 = 1$ der erste Term ist. Daher wollen wir $1 + kn = 2005$, oder $kn = 2004$. Wir sehen, dass diese Gleichung genau dann eine Lösung für $n$ hat, wenn $k$ ein Teiler von $2004$ ist. Da $2004 = 2^2 \\cdot 3 \\cdot 167$, beträgt die Anzahl der positiven Teiler von $2004$ $(2+1)(1+1)(1+1) = \\boxed{12}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

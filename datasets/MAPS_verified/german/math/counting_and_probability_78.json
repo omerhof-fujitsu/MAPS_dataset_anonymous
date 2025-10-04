@@ -1,0 +1,6 @@
+{
+  "problem": "Für wie viele Ganzzahlen $n$ mit $2 \\le n \\le 100$ ist $\\binom{n}{2}$ ungerade?",
+  "solution": "$\\binom{n}{2} = \\frac{n(n-1)}{2}$. Damit dieser Bruch ungerade ist, dürfen weder $n$ noch $n-1$ durch $4$ teilbar sein, da nur einer der Werte $n$ und $n-1$ gerade sein kann. Es gibt $25$ ganze Zahlen, bei denen $n$ durch $4$ teilbar ist, nämlich die Vielfachen von $4$ von $4$ bis $100$. Es gibt $24$ ganze Zahlen, bei denen $n-1$ durch $4$ teilbar ist. Diese erhält man, indem man alle Vielfachen von $4$ um $1$ erhöht, wobei $100$ nicht einbezogen wird, da $100+1 = 101 > 100$. Daher gibt es $49$ ungültige ganze Zahlen, also $99 - 49 = \\boxed{50}$ gültige ganze Zahlen.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

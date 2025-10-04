@@ -1,0 +1,6 @@
+{
+    "problem": "$A$와 $B$라는 숫자가 있어서 \\[\\frac A{x-1}+\\frac B{x+1}=\\frac{x+2}{x^2-1}\\] 이 모든 숫자 $x\\neq\\pm1$에 대해 성립합니다. $B$를 구하세요.",
+    "solution": "We can approach this problem by picking clever values for $x$.  If $x=-2$ we get  \\[\\frac A{-2-1}+\\frac B{-2+1}=0,\\] so \\[A+3B=0.\\]\n\nIf $x=0$ we get  \\[\\frac A{0-1}+\\frac B{0+1}=\\frac{0+2}{0^2-1},\\] or  \\[-A+B=-2.\\] To solve for $B$ we add these two expressions: \\[4B=-2,\\] so $B=\\boxed{-\\frac12}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "El número 64 tiene la propiedad de que es divisible por su dígito de las unidades. ¿Cuántos números enteros entre 10 y 50 tienen esta propiedad?",
+  "solution": "Doce números que terminan en 1, 2 o 5 tienen esta propiedad. Son 11, 12, 15, 21, 22, 25, 31, 32, 35, 41, 42 y 45. Además, tenemos 33, 24, 44, 36 y 48, para un total de $\\boxed{17}$. (Tenga en cuenta que 20, 30 y 40 no son divisibles por 0, ya que la división por 0 no está definida).",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

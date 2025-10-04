@@ -1,0 +1,6 @@
+{
+    "problem": "$33^{-1} \\equiv 77 \\pmod{508}$ であるとき、$11^{-1} \\pmod{508}$ を 508 を法とした剰余として求めます。(0 から 507 までの範囲の答えを入力してください。)",
+    "solution": "Since $33^{-1} \\equiv 77 \\pmod{508}$, \\begin{align*}\n11^{-1} &\\equiv (33 \\cdot 3^{-1})^{-1} \\\\\n&\\equiv 33^{-1} \\cdot 3 \\\\\n&\\equiv 77 \\cdot 3 \\\\\n&\\equiv \\boxed{231} \\pmod{508}.\n\\end{align*}",
+    "level": "Level 5",
+    "type": "Number Theory"
+}

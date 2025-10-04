@@ -1,0 +1,6 @@
+{
+    "problem": "수직선에서 $0$와 $1$ 사이의 두 숫자를 무작위로 선택할 때, 두 번째로 선택한 숫자가 첫 번째로 선택한 숫자보다 $\\frac{1}{4}$ 단위 이상 클 확률을 구하는 문제입니다. 이를 공약수로 표현하세요.",
+    "solution": "The probability that the second number is more than $\\frac14$ unit greater than the first number decreases linearly from $\\frac34$ to $0$ as the first number increases linearly from $0$ to $\\frac34$. The average of this probability is $\\frac12 \\cdot \\frac34= \\frac38$. Since there is a $\\frac34$ chance of choosing a number from $0$ to $\\frac34$, the probability is $\\frac34 \\cdot \\frac38 = \\boxed{\\frac{9}{32}}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

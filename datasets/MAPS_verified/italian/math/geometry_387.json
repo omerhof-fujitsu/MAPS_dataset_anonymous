@@ -1,0 +1,6 @@
+{
+  "problem": "Una piramide a base quadrata è tagliata da un piano parallelo alla sua base e distante 2 unità dalla base. L'area superficiale della piramide più piccola che viene tagliata dalla sommità è metà dell'area superficiale della piramide originale. Qual è l'altezza della piramide originale?",
+  "solution": "Sia $h$ l'altezza della piramide originale. Quindi l'altezza della piramide più piccola è $h-2$. Poiché le due piramidi sono simili, il rapporto delle loro altezze è uguale alla radice quadrata del rapporto delle loro aree superficiali. Quindi $\\frac{h}{h-2}=\\sqrt{2}$, da cui \\[h=\\frac{2\\sqrt{2}}{\\sqrt{2}-1}=\\boxed{4+2\\sqrt{2}}.\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

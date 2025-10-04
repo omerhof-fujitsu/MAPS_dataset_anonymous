@@ -1,0 +1,6 @@
+{
+    "problem": "낸시는 육면체 주사위를 두 번 던져 두 자리 정수를 생성합니다. 첫 번째 주사위의 결과는 십의 자리가 되고, 두 번째 주사위의 결과는 일의 자리가 됩니다. 생성된 정수가 8로 나누어떨어질 확률은 얼마입니까? 답은 분수로 나타내세요.",
+    "solution": "The largest number Nancy can generate is 66.  The positive two-digit multiples of 8 less than 66 are 16, 24, 32, 40, 48, 56, and 64.  40 and 48 cannot be produced from the numbers on a 6-sided die, but the other 5 multiples of 8 in the list can.  Therefore, there are 5 equally likely ways to produce a multiple of 8 out of the $6\\cdot6=36$ total combinations for the two dice, so the desired probability is $\\boxed{\\dfrac{5}{36}}$.\n\n(Special thanks to 5849206328x for this solution.)",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

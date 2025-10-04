@@ -1,0 +1,6 @@
+{
+  "problem": "矩形 $PQRS$ 的对角线相交于点 $X$。如果 $PS = 6$ 且 $RS = 8$，那么 $\\sin \\angle PXS$ 是多少？",
+  "solution": "为了求出 $\\sin \\angle PXS$，我们构建一个直角三角形，其中 $\\angle PXS$ 是其中一个锐角。我们通过从 $S$ 到对角线 $\\overline{PR}$ 绘制垂线 $\\overline{SF}$ 来实现，如图所示。这样就得到了 $\\sin \\angle PXS = \\sin \\angle FXS = \\frac{FS}{XS}$。\n\n根据勾股定理，我们有 $PR = QS = 10$，因此 $SX = \\frac{QS}{2} = 5$。此外，根据 AA 相似性（两者都是直角三角形，且 $\\angle SPR = \\angle FPS$），我们得到 $\\triangle FPS \\sim \\triangle SPR$，因此\n\\[\\frac{FS}{PS} = \\frac{SR}{PR}.\\]\n这给出了\n\\[FS = PS \\cdot \\frac{SR}{PR} = \\frac{6 \\cdot 8}{10} = \\frac{24}{5}.\\]\n最后，我们得到\n\\[\\sin \\angle PXS = \\frac{FS}{XS} = \\frac{\\frac{24}{5}}{5} = \\boxed{\\frac{24}{25}}.\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

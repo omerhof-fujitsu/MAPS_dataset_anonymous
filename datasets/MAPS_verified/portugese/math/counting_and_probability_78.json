@@ -1,0 +1,6 @@
+{
+  "problem": "Para quantos inteiros $n$, onde $2 \\le n \\le 100$, é $\\binom{n}{2}$ ímpar?",
+  "solution": "$\\binom{n}{2} = \\frac{n(n-1)}{2}$. Para que esta fração seja ímpar, nem *n* nem *n* − 1 podem ser divisíveis por 4, pois apenas um deles pode ser par. Existem 25 inteiros onde *n* é divisível por 4, ou seja, os múltiplos de 4 de 4 a 100. Existem 24 inteiros onde *n* − 1 é divisível por 4. Podemos obter esses inteiros incrementando todos os múltiplos de 4 por 1, mas não devemos incluir 100, pois 100 + 1 = 101 > 100. Portanto, existem 49 inteiros inválidos, logo, existem 99 − 49 = \\boxed{50} inteiros válidos.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

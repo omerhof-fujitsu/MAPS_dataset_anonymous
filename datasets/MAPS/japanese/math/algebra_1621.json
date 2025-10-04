@@ -1,0 +1,6 @@
+{
+    "problem": "点$(-1,6)$を通る中心が$(2,3)$の円の方程式を$x^2 + y^2 + Ax + By + C = 0$の形で表し、$A\\times B\\times C$を求めよ。\n\n**解:**\n\n円の方程式を標準形式から出発し、与えられた条件を適用します。\n\n中心$(2,3)$、点$(-1,6)$を通る円の方程式は、一般的に$(x-2)^2 + (y-3)^2 = r^2$と表されます。点$(-1,6)$を代入して$r^2$を求めます。\n\n\\[\n(-1-2)^2 + (6-3)^2 = r^2\n\\]\n\\[\n9 + 9 = r^2\n\\]\n\\[\nr^2 = 18\n\\]\n\nしたがって、円の方程式は\n\\[\n(x-2)^2 + (y-3)^2 = 18\n\\]\nとなります。これを$x^2 + y^2 + Ax + By + C = 0$の形に変形します。\n\n展開すると、\n\\[\nx^2 - 4x + 4 + y^2 - 6y + 9 = 18\n\\]\n\\[\nx^2 + y^2 - 4x - 6y + 13 = 18\n\\]\n\\[\nx^2 + y^2 - 4x - 6y - 5 = 0\n\\]\n\nここで、$A = -4$、$B = -6$、$C = -5$です。\n\nしたがって、$A \\times B \\times C$は\n\\[\n(-4) \\times (-6) \\times (-5) = -120\n\\]\n\n答えは $\\boxed{-120}$ です。",
+    "solution": "As the center of the circle is at the point $(2,3)$, and one point on the circle is at the point $(-1,6)$, by the distance formula, the radius of the circle is $\\sqrt{(2-(-1))^2 + (3-6)^2} = \\sqrt{3^2 + 3^2} = \\sqrt{18}$. The equation of the circle is then given by $(x -2)^2 + (y-3)^2 = 18$, and expanding, $$x^2 - 4x + 4 + y^2 - 6y + 9 - 18 = 0 \\Longrightarrow x^2 + y^2 - 4x - 6y - 5 = 0.$$ Thus, $A\\times B\\times C= -4\\times -6\\times -5= \\boxed{-120}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

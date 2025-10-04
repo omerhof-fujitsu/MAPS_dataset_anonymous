@@ -1,0 +1,6 @@
+{
+  "problem": "Wie viele Tripel $(a,b,c)$ aus geraden positiven Ganzzahlen erfüllen die Bedingung $a^3 + b^2 + c \\leq 50$?",
+  "solution": "Wenn $a \\geq 4$, dann $a^3 + b^2 + c > a^3 \\geq 4^3 > 50$. Da wir jedoch $a^3 + b^2 + c \\leq 50$ benötigen, muss $a = 2$ gelten. Wir setzen nun $a = 2$ in $a^3 + b^2 + c \\leq 50$ ein, was zu $b^2 + c \\leq 42$ führt. Da $b^2 < 42$ ist, muss $b$ eine der Zahlen 2, 4 oder 6 sein.\n\nWenn $b = 2$, dann $c \\leq 38$. Es gibt 19 gerade positive Ganzzahlen kleiner oder gleich 38, nämlich $2 \\times 1$, $2 \\times 2$, $\\ldots$, $2 \\times 19$.\n\nWenn $b = 4$, dann $c \\leq 26$. Es gibt 13 gerade positive Ganzzahlen kleiner oder gleich 26.\n\nWenn $b = 6$, dann $c \\leq 6$. Es gibt 3 gerade positive Ganzzahlen kleiner oder gleich 6.\n\nSomit ist die Antwort $19 + 13 + 3 = \\boxed{35}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

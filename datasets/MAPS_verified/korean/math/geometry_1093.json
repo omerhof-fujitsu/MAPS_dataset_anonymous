@@ -1,0 +1,6 @@
+{
+  "problem": "$ABCD$은 정사면체(정삼각뿔)입니다. $M$이 $\\overline{CD}$의 중점이라면, $\\tan\\angle AMB$는 무엇입니까?",
+  "solution": "사면체는 아래와 같습니다. $\\tan\\angle AMB$를 구하기 위해, $\\angle AMB$를 포함하는 직각 삼각형을 만듭니다. 점 $A$에서 면 $BCD$까지의 높이의 발은 삼각형 $BCD$의 중심 $G$입니다.\n\n[asy]\nimport three;\ncurrentprojection = orthographic(1.5,1.1,-1);\ntriple A = (1,1,1);\ntriple B = (1,0,0);\ntriple C = (0,1,0);\ntriple D = (0,0,1);\ndraw(A--B--C--A);\ndraw(A--D,dashed);\ndraw(C--D--B,dashed);\nlabel(\"$A$\",A,NW);\nlabel(\"$B$\",B,W);\nlabel(\"$C$\",C,S);\nlabel(\"$D$\",D,NW);\ntriple M = (0,0.5,0.5);\ndraw(A--M--B,dashed);\nlabel(\"$M$\",M,NE);\ntriple G = B/3 + 2*M/3;\ndraw(A--G,dashed);\nlabel(\"$G$\",G,S);\n[/asy]\n\n$\\overline{BM}$은 $\\triangle BCD$의 중앙선이므로, 점 $G$는 $\\overline{BM}$ 위에 위치하며 $GM = \\frac{1}{3}BM$입니다. 또한, $AM = BM$이므로 $GM = \\frac{AM}{3}$입니다. 피타고라스 정리에 따르면  \n\\[\nAG = \\sqrt{AM^2 - GM^2} = \\sqrt{AM^2 - \\frac{AM^2}{9}} = AM \\cdot \\sqrt{\\frac{8}{9}} = \\frac{2\\sqrt{2}}{3} \\cdot AM.\n\\]\n마지막으로,  \n\\[\n\\tan \\angle AMB = \\tan \\angle AMG = \\frac{AG}{GM} = \\frac{\\left(\\frac{2\\sqrt{2}}{3}AM\\right)}{\\frac{AM}{3}} = \\boxed{2\\sqrt{2}}.\n\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

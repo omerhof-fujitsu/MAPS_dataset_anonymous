@@ -1,0 +1,6 @@
+{
+    "problem": "Nancy genera un numero intero di due cifre lanciando due volte un dado a sei facce. Il risultato del primo lancio determina la cifra delle decine, mentre il risultato del secondo lancio determina la cifra delle unità. Qual è la probabilità che il numero intero risultante sia divisibile per 8? Esprimi la tua risposta come frazione comune.",
+    "solution": "The largest number Nancy can generate is 66.  The positive two-digit multiples of 8 less than 66 are 16, 24, 32, 40, 48, 56, and 64.  40 and 48 cannot be produced from the numbers on a 6-sided die, but the other 5 multiples of 8 in the list can.  Therefore, there are 5 equally likely ways to produce a multiple of 8 out of the $6\\cdot6=36$ total combinations for the two dice, so the desired probability is $\\boxed{\\dfrac{5}{36}}$.\n\n(Special thanks to 5849206328x for this solution.)",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

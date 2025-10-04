@@ -1,0 +1,6 @@
+{
+    "problem": "행렬 \\[\\begin{pmatrix} -\\frac{7}{25} & \\frac{24}{25} \\\\ \\frac{24}{25} & \\frac{7}{25} \\end{pmatrix}\\]는 특정 벡터 $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$에 대한 반사에 해당합니다. $\\frac{y}{x}$를 찾으세요.",
+    "solution": "Note that the reflecting $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ over itself results in itself, so\n\\[\\begin{pmatrix} -\\frac{7}{25} & \\frac{24}{25} \\\\ \\frac{24}{25} & \\frac{7}{25} \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} x \\\\ y \\end{pmatrix}.\\]Then $-\\frac{7}{25} x + \\frac{24}{25} y = x$ and $\\frac{24}{25} x + \\frac{7}{25} y = y.$  Both equations lead to $\\frac{y}{x} = \\boxed{\\frac{4}{3}}.$",
+    "level": "Level 5",
+    "type": "Precalculus"
+}

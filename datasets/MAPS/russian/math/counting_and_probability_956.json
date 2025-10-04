@@ -1,0 +1,6 @@
+{
+    "problem": "Два числа между $0$ и $1$ на числовой прямой выбираются случайным образом. Какова вероятность того, что второе выбранное число будет превышать первое выбранное число на расстояние, большее $\\frac{1}{4}$ единицы на числовой прямой? Представьте свой ответ в виде обыкновенной дроби.",
+    "solution": "The probability that the second number is more than $\\frac14$ unit greater than the first number decreases linearly from $\\frac34$ to $0$ as the first number increases linearly from $0$ to $\\frac34$. The average of this probability is $\\frac12 \\cdot \\frac34= \\frac38$. Since there is a $\\frac34$ chance of choosing a number from $0$ to $\\frac34$, the probability is $\\frac34 \\cdot \\frac38 = \\boxed{\\frac{9}{32}}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

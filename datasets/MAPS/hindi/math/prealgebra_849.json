@@ -1,0 +1,6 @@
+{
+    "problem": "22 लोग एक पार्टी में शामिल होते हैं। प्रत्येक व्यक्ति अधिकतम 20 अन्य लोगों से हाथ मिलाता है। यह मानते हुए कि कोई भी दो व्यक्ति अधिकतम एक बार हाथ मिला सकते हैं, हाथ मिलाने की अधिकतम संभव संख्या क्या है?",
+    "solution": "If each person shakes hands with exactly 20 other people, then there will be $\\frac{22 \\cdot 20}{2} = \\boxed{220}$ handshakes, since two people are required to complete a handshake. To achieve 220 handshakes, we arrange the participants in a circle. Each person shakes hands with everyone except the person directly across from himself or herself (and himself or herself).",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

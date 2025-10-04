@@ -1,0 +1,6 @@
+{
+  "problem": "Para quantos conjuntos de três elementos (a ordem não importa) de inteiros positivos $\\{a, b, c\\}$ é verdade que $a \\times b \\times c = 2310$? (Os inteiros positivos $a$, $b$ e $c$ são distintos.)",
+  "solution": "A fatoração prima de $2310$ é $2310 = 2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11.$ Portanto, temos a equação \\[ abc = 2310 = 2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11,\\] onde $a, b, c$ devem ser inteiros positivos distintos e a ordem não importa. Existem $3$ maneiras de atribuir cada número primo do lado direito a uma das variáveis $a, b, c$, o que resulta em $3^5 = 243$ soluções para $(a, b, c)$. No entanto, três dessas soluções têm dois $1$s e um $2310$, o que contradiz o fato de que $a, b, c$ devem ser distintos. Como cada fator primo aparece apenas uma vez, todas as outras soluções têm $a, b, c$ distintos. Corrigindo isso, obtemos $243 - 3 = 240$ triplas ordenadas $(a, b, c)$ onde $a, b, c$ são todos distintos. Por fim, como a ordem não importa, devemos dividir por $3!$, o número de maneiras de ordenar $a, b, c$. Isso nos dá a resposta final: \\[\\frac{240}{3!} = \\frac{240}{6} = \\boxed{40}.\\]",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Angenommen, $*(n) = \\left\\{ n-2, n+2, 2n, \\frac{n}{2} \\right\\}$. Zum Beispiel $*(6) = \\{4, 8, 12, 3\\}$. Für wie viele verschiedene Ganzzahlen $n$ hat $*(n)$ genau drei verschiedene Elemente?",
+  "solution": "Um drei verschiedene Elemente zu erhalten, müssen zwei der Elemente $n-2$, $n+2$, $2n$ und $\\frac{n}{2}$ gleich sein. Es ist klar, dass $n-2$ niemals gleich $n+2$ sein kann. Da jedoch jede andere Gleichheitspaarung unter den vier Elementen möglich ist, prüfen wir einfach auf Verschiedenheit. \n\nBei $2n = \\frac{n}{2}$ lautet die Lösung $n = 0$.  \nBei $n + 2 = 2n$ lautet die Lösung $n = 2$.  \nBei $n - 2 = 2n$ lautet die Lösung $n = -2$.  \nBei $\\frac{n}{2} = n - 2$ lautet die Lösung $n = 4$.  \nUnd schließlich, bei $\\frac{n}{2} = n + 2$ lautet die Lösung $n = -4$.  \n\nSomit gibt es $\\boxed{5}$ solche $n$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Se lanzan cuatro dados estándar de seis caras. ¿Cuál es la probabilidad de que el producto de los números en las caras superiores sea primo? Expresa tu respuesta como una fracción común.",
+  "solution": "El producto de cuatro enteros positivos es primo solo si tres de ellos son 1 y el cuarto es un número primo. Por lo tanto, de los $6^4$ resultados posibles al lanzar cuatro dados, solo los resultados $(1,1,1,p)$, $(1,1,p,1)$, $(1,p,1,1)$ y $(p,1,1,1)$ para $p=2$, $3$ o $5$ dan un producto primo. La probabilidad de obtener un producto primo es por tanto \\[ \\frac{12}{6\\cdot6\\cdot6\\cdot6}=\\frac{2}{6\\cdot6\\cdot6}=\\frac{1}{3\\cdot6^2}=\\boxed{\\frac{1}{108}}. \\]",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

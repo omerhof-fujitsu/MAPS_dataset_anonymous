@@ -1,0 +1,6 @@
+{
+  "problem": "Krishanu e Shaunak escolhem aleatoriamente um número inteiro entre 1 e 10, inclusive. Qual é a probabilidade de que o produto de seus números seja maior que 10? Expresse sua resposta como uma fração comum.",
+  "solution": "Como 10 é pequeno para um produto, consideramos a probabilidade complementar, que é a probabilidade de que o produto seja no máximo 10. Para isso, contamos o número de pares ordenados de inteiros positivos $(m,n)$ com $mn\\le10$ (onde $m$ é o número de Krishanu e $n$ é o número de Shaunak). Se $m=1$, há 10 desses pares; se $m=2$, há 5; se $m=3$, há 3; se $m=4$ ou $m=5$, há 2; e se $m=6,7,8,9,10$, há 1. O total de pares ordenados com produto no máximo 10 é, portanto, $$10+5+3+2+2+1+1+1+1+1=27$$. A probabilidade de um desses pares ser escolhido é $27/100$, já que há $10\\cdot10=100$ pares ordenados possíveis. Portanto, a probabilidade de que o produto de seus números seja maior que 10 é $1-27/100=\\boxed{\\frac{73}{100}}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

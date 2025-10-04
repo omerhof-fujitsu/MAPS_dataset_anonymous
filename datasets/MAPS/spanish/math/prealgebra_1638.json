@@ -1,0 +1,6 @@
+{
+    "problem": "Si la raíz cuadrada de la longitud de la hipotenusa de un triángulo rectángulo es 2 unidades, ¿cuál es la suma de los cuadrados de las longitudes de los otros dos lados?",
+    "solution": "Let $c$ represent the length of the hypotenuse. We're told that $\\sqrt{c}=2$, so $c=4$. By the Pythagorean Theorem, the sum of the squares of the length of the two other sides equals the square of the length of the hypotenuse ($a^2+b^2=c^2$), so our answer is $c^2=\\boxed{16}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

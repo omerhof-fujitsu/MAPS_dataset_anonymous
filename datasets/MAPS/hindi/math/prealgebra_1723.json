@@ -1,0 +1,6 @@
+{
+    "problem": "12 कितने धनात्मक और ऋणात्मक पूर्णांकों का गुणज है?",
+    "solution": "The number $12$ is a multiple of $-12, -6, -4, -3, -2, -1, 1, 2, 3, 4, 6,$ and $12,$ for a total of $\\boxed{12}$ integers.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

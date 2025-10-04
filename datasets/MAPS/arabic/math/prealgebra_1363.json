@@ -1,0 +1,6 @@
+{
+    "problem": "بيتزا بقطر $12^{\\prime \\prime}$ وأخرى بقطر $16^{\\prime \\prime}$، كل منهما مقطعة إلى ثماني شرائح متطابقة. أكلت جين ثلاث شرائح من البيتزا ذات القطر $12^{\\prime \\prime}$. أكل مارك ثلاث شرائح من البيتزا ذات القطر $16^{\\prime \\prime}$. كم بوصة مربعة أكثر من البيتزا أكلها مارك مقارنة بجين؟ عبر عن إجابتك ككسر عادي بدلالة $\\pi$.",
+    "solution": "They both ate $\\frac{3}{8}$ of a pizza.  Therefore, the quantity that Mark ate in excess of Jane is simply $\\frac{3}{8} \\times$ the difference in total area of the pizzas.  The 16'' pizza has $64\\pi$ area, and the 12'' pizza has $36\\pi$ area, making for a difference of $28\\pi$. $\\frac{3}{8} \\times 28\\pi = \\boxed{\\frac{21}{2}\\pi}$",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

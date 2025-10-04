@@ -1,0 +1,6 @@
+{
+    "problem": "المنحنى المكافئ بالمعادلة $y=ax^2+bx+c$ ورأسه $(h,k)$ ينعكس حول الخط $y=k$. هذا يؤدي إلى المنحنى المكافئ بالمعادلة $y=dx^2+ex+f$. من حيث $k$, ما هي قيمة $a+b+c+d+e+f$؟",
+    "solution": "We can rewrite the equation of the original parabola as $y=f(x)=a(x-h)^2+k$ (for some $a$). After reflection of the parabola, the equation becomes $y=g(x)=-a(x-h)^2+k$. Notice that $f(x)+g(x)=2k$. Since $f(1)=a+b+c$ and $g(1)=d+e+f$, we have $a+b+c+d+e+f=f(1)+g(1)=\\boxed{2k}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

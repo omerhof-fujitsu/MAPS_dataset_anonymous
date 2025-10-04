@@ -1,0 +1,6 @@
+{
+  "problem": "¿Para cuántos enteros $n$ en el rango $2 \\le n \\le 100$ es $\\binom{n}{2}$ impar?",
+  "solution": "$\\binom{n}{2} = \\frac{n(n-1)}{2}$. Para que esta fracción sea impar, ni $n$ ni $n-1$ pueden ser divisibles por $4$, ya que solo uno de ellos puede ser par. Hay $25$ enteros donde $n$ es divisible por $4$, es decir, los múltiplos de $4$ desde $4$ hasta $100$. Hay $24$ enteros donde $n-1$ es divisible por $4$. Podemos obtener estos enteros incrementando todos los múltiplos de $4$ en $1$, pero no debemos incluir $100$ ya que $100+1 = 101 > 100$. Por lo tanto, hay $49$ enteros no válidos, por lo que hay $99 - 49 = \\boxed{50}$ enteros válidos.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Eric 和 Charles 各自想出一个二次多项式。令他们惊讶的是，这两个二次多项式都以 $x^2 + 4x + \\cdots$ 开头。Eric 的多项式的判别式 $b^2 - 4ac$ 与 Charles 的多项式的判别式的比值等于 Charles 的常数项与 Eric 的常数项的比值。如果它们的常数项不相等，则常数项之和为 $\\boxed{25}$。",
+  "solution": "设Charles的二次函数的常数项为$c$，Eric的二次函数的常数项为$d$。则Charles的判别式为$(4)^2-4(1)(c)=16-4c$，Eric的判别式为$(4)^2-4(1)(d)=16-4d$。根据题意，有$$\\frac{\\text{Discriminant}_{\\text{Eric}}}{\\text{Discriminant}_{\\text{Charles}}}=\\frac{\\text{Constant}_{\\text{Charles}}}{\\text{Constant}_{\\text{Eric}}},$$即$\\frac{16-4d}{16-4c}=\\frac{c}{d}$。交叉相乘得：\n\n\\begin{align*}\nd(16-4d)&=c(16-4c)\\quad\\Rightarrow\\\\\n16d-4d^2&=16c-4c^2\\quad\\Rightarrow\\\\\n4c^2-4d^2&=16c-16d\\quad\\Rightarrow\\\\\n4(c+d)(c-d)&=16(c-d)。\n\\end{align*}\n\n由于$c\\neq d$，可知$c-d\\neq 0$，因此可以约去$(c-d)$项，得到：\n\n\\begin{align*}\n4(c+d)&=16\\quad\\Rightarrow\\\\\nc+d&=4。\n\\end{align*}\n\n因此，Eric和Charles的常数项之和为$\\boxed{4}$。",
+  "level": "Level 5",
+  "type": "Algebra"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "मैट्रिक्स\n\\[\\begin{pmatrix} -\\frac{7}{25} & \\frac{24}{25} \\\\ \\frac{24}{25} & \\frac{7}{25} \\end{pmatrix}\\]\nएक निश्चित वेक्टर $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ पर प्रतिबिंबित करने के अनुरूप है। $\\frac{y}{x}$ खोजें।",
+    "solution": "Note that the reflecting $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ over itself results in itself, so\n\\[\\begin{pmatrix} -\\frac{7}{25} & \\frac{24}{25} \\\\ \\frac{24}{25} & \\frac{7}{25} \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} x \\\\ y \\end{pmatrix}.\\]Then $-\\frac{7}{25} x + \\frac{24}{25} y = x$ and $\\frac{24}{25} x + \\frac{7}{25} y = y.$  Both equations lead to $\\frac{y}{x} = \\boxed{\\frac{4}{3}}.$",
+    "level": "Level 5",
+    "type": "Precalculus"
+}

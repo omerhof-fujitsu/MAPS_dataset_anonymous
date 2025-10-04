@@ -1,0 +1,6 @@
+{
+  "problem": "掷两个标准的六面骰子。如果掷出的两个数字的乘积为奇数或 3 的倍数，则 Jean 获胜；否则，Allen 获胜。Jean 获胜的概率是多少？请用分数表示你的答案。",
+  "solution": "掷两颗骰子，总共有 36 种可能的结果。我们来计算 Allen 获胜的概率。Allen 获胜的条件是两个骰子点数的乘积为偶数且不是 3 的倍数。具体来说，Allen 获胜的乘积结果包括 2 $(1\\cdot2, 2\\cdot1)$、4 $(1\\cdot4, 4\\cdot1, 2\\cdot2)$、8 $(2\\cdot4, 4\\cdot2)$、10 $(2\\cdot5, 5\\cdot2)$、16 $(4\\cdot4)$ 和 20 $(4\\cdot5, 5\\cdot4)$。因此，Allen 获胜的概率为 $\\frac{2+3+2+2+1+2}{36}=\\frac{12}{36}=\\frac{1}{3}$。那么，Jean 获胜的概率为 $1-\\frac{1}{3}=\\boxed{\\frac{2}{3}}$。",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

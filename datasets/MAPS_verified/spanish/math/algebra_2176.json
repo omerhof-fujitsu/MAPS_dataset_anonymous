@@ -1,0 +1,6 @@
+{
+  "problem": "Sea $f(x)=\\left\\lfloor\\left(-\\frac{5}{8}\\right)^x\\right\\rfloor$ una función definida para todos los valores de $x$ en $[0, \\infty)$ tales que $f(x)$ sea un número real. ¿Cuántos valores distintos existen en el rango de $f(x)$?",
+  "solution": "Dado que $-\\frac{5}{8}$ es un número negativo, $f(x)$ solo está definido para valores enteros de $x$ y alternará entre valores positivos y negativos. Además, $\\left|-\\frac{5}{8}\\right| < 1$, por lo que $|f(x)|$ disminuirá continuamente y se aproximará a 0 a medida que $x$ aumenta en el intervalo $x \\ge 0$. Por lo tanto, el mayor valor positivo ocurrirá en $x = 0$, lo que nos da el límite superior positivo de $\\left\\lfloor\\left(-\\frac{5}{8}\\right)^0\\right\\rfloor = 1$. El valor negativo de mayor magnitud ocurre en el siguiente valor entero de $x$: $x = 1$, lo que nos da el límite inferior negativo de $\\left\\lfloor\\left(-\\frac{5}{8}\\right)^1\\right\\rfloor = -1$. Esto nos indica que $-1 \\le f(x) \\le 1$. Dado que $f(x)$ debe ser un entero, los únicos valores distintos posibles dentro del rango son -1, 0 y 1. Esto nos da un total de $\\boxed{3}$ valores de $f(x)$ cuando $x \\ge 0$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

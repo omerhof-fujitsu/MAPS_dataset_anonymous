@@ -1,0 +1,6 @@
+{
+  "problem": "Für eine gegebene Konstante $b > 10$ gibt es zwei mögliche Dreiecke $ABC$, die $AB = 10$, $AC = b$ und $\\sin B = \\frac{3}{5}$ erfüllen. Finden Sie die positive Differenz zwischen den Längen der Seite $\\overline{BC}$ in diesen beiden Dreiecken.",
+  "solution": "Wir haben, dass\n\\[\\cos^2 B = 1 - \\sin^2 B = \\frac{16}{25},\\]\nalso $\\cos B = \\pm \\frac{4}{5}.$\n\nFür $\\cos B = \\frac{4}{5}$ sei $a_1 = BC.$ Dann gilt nach dem Kosinussatz:\n\\[b^2 = a_1^2 + 100 - 20a_1 \\cdot \\frac{4}{5} = a_1^2 - 16a_1 + 100.\\]\n\nFür $\\cos B = -\\frac{4}{5}$ sei $a_2 = BC.$ Dann gilt nach dem Kosinussatz:\n\\[b^2 = a_2^2 + 100 - 20a_2 \\cdot \\left( -\\frac{4}{5} \\right) = a_2^2 + 16a_2 + 100.\\]\n\nWenn wir diese Gleichungen subtrahieren, erhalten wir:\n\\[a_2^2 - a_1^2 + 16a_2 + 16a_1 = 0.\\]\n\nWir können faktorisieren als:\n\\[(a_2 - a_1)(a_2 + a_1) + 16(a_2 + a_1) = 0.\\]\n\nDa $a_1 + a_2$ positiv ist, können wir beide Seiten sicher durch $a_1 + a_2$ dividieren, um\n\\[a_2 - a_1 + 16 = 0\\]\nzu erhalten. Daher ist\n\\[a_1 - a_2 = \\boxed{16}.\\]",
+  "level": "Level 5",
+  "type": "Precalculus"
+}

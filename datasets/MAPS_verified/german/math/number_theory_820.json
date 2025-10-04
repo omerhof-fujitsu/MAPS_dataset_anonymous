@@ -1,0 +1,6 @@
+{
+  "problem": "Wenn $a$ und $b$ positive ganze Zahlen sind, sodass $\\gcd(a,b)=210$, $\\mathop{\\text{lcm}}[a,b]=210^3$ und $a<b$, wie viele mögliche Werte gibt es für $a$?",
+  "solution": "Beachten Sie, dass die Primfaktorzerlegung von $210$ $2\\cdot 3\\cdot 5\\cdot 7$ ist und somit die Primfaktorzerlegung von $210^3$ $2^3\\cdot 3^3\\cdot 5^3\\cdot 7^3$ ist. Gegeben ist $\\gcd(a,b)=210$ und $\\mathop{\\text{lcm}}[a,b]=210^3$, also müssen wir $a=2^k\\cdot 3^\\ell\\cdot 5^m\\cdot 7^n$ und $b=2^p\\cdot 3^q\\cdot 5^r\\cdot 7^s$ haben, wobei jedes der geordneten Paare $(k,p),(\\ell,q),(m,r),(n,s)$ entweder $(1,3)$ oder $(3,1)$ ist. Wenn wir die Bedingung $a<b$ ignorieren, gibt es unabhängig voneinander zwei Wahlmöglichkeiten für jedes von $k$, $\\ell$, $m$ und $n$, und diese Wahlmöglichkeiten bestimmen beide Zahlen $a$ und $b$. Es gibt also $2\\cdot 2\\cdot 2\\cdot 2=16$ Möglichkeiten, alle vier Wahlmöglichkeiten zu treffen. Diese $16$ Wahlmöglichkeiten erzeugen jedoch jedes mögliche Wertepaar für $a$ und $b$ in beiden möglichen Reihenfolgen. Die Hälfte dieser Wahlmöglichkeiten erfüllt $a<b$ und die andere Hälfte $a>b$. Wenn wir also die Bedingung $a<b$ festlegen, gibt es $\\frac{16}{2}=\\boxed{8}$ mögliche Wahlmöglichkeiten für $a$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

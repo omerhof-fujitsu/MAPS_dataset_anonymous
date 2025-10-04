@@ -1,0 +1,6 @@
+{
+  "problem": "¿Cuál es la suma de todos los valores enteros de $x$ tales que $\\frac{67}{2x - 23}$ es un número entero?",
+  "solution": "Al verificar los primos menores que $\\sqrt{67}$, es decir, 2, 3, 5 y 7, como posibles divisores, encontramos que 67 es primo. Por lo tanto, $\\frac{67}{2x-23}$ es un entero si y solo si $2x-23=\\pm1$ o $2x-23=\\pm67$. La primera ecuación da como resultado $x=12$ o $x=11$, y la segunda da $x=45$ o $x=-22$. La suma es $12+11+45-22=\\boxed{46}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

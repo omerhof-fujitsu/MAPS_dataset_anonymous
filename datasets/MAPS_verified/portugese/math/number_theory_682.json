@@ -1,0 +1,6 @@
+{
+  "problem": "Seja $n$ um número inteiro positivo maior ou igual a $3$. Sejam $a, b$ números inteiros tais que $ab$ seja invertível módulo $n$ e $(ab)^{-1} \\equiv 2 \\pmod{n}$. Dado que $a + b$ é invertível, qual é o resto quando $(a + b)^{-1}(a^{-1} + b^{-1})$ é dividido por $n$?",
+  "solution": "Podemos usar o fato de que $x\\cdot x^{-1}\\equiv 1\\pmod n$ para todos os $x$ invertíveis da seguinte maneira inteligente: \\begin{align*}\n& (a+b)^{-1}(a^{-1}+b^{-1})\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}+b^{-1})(ab)(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}ab+abb^{-1})(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a+b)(ab)^{-1}\\\\\n\\equiv~ & (ab)^{-1}\\\\\n\\equiv~ & \\boxed{2}\\pmod n\n\\end{align*}",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "I voti degli esami di una classe di pre-algebra sono stati disposti in un diagramma a stelo e foglia come illustrato. Qual è la media aritmetica della mediana e della moda dei dati forniti?\n\n\\begin{tabular}{ c | c c c c c c c c c}\n4&1&&&&&&&&\\\\\n5&2&&&&&&&&\\\\\n6&7&8&8&&&&&&\\\\\n7&1&1&2&3&3&3&5&6&8\\\\\n8&0&4&4&6&6&6&6&8&\\\\\n9&1&3&5&5&7&&&&\\\\\n\\end{tabular}",
+  "solution": "Ogni cifra a destra della barra verticale rappresenta (la cifra delle unità di) un voto d'esame. Contando le cifre, vediamo che ci sono $27$ voti d'esame in totale. Pertanto, il $14^{\\rm th}$ voto in ordine crescente è la mediana (poiché ci sono $13$ voti inferiori e $13$ voti superiori). Il grafico semplifica la lettura dei voti in ordine crescente: leggiamo semplicemente le righe, dall'alto verso il basso. La $14^{\\rm th}$ voce è $78,$ quindi questo è il voto mediano. La moda è il voto che ricorre più frequentemente. In questo caso, è $86,$ che compare quattro volte nel grafico. La media aritmetica della mediana e della moda dei dati è $\\dfrac{1}{2}(78+86),$ o $\\boxed{82}.$",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

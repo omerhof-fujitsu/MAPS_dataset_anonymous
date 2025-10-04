@@ -1,0 +1,6 @@
+{
+  "problem": "Der Graph der Gleichung $y = ax^2 + bx - 6$ liegt vollständig unterhalb der $x$-Achse. Wenn $a^2 = 49$, was ist der größtmögliche ganzzahlige Wert von $b$?",
+  "solution": "Da die Parabel vollständig unterhalb der $x$-Achse liegt, muss sie sich nach unten öffnen (sonst müsste sie auf dem Weg nach oben die $x$-Achse schneiden). Das bedeutet $a < 0$. Wir haben $a^2 = 49$, also $a = \\pm 7$, aber da $a$ negativ ist, gilt $a = -7$.\n\nDa unser Graph die $x$-Achse nicht berührt, dürfen wir keine reellen Lösungen haben. Da alle Lösungen imaginär sein müssen, muss die Diskriminante negativ sein, also:\n\\begin{align*}\nb^2 - 4ac &< 0 \\quad \\Rightarrow \\\\\nb^2 - 4(-7)(-6) &< 0 \\quad \\Rightarrow \\\\\nb^2 - 168 &< 0 \\quad \\Rightarrow \\\\\nb^2 &< 168.\n\\end{align*}\nDas bedeutet, dass $-\\sqrt{168} < b < \\sqrt{168}$. Der größte ganzzahlige Wert von $b$ ist die größte ganze Zahl, die kleiner ist als $\\sqrt{168}$. Da $13^2 = 169$, wissen wir, dass $\\sqrt{168}$ etwas kleiner als $13$, aber größer als $12$ ist. Daher ist der größte ganzzahlige Wert von $b$ $\\boxed{12}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

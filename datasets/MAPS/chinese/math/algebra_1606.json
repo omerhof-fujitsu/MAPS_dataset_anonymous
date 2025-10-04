@@ -1,0 +1,6 @@
+{
+  "problem": "假设 $x$ 和 $y$ 是满足\n\\begin{align*}\n4y - 4x^2 &= 1 \\\\\n4x - 4y^2 &= 1\n\\end{align*}\n的实数。$\\dfrac{1}{x^3 + y^3}$ 是多少？",
+  "solution": "这些方程等价于\n\\begin{align*}\n4x^2 - 4y + 1 &= 0, \\\\\n4y^2 - 4x + 1 &= 0.\n\\end{align*}\n将这些方程相加得到\n$$4x^2 - 4y + 1 + 4y^2 - 4x + 1 = 0,$$\n或\n$$(4x^2 - 4x + 1) + (4y^2 - 4y + 1) = 0.$$\n对二项式的平方进行因式分解得到\n$$(2x - 1)^2 + (2y - 1)^2 = 0.$$\n由于平方始终为非负数，因此\n$$2x - 1 = 0 \\quad \\text{且} \\quad 2y - 1 = 0,$$\n从而得到 $x = y = \\frac{1}{2}$。所需的答案是 $\\frac{1}{\\frac{1}{8} + \\frac{1}{8}} = \\boxed{4}$。",
+  "level": "Level 5",
+  "type": "Algebra"
+}

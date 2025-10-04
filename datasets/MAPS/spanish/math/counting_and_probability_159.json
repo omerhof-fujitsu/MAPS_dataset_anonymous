@@ -1,0 +1,6 @@
+{
+    "problem": "Un comité del Senado está compuesto por 5 demócratas, 5 republicanos y 1 independiente. ¿De cuántas maneras pueden sentarse alrededor de una mesa circular si todos los miembros de cada partido se sientan juntos? (Dos disposiciones se consideran equivalentes si una es una rotación de la otra).",
+    "solution": "Choose any seat in which to place the Independent -- it doesn't matter which seat that we choose, since we can rotate the table. Once the Independent's seat has been chosen, either all the Democrats sit to their left and all the Republicans sit to their right, or the other way around. Either way, there are $5!$ ways to put the Democrats in their seats, and $5!$ ways to put the Republicans in their seats. So, the total number of ways to seat the people around the table is $2\\cdot5!\\cdot5!=2\\cdot120\\cdot120=\\boxed{28800}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

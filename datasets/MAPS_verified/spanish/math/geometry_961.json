@@ -1,0 +1,6 @@
+{
+  "problem": "Las diagonales del rectángulo $PQRS$ se intersecan en el punto $X$. Si $PS = 6$ y $RS = 8$, ¿cuál es el valor de $\\sin \\angle PXS$?",
+  "solution": "Para hallar $\\sin \\angle PXS$, construimos un triángulo rectángulo con $\\angle PXS$ como uno de sus ángulos agudos. Para ello, trazamos la altura $\\overline{SF}$ desde $S$ hasta la diagonal $\\overline{PR}$, como se muestra. Entonces, obtenemos $\\sin \\angle PXS = \\sin\\angle FXS = \\frac{FS}{XS}$.\n\nEl Teorema de Pitágoras nos da $PR = QS = 10$, por lo tanto, $SX = \\frac{QS}{2} = 5$. También tenemos $\\triangle FPS \\sim \\triangle SPR$ por similitud AA (ambos son triángulos rectángulos y $\\angle SPR = \\angle FPS$), entonces \n\\[\\frac{FS}{PS} = \\frac{SR}{PR}.\\]\nEsto nos da \n\\[FS = PS \\cdot \\frac{SR}{PR} = \\frac{6 \\cdot 8}{10} = \\frac{24}{5}.\\]\nFinalmente, tenemos \n\\[\\sin \\angle PXS = \\frac{FS}{XS} = \\frac{\\frac{24}{5}}{5} = \\boxed{\\frac{24}{25}}.\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

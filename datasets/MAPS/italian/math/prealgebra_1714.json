@@ -1,0 +1,6 @@
+{
+    "problem": "Il quadrilatero $ABCD$ è un parallelogramma. Se la misura dell'angolo $A$ è 62 gradi e la misura dell'angolo $ADB$ è 75 gradi, qual è la misura dell'angolo $ADC$, in gradi?",
+    "solution": "Since adjacent angles of a parallelogram add up to $180^{\\circ}$, $ADC=180^{\\circ}-A=180^{\\circ}-62^{\\circ}=\\boxed{118^{\\circ}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

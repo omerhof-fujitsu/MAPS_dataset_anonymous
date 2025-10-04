@@ -1,0 +1,6 @@
+{
+    "problem": "एक $12^{\\prime \\prime}$-व्यास वाला पिज़्ज़ा और एक $16^{\\prime \\prime}$-व्यास वाला पिज़्ज़ा दोनों को आठ समान भागों में काटा गया है। जेन ने $12^{\\prime \\prime}$ पिज़्ज़ा के तीन स्लाइस खाए, जबकि मार्क ने $16^{\\prime \\prime}$ पिज़्ज़ा के तीन स्लाइस खाए। मार्क ने जेन की तुलना में कितने अधिक वर्ग इंच पिज़्ज़ा खाया? अपना उत्तर $\\pi$ के रूप में एक सामान्य अंश के रूप में व्यक्त करें।",
+    "solution": "They both ate $\\frac{3}{8}$ of a pizza.  Therefore, the quantity that Mark ate in excess of Jane is simply $\\frac{3}{8} \\times$ the difference in total area of the pizzas.  The 16'' pizza has $64\\pi$ area, and the 12'' pizza has $36\\pi$ area, making for a difference of $28\\pi$. $\\frac{3}{8} \\times 28\\pi = \\boxed{\\frac{21}{2}\\pi}$",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

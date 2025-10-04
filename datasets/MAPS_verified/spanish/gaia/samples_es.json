@@ -1,0 +1,402 @@
+[
+  {
+    "task_id": "853c8244-429e-46ca-89f2-addf40dfb2bd",
+    "Question": "En la exposición del Museo Metropolitano de Arte de 2015 titulada según el animal del zodiaco chino de 2015, ¿cuántos de los \"doce animales del zodiaco chino\" tienen una mano visible?",
+    "Level": "2",
+    "Final answer": "11",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+    "Question": "En una oficina se llevó a cabo un intercambio de regalos de Amigo Secreto en el que cada uno de sus doce empleados fue asignado a otro empleado del grupo para regalarle un obsequio. Cada empleado completó un perfil que incluía tres gustos o aficiones. El día del intercambio de regalos, solo se entregaron once regalos, cada uno específico a uno de los intereses del destinatario. Basado en la información del documento, ¿quién no dio un regalo?",
+    "Level": "1",
+    "Final answer": "Fred",
+    "file_name": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb.docx",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb.docx"
+  },
+  {
+    "task_id": "8e867cd7-cff9-4e6c-867a-ff5ddc2550be",
+    "Question": "¿Cuántos álbumes de estudio fueron publicados por Mercedes Sosa entre el año 2000 y el 2009 (inclusive)? Puedes utilizar la versión más reciente de la Wikipedia en inglés del año 2022.",
+    "Level": "1",
+    "Final answer": "3",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "7b5377b0-3f38-4103-8ad2-90fe89864c04",
+    "Question": "Encuentra el valor de x a la décima más cercana: Lx = (d/dx * (A * x al cuadrado)) + 4 mil novecientos noventa y siete menos C\nDonde L es el último dígito del año de la Declaración de Independencia de Venezuela,\nA es el número de colores en el logotipo de TikTok a julio de 2023, excluyendo el negro y el blanco,\ny C es la altura de la mujer promedio en Filipinas según un artículo de Business Insider de julio de 2023, redondeado al centímetro entero más cercano.",
+    "Level": "2",
+    "Final answer": "563.9",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "56db2318-640f-477a-a82f-bc93ad13e882",
+    "Question": "Los siguientes números funcionan de manera similar a los números ISBN 13; sin embargo, sus métodos de validación son ligeramente diferentes. En lugar de usar pesos alternos de 1 y 3, el dígito de comprobación se calcula con un peso alterno de 1 y otro entero positivo menor que 10. Fuera de esto, el dígito de comprobación se calcula como se espera. Desafortunadamente, hay un error en los datos: dos columnas adyacentes han sido transpuestas. Estas columnas con error no involucran la última columna ni ninguna de las tres primeras. Con esta información, proporcione todas las posibles soluciones con el peso desconocido y el índice menor de las dos columnas con error (asumiendo que comenzamos la indexación en 0 e ignoramos los guiones). Dé su respuesta en la forma x, y, donde x es el peso e y es el índice menor de las dos columnas transpuestas.\n\n978-354181391-9\n978-946669746-1\n978-398036139-6\n978-447656680-4\n978-279586664-7\n978-595073693-3\n978-976647652-6\n978-591178125-5\n978-728465924-5\n978-414825155-9",
+    "Level": "3",
+    "Final answer": "7, 9",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "935e2cff-ae78-4218-b3f5-115589b19dae",
+    "Question": "En el año 2022, y antes de diciembre, ¿qué significa \"R\" en las tres políticas centrales del tipo de contenido que se violó en los registros públicos de la página de Wikipedia sobre Legumbres?",
+    "Level": "1",
+    "Final answer": "investigación",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "33d8ea3b-6c6b-4ff1-803d-7e270dea8a57",
+    "Question": "¿Cuál es el número mínimo de enlaces de página que una persona debe hacer clic para ir desde la página de Wikipedia en inglés sobre El Señor de los Anillos (el libro) hasta la página de Wikipedia en inglés sobre Canción de Hielo y Fuego (la serie de libros)? En tu conteo, incluye cada enlace en el que harías clic para llegar a la página. Utiliza las páginas tal como aparecieron al final del día el 3 de julio de 2023.",
+    "Level": "2",
+    "Final answer": "2",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "56137764-b4e0-45b8-9c52-1866420c3df5",
+    "Question": "¿Qué contribuidor a la versión de OpenCV donde se añadió soporte para el modelo Mask-RCNN tiene el mismo nombre que un ex jefe de gobierno chino cuando los nombres se transliteran al alfabeto latino?",
+    "Level": "2",
+    "Final answer": "Li Peng (20 de octubre de 1928 - 22 de julio de 2019) fue un político chino que se desempeñó como el cuarto Premier de la República Popular China desde 1987 hasta 1998, y como Presidente del Comité Permanente de la Asamblea Popular Nacional desde 1998 hasta 2003. Li Peng también fue miembro del Comité Permanente del Politburó del Partido Comunista de China, el órgano de toma de decisiones más alto del país, desde 1987 hasta 2002.",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "42d4198c-5895-4f0a-b0c0-424a66465d83",
+    "Question": "Estoy curioso por saber cuánta información está disponible para los videojuegos populares antes de su lanzamiento. Encuentra la página de Wikipedia del juego de 2019 que ganó los British Academy Games Awards. ¿Cuántas revisiones tuvo esa página antes del mes listado como la fecha de lanzamiento del juego en esa página de Wikipedia (a partir de la entrada más reciente de 2022)?",
+    "Level": "2",
+    "Final answer": "60",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "4b6bb5f7-f634-410e-815d-e673ab7f8632",
+    "Question": "En la Serie 9, Episodio 11 de Doctor Who, el Doctor queda atrapado dentro de un laberinto en constante cambio. ¿Cómo se llama este lugar en el guion oficial del episodio? Proporcione el escenario exactamente como aparece en el primer encabezado de escena.",
+    "Level": "1",
+    "Final answer": "EL CASTILLO",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "e29834fd-413a-455c-a33e-c3915b07401c",
+    "Question": "Me gustaría saber más sobre algunos populares programas de telerrealidad de competencia. Al final de la 44ª temporada de la versión estadounidense de Survivor, ¿cuántos ganadores únicos más ha habido en comparación con el número de ganadores de American Idol?",
+    "Level": "2",
+    "Final answer": "21",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+    "Question": "El PDF adjunto enumera alojamientos en la comunidad turística de la Isla Caballo de Mar. ¿Qué tipo de alojamiento tiene una calificación promedio más alta en la Isla Caballo de Mar?",
+    "Level": "2",
+    "Final answer": "Hoteles",
+    "file_name": "67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/67e8878b-5cef-4375-804e-e6291fdbe78a.pdf"
+  },
+  {
+    "task_id": "7619a514-5fa8-43ef-9143-83b66a43d7a4",
+    "Question": "Según GitHub, ¿cuándo se añadió la etiqueta \"Regression\" al problema cerrado más antiguo de numpy.polynomial que tiene la etiqueta \"Regression\" en MM/DD/YY?",
+    "Level": "2",
+    "Final answer": "15/04/18",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "3627a8be-a77f-41bb-b807-7e1bd4c0ebdf",
+    "Question": "El objeto en la colección del Museo Británico con el número de museo 2012,5015.17 es el caparazón de una especie particular de molusco. Según el resumen de un artículo de investigación publicado en Science Advances en 2021, se encontraron cuentas hechas de los caparazones de esta especie que tienen al menos ¿cuántos miles de años de antigüedad?",
+    "Level": "2",
+    "Final answer": "142",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "f0f46385-fc03-4599-b5d3-f56496c3e69f",
+    "Question": "En términos de distancia geográfica entre capitales, ¿cuáles son los 2 países más alejados entre sí dentro del bloque de la ASEAN según Wikipedia? Responde utilizando una lista separada por comas, ordenando los países por orden alfabético.",
+    "Level": "2",
+    "Final answer": "Indonesia, Myanmar",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+    "Question": "Revisa la posición de ajedrez proporcionada en la imagen. Es el turno de las negras. Proporciona el siguiente movimiento correcto para las negras que garantice una victoria. Proporciona tu respuesta en notación algebraica.",
+    "Level": "1",
+    "Final answer": "Rd5",
+    "file_name": "cca530fc-4052-43b2-b130-b30968d8aa44.png",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/cca530fc-4052-43b2-b130-b30968d8aa44.png"
+  },
+  {
+    "task_id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+    "Question": "¿Qué escritor cita Merriam-Webster para la Palabra del Día del 27 de junio de 2022?",
+    "Level": "1",
+    "Final answer": "Annie Levin",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "73c1b9fe-ee1d-4cf4-96ca-35c08f97b054",
+    "Question": "Según el USGS, ¿en qué año se encontró por primera vez el cocodrilo americano al oeste de Texas (sin incluir Texas)?",
+    "Level": "2",
+    "Final answer": "1954",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "db4fd70a-2d37-40ea-873f-9433dc5e301f",
+    "Question": "A partir de mayo de 2023, ¿cuántas paradas hay entre South Station y Windsor Gardens en la línea Franklin-Foxboro de MBTA (sin incluirlas)?",
+    "Level": "2",
+    "Final answer": "10",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+    "Question": "Hola, estuve enfermo y falté a mis clases el viernes, así que estoy tratando de averiguar qué necesito estudiar para mi examen parcial de Cálculo la próxima semana. Un amigo de la clase me envió una grabación de audio de la profesora Willowbrook dando las lecturas recomendadas para el examen, pero mis auriculares están rotos :(\n\n¿Podrías escuchar la grabación por mí y decirme los números de página que debo repasar? He adjuntado un archivo llamado Homework.mp3 que contiene la grabación. Por favor, proporciona solo los números de página como una lista delimitada por comas. Y por favor, proporciona la lista en orden ascendente.",
+    "Level": "1",
+    "Final answer": "132, 133, 134, 197, 245",
+    "file_name": "1f975693-876d-457b-a649-393859e79bf3.mp3",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/1f975693-876d-457b-a649-393859e79bf3.mp3"
+  },
+  {
+    "task_id": "42576abe-0deb-4869-8c63-225c2d75a95a",
+    "Question": "En el idioma ficticio de Tizin, las oraciones básicas se ordenan con el verbo primero, seguido del objeto directo y, finalmente, del sujeto. Quiero expresarle mi amor por las manzanas a mi amigo Tizin. La palabra que indica a uno mismo es &quot;Pa&quot; en nominativo, &quot;Mato&quot; en acusativo y &quot;Sing&quot; en genitivo. El verbo raíz que indica un gusto intenso por algo es &quot;Maktay&quot;. En presente, se usa en su forma raíz; en pretérito, es &quot;Tay&quot;; y en pretérito imperfecto, es &quot;Aktay&quot;. Se usa de forma diferente al español, y se traduce mejor como &quot;es agradable a&quot;, lo que significa que aquello que causa el gusto es en realidad el objeto de la oración, no el sujeto. La palabra para manzanas proviene del inglés en tizin, por lo que &quot;Apple&quot; es el nominativo, &quot;Zapple&quot; el acusativo y &quot;Izapple&quot; el genitivo. Por favor, traduzca &quot;I like apples&quot; al tizin.",
+    "Level": "1",
+    "Final answer": "Manzana Maktay mato",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "a0c07678-e491-4bbc-8f0b-07405144218f",
+    "Question": "¿Quiénes son los lanzadores con el número anterior y posterior al de Taishō Tamai a julio de 2023? Dame los resultados en el formato Lanzador anterior, Lanzador posterior, usando solo sus apellidos, en caracteres romanos.",
+    "Level": "1",
+    "Final answer": "Yoshida, Uehara",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+    "Question": "Tengo el plan Estándar en la imagen de abajo, y acabo de subir 60 archivos de igual tamaño y recibí un mensaje de que estoy 100 GB por encima del límite. Tengo 980 archivos más del mismo tamaño para subir. ¿Cuál es el costo adicional promedio por archivo en dólares que excede mi límite actual del plan redondeado a los centavos más cercanos si tengo que actualizar al plan mínimo posible para almacenarlos todos? Responda con el siguiente formato: x.xx",
+    "Level": "2",
+    "Final answer": "0.03",
+    "file_name": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png"
+  },
+  {
+    "task_id": "2dfc4c37-fec1-4518-84a7-10095d30ad75",
+    "Question": "Según la lista de taquilla mundial de 2020 de Box Office Mojo, ¿cuántas de las 10 películas con mayor recaudación mundial también están en la lista de las 10 películas con mayor recaudación nacional? Tu respuesta debe ser un valor entero numérico.",
+    "Level": "2",
+    "Final answer": "6",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "20194330-9976-4043-8632-f8485c6c71b2",
+    "Question": "El canal de YouTube Game Grumps comenzó un Let's Play del juego Sonic the Hedgehog (2006) en el año 2012. A los treinta segundos del primer episodio, se muestra una frase en la pantalla con letras blancas sobre un fondo rojo. ¿Cuántas veces aparece la letra \"E\" en esta frase?",
+    "Level": "2",
+    "Final answer": "4",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "114d5fd0-e2ae-4b6d-a65a-870da2d19c08",
+    "Question": "En la nota al final encontrada en el penúltimo párrafo de la página 11 del libro con el doi 10.2307/j.ctv9b2xdv, ¿qué día de noviembre se accedió al artículo de Wikipedia? Solo da el día del mes.",
+    "Level": "2",
+    "Final answer": "4",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "17b5a6a3-bc87-42e8-b0fb-6ab0781ef2cc",
+    "Question": "Estoy investigando especies que se volvieron invasoras después de que personas que las mantenían como mascotas las liberaran. Hay una especie de pez que se popularizó como mascota al ser el protagonista de la película Buscando a Nemo. Según el USGS, ¿dónde se encontró este pez como especie no nativa, antes del año 2020? Necesito la respuesta formateada como los códigos postales de cinco dígitos de los lugares donde se encontró la especie, separados por comas si hay más de un lugar.",
+    "Level": "2",
+    "Final answer": "34689",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "dc28cf18-6431-458b-83ef-64b3ce566c10",
+    "Question": "Mi reunión familiar es esta semana, y me asignaron llevar el puré de papas. Los asistentes incluyen a mi madre y padre casados, mi hermano gemelo y su familia, mi tía y su familia, mi abuela y su hermano, la hija de su hermano y la familia de su hija. Todos los adultos, excepto yo, han estado casados, y nadie está divorciado o vuelto a casar, pero mi abuelo y la cuñada de mi abuela fallecieron el año pasado. Todos los cónyuges vivos asistirán. Mi hermano tiene dos hijos que aún son niños, mi tía tiene un niño de seis años, y la hija del hermano de mi abuela tiene tres hijos menores de 12 años. Calculo que cada adulto comerá alrededor de 1.5 papas de puré de papas y cada niño comerá alrededor de 1/2 papa de puré de papas, excepto mis primos segundos que no comen carbohidratos. La papa promedio pesa alrededor de media libra, y las papas se venden en bolsas de 5 libras. ¿Cuántas bolsas enteras de papas necesito? Solo da el número.",
+    "Level": "1",
+    "Final answer": "2",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "50ec8903-b81f-4257-9450-1085afd2c319",
+    "Question": "Un cubo de Rubik estándar se ha roto en cubos que componen sus lados. Los cubos están desordenados y se ha eliminado uno. Hay 6 cubos con una cara coloreada, 12 cubos de borde con dos caras coloreadas y 8 cubos de esquina con tres caras coloreadas. Se han encontrado todos los cubos azules. Se han encontrado todos los cubos directamente a la izquierda, derecha, arriba y abajo del cubo central naranja, junto con el cubo central. Se han encontrado todas las esquinas verdes, junto con todo el verde que limita con el amarillo. Para todos los cubos naranjas encontrados, se han encontrado los cubos de la cara opuesta. El cubo eliminado tiene dos colores en sus caras. ¿Cuáles son? Responde utilizando una lista separada por comas, con los colores ordenados alfabéticamente.",
+    "Level": "1",
+    "Final answer": "verde, blanco",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "9d191bce-651d-4746-be2d-7ef8ecadb9c2",
+    "Question": "Examina el video en https://www.youtube.com/watch?v=1htKBjuUWec.\n\n¿Qué responde Teal'c a la pregunta \"¿No es eso caliente?\"",
+    "Level": "1",
+    "Final answer": "Extremadamente",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "9e1fc53b-46ff-49a1-9d05-9e6faac34cc5",
+    "Question": "Un grupo de 5 personas compuesto por un tanque, un sanador y tres DPS está haciendo una mazmorra que acaba de ser lanzada en World of Warcraft. Dos usan armadura de placas y dos usan armadura de tela. En el jefe final, tanto el tanque como el sanador están lanzando hechizos sagrados. Hielo y fuego están siendo utilizados, cada uno por un DPS diferente. Un oso del grupo está atacando al jefe. Se lanza Metamorfosis. El Kilt del Olvidado cae como botín, pero nadie puede usarlo. Si todas las clases estaban usando sus habilidades de clase y todas las clases son únicas, ¿cuáles son las cinco clases en el grupo en orden alfabético separadas por comas?",
+    "Level": "3",
+    "Final answer": "Caballero de la Muerte, Cazador, Paladín, Sacerdote, Brujo",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "27d5d136-8563-469e-92bf-fd103c28b57c",
+    "Question": "¬(A ∧ B) ↔ (¬A ∨ ¬B)\n¬(A ∨ B) ↔ (¬A ∧ ¬B)\n(A → B) ↔ (¬B → ¬A)\n(A → B) ↔ (¬A ∨ B)\n(¬A → B) ↔ (A ∨ ¬B)\n¬(A → B) ↔ (A ∧ ¬B)\n\n¿Cuál de las anteriores no es lógicamente equivalente al resto? Proporciona la declaración completa que no encaja.",
+    "Level": "1",
+    "Final answer": "(¬A → B) ↔ (A ∨ ¬B)",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "e0c10771-d627-4fd7-9694-05348e54ee36",
+    "Question": "Toma la división de género del censo búlgaro de 2011 sobre aquellos que han completado la educación superior. Resta el número más pequeño del más grande y devuelve la diferencia en miles de mujeres. Por ejemplo, si hubiera 30.1 mil hombres más, la respuesta sería \"30.1\".",
+    "Level": "2",
+    "Final answer": "234.9",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "c714ab3a-da30-4603-bacd-d008800188b9",
+    "Question": "Eres Van Helsing, un reconocido cazador de vampiros. Un Conde de Moldavia, Lațcu IV, hijo de Costea, te ha encargado investigar la aldea de Șirnea en la vecina Valaquia. Los asesores del Conde han reportado que se vio a un vampiro cruzando la frontera cerca de la aldea, y te pide que lo investigues.\n\nViajas a la aldea de Șirnea y comienzas tu investigación. Una noche, justo antes del amanecer, vislumbras a un hombre con una larga capa negra con forro rojo saltando de techo en techo con agilidad sobrehumana. ¡Es un vampiro! Intentas perseguir a la criatura de vuelta a su hogar, pero es demasiado rápido. Sin embargo, debido a la lejanía de la aldea, sabes con absoluta certeza que el vampiro debe ser un residente de la aldea. Decides que tu mejor curso de acción será visitar a los 100 residentes de la aldea durante el día. Sabes algo sobre los vampiros y los humanos que hará posible tu investigación: los humanos siempre dicen la verdad, pero los vampiros siempre mienten.\n\nPor la tarde, vas de casa en casa, hablando con los 100 residentes de Șirnea. Le haces a todos la misma pregunta: \"¿Cuántos vampiros viven en Șirnea?\". Todos en la aldea dan la misma respuesta: \"Al menos uno de nosotros es humano\".\n\n¿Cuántos residentes de Șirnea han sido convertidos en vampiros?",
+    "Level": "1",
+    "Final answer": "100",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+    "Question": "El archivo de Excel adjunto contiene las ventas de los artículos del menú de una cadena local de comida rápida. ¿Cuáles fueron las ventas totales que la cadena realizó de alimentos (sin incluir bebidas)? Expresar la respuesta en USD con dos decimales.",
+    "Level": "1",
+    "Final answer": "89706.00",
+    "file_name": "7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx"
+  },
+  {
+    "task_id": "a0068077-79f4-461a-adfe-75c1a4148545",
+    "Question": "¿Cuál fue el número real de inscripciones en el ensayo clínico sobre H. pylori en pacientes con acné vulgar de enero a mayo de 2018, según aparece en el sitio web del NIH?",
+    "Level": "1",
+    "Final answer": "90",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "0a3cd321-3e76-4622-911b-0fda2e5d6b1a",
+    "Question": "Según el Banco Mundial, ¿qué países tuvieron un ahorro bruto superior al 35% del PIB en cada año del período 2001-2010? Proporcione su respuesta como una lista de países separados por comas en orden alfabético. Utilice los nombres más comunes en inglés al responder.",
+    "Level": "2",
+    "Final answer": "Brunéi, China, Marruecos, Singapur",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "384d0dd8-e8a4-4cfe-963c-d37f256e7662",
+    "Question": "En la base de datos de compuestos NCATS PubChem para la clasificación de estado de aditivos alimentarios, encuentra el compuesto que tiene un peso molecular de 100 g/mol o menos, 6 átomos pesados, 1 o menos aceptores de enlaces de hidrógeno y una complejidad entre 10 y 15. De las coocurrencias gen-químicas compartidas entre sus dos posibles transformaciones enzimáticas, ¿cuál es el CID de PubChem del más pesado por peso molecular?",
+    "Level": "3",
+    "Final answer": "4192",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "b9763138-c053-4832-9f55-86200cb1f99c",
+    "Question": "Calcule el dígito de control que tendría el ID de Tropicos para el Orden Helotiales si fuera un número ISBN-10.",
+    "Level": "2",
+    "Final answer": "3",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "3f57289b-8c60-48be-bd80-01f8099ca449",
+    "Question": "¿Cuántos turnos al bate tuvo el jugador de los Yankees con más bases por bolas en la temporada regular de 1977 durante esa misma temporada?",
+    "Level": "1",
+    "Final answer": "519",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "05407167-39ec-4d3a-a234-73a9120c325d",
+    "Question": "En la publicación del blog de 2018 sobre VSCode en replit.com, ¿cuál fue el comando que hicieron clic en el último video para eliminar líneas adicionales?",
+    "Level": "2",
+    "Final answer": "Formato del documento",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+    "Question": "Eres un ingeniero de telecomunicaciones que desea construir torres de telefonía móvil en un tramo de carretera. En el archivo de referencia se encuentra un diseño de la carretera y las casas cercanas. Cada guion, \"-\", es un marcador que indica una milla. Cada letra mayúscula \"H\" indica una casa ubicada junto a un marcador de milla, apareciendo encima o debajo del tramo de carretera. Cada torre de telefonía móvil puede cubrir casas ubicadas junto a la carretera dentro de un radio de 4 millas. Encuentra el número mínimo de torres de telefonía móvil necesarias para cubrir todas las casas junto a la carretera. Tu respuesta debe ser un valor numérico entero positivo.",
+    "Level": "1",
+    "Final answer": "3",
+    "file_name": "389793a7-ca17-4e82-81cb-2b3a2391b4b9.txt",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/389793a7-ca17-4e82-81cb-2b3a2391b4b9.txt"
+  },
+  {
+    "task_id": "b4cc024b-3f5e-480e-b96a-6656493255b5",
+    "Question": "La fotografía en la colección del Museo Whitney de Arte Americano con número de acceso 2022.128 muestra a una persona sosteniendo un libro. ¿A qué unidad militar se unió el autor de este libro en 1813? Responde sin usar artículos.",
+    "Level": "2",
+    "Final answer": "Legión Ruso-Alemán",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+    "Question": "Mira la imagen adjunta. La prueba se califica de la siguiente manera:\n\nProblemas que piden al estudiante sumar o restar fracciones: 5 puntos\nProblemas que piden al estudiante multiplicar o dividir fracciones: 10 puntos\nProblemas que piden al estudiante formar una fracción impropia: 15 puntos\nProblemas que piden al estudiante formar un número mixto: 20 puntos\n\nDebido a un problema técnico que retrasó la realización de la prueba por parte de los estudiantes, el profesor está dando 5 puntos adicionales a todos.\n\nSi calificaste la prueba en la imagen adjunta, ¿cuántos puntos habría obtenido el estudiante? No hay crédito parcial.",
+    "Level": "2",
+    "Final answer": "85",
+    "file_name": "cca70ce6-1952-45d2-acd4-80c903b0bc49.png",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png"
+  },
+  {
+    "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+    "Question": "La hoja de cálculo adjunta muestra el inventario de una tienda de alquiler de películas y videojuegos en Seattle, Washington. ¿Cuál es el título del Blu-Ray más antiguo registrado en esta hoja de cálculo? Devuélvalo tal como aparece en la hoja de cálculo.",
+    "Level": "2",
+    "Final answer": "Tiempo-Estacionamiento 2: Universo Paralelo",
+    "file_name": "32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx"
+  },
+  {
+    "task_id": "d700d50d-c707-4dca-90dc-4528cddd0c80",
+    "Question": "¿Quién compuso la canción que fue interpretada por un gallo y un hámster en videos animados separados a diferentes tempos con letras diferentes? Responde utilizando el formato Nombre Apellido.",
+    "Level": "2",
+    "Final answer": "Roger Miller",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "4fc2f1ae-8625-45b5-ab34-ad4433bc21f8",
+    "Question": "¿Quién nominó el único artículo destacado en la Wikipedia en inglés sobre un dinosaurio que fue promovido en noviembre de 2016?",
+    "Level": "1",
+    "Final answer": "FunkMonk",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "72c06643-a2fa-4186-aa5c-9ec33ae9b445",
+    "Question": "¿Cuál es el volumen en mililitros de un sistema compuesto por 0,312 kg de refrigerante Freon-12 cuando se coloca en el fondo de la Fosa de las Marianas y se permite estabilizar a la temperatura máxima de la Fosa, redondeado al mL más cercano? Proporcione su respuesta como un valor entero únicamente.",
+    "Level": "3",
+    "Final answer": "55",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "dd3c7503-f62a-4bd0-9f67-1b63b94194cc",
+    "Question": "Utilice las medidas de densidad de los materiales de química con licencia de Marisa Alviar-Agnew y Henry Agnew bajo la licencia CK-12 en los materiales de Química Introductoria de LibreText compilados el 21/08/2023.\n\nTengo un galón de miel y un galón de mayonesa a 25°C. Retiro una taza de miel a la vez del galón de miel. ¿Cuántas veces necesitaré retirar una taza para que la miel pese menos que la mayonesa? Suponga que los recipientes en sí pesan lo mismo.",
+    "Level": "2",
+    "Final answer": "6",
+    "file_name": "",
+    "file_path": ""
+  },
+  {
+    "task_id": "bfcd99e1-0690-4b53-a85c-0174a8629083",
+    "Question": "¿Cuántos solicitantes del puesto en el PDF carecen de una sola cualificación?",
+    "Level": "2",
+    "Final answer": "17",
+    "file_name": "bfcd99e1-0690-4b53-a85c-0174a8629083.zip",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/bfcd99e1-0690-4b53-a85c-0174a8629083.zip"
+  }
+]

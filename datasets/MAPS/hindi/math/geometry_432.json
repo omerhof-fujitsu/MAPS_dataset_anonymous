@@ -1,0 +1,6 @@
+{
+    "problem": "अलाना रबर बैंड से एक गेंद बना रही है। जब गेंद में 54 रबर बैंड होते हैं, तो इसका व्यास 3 सेमी होता है। गेंद का व्यास 1 सेमी बढ़ाने के लिए अलाना को गेंद में कितने रबर बैंड जोड़ने चाहिए? मान लें कि अलाना के सभी रबर बैंड का आयतन समान है।",
+    "solution": "Since the volume of a sphere is directly proportional to its diameter cubed, the ratio of the volume of the ball with a diameter of 4 cm to the volume of the ball with a diameter of 3 cm is $(4/3)^3\n= 64/27$.  Since all of the rubber bands have the same volume, it follows that the number of rubber bands in the ball with diameter 4 is \\[ (4/3)^3 \\cdot 54 = \\frac{64}{27} \\cdot 54 = 64 \\cdot 2 = 128. \\]Therefore the number of rubber bands that Alana needs to add to the ball is $128 - 54 = \\boxed{74}$.",
+    "level": "Level 5",
+    "type": "Geometry"
+}

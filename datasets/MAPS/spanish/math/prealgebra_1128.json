@@ -1,0 +1,6 @@
+{
+    "problem": "Tom recibió un Sr. Cara de Papa para su cumpleaños. Venía con 3 peinados, 2 conjuntos de cejas, 1 par de ojos saltones, 2 conjuntos de orejas, 2 conjuntos de labios, un par de zapatos normales y un par adicional de zapatos de payaso. Si una personalidad completa del Sr. Cara de Papa incluye cejas, ojos, orejas, labios, zapatos y, opcionalmente, cabello, ¿cuántas personalidades extravagantes diferentes puede crear Tom? Tenga en cuenta que el Sr. Cara de Papa puede estar calvo.\n\nNota: No se pueden combinar elementos de diferentes conjuntos. Por ejemplo, no se puede tomar la ceja izquierda de un conjunto y la derecha del otro.",
+    "solution": "There are 2 choices of eyebrows, 1 choice for eyes, 2 choices for ears, 2 choices for lips, 2 choices for shoes, and 4 choices for hair (3 choices of hairstyles, or bald), and each can be picked independent of the others, so the number of combinations is the product of those, $2\\cdot 1\\cdot 2\\cdot 2\\cdot 2\\cdot 4 = \\boxed{64}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

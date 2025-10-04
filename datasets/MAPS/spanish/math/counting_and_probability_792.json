@@ -1,0 +1,6 @@
+{
+    "problem": "Camy hizo una lista de todos los posibles enteros positivos distintos de cinco dígitos que se pueden formar usando cada uno de los dígitos 1, 3, 4, 5 y 9 exactamente una vez en cada entero. ¿Cuál es la suma de los enteros en la lista de Camy?",
+    "solution": "Note that there are $4! = 24$ numbers ending in 1, since we have 4 choices for the 10s digit, 3 choices for the 100s digit, 2 choices for the 1000s digit, and 1 choice for the remaining digit.  Thus there are also 24 numbers ending in each of 3, 4, 5, 9, and the total contribution of ones digits to the sum is $24 (1 + 3 + 4 + 5 + 9) = 528$.  But we can make a similar argument about the contribution of the digits in the other places (10s, 100s, etc.), so our total sum is $528 + 5280 + \\ldots + 5280000 = 528 (1 + 10 + \\ldots + 10000) = 528\\cdot 11,111 = \\boxed{5,\\!866,\\!608}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

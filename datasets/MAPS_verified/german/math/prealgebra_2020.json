@@ -1,0 +1,6 @@
+{
+  "problem": "Die Summe aller Ziffern, die zum Schreiben der ganzen Zahlen von 1 bis einschließlich 110 verwendet werden, ist wie folgt zu berechnen:\n\nDie Summe aller Ziffern, die zum Schreiben der ganzen Zahlen 10 bis 13 verwendet werden, ist $1 + 0 + 1 + 1 + 1 + 2 + 1 + 3 = 10$. Wie hoch ist die Summe aller Ziffern, die zum Schreiben der ganzen Zahlen von 1 bis einschließlich 110 verwendet werden?",
+  "solution": "Wir berechnen zunächst die Summe aller Ziffern, die zur Schreibung der ganzen Zahlen von 0 bis 99 verwendet werden. Wenn wir alle diese Zahlen als zweistellig betrachten (z. B. 04 statt 4), bleibt die Summe der Ziffern unverändert. Wir stellen fest, dass jede Ziffer gleich oft an der Einerstelle und gleich oft an der Zehnerstelle vorkommt, also insgesamt $2\\cdot \\frac{100}{10} = 20$-mal. Daher beträgt die Summe aller Ziffern, die zur Schreibung der ganzen Zahlen 00 bis 99 verwendet werden, $20\\cdot (0 + 1 +\\cdots + 8 + 9) = 900$. Die Summe der Ziffern von 100 bis 110 beträgt lediglich $(1 + 0) + (1 + 1) + (1 + 2) + \\cdots + (1+9) + 2 = 57$. Somit lautet unser endgültiges Ergebnis $900 + 57 = \\boxed{957}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

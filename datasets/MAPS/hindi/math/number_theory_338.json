@@ -1,0 +1,6 @@
+{
+    "problem": "144 के सभी विशिष्ट धनात्मक दो अंकीय गुणनखंडों का योग क्या है?",
+    "solution": "Prime factorize $144=2^4\\cdot3^2$. The sum of the positive two-digit factors of 144 is $2^4+2\\cdot3^2+2^2\\cdot3+2^2\\cdot3^2+2^3\\cdot3+2^3\\cdot3^2+2^4\\cdot3=\\boxed{226}.$",
+    "level": "Level 5",
+    "type": "Number Theory"
+}

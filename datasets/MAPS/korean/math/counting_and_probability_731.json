@@ -1,0 +1,6 @@
+{
+    "problem": "직사각형 $ABCD$의 중심은 $O$이고, $AB/AD=k$입니다. 직사각형 $ABCD$의 내부에서 무작위로 한 점을 선택할 때, 이 점이 네 개의 꼭짓점 중 어느 하나보다 $O$에 더 가까울 확률은 얼마입니까? [asy]\nsize(200);\ndraw((-250,100)--(250,100)--(250,-100)--(-250,-100)--cycle);\ndot((0,0));\nlabel(\"$O$\",(0,0),N);\nlabel(\"$A$\",(-250,100),NW); label(\"$B$\",(250,100),NE); label(\"$C$\",(250,-100),SE); label(\"$D$\",(-250,-100),SW);\n[/asy]",
+    "solution": "The original rectangle may be subdivided into four smaller congruent rectangles, all sharing $O$ as a vertex. Each of these rectangles is analogous, so we can consider our random point $P$ to be without loss of generality in the smaller rectangle with $A$ as a vertex. All points in this smaller rectangle are closer to $A$ than they are to $B$, $C$, or $D$, so we just need to determine the probability that $OP<AP$. [asy]\nsize(100);\ndraw((0,0)--(0,100)--(-250,100)--(-250,0)--cycle);\nlabel(\"$A$\",(-250,100),NW); label(\"$O$\",(0,0),SE);\ndraw((-105,100)--(-145,0));\nfill((-105,100)--(-145,0)--(0,0)--(0,100)--cycle, gray(.7));\n[/asy] Since a $180^\\circ$ rotation about the center of the smaller rectangle takes $O$ to $A$, it takes the shaded region to the unshaded region. Therefore, exactly half the area is shaded, and the overall probability is $\\boxed{\\frac{1}{2}}$, independent of $k$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

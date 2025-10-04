@@ -1,0 +1,6 @@
+{
+  "problem": "Krista depositó 1 centavo en su nuevo banco un domingo por la mañana. El lunes depositó 2 centavos en su banco. El martes depositó 4 centavos en su banco, y continuó duplicando la cantidad de dinero que depositaba cada día durante dos semanas. ¿En qué día de la semana el total de dinero en su banco superó por primera vez los \\$5?",
+  "solution": "Si han pasado $n$ días desde el domingo, entonces el total de centavos en su cuenta bancaria es $1+2+\\cdots+2^n$. Esta es una serie geométrica con primer término 1, razón común 2 y $n+1$ términos. Por lo tanto, la suma es: $$1+2+\\cdots+2^n = \\frac{1-2^{n+1}}{1-2} = 2^{n+1}-1.$$ Si esto es mayor que $500$ (es decir, si la cantidad total de dinero en la cuenta es más de $\\$5$), entonces $2^{n+1}-1 \\ge 500$, por lo que $2^{n+1} \\ge 501$. La menor potencia de 2 que es mayor que 501 es $2^9$. Por lo tanto, la primera vez que hay más de $\\$5$ en la cuenta bancaria ocurre después de $n=8$ días. Esto es 8 días después del domingo, por lo que el día de la semana es $\\boxed{\\text{lunes}}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

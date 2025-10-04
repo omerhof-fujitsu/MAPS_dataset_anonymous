@@ -1,0 +1,6 @@
+{
+  "problem": "Trova il valore minimo di\n\\[2x^2 + 2xy + 4y + 5y^2 - x\\]\nper tutti i numeri reali $x$ e $y$.",
+  "solution": "Possiamo scrivere l'espressione come\n\\begin{align*}\n2x^2 + 2xy + 4y + 5y^2 - x &= (x^2 + 2xy + y^2) + \\left( x^2 - x + \\frac{1}{4} \\right) + (4y^2 + 4y + 1) - \\frac{1}{4} - 1 \\\\\n&= (x + y)^2 + \\left( x - \\frac{1}{2} \\right)^2 + (2y + 1)^2 - \\frac{5}{4}.\n\\end{align*}\nVediamo che il valore minimo è $\\boxed{-\\frac{5}{4}},$ che si verifica in $x = \\frac{1}{2}$ e $y = -\\frac{1}{2}.$",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

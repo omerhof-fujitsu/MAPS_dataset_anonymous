@@ -1,0 +1,6 @@
+{
+  "problem": "O quadrilátero $ABCD$ é um trapézio com $AB$ paralelo a $CD$. Sabemos que $AB = 20$ e $CD = 12$. Qual é a razão entre a área do triângulo $ACB$ e a área do trapézio $ABCD$? Expresse sua resposta como uma fração comum.",
+  "solution": "Seja $h$ o comprimento da altura do trapézio $ABCD$; observe que este também é o comprimento da altura do triângulo $ACB$ em relação à base $AB$. Então, a área de $ABCD$ é $\\frac{20 + 12}{2}\\cdot h = 16h$. Por outro lado, a área do triângulo $ACB$ é $\\frac{1}{2}\\cdot 20\\cdot h = 10h$. Portanto, a razão desejada é $\\frac{10}{16} = \\boxed{\\frac{5}{8}}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Из стандартной колоды в 52 карты случайным образом вытягивается карта. Какова вероятность того, что это будет нечётное число (3, 5, 7, 9) или $\\spadesuit$ (или оба)?",
+    "solution": "There are 16 odd-numbered cards, namely 4 suits for each of the 4 odd digits. There are 13 $\\spadesuit$s, but 4 of these we already counted among the odd-numbered cards.  So the total number of cards that are odd or a $\\spadesuit$ is $16+(13-4)=25$, and the probability is $\\boxed{\\dfrac{25}{52}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

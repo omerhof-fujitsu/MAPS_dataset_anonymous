@@ -1,0 +1,6 @@
+{
+  "problem": "Sei\n\\[x^{12} - 1 = p_1(x) p_2(x) \\dotsm p_k(x),\\]\nwobei jedes nicht-konstante Polynom $p_i(x)$ monisch mit ganzzahligen Koeffizienten ist und nicht weiter über die ganzen Zahlen faktorisiert werden kann. Finde $k.$",
+  "solution": "Zuerst können wir die Differenz der Quadrate anwenden, um \n\\[x^{12} - 1 = (x^6 - 1)(x^6 + 1)\\]\nzu erhalten. Wir können die Differenz der Quadrate auf $x^6 - 1$ anwenden: \n\\[x^6 - 1 = (x^3 - 1)(x^3 + 1).\\]\nDiese faktorisieren sich durch die Differenz und Summe der Kuben:\n\\[(x^3 - 1)(x^3 + 1) = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1).\\]\nDann durch die Summe der Kuben:\n\\[x^6 + 1 = (x^2 + 1)(x^4 - x^2 + 1).\\]\nSomit ist die vollständige Faktorisierung über die ganzen Zahlen\n\\[x^{12} - 1 = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1)(x^2 + 1)(x^4 - x^2 + 1),\\]\nund es gibt $\\boxed{6}$ Faktoren.",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

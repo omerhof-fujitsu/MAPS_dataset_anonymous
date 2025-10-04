@@ -1,0 +1,6 @@
+{
+    "problem": "מיתר באורך 6 יחידות מחלק מעגל לשני אזורים נפרדים. אם רדיוס המעגל הוא 6 יחידות, מהו שטח האזור הגדול יותר, ביחידות ריבועיות? בטא את תשובתך בצורה הרדיקלית הפשוטה ביותר במונחים של $\\pi$.",
+    "solution": "Draw radii to the intersection points of the chord with the circle. An equilateral triangle is formed with area $\\frac{6^2\\sqrt{3}}{4} = 9\\sqrt{3}$. However, the whole section has area $\\frac{36\\pi}{6} = 6\\pi$. If we take the area of the sector away from the area of the entire circle and then add back in the area of the equilateral triangle, we will get the area of the larger region. The area is therefore $36\\pi - 6\\pi + 9\\sqrt{3} = \\boxed{30\\pi + 9\\sqrt{3}}$.",
+    "level": "Level 5",
+    "type": "Geometry"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Un arco di $55$ gradi sul cerchio $A$ ha la stessa lunghezza di un arco di $40$ gradi sul cerchio $B$. Qual è il rapporto tra l'area del cerchio $A$ e l'area del cerchio $B$? Esprimi la tua risposta come una frazione comune.",
+    "solution": "For a circle of radius $r$ and an arc of $\\theta$ degrees, the arc length is $(2\\pi r)\\frac{\\theta}{360}$. Thus, for the same arc length, the arc angle is inversely proportional to the radius, so the ratio of the radius of circle $A$ to the radius of circle $B$ is $40:55$, or $8:11$. Since the ratio of the areas of two circles is the square of the ratio of their radii, the ratio of the area of circle $A$ to the area of circle $B$ is $(8/11)^2=\\boxed{\\frac{64}{121}}$.",
+    "level": "Level 5",
+    "type": "Geometry"
+}

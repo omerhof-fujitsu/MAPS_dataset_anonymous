@@ -1,0 +1,6 @@
+{
+  "problem": "Un palo de 10 cm tiene una marca en cada centímetro. Al romper el palo al azar en dos de estas nueve marcas, se divide en tres trozos, cada uno de longitud entera. ¿Cuál es la probabilidad de que las tres longitudes puedan ser las longitudes de los lados de un triángulo? Expresa tu respuesta como una fracción común.",
+  "solution": "Las longitudes pueden formar un triángulo si, y solo si, la suma de las dos menores excede la longitud de la mayor. Pero la suma de las tres piezas es 10, lo que significa que la pieza mayor no debe tener una longitud mayor que 4. (Si la pieza mayor mide 5 o más, las tres longitudes violarán la desigualdad triangular). Sin embargo, la pieza mayor claramente debe ser mayor que 3. Por lo tanto, los únicos conjuntos aceptables de longitudes de lado son $\\{3,3,4\\}$ y $\\{2,4,4\\}$. Como podemos obtener estos conjuntos de 6 maneras, y el palo se puede romper de $\\binom{9}{2} = 36$ maneras diferentes, nuestra probabilidad total es $\\frac{6}{36} = \\boxed{\\frac{1}{6}}$.",
+  "level": "Level 5",
+  "type": "Geometry"
+}

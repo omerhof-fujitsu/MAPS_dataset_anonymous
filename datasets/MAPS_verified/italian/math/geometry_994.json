@@ -1,0 +1,6 @@
+{
+  "problem": "Un bastoncino lungo 10 cm ha un segno ogni centimetro. Spezzando il bastoncino in due di questi nove segni a caso, il bastoncino viene diviso in tre pezzi, ciascuno di lunghezza intera. Qual è la probabilità che le tre lunghezze possano essere le lunghezze dei tre lati di un triangolo? Esprimi la tua risposta come frazione comune.",
+  "solution": "Le lunghezze possono formare un triangolo se e solo se la somma delle due più piccole supera la lunghezza della più grande. Ma la somma di tutti e tre i pezzi è 10, quindi il pezzo più grande non può essere più lungo di 4. (Se il pezzo più grande è 5 o più, le tre lunghezze violerebbero la disuguaglianza triangolare.) Tuttavia, il pezzo più grande deve chiaramente essere più lungo di 3. Pertanto, gli unici insiemi accettabili di lunghezze dei lati sono $\\{3,3,4\\}$ e $\\{2,4,4\\}$. Poiché possiamo ottenerli in 6 modi, e il bastoncino può essere spezzato in $\\binom{9}{2} = 36$ modi diversi, la probabilità totale è $\\frac{6}{36} = \\boxed{\\frac{1}{6}}$.",
+  "level": "Level 5",
+  "type": "Geometry"
+}

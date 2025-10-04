@@ -1,0 +1,6 @@
+{
+    "problem": "사각형 $ABCD$은 $AB$가 $CD$과 평행한 사다리꼴입니다. $AB = 20$이고 $CD = 12$일 때, 삼각형 $ACB$의 넓이와 사다리꼴 $ABCD$의 넓이의 비는 얼마입니까? 답을 공분수로 나타내세요.",
+    "solution": "Let the length of the height of trapezoid $ABCD$ be $h$; note that this is also the length of the height of triangle $ACB$ to base $AB$.  Then the area of $ABCD$ is $\\frac{20 + 12}{2}\\cdot h = 16h$.  On the other hand, the area of triangle $ACB$ is $\\frac{1}{2}\\cdot 20\\cdot h = 10h$.  Thus the desired ratio is $\\frac{10}{16} = \\boxed{\\frac{5}{8}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

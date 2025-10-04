@@ -1,0 +1,6 @@
+{
+  "problem": "Una pirámide con base cuadrada es cortada por un plano paralelo a su base y a 2 unidades de esta. El área de superficie de la pirámide más pequeña, cortada desde la cima, es la mitad del área de superficie de la pirámide original. ¿Cuál es la altura de la pirámide original?",
+  "solution": "Sea $h$ la altura de la pirámide original. Entonces, la altura de la pirámide menor es $h-2$. Como las dos pirámides son semejantes, la razón entre sus alturas es la raíz cuadrada de la razón entre sus áreas superficiales. Por lo tanto, $h/(h-2)=\\sqrt{2}$, por lo que \\[h=\\frac{2\\sqrt{2}}{\\sqrt{2}-1}=\\boxed{4+2\\sqrt{2}}.\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

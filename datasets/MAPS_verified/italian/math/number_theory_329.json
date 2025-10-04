@@ -1,0 +1,6 @@
+{
+  "problem": "Viene estratto a caso un numero di tre cifre in base 10, $n$. Qual è la probabilità che la rappresentazione in base 9 e quella in base 11 di $n$ siano entrambe numeri di tre cifre?",
+  "solution": "Il numero di tre cifre più grande in base 9 è $9^3-1=728$ e il numero di tre cifre più piccolo in base 11 è $11^2=121$. Ci sono $608$ interi che soddisfano $121\\le n\\le 728$ e in totale 900 numeri di tre cifre, quindi la probabilità è $608/900=\\boxed{\\frac{152}{225}}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

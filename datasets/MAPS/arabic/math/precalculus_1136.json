@@ -1,0 +1,6 @@
+{
+    "problem": "المصفوفة المعطاة تتوافق مع الانعكاس على متجه معين $\\begin{pmatrix} x \\\\ y \\end{pmatrix}.$ المصفوفة التي تمثل الانعكاس على متجه $\\begin{pmatrix} a \\\\ b \\end{pmatrix}$ هي:\n\n\\[\\begin{pmatrix} \\cos(2\\theta) & \\sin(2\\theta) \\\\ \\sin(2\\theta) & -\\cos(2\\theta) \\end{pmatrix},\\]\n\nحيث $\\theta$ هي الزاوية بين المتجه ومحور السينات. بمقارنة العناصر، نجد أن:\n\n\\[\\cos(2\\theta) = -\\frac{7}{25} \\quad \\text{و} \\quad \\sin(2\\theta) = \\frac{24}{25}.\\]\n\nباستخدام العلاقة $\\tan(2\\theta) = \\frac{\\sin(2\\theta)}{\\cos(2\\theta)}$, نحصل على:\n\n\\[\\tan(2\\theta) = \\frac{\\frac{24}{25}}{-\\frac{7}{25}} = -\\frac{24}{7}.\\]\n\nبما أن $\\tan(2\\theta) = \\frac{2y}{x}$, فإن:\n\n\\[\\frac{2y}{x} = -\\frac{24}{7} \\Rightarrow \\frac{y}{x} = -\\frac{12}{7}.\\]\n\nإذن، الإجابة هي:\n\n\\[\\boxed{-\\frac{12}{7}}\\]",
+    "solution": "Note that the reflecting $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ over itself results in itself, so\n\\[\\begin{pmatrix} -\\frac{7}{25} & \\frac{24}{25} \\\\ \\frac{24}{25} & \\frac{7}{25} \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} x \\\\ y \\end{pmatrix}.\\]Then $-\\frac{7}{25} x + \\frac{24}{25} y = x$ and $\\frac{24}{25} x + \\frac{7}{25} y = y.$  Both equations lead to $\\frac{y}{x} = \\boxed{\\frac{4}{3}}.$",
+    "level": "Level 5",
+    "type": "Precalculus"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "三角形ABCには頂点$A(0, 0)$、$B(0, 3)$、$C(5, 0)$があります。三角形内の点$P$は、点$A$から$\\sqrt{10}$単位、点$B$から$\\sqrt{13}$単位離れています。点$C$から$P$は何単位離れているでしょうか？答えを最も単純な根号形式で表してください。",
+    "solution": "Let the coordinates of point $P$ be $(a,b)$.  We have $a^2+b^2=10$ since $AP = \\sqrt{10}$, and $a^2+(b-3)^2=13$ since $AB = \\sqrt{13}$. Expanding $(b-3)^2$ gives us  \\[a^2 +b^2 - 6b + 9 = 13.\\]Since $a^2 + b^2 = 10$, we have $10-6b+9=13$, so $b=1$.  From $a^2+b^2=10$, we have $a^2=9$, so $a=\\pm 3$.  If $a$ is $-3$, the point is not inside the triangle, so $a=3$.  So the point is $(3,1)$ and the distance from $C$ is $$\\sqrt{(3-5)^2+1^2}=\\boxed{\\sqrt{5}}.$$",
+    "level": "Level 5",
+    "type": "Geometry"
+}

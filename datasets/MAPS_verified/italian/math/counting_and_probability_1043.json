@@ -1,0 +1,6 @@
+{
+  "problem": "Per quanti insiemi di tre elementi (l'ordine non conta) di interi positivi $\\{a, b, c\\}$ è vero che $a \\times b \\times c = 2310$? (Gli interi positivi $a, b$ e $c$ sono distinti.)",
+  "solution": "La scomposizione in fattori primi di $2310$ è $2310 = 2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11.$ Pertanto, abbiamo l'equazione \\[ abc = 2310 = 2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11,\\] dove $a, b, c$ devono essere numeri interi positivi distinti e l'ordine non ha importanza. Esistono $3$ modi per assegnare ogni numero primo sul lato destro a una delle variabili $a, b, c$, il che fornisce $3^5 = 243$ soluzioni per $(a, b, c)$. Tuttavia, tre di queste soluzioni hanno due $1$s e un $2310$, il che contraddice il fatto che $a, b, c$ debbano essere distinti. Poiché ogni fattore primo appare una sola volta, tutte le altre soluzioni hanno $a, b, c$ distinti. Correggendo questo, otteniamo $243 - 3 = 240$ triple ordinate $(a, b, c)$ dove $a, b, c$ sono tutti distinti. Infine, poiché l'ordine non è importante, dobbiamo dividere per $3!$, il numero di modi per ordinare $a, b, c$. Questo dà il risultato finale, \\[\\frac{240}{3!} = \\frac{240}{6} = \\boxed{40}.\\]",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

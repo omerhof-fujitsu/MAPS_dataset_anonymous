@@ -1,0 +1,6 @@
+{
+    "problem": "全国カーリング選手権では、4人ずつの選手が3チームに分かれて試合を行います。試合終了後、参加者たちは礼儀正しく、相手チームの選手全員と3回ずつ、そして自チームの選手全員と1回ずつ握手を交わします。握手は全部で何回あるでしょうか？",
+    "solution": "For each participant, there are 8 opponents to shake hands with, and 3 team members to shake hands with, giving $3\\times8+3=27$ handshakes for each individual participant.\n\nThere are 12 players in total, which offers $12\\times27=324$ handshakes, but since a handshake takes place between two people, we've counted every handshake twice.\n\nThe final answer is $\\dfrac{324}{2}=\\boxed{162}$ handshakes.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Una corda di lunghezza $6$ unità divide un cerchio in due aree distinte. Se il cerchio ha un raggio di $6$ unità, qual è l'area della regione più grande, in unità quadrate? Esprimi la tua risposta nella forma radicale più semplice in termini di $\\pi$.",
+    "solution": "Draw radii to the intersection points of the chord with the circle. An equilateral triangle is formed with area $\\frac{6^2\\sqrt{3}}{4} = 9\\sqrt{3}$. However, the whole section has area $\\frac{36\\pi}{6} = 6\\pi$. If we take the area of the sector away from the area of the entire circle and then add back in the area of the equilateral triangle, we will get the area of the larger region. The area is therefore $36\\pi - 6\\pi + 9\\sqrt{3} = \\boxed{30\\pi + 9\\sqrt{3}}$.",
+    "level": "Level 5",
+    "type": "Geometry"
+}

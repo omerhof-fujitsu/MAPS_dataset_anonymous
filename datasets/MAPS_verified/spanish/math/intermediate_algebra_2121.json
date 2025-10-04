@@ -1,0 +1,6 @@
+{
+  "problem": "Encuentra el número de triples ordenados $(x,y,z)$ de números reales tales que\n\\begin{align*}\nx + 2y + 4z &= 12, \\\\\nxy + 2xz + 4yz &= 22, \\\\\nxyz &= 6.\n\\end{align*}",
+  "solution": "Sean $a = x,$ $b = 2y,$ y $c = 4z.$ Entonces $x = a,$ $y = \\frac{1}{2} b,$ y $z = \\frac{1}{4} c,$ por lo que el sistema dado se convierte en\n\\begin{align*}\na + b + c &= 12, \\\\\nab + ac + bc &= 44, \\\\\nabc &= 48.\n\\end{align*}\nEntonces, por las fórmulas de Vieta, $a,$ $b,$ y $c$ son las raíces de\n\\[t^3 - 12t^2 + 44t - 48 = 0.\\]\nEsto se factoriza como $(t - 2)(t - 4)(t - 6) = 0,$ por lo que $a,$ $b,$ y $c$ son 2, 4 y 6, en algún orden. Hay $3! = 6$ maneras de asignar 2, 4 y 6 a $a,$ $b,$ y $c.$ Estas producen $\\boxed{6}$ soluciones diferentes $(x,y,z),$ mediante la sustitución $x = a,$ $y = \\frac{1}{2} b,$ y $z = \\frac{1}{4} c.$",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

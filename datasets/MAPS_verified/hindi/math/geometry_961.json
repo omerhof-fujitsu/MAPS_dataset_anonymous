@@ -1,0 +1,6 @@
+{
+  "problem": "आयत $PQRS$ के विकर्ण बिंदु $X$ पर प्रतिच्छेद करते हैं। यदि $PS = 6$ और $RS = 8$ है, तो $\\sin \\angle PXS$ का मान क्या है?",
+  "solution": "$\\sin \\angle PXS$ को खोजने के लिए, हम $\\angle PXS$ को इसके न्यून कोणों में से एक बनाकर एक समकोण त्रिभुज बनाते हैं। हम ऐसा करते हैं $S$ से विकर्ण $\\overline{PR}$ पर ऊंचाई $\\overline{SF}$ खींचकर, जैसा कि चित्र में दिखाया गया है। फिर हमारे पास $\\sin \\angle PXS = \\sin\\angle FXS = \\frac{FS}{XS}$ होता है।\n\nपाइथागोरस प्रमेय के अनुसार, हमें $PR = QS = 10$ मिलता है, इसलिए $SX = \\frac{QS}{2} = 5$। AA समानता (दोनों समकोण त्रिभुज हैं और $\\angle SPR = \\angle FPS$) के अनुसार, हमारे पास $\\triangle FPS \\sim \\triangle SPR$ भी है, इसलिए\n\\[\\frac{FS}{PS} = \\frac{SR}{PR}.\\]\nइससे हमें\n\\[FS = PS \\cdot \\frac{SR}{PR} = \\frac{6 \\cdot 8}{10} = \\frac{24}{5}\\]\nमिलता है। अंत में, हमारे पास\n\\[\\sin \\angle PXS = \\frac{FS}{XS} = \\frac{\\frac{24}{5}}{5} = \\boxed{\\frac{24}{25}}\\]\nहोता है।",
+  "level": "Level 5",
+  "type": "Geometry"
+}

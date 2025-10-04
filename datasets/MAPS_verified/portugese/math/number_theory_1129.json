@@ -1,0 +1,6 @@
+{
+  "problem": "Suponha que \\( N \\) possa ser escrito na base \\( 6 \\) como \\( 531340_6 \\) e na base \\( 8 \\) como \\( 124154_8 \\). Na base \\( 10 \\), qual é o resto quando \\( N \\) é dividido por \\( 210 \\)?",
+  "solution": "A fatoração prima de $210 = 2 \\cdot 3 \\cdot 5 \\cdot 7$. Pelo Teorema Chinês do Resto, basta encontrar os resíduos de $N$ módulo $5$, $6$ e $7$. Como o algarismo das unidades de $N$ na base $6$ é igual a $0$, segue-se que $N$ é divisível por $6$. Além disso, notamos que $N$ é congruente módulo $b-1$ à soma de seus dígitos na base $b$. De fato, se $N$ pode ser representado como $(\\overline{a_ka_{k-1}\\cdots a_0})_b$, então \n\\begin{align*}\nN &\\equiv a_k \\cdot b^k + a_{k-1} \\cdot b^{k-1} + \\cdots + a_1 \\cdot b + a_0 \\\\\n&\\equiv a_k \\cdot ((b-1) + 1)^k + \\cdots + a_1 \\cdot ((b-1) + 1) + a_0 \\\\\n&\\equiv a_k + a_{k-1} + \\cdots + a_1 + a_0 \\pmod{b-1}.\n\\end{align*}\nSegue-se que $N \\equiv 5+3+1+3+4+0 \\equiv 1 \\pmod{5}$ e que $N \\equiv 1 + 2 + 4 + 1 + 5 + 4 \\equiv 3 \\pmod{7}$. Pelo Teorema Chinês do Resto e inspeção, determinamos que $N \\equiv 31 \\pmod{35}$, de modo que (pelo Teorema Chinês do Resto novamente) $N \\equiv \\boxed{66} \\pmod{210}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

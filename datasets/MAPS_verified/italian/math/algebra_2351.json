@@ -1,0 +1,6 @@
+{
+  "problem": "La parabola con equazione $y = ax^2 + bx + c$ e vertice $(h, k)$ viene riflessa rispetto alla retta $y = k$. Questo produce una nuova parabola con equazione $y = dx^2 + ex + f$. In termini di $k$, qual è il valore di $a + b + c + d + e + f$?",
+  "solution": "Possiamo riscrivere l'equazione della parabola originale come $y=f(x)=a(x-h)^2+k$ (per qualche $a$). Dopo la riflessione della parabola, l'equazione diventa $y=g(x)=-a(x-h)^2+k$. Notiamo che $f(x)+g(x)=2k$. Poiché $f(1)=a+b+c$ e $g(1)=d+e+f$, abbiamo $a+b+c+d+e+f=f(1)+g(1)=\\boxed{2k}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

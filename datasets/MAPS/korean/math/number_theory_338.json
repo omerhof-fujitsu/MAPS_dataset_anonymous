@@ -1,0 +1,6 @@
+{
+    "problem": "144의 모든 서로 다른 두 자리 양의 인수들의 합은 얼마입니까?",
+    "solution": "Prime factorize $144=2^4\\cdot3^2$. The sum of the positive two-digit factors of 144 is $2^4+2\\cdot3^2+2^2\\cdot3+2^2\\cdot3^2+2^3\\cdot3+2^3\\cdot3^2+2^4\\cdot3=\\boxed{226}.$",
+    "level": "Level 5",
+    "type": "Number Theory"
+}

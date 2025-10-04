@@ -1,0 +1,6 @@
+{
+    "problem": "上院委員会には民主党員5名、共和党員5名、無所属議員1名がいます。各党の議員が全員隣同士に座る場合、円形のテーブルを囲んで座る方法は何通りありますか？（一方が他方の回転である場合、2つの座席配置は同等とみなされます。）",
+    "solution": "Choose any seat in which to place the Independent -- it doesn't matter which seat that we choose, since we can rotate the table. Once the Independent's seat has been chosen, either all the Democrats sit to their left and all the Republicans sit to their right, or the other way around. Either way, there are $5!$ ways to put the Democrats in their seats, and $5!$ ways to put the Republicans in their seats. So, the total number of ways to seat the people around the table is $2\\cdot5!\\cdot5!=2\\cdot120\\cdot120=\\boxed{28800}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

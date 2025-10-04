@@ -1,0 +1,6 @@
+{
+    "problem": "Jane ha estado cultivando dos granjas de bacterias.\n\nLa granja de bacterias Rod tiene una población inicial de 2 bacterias, mientras que la granja de bacterias Esfera tiene una población inicial de 8 bacterias. Sin embargo, Jane comienza a cultivar Rod cinco horas antes que Esfera.\n\nA las 8 p. m., Jane revisa sus granjas y descubre que tienen exactamente la misma población. Si la población de Rod se duplica cada hora, pero la de Esfera se cuadruplica cada hora, ¿cuántas horas hace que comenzó a cultivar Esfera?",
+    "solution": "Let $x$ denote the number of hours Sphere has been growing. We can express this problem as an exponential equation, as follows: $$2^{x+6} = 2\\cdot 4^{x+1}.$$Now, since $4 = 2^2$, we have $2\\cdot 4^{x+1} = 2\\cdot (2^2)^{x+1} = 2\\cdot 2^{2x+2} = 2^{2x + 3}$, which means our equation is: $$2^{x + 6} = 2^{2x + 3}.$$Then, we set the exponents equal to each other, and obtain $$x + 6 = 2x + 3.$$Solving for $x$, we get $\\boxed{x = 3}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Sei $n$ eine positive Ganzzahl größer oder gleich $3$. Seien $a, b$ ganze Zahlen, sodass $ab$ modulo $n$ invertierbar ist und $(ab)^{-1} \\equiv 2 \\pmod{n}$. Gegeben ist, dass $a + b$ ebenfalls invertierbar ist. Wie groß ist der Rest, wenn $(a+b)^{-1}(a^{-1}+b^{-1})$ durch $n$ geteilt wird?",
+  "solution": "Wir können die Tatsache, dass $x\\cdot x^{-1}\\equiv 1\\pmod n$ für alle invertierbaren $x$ gilt, auf folgende clevere Weise nutzen: \\begin{align*}\n& (a+b)^{-1}(a^{-1}+b^{-1})\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}+b^{-1})(ab)(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}ab + abb^{-1})(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a + b)(ab)^{-1}\\\\\n\\equiv~ & (ab)^{-1}\\\\\n\\equiv~ & \\boxed{2}\\pmod n\n\\end{align*}",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Uma pizza de $12^{\\prime \\prime}$ de diâmetro e uma pizza de $16^{\\prime \\prime}$ de diâmetro são cortadas em oito fatias congruentes cada. Jane comeu três fatias da pizza de $12^{\\prime \\prime}$. Mark comeu três fatias da pizza de $16^{\\prime \\prime}$. Quantos centímetros quadrados de pizza Mark comeu a mais do que Jane? Expresse sua resposta como uma fração comum em termos de $\\pi$.",
+    "solution": "They both ate $\\frac{3}{8}$ of a pizza.  Therefore, the quantity that Mark ate in excess of Jane is simply $\\frac{3}{8} \\times$ the difference in total area of the pizzas.  The 16'' pizza has $64\\pi$ area, and the 12'' pizza has $36\\pi$ area, making for a difference of $28\\pi$. $\\frac{3}{8} \\times 28\\pi = \\boxed{\\frac{21}{2}\\pi}$",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

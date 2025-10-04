@@ -1,0 +1,6 @@
+{
+    "problem": "Eine zufällig ausgewählte dreistellige Zahl $n$ zur Basis 10 wird betrachtet. Wie hoch ist die Wahrscheinlichkeit, dass sowohl die Darstellung von $n$ zur Basis 9 als auch zur Basis 11 dreistellig ist?",
+    "solution": "The largest base-9 three-digit number is $9^3-1=728$ and the smallest base-11 three-digit number is $11^2=121$. There are $608$ integers that satisfy $121\\le n\\le 728$, and 900 three-digit numbers altogether, so the probability is $608/900=\\boxed{\\frac{152}{225}}$.",
+    "level": "Level 5",
+    "type": "Number Theory"
+}

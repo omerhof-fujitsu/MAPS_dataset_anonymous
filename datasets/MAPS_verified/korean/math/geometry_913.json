@@ -1,0 +1,6 @@
+{
+  "problem": "원뿔은 한 변의 길이가 2인 직각 이등변 삼각형을 그 변을 중심으로 회전시켜 만듭니다. 이 원뿔의 겉넓이는 $\\pi$의 몇 배입니까?",
+  "solution": "삼각형을 한 변을 중심으로 회전시키면 반지름이 2이고 높이가 2인 원뿔이 생성됩니다. [asy]\nsize(90);\nimport solids; currentprojection = orthographic(5,0,1);\nrevolution c = cone((0,0,0), 2,2);\ndraw(c,heavycyan);\ndraw((0,0,0)--(0,2,0)--(0,0,2)--cycle);\nlabel(\"2\",(0,1,0),S); label(\"2\",(0,0,1),W);\n[/asy]\n\n원뿔의 밑면은 반지름이 2인 원이며, 그 면적은 $2^2\\pi=4\\pi$입니다. 원뿔을 펼치면 곡선 측면 영역은 원의 평평한 부채꼴이 됩니다. [asy]\nsize(110);\ndraw(Arc((0,0),1,0,254.56),heavycyan);\ndraw(Arc((0,0),1,254.56,360),heavycyan+linetype(\"2 4\"));\ndraw((cos(4.44),sin(4.44))--(0,0)--(1,0),heavycyan);\n[/asy]\n\n부채꼴의 반지름은 원뿔의 사선 높이이며, 피타고라스 정리에 따르면 \\[\\sqrt{2^2+2^2}=2\\sqrt{2}\\]입니다. 부채꼴의 호 길이는 원뿔의 밑변 둘레이며, \\[2(\\pi)(2)=4\\pi\\]입니다. 원의 둘레는 \\[2(\\pi)(2\\sqrt{2}) = 4\\sqrt{2}\\pi\\]이므로, 부채꼴의 면적과 원의 면적의 비율은 $\\frac{4\\pi}{4\\sqrt{2}\\pi}=\\frac{1}{\\sqrt{2}}$입니다. 원의 면적은 \\[(2\\sqrt{2})^2\\pi=8\\pi\\]이므로, 부채꼴의 면적은 \\[\\frac{1}{\\sqrt{2}}\\cdot 8\\pi = 4\\sqrt{2}\\pi\\]입니다.\n\n측면 넓이와 밑면 넓이를 합하면 총 표면적은 $4\\sqrt{2}\\pi + 4\\pi$이므로, 총 표면적은 $\\boxed{4\\sqrt{2} + 4}$ 곱하기 $\\pi$입니다.",
+  "level": "Level 5",
+  "type": "Geometry"
+}

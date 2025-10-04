@@ -1,0 +1,6 @@
+{
+  "problem": "Die Prüfungsnoten eines Vorkurses in Algebra wurden wie abgebildet in einem Stamm-Blatt-Diagramm dargestellt. Was ist das arithmetische Mittel aus Median und Modus der gegebenen Daten?\n\n\\begin{tabular}{ c | c c c c c c c c c}\n4&1&&&&&&&&\\\\\n5&2&&&&&&&&\\\\\n6&7&8&8&&&&&&\\\\\n7&1&1&2&3&3&3&5&6&8\\\\\n8&0&4&4&6&6&6&6&8&\\\\\n9&1&3&5&5&7&&&&\\\\\n\\end{tabular}",
+  "solution": "Jede Ziffer rechts vom vertikalen Strich repräsentiert (die Einerstelle von) eine Prüfungsnote. Durch Zählen der Ziffern stellt man fest, dass es insgesamt $27$ Prüfungsnoten gibt. Daher ist die $14^{\\rm th}$ Note in aufsteigender Reihenfolge der Median (da es $13$ kleinere und $13$ größere Noten gibt). Das Diagramm ermöglicht ein einfaches Ablesen der Noten in aufsteigender Reihenfolge – man liest einfach die Zeilen von oben nach unten durch. Der $14^{\\rm th}$ Eintrag ist $78,$, also ist dies die Mediannote. Der Modus ist die am häufigsten vorkommende Note. In diesem Fall ist es $86,$, die im Diagramm viermal erscheint. Der arithmetische Mittelwert aus Median und Modus der Daten ist $\\dfrac{1}{2}(78+86),$ oder $\\boxed{82}.$",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

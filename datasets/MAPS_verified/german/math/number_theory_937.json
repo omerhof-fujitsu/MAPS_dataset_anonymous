@@ -1,0 +1,6 @@
+{
+  "problem": "Bei wie vielen ganzzahligen Werten von $n$ zwischen 1 und 1000 (einschließlich) endet die Dezimaldarstellung von $\\frac{n}{1375}$?",
+  "solution": "Die Dezimaldarstellung eines vereinfachten Bruchs endet genau dann, wenn der Nenner durch keine anderen Primzahlen als 2 und 5 teilbar ist. Die Primfaktorzerlegung von $1375$ ist $11 \\cdot 5^3$. Damit der Bruch nach der Vereinfachung nur noch die Primzahlen $2$ und $5$ im Nenner enthält, muss der Zähler einen Faktor von $11$ enthalten. Es gibt $\\left\\lfloor\\frac{1000}{11}\\right\\rfloor=90$ Vielfache von $11$ zwischen $1$ und $1000$, also gibt es $\\boxed{90}$ mögliche Ganzzahlwerte für $n$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

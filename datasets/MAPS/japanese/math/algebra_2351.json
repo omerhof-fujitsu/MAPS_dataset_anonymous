@@ -1,0 +1,6 @@
+{
+    "problem": "方程式$y=ax^2+bx+c$と頂点$(h,k)$を持つ放物線を、直線$y=k$を中心に鏡映します。その結果、方程式$y=dx^2+ex+f$を持つ放物線が得られます。$k$の観点から見ると、$a+b+c+d+e+f$の値はいくらですか？",
+    "solution": "We can rewrite the equation of the original parabola as $y=f(x)=a(x-h)^2+k$ (for some $a$). After reflection of the parabola, the equation becomes $y=g(x)=-a(x-h)^2+k$. Notice that $f(x)+g(x)=2k$. Since $f(1)=a+b+c$ and $g(1)=d+e+f$, we have $a+b+c+d+e+f=f(1)+g(1)=\\boxed{2k}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

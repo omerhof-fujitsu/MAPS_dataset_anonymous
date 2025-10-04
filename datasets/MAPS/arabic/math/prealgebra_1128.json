@@ -1,0 +1,6 @@
+{
+    "problem": "حصل توم على شخصية \"السيد بطاطس\" كهدية عيد ميلاد. جاءت مع 3 تسريحات شعر، ومجموعتين من الحواجب، وزوج من العيون الجاحظة، ومجموعتين من الأذنين، ومجموعتين من الشفاه، وزوج من الأحذية العادية، وزوج إضافي من أحذية المهرجين. إذا كانت شخصية \"السيد بطاطس\" الكاملة تتضمن الحواجب، والعينين، والأذنين، والشفاه، والأحذية، والشعر اختياريًا (بما في ذلك إمكانية أن يكون أصلع)، فكم عدد الشخصيات الغريبة التي يمكن لتوم ابتكارها؟ ملاحظة: لا يمكنك \"المزج والمطابقة\". على سبيل المثال، لا يمكنك أخذ الحاجب الأيسر من مجموعة والحاجب الأيمن من مجموعة أخرى.",
+    "solution": "There are 2 choices of eyebrows, 1 choice for eyes, 2 choices for ears, 2 choices for lips, 2 choices for shoes, and 4 choices for hair (3 choices of hairstyles, or bald), and each can be picked independent of the others, so the number of combinations is the product of those, $2\\cdot 1\\cdot 2\\cdot 2\\cdot 2\\cdot 4 = \\boxed{64}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Sea\n\\[x^{12} - 1 = p_1(x) p_2(x) \\dotsm p_k(x),\\]\ndonde cada polinomio no constante $p_i(x)$ es mónico con coeficientes enteros y no puede factorizarse más sobre los enteros. Halla $k$.",
+  "solution": "Primero, podemos aplicar la diferencia de cuadrados para obtener\n\\[x^{12} - 1 = (x^6 - 1)(x^6 + 1).\\]\nPodemos aplicar la diferencia de cuadrados a $x^6 - 1$:\n\\[x^6 - 1 = (x^3 - 1)(x^3 + 1).\\]\nEstos se factorizan por diferencia de cubos y suma de cubos:\n\\[(x^3 - 1)(x^3 + 1) = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1).\\]\nLuego, por suma de cubos,\n\\[x^6 + 1 = (x^2 + 1)(x^4 - x^2 + 1).\\]\nPor lo tanto, la factorización completa sobre los números enteros es\n\\[x^{12} - 1 = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1)(x^2 + 1)(x^4 - x^2 + 1),\\]\ny hay $\\boxed{6}$ factores.",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "그림과 같이 원들은 무한히 이어지며 지름은 16인치, 8인치, 4인치 등으로 계속됩니다. 각 원의 지름은 이전 원의 지름의 절반입니다. 모든 원의 넓이를 합한 제곱인치는 몇 제곱인치입니까? 답을 가장 가까운 정수로 나타내세요.\n\n\\[\n\\text{[asy]}\n\\text{size(200); import geometry; import olympiad; import graph;}\n\\text{real radius = 8.0;}\n\\text{real center = 0.0;}\n\\text{for(int i = 0; i < 20; ++i){}\n\\text{radius = radius / 2.0;}\n\\text{center = center + radius;}\n\\text{draw(Circle((center,0.0),radius));}\n\\text{center += radius;}}\n\\text{[/asy]}\n\\]",
+    "solution": "The radii of the circles form a geometric sequence with first term $\\frac{16}{2} = 8$ and common ratio $\\frac12$. Therefore the radius of the $n^{th}$ circle is $8\\left(\\frac{1}{2}\\right)^{n-1}$. The area of the $n^{th}$ circle is thus $\\pi\\left[8\\left(\\frac{1}{2}\\right)^{n-1}\\right]^2 = 64\\pi\\left(\\frac14\\right)^{n-1}$.\n\nThe sum of the areas of all the circles is therefore: $$A = 64\\pi+16\\pi+4\\pi+1\\pi+\\frac{1}{4}\\pi\\cdots.$$This is an infinite geometric series with first term $64\\pi$ and common ratio $\\frac14$, so it's sum is: $$A=\\frac{64\\pi}{1-\\frac14}=\\frac{256\\pi}{3}$$Using the approximation $\\pi\\approx\\frac{22}{7} = 3.1428\\ldots$ this is approximately: $$A\\approx\\frac{256}{3}\\cdot\\frac{22}{7} = \\frac{5632}{21}\\approx\\boxed{268}.$$",
+    "level": "Level 5",
+    "type": "Algebra"
+}

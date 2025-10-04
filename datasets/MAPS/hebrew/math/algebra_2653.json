@@ -1,0 +1,6 @@
+{
+    "problem": "ג'יין גידלה שתי חוות חיידקים.\n\nחוות החיידקים **רוד** התחילה עם אוכלוסייה של 2 חיידקים, בעוד שחוות החיידקים **ספיר** התחילה עם אוכלוסייה של 8 חיידקים. עם זאת, ג'יין התחילה לגדל את **רוד** חמש שעות לפני שהתחילה לגדל את **ספיר**.\n\nבשעה 20:00, ג'יין בודקת את החוות שלה ומגלה שיש להן בדיוק את אותה אוכלוסייה. אם אוכלוסיית **רוד** מוכפלת כל שעה, אך אוכלוסיית **ספיר** מוכפלת פי ארבעה כל שעה, לפני כמה שעות היא התחילה לגדל את **ספיר**?",
+    "solution": "Let $x$ denote the number of hours Sphere has been growing. We can express this problem as an exponential equation, as follows: $$2^{x+6} = 2\\cdot 4^{x+1}.$$Now, since $4 = 2^2$, we have $2\\cdot 4^{x+1} = 2\\cdot (2^2)^{x+1} = 2\\cdot 2^{2x+2} = 2^{2x + 3}$, which means our equation is: $$2^{x + 6} = 2^{2x + 3}.$$Then, we set the exponents equal to each other, and obtain $$x + 6 = 2x + 3.$$Solving for $x$, we get $\\boxed{x = 3}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

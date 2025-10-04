@@ -1,0 +1,6 @@
+{
+  "problem": "Ein 10 cm langer Stab hat an jedem Zentimeter eine Markierung. Durch zufälliges Brechen an zwei dieser neun Markierungen wird der Stab in drei Stücke mit jeweils ganzzahliger Länge geteilt. Wie hoch ist die Wahrscheinlichkeit, dass die drei Längen die Seitenlängen eines Dreiecks bilden können? Geben Sie Ihre Antwort als gemeinen Bruch an.",
+  "solution": "Die Längen können genau dann ein Dreieck bilden, wenn die Summe der beiden kleineren die Länge des größten Teils überschreitet. Da die Summe aller drei Stücke jedoch 10 beträgt, bedeutet dies, dass das größte Stück maximal 4 lang sein darf. (Ist das größte Stück 5 oder länger, verletzen die drei Längen die Dreiecksungleichung.) Das größte Stück muss jedoch eindeutig länger als 3 sein. Daher sind die einzigen zulässigen Seitenlängensätze $\\{3,3,4\\}$ und $\\{2,4,4\\}$. Da wir diese auf 6 Arten erhalten können und der Stab auf $\\binom{9}{2} = 36$ verschiedene Arten zerbrochen werden kann, beträgt unsere Gesamtwahrscheinlichkeit $\\frac{6}{36} = \\boxed{\\frac{1}{6}}$.",
+  "level": "Level 5",
+  "type": "Geometry"
+}

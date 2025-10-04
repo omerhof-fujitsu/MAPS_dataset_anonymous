@@ -1,0 +1,6 @@
+{
+    "problem": "في بطولة الكيرلنج الوطنية، هناك ثلاثة فرق، يتألف كل منها من أربعة لاعبين. بعد انتهاء البطولة، يصافح كل مشارك مهذب ثلاث مرات كل عضو من الفرق المنافسة، ومرة واحدة كل عضو من فريقه. كم عدد المصافحات الإجمالية؟",
+    "solution": "For each participant, there are 8 opponents to shake hands with, and 3 team members to shake hands with, giving $3\\times8+3=27$ handshakes for each individual participant.\n\nThere are 12 players in total, which offers $12\\times27=324$ handshakes, but since a handshake takes place between two people, we've counted every handshake twice.\n\nThe final answer is $\\dfrac{324}{2}=\\boxed{162}$ handshakes.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

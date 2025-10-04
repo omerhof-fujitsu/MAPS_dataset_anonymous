@@ -1,0 +1,6 @@
+{
+  "problem": "Was ist die Summe aller positiven ganzzahligen Werte von $n$, für die $n^2$ ein Teiler von $1200$ ist?",
+  "solution": "Die Primfaktorzerlegung von $1200$ ist $1200=2^4 \\cdot 3 \\cdot 5^2$. Somit sind die Faktoren von $1200$, die in der Form $n^2$ geschrieben werden können, $1^2$, $2^2$, $4^2$, $5^2$, $10^2$ und $20^2$. Die Summe dieser $n$-Werte ist $1+2+4+5+10+20=\\boxed{42}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

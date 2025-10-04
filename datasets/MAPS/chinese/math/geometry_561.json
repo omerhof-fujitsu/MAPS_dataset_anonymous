@@ -1,0 +1,6 @@
+{
+  "problem": "一个等角八边形有四条边长为 $1$，另外四条边长为 $\\frac{\\sqrt{2}}{2}$，且任意两条连续边的长度都不相同。这个八边形的面积是多少？",
+  "solution": "八边形可以分成五个正方形和四个半正方形，每个形状的边长为 $\\sqrt{2}/2$，因此其面积为 \\[\n\\left(5 + 4 \\cdot \\frac{1}{2}\\right) \\left(\\frac{\\sqrt{2}}{2}\\right)^2 = \\boxed{\\frac{7}{2}}.\n\\]\n\n[asy]\nunitsize(2cm);\nfor (int i=0; i<4; ++i) {\nfor (int j=0; j<4; ++j) {\ndraw((i,0)--(i,3),dashed);\ndraw((0,j)--(3,j),dashed);\n};}\ndraw((1,0)--(2,0)--(3,1)--(3,2)--(2,3)--(1,3)--(0,2)--(0,1)--cycle,linewidth(0.7));\nfor (int i=0; i<2; ++i) {\nlabel(\"1\",(0.5+2i,2.5),S);\nlabel(\"1\",(0.5+2i,0.5),N);}\nlabel(\"$\\frac{\\sqrt{2}}{2}$\",(0,1.5),E);\nlabel(\"$\\frac{\\sqrt{2}}{2}$\",(3,1.5),W);\n[/asy]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "El cuadrilátero $ABCD$ es un trapecio con $AB$ paralelo a $CD$. Sabemos que $AB = 20$ y $CD = 12$. ¿Cuál es la razón entre el área del triángulo $ACB$ y el área del trapecio $ABCD$? Expresa tu respuesta como una fracción común.",
+  "solution": "Sea $h$ la longitud de la altura del trapezoide $ABCD$; tenga en cuenta que esta también es la longitud de la altura del triángulo $ACB$ con base $AB$. Entonces, el área de $ABCD$ es $\\frac{20 + 12}{2}\\cdot h = 16h$. Por otro lado, el área del triángulo $ACB$ es $\\frac{1}{2}\\cdot 20\\cdot h = 10h$. Por lo tanto, la razón buscada es $\\frac{10}{16} = \\boxed{\\frac{5}{8}}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

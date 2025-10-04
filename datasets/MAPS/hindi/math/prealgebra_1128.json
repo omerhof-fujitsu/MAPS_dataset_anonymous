@@ -1,0 +1,6 @@
+{
+    "problem": "टॉम को उसके जन्मदिन पर मिस्टर पोटैटो हेड मिला। इसमें 3 हेयरस्टाइल, 2 सेट भौंहें, 1 जोड़ी गुगली आँखें, 2 सेट कान, 2 सेट होंठ, एक जोड़ी नियमित जूते और एक बोनस जोड़ी जोकर के जूते शामिल थे। यदि एक पूर्ण मिस्टर पोटैटो हेड व्यक्तित्व में भौंहें, आँखें, कान, होंठ, जूते और वैकल्पिक रूप से बाल शामिल हैं, तो टॉम कितने अलग-अलग अजीब व्यक्तित्वों के साथ आ सकता है? ध्यान दें कि मिस्टर पोटैटो हेड गंजा भी हो सकता है।\n\nनोट: आप \"मिक्स एंड मैच\" नहीं कर सकते। उदाहरण के लिए, आप एक सेट से बाईं भौं और दूसरे सेट से दाईं भौं नहीं ले सकते।",
+    "solution": "There are 2 choices of eyebrows, 1 choice for eyes, 2 choices for ears, 2 choices for lips, 2 choices for shoes, and 4 choices for hair (3 choices of hairstyles, or bald), and each can be picked independent of the others, so the number of combinations is the product of those, $2\\cdot 1\\cdot 2\\cdot 2\\cdot 2\\cdot 4 = \\boxed{64}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

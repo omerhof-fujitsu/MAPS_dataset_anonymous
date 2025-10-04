@@ -1,0 +1,6 @@
+{
+  "problem": "Utilizzando le lettere $A$ e $B$, si possono formare le seguenti parole in codice di due lettere: $AA$, $AB$, $BB$, $BA$. Utilizzando le lettere $A$, $B$ e $C$, quante parole in codice di tre lettere diverse si possono formare?",
+  "solution": "Crea un diagramma ad albero per tutte le parole di codice di tre lettere che iniziano con $A$. Ogni percorso dall'alto verso il basso contiene 3 lettere, che corrispondono a una delle parole di codice che iniziano con $A$. Ci sono 9 tali parole di codice. Chiaramente, ci sono 9 parole di codice che iniziano con $B$ e 9 che iniziano con $C$. In totale, ci sono $\\boxed{27}$ parole di codice.\n\n[asy]\n\ndraw((-10,-8)--(0,0)--(10,-8));\nlabel(\"$A$\",(0,0),N);\n\ndraw((-12,-18)--(-10,-12)--(-10,-18));\ndraw((-10,-12)--(-8,-18));\n\nlabel(\"$A$\",(-10,-10));\nlabel(\"$A$\",(-12,-18),S);\nlabel(\"$B$\",(-10,-18),S);\nlabel(\"$C$\",(-8,-18),S);\n\ndraw((0,0)--(0,-8));\n\ndraw((-2,-18)--(0,-12)--(0,-18));\ndraw((0,-12)--(2,-18));\n\nlabel(\"$B$\",(0,-10));\nlabel(\"$A$\",(-2,-18),S);\nlabel(\"$B$\",(0,-18),S);\nlabel(\"$C$\",(2,-18),S);\n\ndraw((8,-18)--(10,-12)--(10,-18));\ndraw((10,-12)--(12,-18));\n\nlabel(\"$C$\",(10,-10));\nlabel(\"$A$\",(8,-18),S);\nlabel(\"$B$\",(10,-18),S);\nlabel(\"$C$\",(12,-18),S);\n\n[/asy]",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Per ogni intero positivo $k$, sia $S_k$ la sequenza aritmetica crescente di interi il cui primo termine è 1 e la cui differenza comune è $k$. Ad esempio, $S_3$ è la sequenza $1, 4, 7, \\ldots$. Per quanti valori di $k$ la sequenza $S_k$ contiene $2005$ come termine?",
+  "solution": "Il termine generale della sequenza è $a_n = 1 + kn$, dove $a_0 = 1$ è il primo termine. Pertanto, vogliamo $1 + kn = 2005$, o $kn = 2004$. Osserviamo che questa equazione ha una soluzione per $n$ se e solo se $k$ è un divisore di $2004$. Poiché $2004 = 2^2 \\cdot 3 \\cdot 167$, il numero di divisori positivi di $2004$ è $(2+1)(1+1)(1+1) = \\boxed{12}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

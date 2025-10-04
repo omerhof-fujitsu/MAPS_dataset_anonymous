@@ -1,0 +1,6 @@
+{
+  "problem": "직사각형 $PQRS$의 대각선은 점 $X$에서 교차합니다. $PS = 6$이고 $RS = 8$일 때, $\\sin \\angle PXS$는 무엇입니까?",
+  "solution": "[asy]\n\npair P,Q,R,SS,X,F;\n\nSS = (0,0);\n\nP = (0,6);\n\nR = (8,0);\n\nQ= R+P;\n\nX = Q/2;\n\nF = foot(SS,P,R);\n\ndraw(F--SS--R--Q--P--SS--Q);\n\ndraw(P--R);\n\nlabel(\"$P$\",P,NW);\n\nlabel(\"$Q$\",Q,NE);\n\nlabel(\"$R$\",R,SE);\n\nlabel(\"$S$\",SS,SW);\n\nlabel(\"$X$\",X,S);\n\nlabel(\"$F$\",F,NE);\n\ndraw(rightanglemark(S,F,X,12));\n\n[/asy]\n\n$\\sin \\angle PXS$을 구하려면, $\\angle PXS$를 한 예각으로 하는 직각 삼각형을 만듭니다. 그림과 같이 $S$에서 대각선 $\\overline{PR}$까지 높이 $\\overline{SF}$를 그립니다. 그러면 $\\sin \\angle PXS = \\sin\\angle FXS = \\frac{FS}{XS}$가 됩니다.\n\n피타고라스 정리에 따르면 $PR = QS = 10$이므로, $SX = \\frac{QS}{2} = 5$입니다. 또한, $\\triangle FPS \\sim \\triangle SPR$ (AA 닮음: 두 삼각형 모두 직각 삼각형이고 $\\angle SPR = \\angle FPS$)이므로,\n\\[\\frac{FS}{PS} = \\frac{SR}{PR}.\\]\n이로써,\n\\[FS = PS \\cdot \\frac{SR}{PR} = \\frac{6 \\cdot 8}{10} = \\frac{24}{5}.\\]\n마지막으로,\n\\[\\sin \\angle PXS = \\frac{FS}{XS} = \\frac{\\frac{24}{5}}{5} = \\boxed{\\frac{24}{25}}.\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Se $a$ e $b$ sono numeri interi positivi tali che $\\gcd(a,b)=210$, $\\mathop{\\text{lcm}}[a,b]=210^3$ e $a<b$, quanti valori possibili ci sono per $a$?",
+  "solution": "Si noti che la scomposizione in fattori primi di $210$ è $2\\cdot 3\\cdot 5\\cdot 7$, quindi la scomposizione in fattori primi di $210^3$ è $2^3\\cdot 3^3\\cdot 5^3\\cdot 7^3$. Dato che $\\gcd(a,b)=210$ e $\\mathop{\\text{lcm}}[a,b]=210^3$, dobbiamo avere $a=2^k\\cdot 3^\\ell\\cdot 5^m\\cdot 7^n$ e $b=2^p\\cdot 3^q\\cdot 5^r\\cdot 7^s$, dove ciascuna delle coppie ordinate $(k,p), (\\ell,q), (m,r), (n,s)$ è o $(1,3)$ o $(3,1)$. Pertanto, se ignoriamo la condizione $a<b$, ci sono due scelte indipendenti per ciascuno di $k$, $\\ell$, $m$ e $n$, e queste scelte determinano entrambi i numeri $a$ e $b$. Abbiamo $2\\cdot 2\\cdot 2\\cdot 2 = 16$ modi per effettuare tutte e quattro le scelte. Tuttavia, questi $16$ insiemi di scelte genereranno ciascuna possibile coppia di valori per $a$ e $b$ in entrambi gli ordini possibili. Metà di queste scelte soddisferà $a<b$ e metà soddisferà $a>b$. Quindi, imponendo la condizione $a<b$, vediamo che ci sono $\\frac{16}{2} = \\boxed{8}$ possibili scelte per $a$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

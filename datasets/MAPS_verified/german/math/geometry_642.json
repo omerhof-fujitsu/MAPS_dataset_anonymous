@@ -1,0 +1,6 @@
+{
+  "problem": "Das Dreieck ABC hat die Eckpunkte $A(0, 0)$, $B(0, 3)$ und $C(5, 0)$. Ein Punkt $P$ innerhalb des Dreiecks ist $\\sqrt{10}$ Einheiten vom Punkt $A$ und $\\sqrt{13}$ Einheiten vom Punkt $B$ entfernt. Wie viele Einheiten ist $P$ vom Punkt $C$ entfernt? Geben Sie Ihre Antwort in der einfachsten Wurzelform an.",
+  "solution": "Die Koordinaten des Punktes $P$ seien $(a,b)$. Wir haben $a^2 + b^2 = 10$, da $AP = \\sqrt{10}$, und $a^2 + (b-3)^2 = 13$, da $AB = \\sqrt{13}$. Durch Erweiterung von $(b-3)^2$ erhalten wir  \n\\[a^2 + b^2 - 6b + 9 = 13.\\]  \nDa $a^2 + b^2 = 10$ ist, folgt $10 - 6b + 9 = 13$, also $b = 1$. Aus $a^2 + b^2 = 10$ ergibt sich $a^2 = 9$, also $a = \\pm 3$. Wenn $a = -3$, liegt der Punkt nicht innerhalb des Dreiecks, daher ist $a = 3$. Der Punkt ist also $(3,1)$ und die Entfernung von $C$ ist  \n$$\\sqrt{(3-5)^2 + 1^2} = \\boxed{\\sqrt{5}}.$$",
+  "level": "Level 5",
+  "type": "Geometry"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Die Punkte $A\\, (5,-5)$ und $B\\, (-1,-1)$ sind die Endpunkte der Hypotenuse eines gleichschenkligen rechtwinkligen Dreiecks $\\triangle ABC$. Wie groß ist die Fläche von $ABC$?",
+  "solution": "Die Länge der Hypotenuse ergibt sich aus der Distanzformel als $\\sqrt{(5-(-1))^2 + (-5-(-1))^2} = \\sqrt{6^2+4^2} = \\sqrt{52}$. Die Länge der Kathete ergibt sich dann als $\\sqrt{52}/\\sqrt{2} = \\sqrt{26}$ (alternativ kann der Satz des Pythagoras angewendet werden), und die Fläche des gleichschenkligen rechtwinkligen Dreiecks beträgt $\\frac{1}{2} \\cdot \\sqrt{26} \\cdot \\sqrt{26} = \\boxed{13}$.",
+  "level": "Level 5",
+  "type": "Geometry"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Том получил Мистера Картофельную Голову на день рождения. В наборе были 3 прически, 2 набора бровей, 1 пара выпученных глаз, 2 набора ушей, 2 набора губ, пара обычных ботинок и бонусная пара клоунских ботинок. Если полная личность Мистера Картофельной Головы включает брови, глаза, уши, губы, обувь и, по желанию, волосы, сколько разных сумасшедших личностей может придумать Том? Обратите внимание, что Мистер Картофельная Голова может быть лысым.\n\n**Примечание:** Вы не можете «смешивать и сочетать». Например, вы не можете взять левую бровь из одного набора и правую бровь из другого набора.",
+    "solution": "There are 2 choices of eyebrows, 1 choice for eyes, 2 choices for ears, 2 choices for lips, 2 choices for shoes, and 4 choices for hair (3 choices of hairstyles, or bald), and each can be picked independent of the others, so the number of combinations is the product of those, $2\\cdot 1\\cdot 2\\cdot 2\\cdot 2\\cdot 4 = \\boxed{64}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

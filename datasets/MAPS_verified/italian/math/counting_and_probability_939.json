@@ -1,0 +1,6 @@
+{
+  "problem": "Quante triple $(a,b,c)$ di interi positivi pari soddisfano $a^3 + b^2 + c \\leq 50$?",
+  "solution": "Se $a \\geq 4$, allora $a^3 + b^2 + c > a^3 \\geq 4^3 > 50$. Ma vogliamo $a^3 + b^2 + c \\leq 50$, quindi dobbiamo avere $a = 2$. Ora sostituiamo $a = 2$ in $a^3 + b^2 + c \\leq 50$, ottenendo $b^2 + c \\leq 42$. Dato che $b^2 < 42$, sappiamo che $b$ deve essere uno tra 2, 4 o 6.  \n\nQuando $b = 2$, $c \\leq 38$. Ci sono 19 interi pari positivi minori o uguali a 38, ovvero $2 \\times 1$, $2 \\times 2$, $\\ldots$, $2 \\times 19$.  \n\nQuando $b = 4$, $c \\leq 26$. Ci sono 13 interi pari positivi minori o uguali a 26.  \n\nQuando $b = 6$, $c \\leq 6$. Ci sono 3 interi pari positivi minori o uguali a 6.  \n\nQuindi la risposta è $19 + 13 + 3 = \\boxed{35}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

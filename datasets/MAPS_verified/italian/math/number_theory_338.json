@@ -1,0 +1,6 @@
+{
+  "problem": "Qual è la somma di tutti i fattori positivi distinti a due cifre di 144?",
+  "solution": "Scomponi in fattori primi $144=2^4\\cdot3^2$. La somma dei fattori positivi a due cifre di 144 è $2^4+2\\cdot3^2+2^2\\cdot3+2^2\\cdot3^2+2^3\\cdot3+2^3\\cdot3^2+2^4\\cdot3=\\boxed{226}.$",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

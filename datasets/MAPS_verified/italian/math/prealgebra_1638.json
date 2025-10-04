@@ -1,0 +1,6 @@
+{
+  "problem": "Se la radice quadrata della lunghezza dell'ipotenusa di un triangolo rettangolo è 2 unità, quale è la somma dei quadrati delle lunghezze degli altri due lati?",
+  "solution": "Sia $c$ la lunghezza dell'ipotenusa. Ci viene detto che $\\sqrt{c}=2$, quindi $c=4$. Per il teorema di Pitagora, la somma dei quadrati delle lunghezze degli altri due lati è uguale al quadrato della lunghezza dell'ipotenusa ($a^2+b^2=c^2$), quindi la nostra risposta è $c^2=\\boxed{16}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

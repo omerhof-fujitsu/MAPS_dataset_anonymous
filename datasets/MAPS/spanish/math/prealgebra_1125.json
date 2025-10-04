@@ -1,0 +1,6 @@
+{
+    "problem": "En el campeonato nacional de curling, hay tres equipos de cuatro jugadores cada uno. Al finalizar el campeonato, los participantes, muy corteses, se dan la mano tres veces con cada miembro de los equipos contrarios y una vez con cada miembro de su propio equipo. ¿Cuántos apretones de manos hay en total?",
+    "solution": "For each participant, there are 8 opponents to shake hands with, and 3 team members to shake hands with, giving $3\\times8+3=27$ handshakes for each individual participant.\n\nThere are 12 players in total, which offers $12\\times27=324$ handshakes, but since a handshake takes place between two people, we've counted every handshake twice.\n\nThe final answer is $\\dfrac{324}{2}=\\boxed{162}$ handshakes.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

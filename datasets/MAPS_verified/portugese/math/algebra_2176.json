@@ -1,0 +1,6 @@
+{
+  "problem": "Seja $f(x)=\\left\\lfloor\\left(-\\frac{5}{8}\\right)^x\\right\\rfloor$ uma função definida para todos os valores de $x$ em $[0, \\infty)$ tal que $f(x)$ seja um número real. Quantos valores distintos existem no intervalo de $f(x)$?",
+  "solution": "Como $-\\frac{5}{8}$ é um número negativo, $f(x)$ é definido apenas para valores inteiros de $x$ e alternará entre valores positivos e negativos. Além disso, $\\left|-\\frac{5}{8}\\right| < 1$, portanto, $|f(x)|$ diminuirá continuamente e se aproximará de 0 à medida que $x$ aumenta no intervalo $x \\ge 0$. Portanto, o maior valor positivo ocorrerá em $x = 0$, nos dando o limite superior positivo de $\\left\\lfloor\\left(-\\frac{5}{8}\\right)^0\\right\\rfloor = 1$. O valor negativo de maior magnitude ocorre então no próximo valor inteiro de $x$: $x = 1$, resultando no limite inferior negativo de $\\left\\lfloor\\left(-\\frac{5}{8}\\right)^1\\right\\rfloor = -1$. Isso nos diz que $-1 \\le f(x) \\le 1$. Como $f(x)$ deve ser um inteiro, os únicos valores distintos possíveis contidos no intervalo são -1, 0 e 1. Isso nos dá um total de $\\boxed{3}$ valores de $f(x)$ quando $x \\ge 0$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

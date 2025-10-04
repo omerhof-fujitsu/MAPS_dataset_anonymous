@@ -1,0 +1,6 @@
+{
+  "problem": "Para una constante dada $b > 10,$ hay dos posibles triángulos $ABC$ que satisfacen $AB = 10,$ $AC = b,$ y $\\sin B = \\frac{3}{5}.$ Encuentra la diferencia positiva entre las longitudes del lado $\\overline{BC}$ en estos dos triángulos.",
+  "solution": "Tenemos que \\[\\cos^2 B = 1 - \\sin^2 B = \\frac{16}{25},\\]por lo que $\\cos B = \\pm \\frac{4}{5}.$ \n\nPara $\\cos B = \\frac{4}{5},$ sea $a_1 = BC.$ Entonces, por la Ley de los Cosenos, \n\\[b^2 = a_1^2 + 100 - 20a_1 \\cdot \\frac{4}{5} = a_1^2 - 16a_1 + 100.\\]\n\nPara $\\cos B = -\\frac{4}{5},$ sea $a_2 = BC.$ Entonces, por la Ley de los Cosenos, \n\\[b^2 = a_2^2 + 100 - 20a_2 \\cdot \\left( -\\frac{4}{5} \\right) = a_2^2 + 16a_2 + 100.\\]\n\nRestando estas ecuaciones, obtenemos \n\\[a_2^2 - a_1^2 + 16a_2 + 16a_1 = 0.\\]\n\nPodemos factorizar como $(a_2 - a_1)(a_2 + a_1) + 16(a_2 + a_1) = 0.$ Como $a_1 + a_2$ es positivo, podemos dividir ambos lados por $a_1 + a_2$ para obtener \n\\[a_2 - a_1 + 16 = 0.\\]\n\nPor lo tanto, $a_1 - a_2 = \\boxed{16}.$",
+  "level": "Level 5",
+  "type": "Precalculus"
+}

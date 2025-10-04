@@ -1,0 +1,6 @@
+{
+    "problem": "Un bastoncino lungo 10 cm ha un segno ogni centimetro. Spezzando il bastoncino in due di questi nove segni a caso, il bastoncino viene diviso in tre pezzi, ciascuno di lunghezza intera. Qual è la probabilità che le tre lunghezze possano essere le lunghezze dei tre lati di un triangolo? Esprimi la tua risposta come frazione comune.",
+    "solution": "The lengths can form a triangle if and only if the sum of the smaller two exceeds the length of the largest.  But the sum of all three pieces is 10, so this means that the largest piece must have length no larger than 4.  (If the largest piece is 5 or greater, then the three lengths will violate the Triangle Inequality.)  However, the largest piece clearly must be longer than 3.  Thus, the only acceptable sets of sidelengths are $\\{3,3,4\\}$ and $\\{2,4,4\\}$.  Since we can obtain these in 6 ways, and the stick can be broken in $\\binom{9}{2} = 36$ different ways, our total probability is $\\frac{6}{36} = \\boxed{\\frac{1}{6}}$.",
+    "level": "Level 5",
+    "type": "Geometry"
+}

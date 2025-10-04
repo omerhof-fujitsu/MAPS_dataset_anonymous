@@ -1,0 +1,6 @@
+{
+    "problem": "No campeonato nacional de curling, há três equipes de quatro jogadores cada. Após o término do campeonato, os participantes, muito corteses, apertam a mão **três vezes** com cada membro das equipes adversárias e **uma vez** com cada membro da sua própria equipe. \n\nQuantos apertos de mão são realizados no total?",
+    "solution": "For each participant, there are 8 opponents to shake hands with, and 3 team members to shake hands with, giving $3\\times8+3=27$ handshakes for each individual participant.\n\nThere are 12 players in total, which offers $12\\times27=324$ handshakes, but since a handshake takes place between two people, we've counted every handshake twice.\n\nThe final answer is $\\dfrac{324}{2}=\\boxed{162}$ handshakes.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

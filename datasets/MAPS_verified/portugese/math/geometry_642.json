@@ -1,0 +1,6 @@
+{
+  "problem": "O triângulo ABC tem vértices em $A(0, 0)$, $B(0, 3)$ e $C(5, 0)$. Um ponto $P$ dentro do triângulo está a $\\sqrt{10}$ unidades de $A$ e a $\\sqrt{13}$ unidades de $B$. A quantas unidades $P$ está de $C$? Expresse sua resposta na forma radical mais simples.",
+  "solution": "Sejam as coordenadas do ponto $P$ $(a,b)$. Temos $a^2 + b^2 = 10$, pois $AP = \\sqrt{10}$, e $a^2 + (b-3)^2 = 13$, pois $AB = \\sqrt{13}$. Expandindo $(b-3)^2$, obtemos  \n\\[a^2 + b^2 - 6b + 9 = 13.\\]  \nComo $a^2 + b^2 = 10$, temos $10 - 6b + 9 = 13$, então $b = 1$. De $a^2 + b^2 = 10$, segue que $a^2 = 9$, portanto, $a = \\pm 3$. Se $a = -3$, o ponto não está dentro do triângulo, então $a = 3$. Assim, o ponto é $(3,1)$ e a distância de $C$ é  \n$$\\sqrt{(3-5)^2 + 1^2} = \\boxed{\\sqrt{5}}.$$",
+  "level": "Level 5",
+  "type": "Geometry"
+}

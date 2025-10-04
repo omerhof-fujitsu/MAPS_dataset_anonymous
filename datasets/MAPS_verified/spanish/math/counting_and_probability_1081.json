@@ -1,0 +1,6 @@
+{
+  "problem": "Tres parejas van al cine. Quieren sentarse juntas para disfrutar al máximo, pero en su lugar se sientan al azar en una fila de seis asientos. ¿Cuál es la probabilidad de que se sienten en una configuración socialmente óptima, en la que cada persona esté sentada junto a su pareja?",
+  "solution": "Hay $\\binom{6}{2} = 15$ maneras de elegir personas para ocupar los dos primeros asientos, y 3 maneras de que esas dos personas formen una pareja, lo que resulta en una probabilidad de $3/15 = 1/5$ de que los dos primeros asientos sean ocupados por una pareja. Si una pareja se sienta correctamente, hay $\\binom{4}{2} = 6$ maneras de sentar a las personas en los siguientes dos asientos, y 2 maneras de que esas dos personas formen una pareja (se puede elegir cualquiera de las dos parejas restantes), lo que resulta en una probabilidad de $2/6 = 1/3$ de que esos dos asientos sean ocupados por una pareja. Si las dos primeras parejas se sientan correctamente, los dos últimos asientos estarán garantizados para la última pareja. Por lo tanto, la probabilidad de que todo salga bien es $1/5 \\cdot 1/3 = \\boxed{\\frac{1}{15}}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

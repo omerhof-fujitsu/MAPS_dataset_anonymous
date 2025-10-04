@@ -1,0 +1,707 @@
+[
+  {
+    "task_id": "853c8244-429e-46ca-89f2-addf40dfb2bd",
+    "Question": "在 2015 年以中国生肖动物命名的大都会艺术博物馆展览中，有多少个“十二生肖动物”的手是可见的？",
+    "Level": "2",
+    "Final answer": "11",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search \"2015 Chinese zodiac animal\" on Google search.\n2. Note the animal (ram).\n3. Search \"Metropolitan Museum of Art\" on Google search.\n4. Open the Metropolitan Museum of Art website.\n5. Click \"Exhibitions\" under \"Exhibitions and Events\" \n6. Click \"Past\".\n7. Set the year to 2015.\n8. Scroll to find the exhibit mentioning rams and click \"Celebration of the Year of the Ram\".\n9. Click \"View All Objects\".\n10. Click \"Twelve animals of the Chinese zodiac\" to open the image.\n11. Count how many have a visible hand.",
+      "Number of steps": "11",
+      "How long did this take?": "10 minutes",
+      "Tools": "1. Web browser\n2. Search engine\n3. Image recognition tools",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+    "Question": "办公室举办了一场“秘密圣诞老人”礼物交换活动，十二名员工中的每个人都被分配了小组中另一名员工来赠送礼物。每位员工都填写了一份个人资料，包括三个喜欢的东西或爱好。在礼物交换当天，只有十一份礼物被赠送，每份礼物都与收礼人的兴趣相关。根据文件中的信息，谁没有赠送礼物？",
+    "Level": "1",
+    "Final answer": "弗雷德",
+    "file_name": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb.docx",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb.docx",
+    "Annotator Metadata": {
+      "Steps": "1. Open the document.\n2. Look at gifts and recipient interests.\n3. Match Galileo Galilei biography (could apply to astronomy or books -> Miguel or Micah)\n4. Match fishing reel (only applies to fishing -> Harry)\n5. Match Raku programming guide (Perl language, but could also apply to JavaScript enthusiast - > Fred or Jun)\n6. Match chisel set (could apply to camping or woodworking, but Harry is already fulfilled -> Jun, so Raku guide is for Fred)\n7. Match custom dice (could apply to board games or tabletop RPGs -> Lucy or Sara)\n8. Match “War and Peace” American film copy (could apply to old movies or Audrey Hepburn -> Perry or Alex)\n9. Match yarn (only applies to knitting -> Micah, so the Galileo biography is for Miguel)\n10. Match \"One Piece\" graphic novel (could apply to books or manga, but Micah already has yarn -> Alex, so the \"War and Peace\" film is for Perry)\n11. Match \"War and Peace\" novel (could apply to books or historical fiction novels, but Micah has yarn -> Tyson)\n12. Match Starbucks gift card (only applies to coffee -> Lucy, so the dice are for Sara)\n13. Match foam exercise mat (only applies to yoga -> Georgette)\n14. Note which recipients have gifts (Miguel, Harry, Fred, Jun, Sara, Perry, Micah, Alex, Tyson, Lucy, Georgette) and which does not (Rebecca).\n15. Find who was supposed to give Rebecca a gift (Fred).",
+      "Number of steps": "15",
+      "How long did this take?": "15 minutes",
+      "Tools": "1. Word document access",
+      "Number of tools": "1"
+    }
+  },
+  {
+    "task_id": "8e867cd7-cff9-4e6c-867a-ff5ddc2550be",
+    "Question": "梅赛德斯·索萨在2000年至2009年（含）期间出版了多少张录音室专辑？您可以使用最新2022版本的英文维基百科。",
+    "Level": "1",
+    "Final answer": "3",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. I did a search for Mercedes Sosa\n2. I went to the Wikipedia page for her\n3. I scrolled down to \"Studio albums\"\n4. I counted the ones between 2000 and 2009",
+      "Number of steps": "4",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. web browser\n2. google search",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "7b5377b0-3f38-4103-8ad2-90fe89864c04",
+    "Question": "求 x 的值，精确到十分位：Lx = (d/dx * (A * x 的平方)) + 4097 减去 C\n其中 L 是委内瑞拉独立宣言年份的最后两位数字，\nA 是截至 2023 年 7 月 TikTok 标志中（不包括黑色和白色）的颜色数量，\nC 是根据 2023 年 7 月《商业内幕》文章，菲律宾女性的平均身高，四舍五入到最接近的厘米。",
+    "Level": "2",
+    "Final answer": "563.9",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Googled Venezuelan Declaration of Independence, found it to be in 1811, thus L = 11\n2. Googled TikTok logo, found 4 colors, 2 of which are black and white, so A = 2\n3. Googled average height of woman in Philippines, found it to be 149.6cm, so C = 150\n4. Deciphered formula to mean 11x = (d/dx(2x^2)) + 4097 - 150\n5. Used simple calculus and algebra to solve the equation",
+      "Number of steps": "5",
+      "How long did this take?": "40 minutes",
+      "Tools": "1. A web browser\n2. A search engine\n3. A calculator",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "56db2318-640f-477a-a82f-bc93ad13e882",
+    "Question": "这些数字类似于 ISBN 13 数字，但其验证方法略有不同。校验位不是使用交替权重 1 和 3 计算的，而是使用交替权重 1 和另一个小于 10 的正整数计算的。除此之外，校验位的计算方式与预期一致。不幸的是，数据中存在错误。有两个相邻的列被转置了。这些错误的列不涉及最后一列或前三列中的任何一列。根据这些信息，请提供所有可能的解决方案，包括未知权重和两个错误列中较小索引的值（假设我们从 0 开始索引，并忽略连字符）。请以 x, y 的形式给出答案，其中 x 是权重，y 是两个转置列中较小索引的值。\n\n978-354181391-9\n978-946669746-1\n978-398036139-6\n978-447656680-4\n978-279586664-7\n978-595073693-3\n978-976647652-6\n978-591178125-5\n978-728465924-5\n978-414825155-9",
+    "Level": "3",
+    "Final answer": "7, 9",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Consider the numbers as if the first potential columns were the ones transposed, which would be smallest index 3 giving solution (n, 3).\n2. \"Fix\" the columns in the first number and see if any n from 1-9 can generate the proper check digit. Calculations:\n978-354181391-9\n978-534181391-9\n(9+7n+8+5n+3+4n+1+8n+1+3n+9+1n) mod 10 ≡ (10 - 9)\nn = 5 is our only possible solution if these are the transposed columns.\n3. \"Fix\" the columns in the second number and see if n = 5 is still a solution:\n978-946669746-1\n978-496669746-1\n(9+7n+8+4n+9+6n+6+6n+9+7n+4+6n) mod 10 ≡ (10 - 1)\nWhen n = 5, (9+7n+8+4n+9+6n+6+6n+9+7n+4+6n) mod 10 ≡ 5, so this fails. There is no consistent solution if columns 3 and 4 are transposed.\n4. See if there is a valid solution for (n, 4) or columns 4 and 5 transposed under some weight n.\n5. \"Fix\" the columns in the first number and see if any n from 1-9 can generate the proper check digit. Calculations:\n978-354181391-9\n978-345181391-9\n(9+7n+8+3n+4+5n+1+8n+1+3n+9+1n) mod 10 ≡ (10 - 9)\nn = 7 is our only possible solution if these are the transposed columns.\n6. \"Fix\" the columns in the second number and see if n = 7 is still a solution:\n978-946669746-1\n978-964669746-1\n(9+7n+8+9n+6+4n+6+6n+9+7n+4+6n) mod 10 ≡ (10 - 1)\nWhen n = 7, (9+7n+8+9n+6+4n+6+6n+9+7n+4+6n) mod 10 ≡ 5, so this fails. There is no consistent solution if columns 4 and 5 are transposed.\n7. See if there is a valid solution for (n, 5) or columns 5 and 6 transposed under some weight n.\n8. \"Fix\" the columns in the first number and see if any n from 1-9 can generate the proper check digit. Calculations:\n978-354181391-9\n978-351481391-9\n(9+7n+8+3n+5+1n+4+8n+1+3n+9+1n) mod 10 ≡ (10 - 9)\nn = 5 is our only possible solution if these are the transposed columns.\n9. \"Fix\" the columns in the second number and see if n = 5 is still a solution:\n978-946669746-1\n978-946669746-1\n(9+7n+8+9n+4+6n+6+6n+9+7n+4+6n) mod 10 ≡ (10 - 1)\nWhen n = 5, (9+7n+8+9n+4+6n+6+6n+9+7n+4+6n) mod 10 ≡ 5, so this fails. There is no consistent solution if columns 5 and 6 are transposed.\n10. See if there is a valid solution for (n, 6) or columns 6 and 7 transposed under some weight n.\n11. \"Fix\" the columns in the first number and see if any n from 1-9 can generate the proper check digit. Calculations:\n978-354181391-9\n978-354811391-9\n(9+7n+8+3n+5+4n+8+1n+1+3n+9+1n) mod 10 ≡ (10 - 9)\nn = 9 is our only possible solution if these are the transposed columns.\n12. \"Fix\" the columns in the second number and see if n = 9 is still a solution:\n978-946669746-1\n978-946669746-1\n(9+7n+8+9n+4+6n+6+6n+9+7n+4+6n) mod 10 ≡ (10 - 1)\nWhen n = 9, (9+7n+8+9n+4+6n+6+6n+9+7n+4+6n) mod 10 ≡ 9, so this solution holds for the second number.\n13. \"Fix\" the columns in the third number and see if n = 9 is still a solution:\n978-398036139-6\n978-398306139-6\n(9+7n+8+3n+9+8n+3+0n+6+1n+3+9n) mod 10 ≡ (10 - 6)\nWhen n = 9, (9+7n+8+3n+9+8n+3+0n+6+1n+3+9n) mod 10 ≡ 0, so this fails. There is no consistent solution if columns 6 and 7 are transposed.\n14. See if there is a valid solution for (n, 7) or columns 7 and 8 transposed under some weight n.\n15. \"Fix\" the columns in the first number and see if any n from 1-9 can generate the proper check digit. Calculations:\n978-354181391-9\n978-354118391-9\n(9+7n+8+3n+5+4n+1+1n+8+3n+9+1n) mod 10 ≡ (10 - 9)\nn = 9 is our only possible solution if these are the transposed columns.\n16. \"Fix\" the columns in the second number and see if n = 9 is still a solution:\n978-946669746-1\n978-946696746-1\n(9+7n+8+9n+4+6n+6+9n+6+7n+4+6n) mod 10 ≡ (10 - 1)\nWhen n = 9, (9+7n+8+9n+4+6n+6+9n+6+7n+4+6n) mod 10 ≡ 3, so this fails. There is no consistent solution if columns 7 and 8 are transposed.\n17. See if there is a valid solution for (n, 8) or columns 8 and 9 transposed under some weight n.\n18. \"Fix\" the columns in the first number and see if any n from 1-9 can generate the proper check digit. Calculations:\n978-354181391-9\n978-354183191-9\n(9+7n+8+3n+5+4n+1+8n+3+1n+9+1n) mod 10 ≡ (10 - 9)\nn = 4 and n = 9 are both possible solutions to this modular equation.\n19. \"Fix\" the columns in the second number and see if n = 4 and n = 9 are still solutions:\n978-946669746-1\n978-946667946-1\n(9+7n+8+9n+4+6n+6+6n+7+9n+4+6n) mod 10 ≡ (10 - 1)\nWhen n = 4, (9+7n+8+9n+4+6n+6+6n+7+9n+4+6n) mod 10 ≡ 0. When n = 9, (9+7n+8+9n+4+6n+6+6n+7+9n+4+6n) mod 10 ≡ 5. As neither solution found works for the second number, this fails. There is no consistent solution if columns 8 and 9 are transposed.\n20. See if there is a valid solution for (n, 9) or columns 9 and 10 transposed under some weight n.\n21. \"Fix\" the columns in the first number and see if any n from 1-9 can generate the proper check digit. Calculations:\n978-354181391-9\n978-354181931-9\n(9+7n+8+3n+5+4n+1+8n+1+9n+3+1n) mod 10 ≡ (10 - 9)\nn = 2 and n = 7 are both possible solutions to this modular equation.\n22. \"Fix\" the columns in the second number and see if n = 2 and n = 7 are still solutions:\n978-946667946-1\n978-946667496-1\n(9+7n+8+9n+4+6n+6+6n+7+4n+9+6n) mod 10 ≡ (10 - 1)\nWhen n = 2, (9+7n+8+9n+4+6n+6+6n+7+4n+9+6n) mod 10 ≡ 9 and when n = 7 (9+7n+8+9n+4+6n+6+6n+7+4n+9+6n) mod 10 ≡ 9, so both n = 2 and n = 7 remain consistent.\n23. \"Fix\" the columns in the third number and see if n = 2 and n = 7 are still solutions:\n978-398036139-6\n978-398036319-6\n(9+7n+8+3n+9+8n+0+3n+6+3n+1+9n) mod 10 ≡ (10 - 6)\nWhen n = 2, (9+7n+8+3n+9+8n+0+3n+6+3n+1+9n) mod 10 ≡ 9, so n cannot be 2. When n = 7, (9+7n+8+3n+9+8n+0+3n+6+3n+1+9n) mod 10 ≡ 4, so this solution is still consistent.\n24. \"Fix\" the columns in the fourth number and see if n = 7 is still a solution:\n978-447656680-4\n978-447656860-4\nWhen n = 7, (9+7n+8+4n+4+7n+6+5n+6+8n+6+0n) mod 10 ≡ (10 - 4)\n(9+7n+8+4n+4+7n+6+5n+6+8n+6+0n) mod 10 ≡ 6, so n = 7 is still a potential solution.\n24. \"Fix\" the columns in the fifth number and see if n = 7 is still a solution:\n978-279586664-7\n978-279586664-7\n(9+7n+8+2n+7+9n+5+8n+6+6n+6+4n) mod 10 ≡ (10 - 7)\nWhen n = 7, (9+7n+8+2n+7+9n+5+8n+6+6n+6+4n) mod 10 ≡ 3, so n = 7 is still a potential solution.\n24. \"Fix\" the columns in the sixth number and see if n = 7 is still a solution:\n978-595073693-3\n978-595073963-3\n(9+7n+8+5n+9+5n+0+7n+3+9n+6+3n) mod 10 ≡ (10 - 3)\nWhen n = 7, (9+7n+8+5n+9+5n+0+7n+3+9n+6+3n) mod 10 ≡ 7, so n = 7 is still a potential solution.\n25. \"Fix\" the columns in the seventh number and see if n = 7 is still a solution:\n978-976647652-6\n978-976647562-6\n(9+7n+8+9n+7+6n+6+4n+7+5n+6+2n) mod 10 ≡ (10 - 6)\nWhen n = 7, (9+7n+8+9n+7+6n+6+4n+7+5n+6+2n) mod 10 ≡ 4, so n = 7 is still a potential solution.\n26. \"Fix\" the columns in the eighth number and see if n = 7 is still a solution:\n978-591178125-5\n978-591178215-5\n(9+7n+8+5n+9+1n+1+7n+8+2n+1+5n) mod 10 ≡ (10 - 5)\nWhen n = 7, (9+7n+8+5n+9+1n+1+7n+8+2n+1+5n) mod 10 ≡ 5, so n = 7 is still a potential solution.\n27. \"Fix\" the columns in the ninth number and see if n = 7 is still a solution:\n978-728465924-5\n978-728465294-5\n(9+7n+8+7n+2+8n+4+6n+5+2n+9+4n) mod 10 ≡ (10 - 5)\nWhen n = 7, (9+7n+8+7n+2+8n+4+6n+5+2n+9+4n) mod 10 ≡ 5, so n = 7 is still a potential solution.\n28. \"Fix\" the columns in the final number and see if n = 7 is still a solution:\n978-414825155-9\n978-414825515-9\n(9+7n+8+4n+1+4n+8+2n+5+5n+1+5n) mod 10 ≡ (10 - 9)\nWhen n = 7, (9+7n+8+4n+1+4n+8+2n+5+5n+1+5n) mod 10 ≡ 1, so n = 7 is a consistent solution for all the numbers given. This means that (7, 9) is a solution to the problem.\n29. As the problem asks for all possible solutions, we need to check to see if there is a valid solution for (n, 10) or columns 10 and 11 transposed under some weight n even though we found a solution already. It is possible the solution we found is not unique.\n30. \"Fix\" the columns in the first number and see if any n from 1-9 can generate the proper check digit. Calculations:\n978-354181391-9\n978-354181319-9\n(9+7n+8+3n+5+4n+1+8n+1+3n+1+9n) mod 10 ≡ (10 - 9)\nn = 4 and n = 9 are both possible solutions to this modular equation.\n31. \"Fix\" the columns in the second number and see if n = 4 and n = 9 are still solutions:\n978-946669746-1\n978-946669764-1\n(9+7n+8+9n+4+6n+6+6n+9+7n+6+4n) mod 10 ≡ (10 - 1)\nWhen n = 4, (9+7n+8+9n+4+6n+6+6n+9+7n+6+4n) mod 10 ≡ 8, so n cannot be 4. When n = 9, (9+7n+8+9n+4+6n+6+6n+9+7n+6+4n) mod 10 ≡ 3, so n cannot be 9. As neither solution found works for the second number, this fails. There is no consistent solution if columns 10 and 11 are transposed.\n32. We checked all possible forms of the error and found only one potential solution, (7, 9) so this is our only answer.",
+      "Number of steps": "32",
+      "How long did this take?": "60 minutes",
+      "Tools": "1. a calculator",
+      "Number of tools": "1"
+    }
+  },
+  {
+    "task_id": "935e2cff-ae78-4218-b3f5-115589b19dae",
+    "Question": "在 2022 年 12 月之前，在 Legume 维基百科页面公共日志中违规内容类型的三个核心政策中，“R”代表什么？",
+    "Level": "1",
+    "Final answer": "研究",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Searched \"legume wikipedia\" on Google.\n2. Opened \"Legume\" on Wikipedia.\n3. Clicked \"View history\".\n4. Clicked \"View logs for this page\".\n5. Checked all types of logs.\n6. Set the date to November 2022.\n7. Followed the BLP link of the violation.\n8. Noted the meaning of \"R\".",
+      "Number of steps": "8",
+      "How long did this take?": "10 minutes",
+      "Tools": "1. Web browser\n2. Search engine",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "33d8ea3b-6c6b-4ff1-803d-7e270dea8a57",
+    "Question": "一个人至少需要点击多少个页面链接才能从英文维基百科关于《指环王》（书籍）的页面到达英文维基百科关于《冰与火之歌》（书籍系列）的页面？在你的计数中，包括你为到达该页面而点击的每个链接。使用截至 2023 年 7 月 3 日末的页面版本。",
+    "Level": "2",
+    "Final answer": "2",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search the web for “lord of the rings wikipedia”.\n2. Click on Wikipedia result.\n3. Click “View history” to see if the page has been edited since July 3, 2023.\n4. Since it hasn’t been, return to the current revision.\n5. Ctrl-F for “song” to see if A Song of Ice and Fire is linked to on this page.\n6. Not seeing A Song of Ice and Fire on the current page, search for a link to a page that will likely mention A Song of Ice and Fire.\n7. Click the link for “High fantasy”.\n8. Click “View history” to see if the page has been edited since July 3, 2023.\n9. Since it hasn’t been, return to the current revision.\n10. Ctrl-F for “song”, and find a link to A Song of Ice and Fire.\n11. Count the links: the High fantasy page and the A Song of Ice and Fire page make two.",
+      "Number of steps": "11",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Search engine\n2. Web browser\n3. Counter",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "56137764-b4e0-45b8-9c52-1866420c3df5",
+    "Question": "在支持 Mask-RCNN 模型的 OpenCV 版本中，哪位贡献者的名字在转写为拉丁字母后与一位前中国政府首脑的名字相同？",
+    "Level": "2",
+    "Final answer": "李鹏",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Use search engine to search for \"OpenCV change log\".\n2. Open the top result from GitHub and search the page for \"Mask-RCNN\".\n3. Observe that support for Mask-RCNN model was added in OpenCV version 4.0.0.\n4. Expand the two lists of contributors for version 4.0.0.\n5. Go to the Wikipedia page for head of government. \n6. Scan through and note that for China, the head of government is the premier.\n7. Go to the Wikipedia page for premier of the People's Republic of China.\n8. Go to the linked page for List of premiers of the People's Republic of China.\n9. Compare the list of OpenCV version 4.0.0 contributors' names and the list of premiers of China to find that Li Peng is present in both lists.",
+      "Number of steps": "9",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Web browser\n2. Search engine",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "42d4198c-5895-4f0a-b0c0-424a66465d83",
+    "Question": "我很好奇在热门电子游戏发布之前能获得多少信息。请查找 2019 年英国学院游戏奖获奖游戏的维基百科页面。在该维基百科页面上（截至 2022 年的最新条目），在游戏发布日期所在的月份之前，该页面有多少次修订？",
+    "Level": "2",
+    "Final answer": "60",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search the web for British Academy Video Games Award for Best Game 2019\n2. Find the answer, Outer Wilds\n3. Find the Wikipedia page for Outer Wilds\n4. Go to the last revision from 2022.\n5. Note the release date, May 29, 2019\n6. View the page history\n7. Count how many edits were made to the page before May 2019\n8. Arrive at the answer, 60",
+      "Number of steps": "8",
+      "How long did this take?": "30 minutes",
+      "Tools": "1. Web browser\n2. Search engine\n3. Access to Wikipedia\n4. Calculator or counting function",
+      "Number of tools": "4"
+    }
+  },
+  {
+    "task_id": "4b6bb5f7-f634-410e-815d-e673ab7f8632",
+    "Question": "在《神秘博士》第九季第11集中，博士被困在一个不断变化的迷宫中。在官方剧本中，这个地点被称为什么？请按照第一个场景标题中出现的设置，准确给出答案。",
+    "Level": "1",
+    "Final answer": "城堡",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search the web for “Doctor Who series 9 episode 11 official script”.\n2. Click result on the BBC website.\n3. Scroll through the PDF to read the script, noting that it takes place in a mechanical castle location.\n4. Scroll back to the first scene heading to note the answer, THE CASTLE",
+      "Number of steps": "4",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Search engine\n2. Web browser\n3. PDF viewer",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "e29834fd-413a-455c-a33e-c3915b07401c",
+    "Question": "截至美国版《幸存者》第 44 季结束时，与《美国偶像》的获奖者数量相比，有多少位独特的获奖者？",
+    "Level": "2",
+    "Final answer": "21",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "Step 1: Using a web browser, access a search engine and conduct a search \"American Survivor Television Series winners\"\nStep 2: Navigate to the first result, https://en.wikipedia.org/wiki/Survivor_(American_TV_series)\nStep 3: Evaluate the article and count the number of unique winners of the program: 42 winners\nStep 4: Navigate back to a search engine and conduct a search \"American Idol Winners\"\nStep 5: Navigate to the first search result, https://www.etonline.com/gallery/the-complete-list-of-american-idol-winners-21116/season-21-iam-tongi-92872\nStep 6: Evaluate the article and count the number of unique winners of the program: 21\nStep 7: Using a calculator, subtract the number of American Idol winners from the number of Survivor winners, 42-21 = 21\nStep 8: Report the correct response to my user, \"21\"",
+      "Number of steps": "8",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. A web browser\n2. A search engine\n3. A calculator",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+    "Question": "所附 PDF 列出了海马岛度假村社区的住宿信息。在海马岛，哪种类型的住宿平均评分更高？",
+    "Level": "2",
+    "Final answer": "酒店",
+    "file_name": "67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/67e8878b-5cef-4375-804e-e6291fdbe78a.pdf",
+    "Annotator Metadata": {
+      "Steps": "1. Open the provided file.\n2. Sum the ratings of the rows listed under Hotels, to get 19.\n3. Divide this by the number of hotels, 5, to get an average rating of 3.8.\n4. Sum the ratings of the rows listed under Rental Houses, to get 35.\n5. Divide this by the number of rental houses, 10, to get an average rating of 3.5.\n6. Since the average rating for hotels is higher than that for rental houses, answer “Hotels”.",
+      "Number of steps": "6",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. PDF viewer\n2. Calculator",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "3627a8be-a77f-41bb-b807-7e1bd4c0ebdf",
+    "Question": "大英博物馆藏品中编号为2012,5015.17的物品是某种特定软体动物的贝壳。根据2021年发表在《科学进展》（*Science Advances*）杂志上的一篇研究论文摘要，人们发现了用这种软体动物的贝壳制成的珠子，它们至少有几千年的历史？",
+    "Level": "2",
+    "Final answer": "142",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Use search engine to search for \"British Museum search collection\" and navigate to the British Museum's collection search webpage.\n2. Select \"Museum number\" as search field and \"2012,5015.17\" in text box, then run search.\n3. Open the page for the single result and note that the description says that this is the shell of an individual of the Nassa gibbosula species.\n4. Use search engine to search for \"Nassa gibbosula\".\n5. Note that according to the search result from the World Register of Marine Species website, Nassa gibbosula is not an accepted species name.\n6. Open the page for Nassa gibbosula on the World Register of Marine Species website.\n7. Scan the page and note that the accepted species name is Tritia gibbosula.\n8. Use search engine to search for \"Science Advances 2021 Tritia gibbosula\".\n9. Find that the top result is an article from 2021 in Science Advances titled \"Early Middle Stone Age personal ornaments from Bizmoune Cave, Essaouira, Morocco\".\n10. Scan abstract and note that the article discusses beads made from Tritia gibbosula shells that date to at least 142 thousand years ago, giving a final answer of 142.",
+      "Number of steps": "10",
+      "How long did this take?": "12 minutes",
+      "Tools": "1. Web browser\n2. Search engine",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "f0f46385-fc03-4599-b5d3-f56496c3e69f",
+    "Question": "根据维基百科的数据，在东盟集团内，地理距离最远的两个首都分别属于哪两个国家？请以字母顺序排列，用逗号分隔列表进行回答。",
+    "Level": "2",
+    "Final answer": "印度尼西亚、缅甸",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search the web for \"ASEAN bloc\".\n2. Click the Wikipedia result for the ASEAN Free Trade Area.\n3. Scroll down to find the list of member states.\n4. Click into the Wikipedia pages for each member state, and note its capital.\n5. Search the web for the distance between the first two capitals. The results give travel distance, not geographic distance, which might affect the answer.\n6. Thinking it might be faster to judge the distance by looking at a map, search the web for \"ASEAN bloc\" and click into the images tab.\n7. View a map of the member countries. Since they're clustered together in an arrangement that's not very linear, it's difficult to judge distances by eye.\n8. Return to the Wikipedia page for each country. Click the GPS coordinates for each capital to get the coordinates in decimal notation.\n9. Place all these coordinates into a spreadsheet.\n10. Write formulas to calculate the distance between each capital.\n11. Write formula to get the largest distance value in the spreadsheet.\n12. Note which two capitals that value corresponds to: Jakarta and Naypyidaw.\n13. Return to the Wikipedia pages to see which countries those respective capitals belong to: Indonesia, Myanmar.",
+      "Number of steps": "13",
+      "How long did this take?": "45 minutes",
+      "Tools": "1. Search engine\n2. Web browser\n3. Microsoft Excel / Google Sheets",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+    "Question": "请查看图片中的国际象棋局面。现在轮到黑方走棋。请提供黑方确保获胜的正确下一步，请使用代数记号表示。",
+    "Level": "1",
+    "Final answer": "Rd5\n\n第五轮",
+    "file_name": "cca530fc-4052-43b2-b130-b30968d8aa44.png",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/cca530fc-4052-43b2-b130-b30968d8aa44.png",
+    "Annotator Metadata": {
+      "Steps": "Step 1: Evaluate the position of the pieces in the chess position\nStep 2: Report the best move available for black: \"Rd5\"",
+      "Number of steps": "2",
+      "How long did this take?": "10 minutes",
+      "Tools": "1. Image recognition tools",
+      "Number of tools": "1"
+    }
+  },
+  {
+    "task_id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+    "Question": "梅里亚姆-韦布斯特在 2022 年 6 月 27 日的“每日一词”中引用了哪位作家？",
+    "Level": "1",
+    "Final answer": "安妮·莱文",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search \"merriam-webster word of the day\" on Google search.\n2. Opened the top \"Word of the Day\" result from the Merriam-Webster dictionary online.\n3. Clicked \"SEE ALL WORDS OF THE DAY\" at the bottom.\n4. Scrolled down to June 27, 2022.\n5. Opened the Word of the Day (\"jingoism\").\n6. Scrolled down and identified context quote for \"jingoism\".\n7. Noted the name attributed to the quote. ",
+      "Number of steps": "7",
+      "How long did this take?": "8 minutes",
+      "Tools": "1. Web browser\n2. Search engine\n3. Audio capability",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "73c1b9fe-ee1d-4cf4-96ca-35c08f97b054",
+    "Question": "根据美国地质调查局的数据，美国短吻鳄首次被发现出现在德克萨斯州以西（不包括德克萨斯州）的年份是哪一年？",
+    "Level": "2",
+    "Final answer": "1954",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search the web for “American Alligator USGS”.\n2. Click result for the USGS Species Profile.\n3. Click “Animated Map”.\n4. Click the “Skip years with no recorded sightings” button.\n5. Zoom out on the map to better view the whole U.S.\n6. Move the slider back to the beginning, then advance it until I see a red dot pop up west of Texas.\n7. Note the year that the dot appears, 1954.",
+      "Number of steps": "7",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Search engine\n2. Web browser\n3. Image recognition",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "db4fd70a-2d37-40ea-873f-9433dc5e301f",
+    "Question": "截至 2023 年 5 月，MBTA 的富兰克林-福克斯堡线上，南站至温莎花园站之间（不包括这两个站）有多少个停靠站？",
+    "Level": "2",
+    "Final answer": "10",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search the web for “MBTA Franklin Foxboro line”.\n2. Click on top result, on the MBTA website.\n3. Scroll down on the list of stops, and count the current stops between South Station and Windsor Gardens.\n4. Click the “Schedule & Maps” tab to view a map of the route.\n5. Examine the map to confirm that the order of stops is the same as on the listing of stops.\n6. Return to web search.\n7. Click on Wikipedia article for Franklin line.\n8. Read the article to check whether any stops were added or removed since the date given in the question.\n9. Search the web for “MBTA Franklin Foxboro Line changes”.\n10. Click News tab.\n11. Click article about rail schedule changes.\n12. Confirm that none of the changes affect the answer to the question.",
+      "Number of steps": "12",
+      "How long did this take?": "5-10 minutes",
+      "Tools": "1. Search engine\n2. Web browser",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+    "Question": "抱歉，我无法直接访问或播放音频文件。如果您能提供录音中的具体内容或文字记录，我很乐意为您整理出需要复习的页码。",
+    "Level": "1",
+    "Final answer": "132, 133, 134, 197, 245",
+    "file_name": "1f975693-876d-457b-a649-393859e79bf3.mp3",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/1f975693-876d-457b-a649-393859e79bf3.mp3",
+    "Annotator Metadata": {
+      "Steps": "Step 1: Load the file supplied by my user.\nStep 2: Using audio processing tools, convert the text of the audio file to speech:\n\n\"Before you all go, I want to remind you that the midterm is next week. Here's a little hint; you should be familiar with the differential equations on page 245, problems that are very similar to problems 32, 33, and 44 from that page might be on the test. And also some of you might want to brush up on the last page in the integration section, page 197. I know some of you struggled on last week's quiz. I foresee problem 22 from page 197 being on your midterm. Oh, and don't forget to brush up on the section on related rates, on pages 132, 133, and 134.\"\n\nStep 3: Evaluate the converted audio, recording each instance of page numbers: 245, 197, 197, 132, 133, 134\nStep 4: Sort the page numbers in ascending order, omitting duplicates, and store this list as the correct answer to my user's request: 132, 133, 134, 197, 245\nStep 5: Report the correct response to my user: \"132, 133, 134, 197, 245\"",
+      "Number of steps": "5",
+      "How long did this take?": "2 minutes",
+      "Tools": "1. A file interface\n2. A speech-to-text audio processing tool",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "42576abe-0deb-4869-8c63-225c2d75a95a",
+    "Question": "在 Tizin 语言中，基本句子的结构是动词在前，直接宾语在后，然后是句子的主语。为了向我的 Tizin 朋友表达我对苹果的喜爱，我们需要按照以下规则进行翻译：\n\n1. **动词**：表示强烈喜好的动词根是 \"Maktay\"。在现在时，使用其根形式 \"Maktay\"。\n2. **直接宾语**：苹果的宾格形式是 \"Zapple\"。\n3. **主语**：表示自己的词在主格形式下是 \"Pa\"。\n\n因此，句子 \"I like apples\" 在 Tizin 中的翻译为：\n\n**Maktay Zapple Pa**",
+    "Level": "1",
+    "Final answer": "Maktay mato 苹果",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Determine the order of words from the prompt (Verb - Object - Subject).\n2. Determine the present form of Like (\"Maktay\")\n3. Determined that since the person doing the liking is the object of the sentence, the next word must be the one for oneself in object form.\n4. Determined the accusative form for onesself (\"mato\").\n5. Determined the nominative form for apple. (\"apple\").\n6. Put the words together in the correct order.",
+      "Number of steps": "6",
+      "How long did this take?": "2 minutes",
+      "Tools": "None",
+      "Number of tools": "0"
+    }
+  },
+  {
+    "task_id": "a0c07678-e491-4bbc-8f0b-07405144218f",
+    "Question": "截至 2023 年 7 月，谁是戴正玉（Taishō Tamai）号码前后两位投手？请以“前投手，后投手”的形式给出，仅使用罗马字符的姓氏。",
+    "Level": "1",
+    "Final answer": "吉田，上原",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Look up Taishō Tamai on Wikipedia\n2. See the pitcher with the number 18 (before) is Kōsei Yoshida and number 20 (after) is Kenta Uehara",
+      "Number of steps": "2",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Wikipedia",
+      "Number of tools": "1"
+    }
+  },
+  {
+    "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+    "Question": "我在下图中的标准计划，我刚上传了 60 个相同大小的文件，并收到消息说我超出限制 100GB。我还有 980 个相同大小的文件要上传。如果我必须升级到最低可能的计划来存储所有文件，那么超出我当前计划限制的每个文件的平均额外成本（以美元为单位）是多少，四舍五入到最接近的 cent？以以下格式回答：x.xx",
+    "Level": "2",
+    "Final answer": "0.03",
+    "file_name": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de.png",
+    "Annotator Metadata": {
+      "Steps": "1. Calculated the total GB of the 60 files based on the standard limit + 100 (2000 + 100 = 2100).\n2. Calculated the size of each file (2100 GB / 60 = 35 GB).\n3. Calculated the number of files over the limit (100 / 35 = 2.8, round up to 3).\n4. Calculated the size of the remaining files (380 * 35 GB = 13,300 GB).\n5. Calculate the plan size required (13,300 GB / 2000 GB/TB = 6.65 TB => Plus plan).\n6. Calculate the additional cost ($19.99 - $9.99 = $10.00).\n7. Calculate the number of files over the Standard limit (380 + 3 = 383).\n8. Calculate the additional cost per added file ($10.00 / 383 = $0.026).\n9. Round to the nearest cent ($0.03).",
+      "Number of steps": "9",
+      "How long did this take?": "8 minutes",
+      "Tools": "1. Image recognition tools\n2. Calculator",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "2dfc4c37-fec1-4518-84a7-10095d30ad75",
+    "Question": "根据 Box Office Mojo 的 2020 年全球票房榜，全球票房最高的十部电影中，有多少部也位列美国本土票房最高的十部电影之列？你的答案应该是一个数值整数。",
+    "Level": "2",
+    "Final answer": "6",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Google searched \"Box Office Mojo's 2020 Worldwide Box Office\".\n2. Clicked on the first result: Box Office Mojo, https://www.boxofficemojo.com/year/world/2020/, 2020 Worldwide Box Office.\n3. Looked at the top 10 highest-grossing worldwide movies of 2020: 1. The Eight Hundred, 2. Demon Slayer the Movie: Mugen Train, 3. Bad Boys for Life, 4. My People, My Homeland, 5. Tenet, 6. Sonic the Hedgehog, 7. Dolittle, 8. Legend of Deification, 9. A Little Red Flower, 10. The Croods: A New Age.\n4. Clicked on the column labeled \"Domestic\" to sort by highest-grossing domestic movies of 2020.\n5. Looked at the first 10 movies on the list: Bad Boys for Life, Sonic the Hedgehog, Birds of Prey, Dolittle, The Invisible Man, The Call of the Wild, Onward, The Croods: A New Age, Tenet, Demon Slayer the Movie: Mugen Train.\n6. For each of these movies: If the number under \"Rank\" is less than or equal to 10, then the movie is also among the top 10 highest-grossing worldwide movies of 2020.\n7. Form the final list: Bad Boys for Life, Sonic the Hedgehog, Dolittle, The Croods: A New Age, Tenet, Demon Slayer the Movie: Mugen Train.\n8. Count the number of movies on the list: 6,",
+      "Number of steps": "8",
+      "How long did this take?": "15 minutes",
+      "Tools": "1. Web Browser\n2. Search Engine",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "20194330-9976-4043-8632-f8485c6c71b2",
+    "Question": "YouTube 频道 Game Grumps 于 2012 年开始播放游戏《刺猬索尼克》（2006）的“Let's Play”系列。在第一集的 30 秒处，屏幕上出现了一个短语，红色背景上用白色字母显示。在这个短语中，字母“E”出现了多少次？",
+    "Level": "2",
+    "Final answer": "4",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Look up \"Game grumps sonic 2006 playthrough\".\n2. Click on the first result and verify that it matches the parameters from the question.\n3. Scrub to the thirty-second mark in the video.\n4. Note the letters in white on the red background.\n5. Count the letter \"E\"'s in the phrase.",
+      "Number of steps": "5",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Web browser\n2. YouTube player\n3. Color recognition\n4. OCR",
+      "Number of tools": "4"
+    }
+  },
+  {
+    "task_id": "17b5a6a3-bc87-42e8-b0fb-6ab0781ef2cc",
+    "Question": "我正在研究那些被人们作为宠物饲养后释放而成为入侵物种的物种。有一种特定的鱼类，因其是电影《海底总动员》中的主角而被推广为宠物。根据美国地质调查局（USGS）的数据，在 2020 年之前，这种鱼作为非本地物种出现在哪些地方？我需要将答案格式化为该物种被发现地点的五位数邮政编码，如果有多个地点，则用逗号分隔。",
+    "Level": "2",
+    "Final answer": "34689",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search the web for “finding nemo main character”.\n2. Note the results, which state that the main character is a clownfish.\n3. Search the web for “usgs nonnative species database”.\n4. Click result for the Nonindigenous Aquatic Species site.\n5. Click “Marine Fishes”.\n6. Click “Species List of Nonindigenous Marine Fish”.\n7. Scroll through the list until I find the clown anenomefish, and click “Collection info”.\n8. Note the place that a clown anenomefish was found, in Fred Howard Park at the Gulf of Mexico.\n9. Search the web for “fred howard park florida zip code”.\n10. Note the zip code, 34689. Since only one clownfish was found before the year 2020, this is the answer.",
+      "Number of steps": "10",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Search engine\n2. Web browser",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "dc28cf18-6431-458b-83ef-64b3ce566c10",
+    "Question": "我的家庭聚会定于本周举行，我被分配带土豆泥。参加者包括我的已婚父母、我的双胞胎兄弟和他的家人、我的姑姑和她的家人、我的祖母和她的兄弟、她兄弟的女儿以及女儿的家人。除了我之外，所有成年人都已结婚，没有人离婚或再婚，但我的祖父和祖母的嫂子去年去世了。所有活着的配偶都会参加。我的兄弟有两个孩子，我的姑姑有一个六岁的孩子，我祖母的兄弟的女儿有三个 12 岁以下的孩子。我估计每个成年人会吃大约 1.5 个土豆的土豆泥，每个孩子会吃大约半个土豆的土豆泥，但我的堂兄弟姐妹不吃碳水化合物。平均每个土豆约半磅，土豆以 5 磅一袋出售。我需要多少袋完整的土豆？只给出数字。",
+    "Level": "1",
+    "Final answer": "2",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Calculate the number of adults (mother, father, brother, brother's wife, aunt, aunt's husband, grandma, grandma's brother, grandma's brother's daughter, grandma's brother's daughter's husband, me = 11).\n2. Calculate the number of children (niece, nephew, cousin, grandma's brother's daughter's kids x3 = 6).\n3. Subtract the number of second cousins (grandma's brother's daughter's kids) (6 - 3 = 3).\n4. Calculate the adult potatoes (11 * 1.5 = 16.5).\n5. Calculate the child potatoes (3 * 0.5 = 1.5).\n6. Add to get the total potatoes (16.5 + 1.5 = 18).\n7. Multiply to get the pounds of potatoes (18 * 0.5 = 9 pounds).\n8. Calculate the number of 5-lb bags needed (9 / 5 = 1.8).\n9. Round up to get total bags (2).",
+      "Number of steps": "9",
+      "How long did this take?": "8 minutes",
+      "Tools": "1. Calculator",
+      "Number of tools": "1"
+    }
+  },
+  {
+    "task_id": "50ec8903-b81f-4257-9450-1085afd2c319",
+    "Question": "一个标准的魔方被分解成组成其侧面的立方体。这些立方体被打乱，并且移除了一个。有 6 个立方体有一个彩色面，12 个边立方体有两个彩色面，以及 8 个角立方体有三个彩色面。所有蓝色立方体都被找到了。橙色中心立方体左右、上下直接相邻的立方体以及中心立方体本身都被找到了。所有绿色角立方体都被找到了，以及所有与黄色相邻的绿色立方体。对于所有找到的橙色立方体，其相对面的立方体也被找到了。移除的立方体有两个彩色面。它们是什么颜色？请使用逗号分隔的列表回答，颜色按字母顺序排列。",
+    "Level": "1",
+    "Final answer": "绿色，白色",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Set up a standard Rubik's cube (red opposite orange, white opposite yellow, green opposite blue).\n2. Eliminated blue cubes, along with adjacent colors.\n3. Eliminated orange cubes, along with adjacent colors.\n4. Eliminated green corners and the green/yellow edge.\n5. Eliminated red, opposite of orange, cubes and adjacent colors.\n6. Identified the last possible two-face cube.",
+      "Number of steps": "6",
+      "How long did this take?": "10 minutes",
+      "Tools": "1. Rubik's cube model",
+      "Number of tools": "1"
+    }
+  },
+  {
+    "task_id": "9d191bce-651d-4746-be2d-7ef8ecadb9c2",
+    "Question": "请观看视频 https://www.youtube.com/watch?v=1htKBjuUWec。\n\n当被问到“不是很热吗？”时，蒂尔克是如何回答的？",
+    "Level": "1",
+    "Final answer": "极其",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Follow the link\n2. Watch the clip until the question \"Isn't that hot\" is asked\n3. Take note of the reply.",
+      "Number of steps": "3",
+      "How long did this take?": "2 minutes",
+      "Tools": "1. Web browser\n2. Video processing software\n3. Audio processing software",
+      "Number of tools": "1"
+    }
+  },
+  {
+    "task_id": "9e1fc53b-46ff-49a1-9d05-9e6faac34cc5",
+    "Question": "该团队由一名坦克、一名治疗者和三名输出者组成，正在挑战《魔兽世界》中刚刚发布的一个地下城。其中两名成员穿着板甲，两名成员穿着布甲。在最终的boss战中，坦克和治疗者都在施放神圣法术。两名输出者分别使用冰霜和火焰法术。团队中的一头熊正在攻击boss。变形术被施放。遗忘者短裙作为战利品掉落，但无人能用。如果所有职业都在使用其职业技能，且所有职业都是唯一的，那么该团队中的五个职业按字母顺序排列，用逗号分隔是什么？",
+    "Level": "3",
+    "Final answer": "死亡骑士、猎人、圣骑士、牧师、术士",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Searched \"WoW classes\" on Google.\n2. Opened \"https://worldofwarcraft.blizzard.com/en-us/game/classes\".\n3. Made an alphabetical list of all WoW classes: Death Knight, Demon Hunter, Druid, Evoker, Hunter, Mage, Monk, Paladin, Priest, Rogue, Shaman, Warlock, and Warrior.\n4. Opened each page and noted the armor type: Death Knight (plate), Demon Hunter (leather), Druid (leather), Evoker (mail), Hunter (mail), Mage (cloth), Monk (leather), Paladin (plate), Priest (cloth), Rogue (leather), Shaman (mail), Warlock (cloth), and Warrior (plate).\n5. Looked up \"Kilt of the Forgotten One\" on Google.\n6. Opened https://www.wowhead.com/wotlk/item=37616/kilt-of-the-forgotten-one.\n7. Noted that it is leather, and none of the classes can use it, so the remaining classes are: Death Knight (plate), Evoker (mail), Hunter (mail), Mage (cloth), Paladin (plate), Priest (cloth), Shaman (mail), Warlock (cloth), and Warrior (plate).\n8. Noted that it was added in Wrath of the Lich King, so if the dungeon is newly released, the era is the Wrath of the Lich King expansion.\n9. Searched \"Wrath of the Lich King class abilities\" on Google.\n10. Opened https://www.wowhead.com/wotlk/spells/abilities.\n11. Sorted by class and noted that Evokers, Demon Hunters, and Monks did not exist yet, so the remaining classes are: Death Knight (plate), Hunter (mail), Mage (cloth), Paladin (plate), Priest (cloth), Shaman (mail), Warlock (cloth), and Warrior (plate).\n12. Checked which classes use Holy school abilities, Paladin (plate) and Priest (cloth), so they must be in the group as tank and healer.\n13. Checked which classes use ice (Frost) and fire abilities, Death Knight (plate), Mage (cloth), Shaman (mail), and Warlock (cloth).\n14. There can only be one other plate class, so it must be Death Knight or Warrior, and one other cloth class, so it must be Mage or Warlock.\n15. Metamorphosis is a Warlock ability in Wrath of the Lich King, so it must be the other cloth class, and the group so far is Paladin, Priest, Warlock, plate DPS, and other DPS, with remaining options of Death Knight (plate), Hunter (mail), Mage (cloth), Shaman (mail), and Warrior (plate).\n16. There cannot be another cloth class, so the remaining options are Death Knight (plate), Hunter (mail), Shaman (mail), and Warrior (plate).\n17. There is a bear attacking the boss and there is no Druid to shapeshift into a bear, so it must be a Hunter's pet, making the group Paladin, Priest, Warlock, Hunter, and plate DPS, with remaining options of Death Knight (plate), Hunter (mail), Mage (cloth), Shaman (mail), and Warrior (plate).\n18. The last class is plate, leaving only Death Knight and Warrior.\n19. Hunters and Warlocks can both cast Fire abilities but cannot cast Frost abilities, so the last DPS must cast ice (Frost) abilities, making the last DPS a Frost Death Knight since Warriors have no Frost abilities.\n20. Order the group alphabetically: Death Knight, Hunter, Paladin, Priest, Warlock.",
+      "Number of steps": "20",
+      "How long did this take?": "20 minutes",
+      "Tools": "1. Web browser\n2. Search engine",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "27d5d136-8563-469e-92bf-fd103c28b57c",
+    "Question": "¬(A ∧ B) ↔ (¬A ∨ ¬B)\n¬(A ∨ B) ↔ (¬A ∧ ¬B)\n(A → B) ↔ (¬B → ¬A)\n(A → B) ↔ (¬A ∨ B)\n(¬A → B) ↔ (A ∨ ¬B)\n¬(A → B) ↔ (A ∧ ¬B)\n\n以上哪一项在逻辑上与其他项不等价？请提供不符合的完整语句。",
+    "Level": "1",
+    "Final answer": "（¬A → B）↔（A ∨ ¬B）",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Determine the truth values of the first statement: Recognize this is one of De Morgan's Laws showing how to distribute negation over the and conjunction - so it is a tautology.\n2. Determine the truth values of the second statement: Recognize this is one of De Morgan's Laws showing how to distribute negation over the or - so it is a tautology.\n3. Determine the truth values of the third statement: Recognize this is the definition of the contrapositive - so it is a tautology.\n4. Determine the truth values of the fourth statement: Recognize this as an alternative way of stating the conditional - so it is a tautology.\n5. Determine the truth values of the fifth statement: I don't recognize this, so check its truth values:\n6. A: True, B: True |  (¬A → B) ↔ (A ∨ ¬B) = (¬T → T) ↔ (T ∨ ¬T) = (F → T) ↔ (T ∨ F) = T ↔ T = T\n7. A: True, B: False |  (¬A → B) ↔ (A ∨ ¬B) = (¬T → F) ↔ (T ∨ ¬F) = (F → F) ↔ (T ∨ T) = T ↔ T = T\n8. A: False, B: True |  (¬A → B) ↔ (A ∨ ¬B) = (¬F → T) ↔ (F ∨ ¬T) = (T → T) ↔ (F ∨ ¬T) = T ↔ (F ∨ F) = T ↔ F = F\n9. The fifth statement is not a tautology so is the statement that is not logically equivalent. We were asked for only one statement, so can stop here.",
+      "Number of steps": "9",
+      "How long did this take?": "5-20 minutes",
+      "Tools": "None",
+      "Number of tools": "0"
+    }
+  },
+  {
+    "task_id": "e0c10771-d627-4fd7-9694-05348e54ee36",
+    "Question": "以2011年保加利亚人口普查中关于完成高等教育的人口的性别分布为例。用较大的数字减去较小的数字，然后以千人为单位返回女性人口的差值。因此，如果男性人口比女性人口多30.1万人，则结果为“30.1”。",
+    "Level": "2",
+    "Final answer": "234.9",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Find the report put out by the Bulgarian on the 2011 census by searching.\n2. Find the requested data under the Educational Structure Section of the Report.\n3. 791.8 thousand women - 556.9 thousand men = 234.9 thousand women",
+      "Number of steps": "3",
+      "How long did this take?": "10 minutes",
+      "Tools": "1. search engine\n2. pdf reader/extracter",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "c714ab3a-da30-4603-bacd-d008800188b9",
+    "Question": "你是范海辛，一位著名的吸血鬼猎人。摩尔多瓦伯爵拉茨库四世，科斯特亚之子，委托你调查邻近瓦拉几亚的什尔内亚村。伯爵的顾问报告称，有吸血鬼在村庄附近越过边境，并希望你进行调查。\n\n你来到什尔内亚村开始调查。一天晚上，黎明前，你瞥见一个身穿红色衬里的黑色长斗篷的男人，以超人的敏捷从屋顶跃至屋顶。这是一个吸血鬼！你试图追赶它回到其巢穴，但它速度太快。然而，由于村庄的偏远位置，你确信该吸血鬼必定是村里的居民。你决定最佳行动方案是在白天拜访镇上的所有 100 名居民。你对吸血鬼和人类有所了解，这将有助于你的调查：人类总是说真话，而吸血鬼总是撒谎。\n\n下午，你逐户走访了什尔内亚的所有 100 名居民，向每个人提出同一个问题：“什尔内亚有多少吸血鬼？” 村里每个人都给出了相同的答案：“我们中至少有一个是人类。”\n\n什尔内亚有多少居民变成了吸血鬼？",
+    "Level": "1",
+    "Final answer": "100",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "Step 1: Evaluate the problem statement posed by my user.\nStep 2: Consider one known possible case: 1 Vampire, 99 humans\nStep 3: Step through the possible case with the answer provided by every resident \"At least one of us is a human.\"\nFor humans, who always tell the truth, the answer \"At least one of us is a human.\" is true for the known possible case\nFor the vampire, who always lies, the answer \"At least one of us is a human.\" is true, which violates the rule requiring the vampire to lie\nDiscount the case 1 Vampire, 99 Humans as possible\nStep 4: Consider the worst case: 100 Vampires, 0 Humans\nStep 5: Step through the worst case with the answer provided by every resident \"At least one of us is a human.\"\nFor humans, who always tell the truth, the answer \"At least one of us is a human.\" is false, but 0 humans provide this response, making this statement irrelevant\nFor the vampire, who always lies, the answer \"At least one of us is a human.\" is false, which respects the rule requiring vampires to lie\nConfirm the worst case as a provisional answer: 100 Vampires, 0 humans, answer: \"100\"\nStep 6: Consider a case with only one human: 99 Vampires, 1 Human\nStep 7: Step through the case with the answer provided by every resident \"At least one of us is a human.\"\nFor humans, who always tell the truth, the answer \"At least one of us is a human.\" is true\nFor the vampire, who always lies, the answer \"At least one of us is a human.\" is true, which violates the rule requiring vampires to lie\nDiscount the case of 99 Vampires, 1 Human as possible\nStep 8: Report the correct response to my user, \"100\"",
+      "Number of steps": "8",
+      "How long did this take?": "2 minutes",
+      "Tools": "None",
+      "Number of tools": "0"
+    }
+  },
+  {
+    "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+    "Question": "所附的 Excel 文件包含了一家本地快餐连锁店的菜单项销售数据。该连锁店从食品（不包括饮料）中实现的总销售额是多少？请以美元为单位，保留两位小数。",
+    "Level": "1",
+    "Final answer": "89706.00",
+    "file_name": "7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx",
+    "Annotator Metadata": {
+      "Steps": "1. Open the attached file.\n2. Read the columns representing different menu items. Note that they all appear to be food except for the “soda” column.\n3. Write a function to sum the relevant columns.\n4. Ensure the answer follows the specified formatting.",
+      "Number of steps": "4",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Excel\n2. Calculator",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "a0068077-79f4-461a-adfe-75c1a4148545",
+    "Question": "根据 NIH 网站上的信息，2018 年 1 月至 5 月期间，针对寻常型痤疮患者中幽门螺杆菌的临床试验实际入组人数是多少？",
+    "Level": "1",
+    "Final answer": "90",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Searched \"nih\" on Google search.\n2. Clicked the top link to nih.gov.\n3. Searched \"h pylori acne\" in the search box.\n4. Clicked \"More\" and selected \"Clinical Trials\".\n5. Clicked the result about H. Pylori and acne.\n6. Checked the date to confirm it was January to May 2018.\n7. Opened \"Tabular View\".\n8. Scrolled down to Actual Enrollment and recorded the number.",
+      "Number of steps": "8",
+      "How long did this take?": "8 minutes",
+      "Tools": "1. Search engine\n2. Web browser",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "0a3cd321-3e76-4622-911b-0fda2e5d6b1a",
+    "Question": "根据世界银行的数据，在 2001-2010 年期间，哪些国家的总储蓄占 GDP 的比例每年都超过 35%？请以字母顺序提供国家名称的逗号分隔列表。使用英语中最常见的国家名称回答。",
+    "Level": "2",
+    "Final answer": "文莱、中国、摩洛哥、新加坡",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Use search engine to search for \"World Bank gross savings % of GDP\".\n2. Open World Bank data webpage showing gross savings as % of GDP (https://data.worldbank.org/indicator/NY.GNS.ICTR.ZS).\n3. Download data from webpage as Excel file and open it in a spreadsheet editor like Microsoft Excel.\n4. Go to the file's \"Data\" sheet.\n5. Add columns with formulas indicating if the gross savings % of GDP figures in each of the years from 2001 to 2010 are greater than 35 for each row.\n6. Add column computing AND of the boolean values from the previous step for each row.\n7. Filter for rows where the output of the AND from the previous step is true.\n8. Get the list of country names in the remaining rows, excluding non-country regions and categories.\n9. Sort the list alphabetically and format it as a comma-separated list to get the final answer: Brunei Darussalam, China, Morocco, Singapore",
+      "Number of steps": "9",
+      "How long did this take?": "12 minutes",
+      "Tools": "1. Web browser\n2. Search engine\n3. Spreadsheet editor",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "384d0dd8-e8a4-4cfe-963c-d37f256e7662",
+    "Question": "在 NCATS PubChem 化合物数据库中，用于食品添加剂状态分类的化合物，其分子量为 100 g/mol 或更小，含有 6 个重原子，1 个或更少的氢键受体，且复杂度在 10 到 15 之间。在其两种可能的酶转化中，共享的基因-化学共现中最重的化合物的 PubChem CID 是多少？",
+    "Level": "3",
+    "Final answer": "4192",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Searched \"NCATS PubChem compound database\" on Google.\n2. Opened \"PubChem\" on the NCATS NIH website.\n3. Clicked on the \"PubChem Compound\" link.\n4. Clicked on the \"Classification Browser\" link.\n5. Expanded \"Food Additives and Ingredients\" in the list.\n6. Clicked on the number link next to \"Food Additive Status\".\n7. Opened the filters and set them to maximum 100 g/mol weight, minimum 6 heavy atoms, maximum 1 H-bond acceptor, complexity 10-15.\n8. Opened the resulting \"HEXANE\" page.\n9. Scrolled to 10.6 Pharmacology and Biochemistry > Transformations.\n10. Opened the two enzyme transformations' pages (CYP2B6 and CYP2E1).\n11. Opened each one's gene-chemical co-occurrences full list.\n12. Opened each chemical they shared a co-occurrence with.\n13. Compared the weights to find the heaviest (Midazolam).\n14. Noted its PubChem CID (4192).",
+      "Number of steps": "14",
+      "How long did this take?": "20 minutes",
+      "Tools": "1. Web browser\n2. Search engine",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "b9763138-c053-4832-9f55-86200cb1f99c",
+    "Question": "计算如果 Helotiales 目的 Tropicos ID 是一个 ISBN-10 号码，其校验位是多少。",
+    "Level": "2",
+    "Final answer": "3",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search \"Tropicos ID Order Helotiales\"\n2. Find the correct ID on the first result\n3. Search \"isbn 10 check digit calculator\" or calculate check digit by hand",
+      "Number of steps": "3",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. web browser\n2. search engine\n3. calculator",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "3f57289b-8c60-48be-bd80-01f8099ca449",
+    "Question": "1977 常规赛中，洋基队中保送次数最多的球员在该赛季有多少次打击？",
+    "Level": "1",
+    "Final answer": "519",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search \"yankee stats\" to find their MLB stats page.\n2. Set the data to the 1977 regular season.\n3. Sort to find the most walks.\n4. See how many at bats the player had.",
+      "Number of steps": "4",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. web browser\n2. search engine",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "05407167-39ec-4d3a-a234-73a9120c325d",
+    "Question": "在 2018 年 replit.com 上的 VSCode 博客文章中，他们在最后一个视频中点击了什么命令来删除多余的行？",
+    "Level": "2",
+    "Final answer": "格式化文档",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Opened replit.com.\n2. Clicked \"Blog\".\n3. Searched \"vscode\".\n4. Opened \"Zero Setup VSCode Intelligence\" from 2018.\n5. Scrolled down to the bottom video.\n6. Noted the command used (Format Document).",
+      "Number of steps": "6",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Web browser\n2. GIF parsing tools",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+    "Question": "作为一名电信工程师，您希望在一条公路上建造手机信号塔。在参考文件中，有一张公路和附近房屋的布局图。每个破折号“-”表示一英里标记。每个大写字母“H”表示位于一英里标记旁边的房屋，出现在公路上方或下方。每个手机信号塔可以覆盖公路旁边4英里半径内的房屋。请找出覆盖公路旁边所有房屋所需的最小手机信号塔数量。您的答案应该是一个正整数值。",
+    "Level": "1",
+    "Final answer": "3",
+    "file_name": "389793a7-ca17-4e82-81cb-2b3a2391b4b9.txt",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/389793a7-ca17-4e82-81cb-2b3a2391b4b9.txt",
+    "Annotator Metadata": {
+      "Steps": "1. Determine the diameter of each cell phone tower's coverage: 2 x 4 miles radius = 8 miles diameter.\n2. Use the diameter to maximize the coverage of each tower by capturing houses 4 miles to the left and 4 miles to the right.\n3. Start from the furthest left side of the road at the first house.\n4. Place the first tower 4 miles in to cover the first house.\n5. Move forward 4 miles from the first tower. The first tower also covers the house above mile marker 8. \n6. Find the next uncovered house below mile marker 12.\n7. Move 4 miles in from the uncovered house and place a second tower. The house is now covered. \n8. Move forward 4 miles from the second tower. The second tower also covers the house above mile marker 16.\n9. Find the next uncovered house below mile marker 25.\n10. Move 4 miles in from the uncovered house and place a third tower. The third tower also covers the house above marker 28.\n11. Move forward 4 miles from the third tower. The third tower also covers the last house below marker 30.\n12. The final number of cell phone towers erected is 3.\n\n",
+      "Number of steps": "12",
+      "How long did this take?": "30 minutes",
+      "Tools": "1. Text Editor",
+      "Number of tools": "1"
+    }
+  },
+  {
+    "task_id": "b4cc024b-3f5e-480e-b96a-6656493255b5",
+    "Question": "惠特尼美国艺术博物馆藏品编号为2022.128的照片显示，一个人手捧一本书。这本书的作者于1813年加入了哪个军事单位？请回答此问题，无需使用冠词。",
+    "Level": "2",
+    "Final answer": "俄德军团",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Use search engine to search for \"Whitney Museum of American Art collection search\".\n2. Go to the Whitney Museum's collection search webpage.\n3. Enter 2022.128 in the search box and submit the search.\n4. Open the single result, titled \"Rain in Rifle Season, Distributions from Split-Interest Trusts, Price Includes Uniform, Never Hit Soft, 2003\".\n5. Verify that this photograph has the correct accession number.\n6. Note that the subject of the photograph is holding the book \"On War\", by Carl von Clausewitz.\n7. Go to the Wikipedia page for Carl von Clausewitz.\n8. Search the page for 1813 to find that Carl von Clausewitz joined the Russian-German Legion in 1813.\n9. Go to the Wikipedia page for Russian-German Legion to verify that this was a military unit.",
+      "Number of steps": "9",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Web browser\n2. Search engine\n3. Tool to extract text from images",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+    "Question": "请查看附图。测验的评分标准如下：\n\n要求学生进行分数加减法的题目：5 分\n要求学生进行分数乘除法的题目：10 分\n要求学生形成假分数的题目：15 分\n要求学生形成带分数的题目：20 分\n\n由于技术问题导致学生延迟参加测验，老师为每个人额外加了 5 分。\n\n如果您根据附图评分，学生将获得多少分？没有部分分数。",
+    "Level": "2",
+    "Final answer": "85",
+    "file_name": "cca70ce6-1952-45d2-acd4-80c903b0bc49.png",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/cca70ce6-1952-45d2-acd4-80c903b0bc49.png",
+    "Annotator Metadata": {
+      "Steps": "1. Check the student's answers.\n2. Note problems 3 and 6 are incorrect.\n3. Calculate the points gained based on the point values provided: 1. 10, 2. 10, 3. 0, 4. 5, 5. 20, 6. 0, 7. 5, 8. 10, 9. 15, 10. 5.\n4. Sum them, then add the 5 bonus points: 10 + 10 + 0 + 5 + 20 + 0 + 5 + 10 + 15 + 5 + 5 = 85",
+      "Number of steps": "4",
+      "How long did this take?": "10 minutes",
+      "Tools": "1. image recognition/OCR\n2. calculator",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+    "Question": "所附的电子表格显示了华盛顿州西雅图一家电影和视频游戏租赁店的库存。在这份电子表格中记录的最古老的蓝光光盘的标题是什么？请按照在电子表格中显示的方式返回。",
+    "Level": "2",
+    "Final answer": "时空停泊2：平行宇宙",
+    "file_name": "32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/32102e3e-d12a-4209-9163-7b3a104efe5d.xlsx",
+    "Annotator Metadata": {
+      "Steps": "1. Open the attached file.\n2. Compare the years given in the Blu-Ray section to find the oldest year, 2009.\n3. Find the title of the Blu-Ray disc that corresponds to the year 2009: Time-Parking 2: Parallel Universe.",
+      "Number of steps": "3",
+      "How long did this take?": "1 minute",
+      "Tools": "1. Microsoft Excel",
+      "Number of tools": "1"
+    }
+  },
+  {
+    "task_id": "d700d50d-c707-4dca-90dc-4528cddd0c80",
+    "Question": "谁创作了那首歌曲，该歌曲由一只公鸡和一只仓鼠在不同的动画视频中以不同的速度和不同的歌词分别表演？请使用“名 姓”的格式回答。",
+    "Level": "2",
+    "Final answer": "罗杰·米勒",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Searched \"song performed by rooster and hamster\" on Google.\n2. Opened https://en.wikipedia.org/wiki/The_Hampsterdance_Song.\n3. Noted the song \"Whistle Stop\" was the original to use the tune.\n4. Followed the link to https://en.wikipedia.org/wiki/Robin_Hood_(1973_film).\n5. Found the composer of \"Whistle Stop\".",
+      "Number of steps": "5",
+      "How long did this take?": "5 minutes",
+      "Tools": "1. Web browser\n2. Search engine",
+      "Number of tools": "2"
+    }
+  },
+  {
+    "task_id": "72c06643-a2fa-4186-aa5c-9ec33ae9b445",
+    "Question": "将一个由0.312千克氟利昂-12制冷剂组成的系统放置在马里亚纳海沟底部，并使其稳定在海沟峰值温度下，其体积是多少毫升（四舍五入到最接近的毫升）？请以整数形式提供答案。",
+    "Level": "3",
+    "Final answer": "55",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Searched \"volume from pressure, temperature, mass\" on Google.\n2. Opened the \"Specific Volume: Definition, Formulas, Examples - ThoughtCo\" page.\n3. Noted that PV = nRT where V is volume, R is the ideal gas constant, T is temperature, P is pressure, and M is moles.\n4. Followed the \"gas constant\" link.\n5. Noted that R = 8.31446261815324 J/K-mol.\n6. Searched \"Freon-12\" on Google.\n7. Opened the \"Dichlorodifluoromethane\" on Wikipedia.\n8. Noted the molar mass of 120.91 g/mol.\n9. Converted 0.312 kg = 312 g.\n10. Calculated moles: 312 g / 120.91 g/mol = 2.58 mol.\n11. Searched \"Marianas Trench pressure\" on Google.\n12. Noted the pressure in the featured text snippet of 15,750 psi.\n13. Searched \"psi to atm\" on Google.\n14. Noted 1 psi = 0.068046 atm.\n15. Converted psi to atm: 15,750 * 0.068046 = 1071.7245 atm.\n16. Searched \"Marianas Trench temperature\" on Google.\n17. Noted the temperature range from 34-39F.\n18. Searched \"F to K\" on Google.\n19. Noted that K equals F plus 459.67 times 5/9 from the conversion tool.\n20. Converted temperature to K: 39 + 459.67 * 5/9 = 277.039K.\n21. Searched \"joules to atm\" on Google and noted the conversion of 1 Joule = 0.0098692326671601 Liter Atmosphere from the featured text snippet.\n22. Converted 8.31446261815324 * 0.0098692326671601 = 0.08205736608096 L-atm/K-mol.\n21. Changed PV = nRT to V = nRT/P\n22. Plugged numbers into the ideal gas equation: V = (0.08205736608096 L-atm/K-mol * 277.039K * 2.58 mol) / (1071.7245 atm) = 0.05473 L.\n23. Converted to mL: 0.05473 L = 54.73.\n24. Rounded to the nearest mL.",
+      "Number of steps": "24",
+      "How long did this take?": "20 minutes",
+      "Tools": "1. Web browser\n2. Search engine\n3. Calculator",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "dd3c7503-f62a-4bd0-9f67-1b63b94194cc",
+    "Question": "使用 Marisa Alviar-Agnew 和 Henry Agnew 在 CK-12 许可下授权的化学材料中提供的密度测量值，这些材料在 LibreText 的《基础化学》教材中汇编，日期为 2023 年 8 月 21 日。\n\n我有一加仑的蜂蜜和一加仑的蛋黄酱，温度均为 25°C。我每次从蜂蜜中取出一杯（1 杯）。我需要取出多少次，才能使蜂蜜的重量小于蛋黄酱？假设容器本身的重量相同。",
+    "Level": "2",
+    "Final answer": "6",
+    "file_name": "",
+    "file_path": "",
+    "Annotator Metadata": {
+      "Steps": "1. Search \"LibreText density mayonnaise\"\n2. Click result, confirm the correct license.\n3. Search \"cm^3 to 1 cup\"\n4. Use results with density measures to form the equation (16*236.588)(1.420 - 0.910)/(236.588*1.420)\n5. Round up",
+      "Number of steps": "5",
+      "How long did this take?": "20 minutes",
+      "Tools": "1. Search engine\n2. Web browser\n3. Calculator",
+      "Number of tools": "3"
+    }
+  },
+  {
+    "task_id": "bfcd99e1-0690-4b53-a85c-0174a8629083",
+    "Question": "PDF 文件中，有多少求职申请者仅缺少一项资格？",
+    "Level": "2",
+    "Final answer": "17",
+    "file_name": "bfcd99e1-0690-4b53-a85c-0174a8629083.zip",
+    "file_path": "/home/azureuser/.cache/huggingface/hub/datasets--gaia-benchmark--GAIA/snapshots/897f2dfbb5c952b5c3c1509e648381f9c7b70316/2023/validation/bfcd99e1-0690-4b53-a85c-0174a8629083.zip",
+    "Annotator Metadata": {
+      "Steps": "1. Opened the Job Listing PDF.\n2. Opened the Applicants Excel file.\n3. Used conditional formatting to highlight rows in each column that don't meet a qualification.\n4. Counted the rows with only one missing qualification.",
+      "Number of steps": "4",
+      "How long did this take?": "8 minutes",
+      "Tools": "1. PDF access\n2. Excel file access",
+      "Number of tools": "2"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+    "problem": "밑면이 정사각형인 피라미드를 밑면과 평행하고 밑면에서 2단위 떨어진 평면으로 자릅니다. 꼭대기에서 잘라낸 작은 피라미드의 표면적은 원래 피라미드의 표면적의 절반입니다. 원래 피라미드의 높이는 얼마입니까?",
+    "solution": "Let $h$ be the altitude of the original pyramid.  Then the altitude of the smaller pyramid is $h-2$.  Because the two pyramids are similar, the ratio of their altitudes is the square root of the ratio of their surface areas.  Thus $h/(h-2)=\\sqrt{2}$, so \\[h=\\frac{2\\sqrt{2}}{\\sqrt{2}-1}=\\boxed{4+2\\sqrt{2}}.\\]",
+    "level": "Level 5",
+    "type": "Geometry"
+}

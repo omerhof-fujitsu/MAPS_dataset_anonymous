@@ -1,0 +1,6 @@
+{
+  "problem": "Ogni giorno, due delle tre squadre di una classe vengono selezionate casualmente per partecipare a una gara di prova di MATHCOUNTS. Qual è la probabilità che la Squadra A venga selezionata in almeno due dei prossimi tre giorni? Esprimi la tua risposta come frazione comune.",
+  "solution": "Possiamo calcolarlo in diversi modi, ma i numeri sembrano abbastanza piccoli da permetterci di procedere e calcolare semplicemente la probabilità che A venga selezionato tutti e tre i giorni, e la probabilità che A venga selezionato esattamente 2 dei tre giorni. La squadra A viene selezionata in un dato giorno con probabilità $\\frac{2}{3}$, perché ci sono ${3 \\choose 2} = 3$ possibili coppie di squadre, e 2 di queste contengono A. Quindi, c'è una probabilità $\\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27}$ di essere selezionato tutti e tre i giorni. La probabilità di essere selezionato esattamente due volte è $\\frac{2}{3} \\cdot \\frac{2}{3} \\cdot \\frac{1}{3} \\cdot {3 \\choose 2} = \\frac{4}{9}$. Sommando queste due probabilità si ottiene $\\frac{8}{27} + \\frac{4}{9} = \\frac{8+12}{27} = \\boxed{\\frac{20}{27}}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

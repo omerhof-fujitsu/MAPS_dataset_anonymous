@@ -1,0 +1,6 @@
+{
+  "problem": "Três casais vão ao cinema. Eles querem se sentar juntos para aproveitar ao máximo, mas, em vez disso, entram aleatoriamente em uma fileira com seis assentos. Qual é a probabilidade de que eles se sentem em uma configuração socialmente ótima, na qual cada pessoa está sentada ao lado de seu parceiro?",
+  "solution": "Há $\\binom{6}{2} = 15$ maneiras de escolher pessoas para preencher os dois primeiros assentos, e 3 maneiras para que essas duas pessoas formem um casal, resultando em uma probabilidade de $3/15 = 1/5$ de que os dois primeiros assentos sejam ocupados por um casal. Se um casal for acomodado com sucesso, há $\\binom{4}{2} = 6$ maneiras de acomodar pessoas nos próximos dois assentos, e 2 maneiras para que essas duas pessoas formem um casal (podendo escolher qualquer um dos dois casais restantes), resultando em uma probabilidade de $2/6 = 1/3$ de que esses dois assentos sejam ocupados por um casal. Se os dois primeiros casais forem acomodados com sucesso, os dois últimos assentos serão garantidamente ocupados pelo último casal. Portanto, a probabilidade de que tudo ocorra conforme o planejado é $1/5 \\cdot 1/3 = \\boxed{\\frac{1}{15}}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

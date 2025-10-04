@@ -1,0 +1,6 @@
+{
+  "problem": "Sia\n\\[x^{12} - 1 = p_1(x) p_2(x) \\dotsm p_k(x),\\]\ndove ogni polinomio non costante $p_i(x)$ è monico a coefficienti interi e non può essere ulteriormente fattorizzato sugli interi. Trova $k$.",
+  "solution": "Per prima cosa, possiamo applicare la differenza di quadrati per ottenere\n\\[x^{12} - 1 = (x^6 - 1)(x^6 + 1).\\]\nPossiamo applicare la differenza di quadrati a $x^6 - 1$:\n\\[x^6 - 1 = (x^3 - 1)(x^3 + 1).\\]\nQuesti si scompongono per differenza e somma di cubi:\n\\[(x^3 - 1)(x^3 + 1) = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1).\\]\nQuindi, per somma di cubi,\n\\[x^6 + 1 = (x^2 + 1)(x^4 - x^2 + 1).\\]\nPertanto, la fattorizzazione completa sugli interi è\n\\[x^{12} - 1 = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1)(x^2 + 1)(x^4 - x^2 + 1),\\]\ne ci sono $\\boxed{6}$ fattori.",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

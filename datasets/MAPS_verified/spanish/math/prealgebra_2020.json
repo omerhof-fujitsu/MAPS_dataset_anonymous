@@ -1,0 +1,6 @@
+{
+  "problem": "La suma de todos los dígitos utilizados para escribir los números enteros del 10 al 13 es $1 + 0 + 1 + 1 + 1 + 2 + 1 + 3 = 10$. ¿Cuál es la suma de todos los dígitos utilizados para escribir los números enteros del 1 al 110, inclusive?",
+  "solution": "Primero calculamos la suma de todos los dígitos utilizados para escribir los números enteros del 0 al 99. Si consideramos todos estos números como de dos dígitos (por ejemplo, escribimos 04 en lugar de 4), la suma de los dígitos permanecerá igual. Luego, observamos que cada dígito aparece el mismo número de veces en el lugar de las unidades y en el lugar de las decenas, lo que significa que aparece un total de $2\\cdot \\frac{100}{10} = 20$ veces. Por lo tanto, la suma de todos los dígitos utilizados para escribir los números enteros del 00 al 99 es $20\\cdot (0 + 1 +\\cdots + 8 + 9) = 900$. La suma de los dígitos del 100 al 110 es simplemente $(1 + 0) + (1 + 1) + (1 + 2) + \\cdots + (1+9) + 2 = 57$. Por lo tanto, nuestra respuesta final es $900 + 57 = \\boxed{957}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

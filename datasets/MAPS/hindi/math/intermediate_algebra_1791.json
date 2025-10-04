@@ -1,0 +1,6 @@
+{
+    "problem": "परवलयिक \\[z = (2x - y)^2 - 2y^2 - 3y.\\] का वर्णन करने वाले $z(x,y)$ फ़ंक्शन पर विचार करें। आर्किमिडीज़ और ब्रह्मगुप्त एक खेल खेल रहे हैं। आर्किमिडीज़ पहले $x$ चुनता है, उसके बाद ब्रह्मगुप्त $y$ चुनता है। आर्किमिडीज़ $z$ को न्यूनतम करना चाहता है, जबकि ब्रह्मगुप्त $z$ को अधिकतम करना चाहता है। यह मानते हुए कि ब्रह्मगुप्त इष्टतम रूप से खेलेगा, आर्किमिडीज़ को $x$ का कौन सा मान चुनना चाहिए?",
+    "solution": "Expanding $z,$ we get\n\\begin{align*}\nz &= 4x^2 - 4xy + y^2 - 2y^2 - 3y \\\\\n&= -y^2 - (4x + 3) y + 4x^2.\n\\end{align*}After Archimedes chooses $x,$ Brahmagupta will choose\n\\[y = -\\frac{4x + 3}{2}\\]in order to maximize $z.$  Then\n\\begin{align*}\nz &= -\\left( -\\frac{4x + 3}{2} \\right)^2 - (4x + 3) \\left( -\\frac{4x + 3}{2} \\right)^2 + 4x^2 \\\\\n&= 8x^2 + 6x + \\frac{9}{4}.\n\\end{align*}To minimize this expression, Archimedes should choose $x = -\\frac{6}{16} = \\boxed{-\\frac{3}{8}}.$",
+    "level": "Level 5",
+    "type": "Intermediate Algebra"
+}

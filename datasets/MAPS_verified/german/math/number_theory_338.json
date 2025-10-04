@@ -1,0 +1,6 @@
+{
+  "problem": "Was ist die Summe aller verschiedenen positiven zweistelligen Teiler von 144?",
+  "solution": "Primfaktorzerlegung von $144=2^4\\cdot3^2$. Die Summe der positiven zweistelligen Teiler von 144 ist $2^4+2\\cdot3^2+2^2\\cdot3+2^2\\cdot3^2+2^3\\cdot3+2^3\\cdot3^2+2^4\\cdot3=\\boxed{226}.$",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

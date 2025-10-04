@@ -1,0 +1,6 @@
+{
+  "problem": "Tre semicerchi di raggio 1 sono costruiti sul diametro $\\overline{AB}$ di un semicerchio di raggio 2. I centri dei piccoli semicerchi dividono $\\overline{AB}$ in quattro segmenti di uguale lunghezza, come mostrato. Qual è l'area della regione ombreggiata che si trova all'interno del semicerchio più grande ma all'esterno dei piccoli semicerchi? Esprimi la tua risposta in termini di $\\pi$ e nella forma radicale più semplice.\n\n\\[\n\\boxed{\\pi \\left(4 - \\frac{3\\sqrt{3}}{2}\\right)}\n\\]",
+  "solution": "L'area del semicerchio più grande è \\[\n\\frac{1}{2}\\pi \\cdot (2)^2 = 2\\pi.\n\\] La regione eliminata dal semicerchio più grande è composta da cinque settori congruenti e due triangoli equilateri. L'area di ciascuno dei settori è \\[\n\\frac{1}{6}\\pi \\cdot (1)^2 = \\frac{\\pi}{6}\n\\] e l'area di ciascun triangolo è \\[\n\\frac{1}{2} \\cdot 1 \\cdot \\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{3}}{4},\n\\] quindi l'area della regione ombreggiata è \\[\n2\\pi - 5 \\cdot \\frac{\\pi}{6} - 2 \\cdot \\frac{\\sqrt{3}}{4} = \\boxed{\\frac{7}{6}\\pi - \\frac{\\sqrt{3}}{2}}.\n\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

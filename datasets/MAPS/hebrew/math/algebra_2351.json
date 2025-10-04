@@ -1,0 +1,6 @@
+{
+    "problem": "הפרבולה עם המשוואה $y = ax^2 + bx + c$ והקודקוד $(h, k)$ משתקפת סביב הקו $y = k$. כתוצאה מכך מתקבלת הפרבולה עם המשוואה $y = dx^2 + ex + f$. במונחים של $k$, מהו ערכו של $a + b + c + d + e + f$?",
+    "solution": "We can rewrite the equation of the original parabola as $y=f(x)=a(x-h)^2+k$ (for some $a$). After reflection of the parabola, the equation becomes $y=g(x)=-a(x-h)^2+k$. Notice that $f(x)+g(x)=2k$. Since $f(1)=a+b+c$ and $g(1)=d+e+f$, we have $a+b+c+d+e+f=f(1)+g(1)=\\boxed{2k}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

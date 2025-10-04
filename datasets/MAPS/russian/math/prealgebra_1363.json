@@ -1,0 +1,6 @@
+{
+    "problem": "Пицца диаметром $12^{\\prime \\prime}$ и пицца диаметром $16^{\\prime \\prime}$ разрезаны на восемь равных ломтиков. Джейн съела три ломтика пиццы диаметром $12^{\\prime \\prime}$. Марк съел три ломтика пиццы диаметром $16^{\\prime \\prime}$. На сколько квадратных дюймов пиццы больше съел Марк, чем Джейн? Выразите ответ в виде обыкновенной дроби через $\\pi$.",
+    "solution": "They both ate $\\frac{3}{8}$ of a pizza.  Therefore, the quantity that Mark ate in excess of Jane is simply $\\frac{3}{8} \\times$ the difference in total area of the pizzas.  The 16'' pizza has $64\\pi$ area, and the 12'' pizza has $36\\pi$ area, making for a difference of $28\\pi$. $\\frac{3}{8} \\times 28\\pi = \\boxed{\\frac{21}{2}\\pi}$",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Il quadrilatero $ABCD$ è un trapezio con $AB$ parallelo a $CD$. Sappiamo che $AB = 20$ e $CD = 12$. Qual è il rapporto tra l'area del triangolo $ACB$ e l'area del trapezio $ABCD$? Esprimi la tua risposta come frazione comune.",
+  "solution": "Sia la lunghezza dell'altezza del trapezio $ABCD$ $h$; si noti che questa è anche la lunghezza dell'altezza del triangolo $ACB$ rispetto alla base $AB$. Quindi, l'area di $ABCD$ è $\\frac{20 + 12}{2}\\cdot h = 16h$. D'altra parte, l'area del triangolo $ACB$ è $\\frac{1}{2}\\cdot 20\\cdot h = 10h$. Pertanto, il rapporto cercato è $\\frac{10}{16} = \\boxed{\\frac{5}{8}}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

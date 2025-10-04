@@ -1,0 +1,6 @@
+{
+  "problem": "A equação do círculo que passa por $(-1,6)$ e que tem centro em $(2,3)$ pode ser escrita como $x^2 + y^2 + Ax + By + C = 0$. Encontre $A \\times B \\times C$.",
+  "solution": "Como o centro do círculo está no ponto $(2,3)$, e um ponto no círculo está no ponto $(-1,6)$, pela fórmula da distância, o raio do círculo é $\\sqrt{(2-(-1))^2 + (3-6)^2} = \\sqrt{3^2 + 3^2} = \\sqrt{18}$. A equação do círculo é então dada por $(x - 2)^2 + (y - 3)^2 = 18$, e expandindo, $$x^2 - 4x + 4 + y^2 - 6y + 9 - 18 = 0 \\Longrightarrow x^2 + y^2 - 4x - 6y - 5 = 0.$$ Assim, $A \\times B \\times C = -4 \\times -6 \\times -5 = \\boxed{-120}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

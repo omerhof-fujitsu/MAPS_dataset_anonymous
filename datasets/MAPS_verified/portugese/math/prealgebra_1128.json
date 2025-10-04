@@ -1,0 +1,6 @@
+{
+  "problem": "Tom ganhou um Sr. Cabeça de Batata de aniversário. Ele veio com 3 penteados, 2 conjuntos de sobrancelhas, 1 par de olhos saltitantes, 2 conjuntos de orelhas, 2 conjuntos de lábios, um par de sapatos comuns e um par bônus de sapatos de palhaço. Se uma personalidade completa do Sr. Cabeça de Batata inclui sobrancelhas, olhos, orelhas, lábios, sapatos e, opcionalmente, cabelo, quantas personalidades excêntricas diferentes Tom pode criar? Observe que o Sr. Cabeça de Batata pode ser careca.\n\n**Observação:** Você não pode \"misturar e combinar\". Por exemplo, você não pode pegar a sobrancelha esquerda de um conjunto e a direita de outro.",
+  "solution": "Há 2 opções de sobrancelhas, 1 opção para olhos, 2 opções para orelhas, 2 opções para lábios, 2 opções para sapatos e 4 opções para cabelo (3 opções de penteados ou careca), e cada uma pode ser escolhida independentemente das outras, então o número de combinações é o produto dessas, $2\\cdot 1\\cdot 2\\cdot 2\\cdot 2\\cdot 4 = \\boxed{64}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

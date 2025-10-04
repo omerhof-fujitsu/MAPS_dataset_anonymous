@@ -1,0 +1,6 @@
+{
+  "problem": "Il grafico dell'equazione $y = ax^2 + bx - 6$ è completamente al di sotto dell'asse $x$. Se $a^2 = 49$, qual è il valore integrale massimo possibile di $b$?",
+  "solution": "Poiché la parabola è completamente al di sotto dell'asse $x$, deve aprirsi verso il basso (altrimenti, dovrebbe attraversare l'asse $x$ durante la sua ascesa). Questo significa che $a < 0$. Abbiamo $a^2 = 49$, quindi $a = \\pm 7$, ma poiché $a$ è negativo, $a = -7$.\n\nPoiché il grafico non tocca l'asse $x$, non ci sono soluzioni reali. Poiché tutte le soluzioni devono essere immaginarie, il discriminante deve essere negativo, ovvero:\n\\begin{align*}\nb^2 - 4ac &< 0 \\quad \\Rightarrow \\\\\nb^2 - 4(-7)(-6) &< 0 \\quad \\Rightarrow \\\\\nb^2 - 168 &< 0 \\quad \\Rightarrow \\\\\nb^2 &< 168.\n\\end{align*}\nCiò implica che $-\\sqrt{168} < b < \\sqrt{168}$. Il valore intero più grande di $b$ è il più grande intero minore di $\\sqrt{168}$. Poiché $13^2 = 169$, sappiamo che $\\sqrt{168}$ è leggermente minore di $13$ ma maggiore di $12$. Quindi, il valore intero più grande di $b$ è $\\boxed{12}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

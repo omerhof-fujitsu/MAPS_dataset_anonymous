@@ -1,0 +1,6 @@
+{
+    "problem": "크리스타는 일요일 아침에 새 은행에 1센트를 넣었습니다. 월요일에는 2센트를, 화요일에는 4센트를 넣었습니다. 그리고 2주 동안 매일 은행에 넣는 금액을 두 배로 늘렸습니다. 은행 잔고가 처음으로 $\\$5$를 넘긴 요일은 언제였습니까?",
+    "solution": "If $n$ days have passed since Sunday, then the total number of cents in her bank account is $1+2+\\cdots+2^n$. This is a geometric series with first term 1, common ratio 2 and $n+1$ terms. Hence the sum is: $$1+2+\\cdots+2^n = \\frac{1-2^{n+1}}{1-2} = 2^{n+1}-1.$$If this is greater than $500$ (i.e. if the total amount of money in the account is more than $\\$5$) then $2^{n+1}-1\\ge 500$, so $2^{n+1}\\ge 501$. The smallest power of 2 that is greater than 501 is $2^9$. Thus the first time there is more than $\\$5$ in the bank account occurs after $n=8$ days. This is 8 days away from Sunday, so the day of the week is $\\boxed{\\text{Monday}}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

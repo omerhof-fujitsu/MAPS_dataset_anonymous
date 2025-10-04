@@ -1,0 +1,6 @@
+{
+    "problem": "Eine Pizza mit einem Durchmesser von $12^{\\prime \\prime}$ und eine Pizza mit einem Durchmesser von $16^{\\prime \\prime}$ werden jeweils in acht kongruente Stücke geschnitten. Jane aß drei Stücke der $12^{\\prime \\prime}$-Pizza. Mark aß drei Stücke der $16^{\\prime \\prime}$-Pizza. Wie viele Quadratzoll Pizzafläche hat Mark mehr gegessen als Jane? Geben Sie Ihre Antwort als gewöhnlichen Bruch in Abhängigkeit von $\\pi$ an.",
+    "solution": "They both ate $\\frac{3}{8}$ of a pizza.  Therefore, the quantity that Mark ate in excess of Jane is simply $\\frac{3}{8} \\times$ the difference in total area of the pizzas.  The 16'' pizza has $64\\pi$ area, and the 12'' pizza has $36\\pi$ area, making for a difference of $28\\pi$. $\\frac{3}{8} \\times 28\\pi = \\boxed{\\frac{21}{2}\\pi}$",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

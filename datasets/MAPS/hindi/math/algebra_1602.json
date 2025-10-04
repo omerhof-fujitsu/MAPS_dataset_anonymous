@@ -1,0 +1,6 @@
+{
+    "problem": "प्रत्येक धनात्मक पूर्णांक $k$ के लिए, $S_k$ को पूर्णांकों का वह बढ़ता अंकगणितीय अनुक्रम माना जाए, जिसका पहला पद 1 है और सार्व अंतर $k$ है। उदाहरण के लिए, $S_3$ अनुक्रम $1, 4, 7, \\ldots$ है। $k$ के कितने मानों के लिए $S_k$ में $2005$ एक पद के रूप में शामिल है?",
+    "solution": "The general term of the sequence is $a_n = 1 + kn$, where $a_0 = 1$ is the first term. Therefore, we want $1 + kn = 2005$, or $kn = 2004$. We see that this equation has a solution for $n$ if and only if $k$ is a divisor of $2004$. Since $2004 = 2^2 \\cdot 3 \\cdot 167$, the number of positive divisors of $2004$ is $(2+1)(1+1)(1+1) = \\boxed{12}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

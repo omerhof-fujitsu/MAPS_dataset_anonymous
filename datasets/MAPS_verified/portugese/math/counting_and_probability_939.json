@@ -1,0 +1,6 @@
+{
+  "problem": "Quantos triplos $(a, b, c)$ de inteiros positivos pares satisfazem $a^3 + b^2 + c \\leq 50$?",
+  "solution": "Se $a \\geq 4$, então $a^3 + b^2 + c > a^3 \\geq 4^3 > 50$. Mas queremos $a^3 + b^2 + c \\leq 50$, então devemos ter $a = 2$. Agora, substituímos $a = 2$ em $a^3 + b^2 + c \\leq 50$, o que nos dá $b^2 + c \\leq 42$. Como $b^2 < 42$, sabemos que $b$ deve ser 2, 4 ou 6.\n\nQuando $b = 2$, $c \\leq 38$. Existem 19 números inteiros positivos pares menores ou iguais a 38, a saber: $2 \\times 1$, $2 \\times 2$, $\\ldots$, $2 \\times 19$.\n\nQuando $b = 4$, $c \\leq 26$. Existem 13 números inteiros positivos pares menores ou iguais a 26.\n\nQuando $b = 6$, $c \\leq 6$. Existem 3 números inteiros positivos pares menores ou iguais a 6.\n\nPortanto, a resposta é $19 + 13 + 3 = \\boxed{35}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

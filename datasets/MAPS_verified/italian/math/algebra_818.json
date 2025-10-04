@@ -1,0 +1,6 @@
+{
+  "problem": "Sia $f(x) = \\sqrt{x}$ e $g(x) = x^2.$ Trova $f(g(f(g(f(8))))).$",
+  "solution": "Possiamo valutarlo nel modo difficile, oppure possiamo vedere che $g(f(8)) = (\\sqrt{8})^2 = 8$. Pertanto, $f(g(f(g(f(8))))) = f(g(f(8))) = f(8) = \\sqrt{8} = \\boxed{2\\sqrt{2}}.$",
+  "level": "Level 5",
+  "type": "Algebra"
+}

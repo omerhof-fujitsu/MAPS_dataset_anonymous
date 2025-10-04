@@ -1,0 +1,6 @@
+{
+  "problem": "A parábola com equação $y = ax^2 + bx + c$ e vértice $(h, k)$ é refletida em torno da reta $y = k$. Isso resulta na parábola com equação $y = dx^2 + ex + f$. Em termos de $k$, qual é o valor de $a + b + c + d + e + f$?",
+  "solution": "Podemos reescrever a equação da parábola original como $y = f(x) = a(x - h)^2 + k$ (para algum $a$). Após a reflexão da parábola, a equação se torna $y = g(x) = -a(x - h)^2 + k$. Observe que $f(x) + g(x) = 2k$. Como $f(1) = a + b + c$ e $g(1) = d + e + f$, temos $a + b + c + d + e + f = f(1) + g(1) = \\boxed{2k}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

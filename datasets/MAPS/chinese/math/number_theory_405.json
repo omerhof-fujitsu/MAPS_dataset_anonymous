@@ -1,0 +1,6 @@
+{
+  "problem": "无限序列 $T=\\{t_0, t_1, t_2, \\ldots\\}$ 定义为 $t_0=0,$ $t_1=1,$ 且对于所有整数 $n>1,$ $t_n=t_{n-2}+t_{n-1}$。如果 $a,$ $b,$ $c$ 是固定的非负整数，且满足\n\\begin{align*}\na &\\equiv 5 \\pmod{16}, \\\\\nb &\\equiv 10 \\pmod{16}, \\\\\nc &\\equiv 15 \\pmod{16},\n\\end{align*}\n那么 $t_a + t_b + t_c$ 除以 $7$ 的余数是多少？",
+  "solution": "我们首先需要在 $T$ 中找到一个模式。你可能听说过斐波那契数列。将它简化模 $7$（我们仍然可以使用递归关系），它看起来像 \\[T\\equiv \\{0,1,1,2,3,5,1,6,0,6,6,5,4,2,6,1,0,1\\ldots\\}.\\] 前 $16$ 项是 $\\{0,1,1,2,3,5,1,6,0,6,6,5,4,2,6,1\\}$。由于接下来的两项是 $0$ 和 $1$，并且该序列是通过对最近两项进行递归定义的，因此斐波那契数列模 $7$ 由以下项的重复组成：$0, 1, 1, 2, 3, 5, 1, 6, 0, 6, 6, 5, 4, 2, 6, 1$。现在，根据以下条件：\n\\[\\begin{cases}\na \\equiv 5 \\pmod{16} \\implies t_a \\equiv 5 \\pmod{7} \\\\\nb \\equiv 10 \\pmod{16} \\implies t_b \\equiv 6 \\pmod{7} \\\\\nc \\equiv 15 \\pmod{16} \\implies t_c \\equiv 1 \\pmod{7}\n\\end{cases}\\]\n因此，\n\\[t_a + t_b + t_c \\equiv 5 + 6 + 1 \\equiv 12 \\equiv \\boxed{5} \\pmod{7}.\\]",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "在梯形 $ABCD$ 中，$\\overline{AB}$ 和 $\\overline{CD}$ 与 $\\overline{AD}$ 垂直，且 $AB + CD = BC$，$AB < CD$，$AD = 7$。$AB \\cdot CD$ 是多少？请用十进制形式表达你的答案。",
+    "solution": "令 $E$ 为从 $B$ 到 $\\overline{CD}$ 的垂线的脚。则 $AB = DE$ 且 $BE = AD = 7$。根据勾股定理，\n\\begin{align*}\nAD^2 = BE^2 &= BC^2 - CE^2\\\\\n&= (CD + AB)^2 - (CD - AB)^2\\\\\n&= (CD + AB + CD - AB)(CD + AB - CD + AB)\\\\\n&= 4 \\cdot CD \\cdot AB。\n\\end{align*}\n因此，$AB \\cdot CD = \\frac{AD^2}{4} = \\frac{7^2}{4} = \\frac{49}{4} = \\boxed{12.25}$。\n\n[asy]\npair A, B, C, D, I;\nA = (0, 0);\nB = (0, 5);\nC = (7, 7);\nI = (7, 5);\nD = (7, 0);\ndraw(A--B--C--D--cycle);\ndraw(B--I);\nlabel(\"$A$\", A, W);\nlabel(\"$B$\", B, W);\nlabel(\"$C$\", C, E);\nlabel(\"$E$\", I, E);\nlabel(\"$D$\", D, E);\n[/asy]",
+    "level": "Level 5",
+    "type": "Geometry"
+}

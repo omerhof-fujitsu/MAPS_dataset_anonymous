@@ -1,0 +1,6 @@
+{
+  "problem": "如果 $\\sin (\\pi \\cos x) = \\cos (\\pi \\sin x)$，请输入 $\\sin 2x$ 的所有可能值，并用逗号分隔。",
+  "solution": "根据给定的方程，\n\\[\\cos (\\pi \\sin x) = \\sin (\\pi \\cos x) = \\cos \\left( \\frac{\\pi}{2} - \\pi \\cos x \\right).\\]\n这意味着 $\\pi \\sin x$ 和 $\\frac{\\pi}{2} - \\pi \\cos x$ 要么相加为 $2\\pi$ 的倍数，要么相差 $2\\pi$ 的倍数。\n\n在第一种情况下，\n\\[\\pi \\sin x + \\left( \\frac{\\pi}{2} - \\pi \\cos x \\right) = 2\\pi n\\]\n对于某个整数 $n$，则\n\\[\\sin x - \\cos x = 2n - \\frac{1}{2}.\\]\n因为\n\\[(\\sin x - \\cos x)^2 = \\sin^2 x - 2 \\sin x \\cos x + \\cos^2 x = 1 - \\sin 2x \\le 2,\\]\n由此得出 $|\\sin x - \\cos x| \\le \\sqrt{2}.$ 因此，$n$ 的唯一可能值为 0，在这种情况下\n\\[\\sin x - \\cos x = -\\frac{1}{2}.\\]\n平方后，我们得到\n\\[\\sin^2 x - 2 \\sin x \\cos x + \\cos^2 x = \\frac{1}{4}.\\]\n然后 $1 - \\sin 2x = \\frac{1}{4},$ 从而 $\\sin 2x = \\frac{3}{4}.$\n\n在第二种情况下，\n\\[\\pi \\sin x - \\left( \\frac{\\pi}{2} - \\pi \\cos x \\right) = 2\\pi n\\]\n对于某个整数 $n$，则\n\\[\\sin x + \\cos x = 2n + \\frac{1}{2}.\\]\n根据与上述相同的推理，$n$ 的唯一可能值为 0，在这种情况下\n\\[\\sin x + \\cos x = \\frac{1}{2}.\\]\n平方后，我们得到\n\\[\\sin^2 x + 2 \\sin x \\cos x + \\cos^2 x = \\frac{1}{4}.\\]\n然后 $1 + \\sin 2x = \\frac{1}{4},$ 从而 $\\sin 2x = -\\frac{3}{4}.$\n\n因此，$\\sin 2x$ 的可能值为 $\\boxed{\\frac{3}{4}, -\\frac{3}{4}}.$",
+  "level": "Level 5",
+  "type": "Precalculus"
+}

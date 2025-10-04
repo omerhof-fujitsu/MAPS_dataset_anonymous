@@ -1,0 +1,6 @@
+{
+    "problem": "三角形$ABC$は直角三角形です。角$PAB$の大きさが$x^\\circ$であり、角$ACB$の大きさが$(Mx+N)^\\circ$と表され、$M=1$である場合、$M+N$の値はいくつですか？",
+    "solution": "Since $\\angle PAB$ and $\\angle BAC$ are supplementary, $\\angle BAC = 180^{\\circ} - x^\\circ$.  Since the three angles of a triangle add up to $ 180^{\\circ} $, we have $\\angle ACB = 180^{\\circ} - 90^{\\circ} - (180^{\\circ} - x^\\circ) = x^\\circ - 90^{\\circ}$.  Thus, $M + N = \\boxed{-89}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

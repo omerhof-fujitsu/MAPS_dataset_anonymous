@@ -1,0 +1,6 @@
+{
+  "problem": "Il numero 64 ha la proprietà di essere divisibile per la sua cifra delle unità. Quanti numeri interi tra 10 e 50 hanno questa proprietà?",
+  "solution": "Dodici numeri che terminano con 1, 2 o 5 hanno questa proprietà. Sono 11, 12, 15, 21, 22, 25, 31, 32, 35, 41, 42 e 45. Inoltre, abbiamo 33, 24, 44, 36 e 48, per un totale di $\\boxed{17}$. (Si noti che 20, 30 e 40 non sono divisibili per 0, poiché la divisione per 0 non è definita.)",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

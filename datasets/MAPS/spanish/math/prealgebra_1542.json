@@ -1,0 +1,6 @@
+{
+    "problem": "El triángulo $ABC$ es un triángulo rectángulo. Si la medida del ángulo $PAB$ es $x^\\circ$ y la medida del ángulo $ACB$ se expresa en la forma $(Mx+N)^\\circ$ con $M=1$, ¿cuál es el valor de $M+N$?",
+    "solution": "Since $\\angle PAB$ and $\\angle BAC$ are supplementary, $\\angle BAC = 180^{\\circ} - x^\\circ$.  Since the three angles of a triangle add up to $ 180^{\\circ} $, we have $\\angle ACB = 180^{\\circ} - 90^{\\circ} - (180^{\\circ} - x^\\circ) = x^\\circ - 90^{\\circ}$.  Thus, $M + N = \\boxed{-89}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "As notas dos exames de uma turma de pré-álgebra foram organizadas em um diagrama de caule e folhas, conforme ilustrado. Qual é a média aritmética da mediana e da moda dos dados fornecidos?\n\n\\begin{tabular}{ c | c c c ccc c c c}\n4&1&&&&&&&&\\\\\n5&2&&&&&&&&\\\\\n6&7&8&8&&&&&&\\\\\n7&1&1&2&3&3&3&5&6&8\\\\\n8&0&4&4&6&6&6&6&8&\\\\\n9&1&3&5&5&7&&&&\\\\\n\\end{tabular}",
+  "solution": "Cada dígito à direita da barra vertical representa (o dígito das unidades de) uma nota de exame. Contando os dígitos, vemos que há $27$ notas de exame no total. Portanto, a $14^{\\rm th}$ nota em ordem crescente é a mediana (já que há $13$ notas menores que ela e $13$ notas maiores que ela). O gráfico facilita a leitura das notas em ordem crescente — basta ler as linhas de cima para baixo. A $14^{\\rm th}$ entrada é $78,$ então essa é a nota mediana. A moda é a nota que ocorre com mais frequência. Neste caso, é $86,$ que aparece quatro vezes no gráfico. A média aritmética da mediana e da moda dos dados é $\\dfrac{1}{2}(78+86),$ ou $\\boxed{82}.$",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

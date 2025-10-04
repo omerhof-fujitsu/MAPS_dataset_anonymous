@@ -1,0 +1,6 @@
+{
+    "problem": "María tiene tres manzanas idénticas y tres naranjas idénticas. ¿De cuántas maneras puede distribuir las frutas entre sus cuatro amigos si no le da naranjas a Jacky? (Nota: María no se queda con ninguna fruta, y algunos de sus amigos podrían no recibir ninguna fruta).",
+    "solution": "First, just consider the apples. Imagine putting three dividers among the apples, so that Maria's first friend gets the apples to the left of the first divider, Maria's second friend gets the apples between the first and second dividers, Maria's third friend gets the apples between the second and third dividers, and Maria's last friend gets the apples after the third divider. With three dividers and three apples, there are $\\binom{6}{3}=20$ ways to arrange the dividers. Now, consider the oranges. Since Maria won't give Jacky any oranges, Maria has to distribute the oranges among her other three friends. With three oranges and two dividers, there are $\\binom{5}{2}=10$ ways for Maria to distribute the oranges. The total number of ways for Maria to distribute the fruit is $20\\cdot 10=\\boxed{200}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

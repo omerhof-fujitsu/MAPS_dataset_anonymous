@@ -1,0 +1,6 @@
+{
+  "problem": "La gráfica de la ecuación $y = ax^2 + bx - 6$ está completamente por debajo del eje $x$. Si $a^2 = 49$, ¿cuál es el mayor valor integral posible de $b$?",
+  "solution": "Dado que la parábola está completamente por debajo del eje $x$, debe abrirse hacia abajo (de lo contrario, tendría que cruzar el eje $x$ al ascender). Esto significa que $a < 0$. Tenemos $a^2 = 49$, por lo tanto $a = \\pm 7$, pero como $a$ es negativo, $a = -7$.\n\nComo nuestra gráfica no toca el eje $x$, no debemos tener soluciones reales. Dado que todas las soluciones deben ser imaginarias, el discriminante debe ser negativo, o\n\\begin{align*}\nb^2 - 4ac &< 0 \\quad \\Rightarrow \\\\\nb^2 - 4(-7)(-6) &< 0 \\quad \\Rightarrow \\\\\nb^2 - 168 &< 0 \\quad \\Rightarrow \\\\\nb^2 &< 168.\n\\end{align*}\nEsto significa que $-\\sqrt{168} < b < \\sqrt{168}$. El mayor valor entero de $b$ es el mayor entero menor que $\\sqrt{168}$. Como $13^2 = 169$, sabemos que $\\sqrt{168}$ es un poco menor que $13$ pero mayor que $12$. Por lo tanto, el mayor valor entero de $b$ es $\\boxed{12}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

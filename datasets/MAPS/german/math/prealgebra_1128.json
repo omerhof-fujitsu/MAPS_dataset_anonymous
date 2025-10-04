@@ -1,0 +1,6 @@
+{
+    "problem": "Tom bekam zum Geburtstag einen Mr. Potato Head. Er kam mit 3 Frisuren, 2 Augenbrauenpaaren, 1 Paar Wackelaugen, 2 Ohrpaaren, 2 Lippenpaaren, einem Paar normaler Schuhe und als Bonus einem Paar Clownschuhe. Wenn eine komplette Mr. Potato Head-Persönlichkeit Augenbrauen, Augen, Ohren, Lippen, Schuhe und optional Haare umfasst, wie viele verschiedene verrückte Persönlichkeiten kann Tom sich ausdenken? Beachten Sie, dass Mr. Potato Head auch ohne Haare (glatzköpfig) sein kann.\n\nHinweis: Es ist nicht möglich, Teile zu kombinieren. Beispielsweise kann man nicht die linke Augenbraue aus einem Paar und die rechte aus dem anderen Paar verwenden.",
+    "solution": "There are 2 choices of eyebrows, 1 choice for eyes, 2 choices for ears, 2 choices for lips, 2 choices for shoes, and 4 choices for hair (3 choices of hairstyles, or bald), and each can be picked independent of the others, so the number of combinations is the product of those, $2\\cdot 1\\cdot 2\\cdot 2\\cdot 2\\cdot 4 = \\boxed{64}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

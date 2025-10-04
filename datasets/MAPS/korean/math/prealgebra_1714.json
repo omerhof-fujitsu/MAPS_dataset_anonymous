@@ -1,0 +1,6 @@
+{
+    "problem": "사각형 $ABCD$은 평행사변형입니다. 각 $A$의 크기가 62도이고 각 $ADB$의 크기가 75도일 때, 각 $ADC$의 크기는 몇 도인지 구하시오.",
+    "solution": "Since adjacent angles of a parallelogram add up to $180^{\\circ}$, $ADC=180^{\\circ}-A=180^{\\circ}-62^{\\circ}=\\boxed{118^{\\circ}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

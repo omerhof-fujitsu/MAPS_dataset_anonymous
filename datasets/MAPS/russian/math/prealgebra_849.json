@@ -1,0 +1,6 @@
+{
+    "problem": "На вечеринку приходят 22 человека. Каждый человек пожимает руки не более чем с 20 другими людьми. Каково максимально возможное количество рукопожатий, если предположить, что любые два человека могут пожать руки не более одного раза?",
+    "solution": "If each person shakes hands with exactly 20 other people, then there will be $\\frac{22 \\cdot 20}{2} = \\boxed{220}$ handshakes, since two people are required to complete a handshake. To achieve 220 handshakes, we arrange the participants in a circle. Each person shakes hands with everyone except the person directly across from himself or herself (and himself or herself).",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

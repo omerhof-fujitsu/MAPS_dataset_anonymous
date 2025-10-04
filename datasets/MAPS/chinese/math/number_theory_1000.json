@@ -1,0 +1,6 @@
+{
+  "problem": "计算 $17^{-1}\\pmod{83}$。将你的答案表示为从 $0$ 到 $82$（含）的余数。\n\n（你可能会发现考虑 $17 \\cdot 5 = 85$ 会有所帮助。）",
+  "solution": "我们首先注意到 $17 \\cdot 5 = 85 \\equiv 2 \\pmod{83}$。然而，我们正在寻找 $n$，使得 $17 \\cdot n \\equiv 1 \\pmod{83}$。注意 $2 \\cdot 42 = 84 \\equiv 1 \\pmod{83}$。因此，\n\\[\n\\begin{align*}\n17 \\cdot 5 \\cdot 42 &\\equiv 2 \\cdot 42 \\\\\n&\\equiv 1 \\pmod{83},\n\\end{align*}\n\\]\n这告诉我们 $17$ 和 $5 \\cdot 42$ 互为对方以 $83$ 为模的逆。我们可以计算 $5 \\cdot 42 = 210$，但它不在 $0$ 到 $82$ 的范围内，所以我们取它的余数 $\\pmod{83}$，也就是 $44$。因此，$17^{-1} \\equiv \\boxed{44} \\pmod{83}$。\n\n我们可以检查答案：$17 \\cdot 44 = 748 = 9 \\cdot 83 + 1 \\equiv 1 \\pmod{83}$，所以我们的答案是正确的。",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

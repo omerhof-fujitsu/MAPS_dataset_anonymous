@@ -1,0 +1,6 @@
+{
+  "problem": "Eine Pyramide mit quadratischer Grundfläche wird von einer Ebene geschnitten, die parallel zur Grundfläche verläuft und 2 Einheiten von der Grundfläche entfernt ist. Die Oberfläche der kleineren, abgeschnittenen Pyramide ist halb so groß wie die Oberfläche der ursprünglichen Pyramide. Wie groß ist die Höhe der ursprünglichen Pyramide?",
+  "solution": "Sei $h$ die Höhe der ursprünglichen Pyramide. Dann beträgt die Höhe der kleineren Pyramide $h-2$. Da die beiden Pyramiden ähnlich sind, ist das Verhältnis ihrer Höhen gleich der Quadratwurzel des Verhältnisses ihrer Oberflächen. Somit gilt $h/(h-2)=\\sqrt{2}$, also \\[h=\\frac{2\\sqrt{2}}{\\sqrt{2}-1}=\\boxed{4+2\\sqrt{2}}.\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

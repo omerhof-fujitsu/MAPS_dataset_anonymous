@@ -1,0 +1,6 @@
+{
+    "problem": "क्रिस्टा ने रविवार की सुباح अपने नए बैंक में 1 सेंट डाला। सोमवार को उसने अपने बैंक में 2 सेंट डाले। मंगलवार को उसने अपने बैंक में 4 सेंट डाले, और उसने दो सप्ताह तक हर दिन अपने बैंक में डाली गई धनराशि को दोगुना करना जारी रखा। सप्ताह के किस दिन उसके बैंक में कुल धनराशि पहली बार $\\$5$ से अधिक हुई?",
+    "solution": "If $n$ days have passed since Sunday, then the total number of cents in her bank account is $1+2+\\cdots+2^n$. This is a geometric series with first term 1, common ratio 2 and $n+1$ terms. Hence the sum is: $$1+2+\\cdots+2^n = \\frac{1-2^{n+1}}{1-2} = 2^{n+1}-1.$$If this is greater than $500$ (i.e. if the total amount of money in the account is more than $\\$5$) then $2^{n+1}-1\\ge 500$, so $2^{n+1}\\ge 501$. The smallest power of 2 that is greater than 501 is $2^9$. Thus the first time there is more than $\\$5$ in the bank account occurs after $n=8$ days. This is 8 days away from Sunday, so the day of the week is $\\boxed{\\text{Monday}}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

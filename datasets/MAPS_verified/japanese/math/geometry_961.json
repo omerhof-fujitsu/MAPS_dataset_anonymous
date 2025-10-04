@@ -1,0 +1,6 @@
+{
+  "problem": "長方形$PQRS$の対角線は点$X$で交差します。$PS = 6$と$RS=8$が交差している場合、$\\sin \\angle PXS$は何ですか？",
+  "solution": "$\\sin \\angle PXS$ を求めるには、$\\angle PXS$ を鋭角の一つとする直角三角形を作成します。図のように、$S$ から対角線 $\\overline{PR}$ まで高さ $\\overline{SF}$ を引きます。すると、$\\sin \\angle PXS = \\sin\\angle FXS = \\frac{FS}{XS}$ が得られます。\n\nピタゴラスの定理から $PR = QS = 10$ が得られるので、$SX = QS/2 = 5$ となります。また、AA 相似則により $\\triangle FPS \\sim \\triangle SPR$ が得られます（どちらも直角三角形で、$\\angle SPR = \\angle FPS$ であるため）。したがって、\n\\[\\frac{FS}{PS} = \\frac{SR}{PR}.\\]\nこれより、\n\\[FS = PS \\cdot \\frac{SR}{PR} = \\frac{6 \\cdot 8}{10} = \\frac{24}{5}.\\]\n最後に、\n\\[\\sin \\angle PXS = \\frac{FS}{XS} = \\frac{\\frac{24}{5}}{5} = \\boxed{\\frac{24}{25}}.\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Nancy erzeugt eine zweistellige Ganzzahl, indem sie zweimal einen sechsseitigen Würfel wirft. Das Ergebnis ihres ersten Wurfs bildet die Zehnerstelle, und das Ergebnis ihres zweiten Wurfs bildet die Einerstelle. Wie hoch ist die Wahrscheinlichkeit, dass die resultierende Ganzzahl durch 8 teilbar ist? Geben Sie Ihre Antwort als gemeinen Bruch an.",
+    "solution": "The largest number Nancy can generate is 66.  The positive two-digit multiples of 8 less than 66 are 16, 24, 32, 40, 48, 56, and 64.  40 and 48 cannot be produced from the numbers on a 6-sided die, but the other 5 multiples of 8 in the list can.  Therefore, there are 5 equally likely ways to produce a multiple of 8 out of the $6\\cdot6=36$ total combinations for the two dice, so the desired probability is $\\boxed{\\dfrac{5}{36}}$.\n\n(Special thanks to 5849206328x for this solution.)",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

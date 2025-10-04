@@ -1,0 +1,6 @@
+{
+    "problem": "トムは誕生日にミスターポテトヘッドをもらいました。髪型が3種類、眉毛が2セット、ぎょろ目が1組、耳が2セット、唇が2セット、普通の靴が1足、そしてボーナスのピエロの靴が1足付いていました。眉毛、目、耳、唇、靴、そしてオプションで髪の毛（またはハゲ）を含むミスターポテトヘッドの個性が完成するとしたら、トムは何通りもの奇抜な個性を思いつくでしょうか？\n\n（注：パーツの組み合わせは「セット」単位で行い、左右を別々に選ぶことはできません。）",
+    "solution": "There are 2 choices of eyebrows, 1 choice for eyes, 2 choices for ears, 2 choices for lips, 2 choices for shoes, and 4 choices for hair (3 choices of hairstyles, or bald), and each can be picked independent of the others, so the number of combinations is the product of those, $2\\cdot 1\\cdot 2\\cdot 2\\cdot 2\\cdot 4 = \\boxed{64}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

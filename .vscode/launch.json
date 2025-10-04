@@ -1,0 +1,128 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug: Load Datasets (Basic)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/load_datasets.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "args": [
+                "--base-path", "datasets/MAPS",
+                "--languages", "english",
+                "--tasks", "swe", "gaia",
+                "--verbose"
+            ]
+        },
+        {
+            "name": "Debug: Load Datasets (Multiple Languages)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/load_datasets.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "args": [
+                "--base-path", "datasets/MAPS",
+                "--languages", "english", "arabic",
+                "--tasks", "swe", "gaia", "asb",
+                "--verbose",
+                "--head", "5"
+            ]
+        },
+        {
+            "name": "Debug: Load ASB from MAPS_verified",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/load_datasets.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "args": [
+                "--base-path", "datasets/MAPS_verified",
+                "--languages", "english",
+                "--tasks", "asb",
+                "--verbose"
+            ]
+        },
+        {
+            "name": "Debug: List Available Languages",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/load_datasets.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "args": [
+                "--base-path", "datasets/MAPS",
+                "--list-languages"
+            ]
+        },
+        {
+            "name": "Debug: List Tasks for English",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/load_datasets.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "args": [
+                "--base-path", "datasets/MAPS",
+                "--list-tasks", "english"
+            ]
+        },
+        {
+            "name": "Debug: Export to CSV",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/load_datasets.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "args": [
+                "--base-path", "datasets/MAPS",
+                "--languages", "english",
+                "--tasks", "swe",
+                "--output", "debug_output.csv",
+                "--verbose",
+                "--head", "3"
+            ]
+        },
+        {
+            "name": "Debug: Custom Configuration",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/load_datasets.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "args": [
+                // Customize these arguments for your specific debugging needs
+                "--base-path", "datasets/MAPS",
+                "--languages", "english",
+                "--tasks", "swe",
+                "--verbose"
+            ]
+        },
+        {
+            "name": "Debug: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${fileDirname}",
+            "env": {},
+            "args": []
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Suchen Sie den kleinstmöglichen Wert des größten der Ausdrücke $xy$, $1 - x - y + xy$ und $x + y - 2xy$, wenn $0 \\leq x \\leq y \\leq 1$.",
+  "solution": "Wir behaupten, dass das Minimum $\\frac{4}{9}$ ist, wenn $x = y = \\frac{1}{3}$. Dann gilt:\n\\begin{align*}\nxy &= \\frac{1}{9}, \\\\\n(1 - x)(1 - y) &= \\frac{4}{9}, \\\\\nx + y - 2xy &= \\frac{4}{9}.\n\\end{align*}\nDer Rest besteht darin zu zeigen, dass einer der Ausdrücke $xy$, $(1 - x)(1 - y)$ oder $x + y - 2xy$ immer mindestens $\\frac{4}{9}$ ist.\n\nBeachten Sie, dass\n\\[xy + (1 - x - y + xy) + (x + y - 2xy) = 1.\\]\nDas bedeutet, wenn einer dieser drei Ausdrücke höchstens $\\frac{1}{9}$ ist, dann ergeben die anderen beiden zusammen mindestens $\\frac{8}{9}$, sodass einer von ihnen mindestens $\\frac{4}{9}$ sein muss.\n\nSeien $s = x + y$ und $p = xy$. Dann gilt:\n\\[s^2 - 4p = (x + y)^2 - 4xy = (x - y)^2 \\ge 0.\\]\nNehmen wir an, dass $x + y - 2xy = s - 2p < \\frac{4}{9}$. Dann folgt:\n\\[0 \\le s^2 - 4p < \\left( 2p + \\frac{4}{9} \\right)^2 - 4p.\\]\nDies vereinfacht sich zu $81p^2 - 45p + 4 > 0$, was sich als $(9p - 1)(9p - 4) > 0$ faktorisieren lässt. Das bedeutet, dass entweder $p < \\frac{1}{9}$ oder $p > \\frac{4}{9}$ gilt; in beiden Fällen sind wir fertig.\n\nDaher ist der Minimalwert $\\boxed{\\frac{4}{9}}$.",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

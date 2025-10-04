@@ -1,0 +1,6 @@
+{
+  "problem": "Krista ha messo 1 centesimo nel suo nuovo salvadanaio una domenica mattina. Il lunedì ha messo 2 centesimi, il martedì 4 centesimi, e ha continuato a raddoppiare l'importo ogni giorno per due settimane. In quale giorno della settimana l'importo totale nel suo salvadanaio ha superato per la prima volta i $\\$5$?",
+  "solution": "Se sono trascorsi $n$ giorni da domenica, il numero totale di centesimi sul suo conto bancario è $1+2+\\cdots+2^n$. Questa è una serie geometrica con primo termine 1, rapporto comune 2 e $n+1$ termini. Pertanto, la somma è:  \n$$1+2+\\cdots+2^n = \\frac{1-2^{n+1}}{1-2} = 2^{n+1}-1.$$  \nSe questa somma è maggiore di $500$ (vale a dire se l'importo totale di denaro sul conto è più di $\\$5$), allora $2^{n+1}-1 \\ge 500$, quindi $2^{n+1} \\ge 501$. La più piccola potenza di 2 maggiore di 501 è $2^9$. Quindi, la prima volta che ci sono più di $\\$5$ nel conto bancario si verifica dopo $n=8$ giorni. Ciò corrisponde a 8 giorni dopo la domenica, quindi il giorno della settimana è $\\boxed{\\text{Monday}}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

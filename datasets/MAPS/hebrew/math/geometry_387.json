@@ -1,0 +1,6 @@
+{
+    "problem": "פירמידה בעלת בסיס מרובע נחתכת על ידי מישור המקביל לבסיסה ונמצא במרחק של 2 יחידות מהבסיס. שטח הפנים של הפירמידה הקטנה יותר שנחתכה מהחלק העליון הוא חצי משטח הפנים של הפירמידה המקורית. מהו גובה הפירמידה המקורית?",
+    "solution": "Let $h$ be the altitude of the original pyramid.  Then the altitude of the smaller pyramid is $h-2$.  Because the two pyramids are similar, the ratio of their altitudes is the square root of the ratio of their surface areas.  Thus $h/(h-2)=\\sqrt{2}$, so \\[h=\\frac{2\\sqrt{2}}{\\sqrt{2}-1}=\\boxed{4+2\\sqrt{2}}.\\]",
+    "level": "Level 5",
+    "type": "Geometry"
+}

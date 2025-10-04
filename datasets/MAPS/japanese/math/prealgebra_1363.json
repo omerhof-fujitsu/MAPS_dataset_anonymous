@@ -1,0 +1,6 @@
+{
+    "problem": "直径$12^{\\prime \\prime}$のピザと直径$16^{\\prime \\prime}$のピザがそれぞれ8等分に切られ、ジェーンは$12^{\\prime \\prime}$ピザを3切れ、マークは$16^{\\prime \\prime}$ピザを3切れ食べました。マークがジェーンより何平方インチ多くピザを食べたか、$\\pi$を用いた分数で答えなさい。",
+    "solution": "They both ate $\\frac{3}{8}$ of a pizza.  Therefore, the quantity that Mark ate in excess of Jane is simply $\\frac{3}{8} \\times$ the difference in total area of the pizzas.  The 16'' pizza has $64\\pi$ area, and the 12'' pizza has $36\\pi$ area, making for a difference of $28\\pi$. $\\frac{3}{8} \\times 28\\pi = \\boxed{\\frac{21}{2}\\pi}$",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

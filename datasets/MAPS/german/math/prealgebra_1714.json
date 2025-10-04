@@ -1,0 +1,6 @@
+{
+    "problem": "Das Viereck $ABCD$ ist ein Parallelogramm. Wenn der Winkel $A$ 62 Grad und der Winkel $ADB$ 75 Grad beträgt, wie groß ist dann der Winkel $ADC$ in Grad?",
+    "solution": "Since adjacent angles of a parallelogram add up to $180^{\\circ}$, $ADC=180^{\\circ}-A=180^{\\circ}-62^{\\circ}=\\boxed{118^{\\circ}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "Para cada entero positivo $k$, sea $S_k$ la sucesión aritmética creciente de enteros cuyo primer término es 1 y cuya diferencia común es $k$. Por ejemplo, $S_3$ es la sucesión $1, 4, 7, \\ldots$. ¿Para cuántos valores de $k$ contiene $S_k$ a $2005$ como término?",
+    "solution": "The general term of the sequence is $a_n = 1 + kn$, where $a_0 = 1$ is the first term. Therefore, we want $1 + kn = 2005$, or $kn = 2004$. We see that this equation has a solution for $n$ if and only if $k$ is a divisor of $2004$. Since $2004 = 2^2 \\cdot 3 \\cdot 167$, the number of positive divisors of $2004$ is $(2+1)(1+1)(1+1) = \\boxed{12}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

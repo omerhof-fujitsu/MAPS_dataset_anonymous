@@ -1,0 +1,6 @@
+{
+  "problem": "Jane ha coltivato due fattorie batteriche.\n\nLa fattoria batterica **Rod** ha una popolazione iniziale di **2 batteri**, mentre la fattoria batterica **Sphere** ha una popolazione iniziale di **8 batteri**. Tuttavia, Jane inizia a coltivare **Rod** cinque ore prima di iniziare a coltivare **Sphere**.\n\nAlle **20:00**, Jane controlla le sue fattorie e scopre che hanno esattamente la stessa popolazione. Se la popolazione di **Rod** raddoppia ogni ora, ma la popolazione di **Sphere** quadruplica ogni ora, quante ore fa ha iniziato a coltivare **Sphere**?",
+  "solution": "Sia $x$ il numero di ore in cui la Sfera è cresciuta. Possiamo esprimere questo problema come un'equazione esponenziale, come segue: $$2^{x+6} = 2\\cdot 4^{x+1}.$$ Ora, poiché $4 = 2^2$, abbiamo $2\\cdot 4^{x+1} = 2\\cdot (2^2)^{x+1} = 2\\cdot 2^{2x+2} = 2^{2x + 3}$, il che significa che la nostra equazione è: $$2^{x + 6} = 2^{2x + 3}.$$ Quindi, impostiamo gli esponenti uguali tra loro e otteniamo $$x + 6 = 2x + 3.$$ Risolvendo per $x$, otteniamo $\\boxed{x = 3}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

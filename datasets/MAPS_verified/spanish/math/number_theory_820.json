@@ -1,0 +1,6 @@
+{
+  "problem": "Si $a$ y $b$ son números enteros positivos tales que $\\gcd(a,b)=210$, $\\mathop{\\text{lcm}}[a,b]=210^3$ y $a<b$, ¿cuántos valores posibles hay para $a$?",
+  "solution": "Tenga en cuenta que la factorización prima de $210$ es $2\\cdot 3\\cdot 5\\cdot 7$, por lo que la factorización prima de $210^3$ es $2^3\\cdot 3^3\\cdot 5^3\\cdot 7^3$. Dados que $\\gcd(a,b)=210$ y $\\mathop{\\text{lcm}}[a,b]=210^3$, debemos tener $a=2^k\\cdot 3^\\ell\\cdot 5^m\\cdot 7^n$ y $b=2^p\\cdot 3^q\\cdot 5^r\\cdot 7^s$, donde cada uno de los pares ordenados $(k,p),(\\ell,q),(m,r),(n,s)$ es $(1,3)$ o $(3,1)$. Por lo tanto, si ignoramos la condición $a<b$, hay dos opciones independientes para cada uno de $k$, $\\ell$, $m$ y $n$, y estas opciones determinan ambos números $a$ y $b$. Tenemos $2\\cdot 2\\cdot 2\\cdot 2=16$ maneras de realizar las cuatro opciones. Sin embargo, estos $16$ conjuntos de opciones generarán cada par posible de valores para $a$ y $b$ en ambos órdenes posibles. La mitad de estas opciones cumplirán $a<b$ y la otra mitad cumplirán $a>b$. Por lo tanto, al imponer la condición $a<b$, vemos que hay $\\frac{16}{2}=\\boxed{8}$ opciones posibles para $a$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "$ABCD$ הוא טטרהדרון רגיל (פירמידה משולשת ישרה). אם $M$ היא נקודת האמצע של $\\overline{CD}$, אז מהו $\\tan\\angle AMB$?",
+  "solution": "הטטרהדרון מוצג להלן. כדי למצוא את $\\tan\\angle AMB$, נבנה משולש ישר זווית עם $\\angle AMB$ בין זוויותיו. רגל הגובה מ-$A$ לפני השטח $BCD$ היא המרכז, $G$, של המשולש $BCD$.\n\n[asy]\n\nimport three;\n\ncurrentprojection = orthographic(1.5,1.1,-1);\n\ntriple A = (1,1,1);\n\ntriple B = (1,0,0);\n\ntriple C = (0,1,0);\n\ntriple D = (0,0,1);\n\ndraw(A--B--C--A);\n\ndraw(A--D,dashed);\n\ndraw(C--D--B,dashed);\n\nlabel(\"$A$\",A,NW);\n\nlabel(\"$B$\",B,W);\n\nlabel(\"$C$\",C,S);\n\nlabel(\"$D$\",D,NW);\n\ntriple M = (0,0.5,0.5);\n\ndraw(A--M--B,dashed);\n\nlabel(\"$M$\",M,NE);\n\ntriple G = B/3 + 2*M/3;\n\ndraw(A--G,dashed);\n\nlabel(\"$G$\",G,S);\n\n[/asy]\n\nמכיוון ש-$\\overline{BM}$ הוא חציון של $\\triangle BCD$, הנקודה $G$ נמצאת על $\\overline{BM}$ כך ש-$GM = \\frac{1}{3}BM$. בנוסף, יש לנו $AM = BM$, ולכן $GM = \\frac{AM}{3}$. משפט פיתגורס נותן לנו  \n\\[\nAG = \\sqrt{AM^2 - GM^2} = \\sqrt{AM^2 - \\frac{AM^2}{9}} = AM \\cdot \\sqrt{\\frac{8}{9}} = \\frac{2\\sqrt{2}}{3} \\cdot AM.\n\\]\nלבסוף, יש לנו  \n\\[\n\\tan \\angle AMB = \\tan \\angle AMG = \\frac{AG}{GM} = \\frac{\\left(\\frac{2\\sqrt{2}}{3}\\right)AM}{\\frac{AM}{3}} = \\boxed{2\\sqrt{2}}.\n\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

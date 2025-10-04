@@ -1,0 +1,6 @@
+{
+  "problem": "दिया गया है कि $33^{-1} \\equiv 77 \\pmod{508}$, हमें $11^{-1} \\pmod{508}$ को 508 के मापांक में अवशेष के रूप में ज्ञात करना है। (0 से 507 के बीच उत्तर दीजिए।)",
+  "solution": "चूँकि $33^{-1} \\equiv 77 \\pmod{508}$, \\begin{align*} 11^{-1} &\\equiv (33 \\cdot 3^{-1})^{-1} \\\\ &\\equiv 33^{-1} \\cdot 3 \\\\ &\\equiv 77 \\cdot 3 \\\\ &\\equiv \\boxed{231} \\pmod{508}. \\end{align*}",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

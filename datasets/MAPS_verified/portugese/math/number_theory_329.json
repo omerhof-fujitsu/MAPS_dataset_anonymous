@@ -1,0 +1,6 @@
+{
+  "problem": "Um número de três dígitos na base 10, $n$, é escolhido aleatoriamente. Qual é a probabilidade de que as representações de $n$ nas bases 9 e 11 também sejam números de três dígitos?",
+  "solution": "O maior número de três dígitos na base 9 é $9^3-1=728$ e o menor número de três dígitos na base 11 é $11^2=121$. Existem $608$ inteiros que satisfazem $121\\le n\\le 728$, e 900 números de três dígitos no total, então a probabilidade é $608/900=\\boxed{\\frac{152}{225}}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Per quanti valori interi di $n$ compresi tra 1 e 1000 inclusi, la rappresentazione decimale di $\\frac{n}{1375}$ termina?",
+  "solution": "La rappresentazione decimale di una frazione semplificata termina se e solo se il denominatore non è divisibile per nessun primo diverso da 2 e 5. La fattorizzazione prima di $1375$ è $11 \\cdot 5^3$. Affinché la frazione si semplifichi avendo solo i primi $2$ e $5$ al denominatore, deve esserci un fattore $11$ al numeratore. Ci sono $\\left\\lfloor\\frac{1000}{11}\\right\\rfloor=90$ multipli di $11$ tra $1$ e $1000$, quindi ci sono $\\boxed{90}$ valori interi per $n$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

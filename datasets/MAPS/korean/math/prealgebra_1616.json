@@ -1,0 +1,6 @@
+{
+    "problem": "네 개의 표준 육면체 주사위를 굴릴 때, 윗면에 나온 숫자들의 곱이 소수일 확률은 얼마입니까? 답을 기약 분수로 나타내세요.",
+    "solution": "The product of four positive integers is prime only if three of the integers are 1 and the fourth is a prime number.  Therefore, of the $6^4$ outcomes for the roll of four dice, only the outcomes $(1,1,1,p)$, $(1,1,p,1)$, $(1,p,1,1)$, and $(p,1,1,1)$ for $p=2$, $3$, or $5$ give a prime product.  The probability of achieving a prime product is therefore \\[\n\\frac{12}{6\\cdot6\\cdot6\\cdot6}=\\frac{2}{6\\cdot6\\cdot6}=\\frac{1}{3\\cdot6^2}=\\boxed{\\frac{1}{108}}.\n\\]",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

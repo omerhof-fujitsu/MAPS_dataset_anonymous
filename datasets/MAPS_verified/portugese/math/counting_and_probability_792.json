@@ -1,0 +1,6 @@
+{
+  "problem": "Camy fez uma lista de todos os números inteiros positivos distintos de cinco dígitos que podem ser formados usando cada um dos dígitos 1, 3, 4, 5 e 9 exatamente uma vez em cada número. Qual é a soma dos números na lista de Camy?",
+  "solution": "Observe que há $4! = 24$ números terminados em 1, visto que temos 4 opções para o dígito das dezenas, 3 opções para o dígito das centenas, 2 opções para o dígito dos milhares e 1 opção para o dígito restante. Portanto, também há 24 números terminados em cada um dos dígitos 3, 4, 5 e 9, e a contribuição total dos dígitos das unidades para a soma é $24 (1 + 3 + 4 + 5 + 9) = 528$. Mas podemos fazer um argumento semelhante sobre a contribuição dos dígitos nas outras casas (dezenas, centenas, etc.), portanto, nossa soma total é $528 + 5280 + \\ldots + 5280000 = 528 (1 + 10 + \\ldots + 10000) = 528 \\cdot 11.111 = \\boxed{5.866.608}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "$17^{-1}\\pmod{83}$ की गणना करें। अपना उत्तर 0 से 82 तक के अवशेष के रूप में व्यक्त करें, जिसमें 0 और 82 शामिल हैं।\n\n(आप इस तथ्य पर विचार करके मदद पा सकते हैं कि $17 \\cdot 5 = 85$।)\n\n$17^{-1} \\equiv \\boxed{48} \\pmod{83}$",
+    "solution": "We may begin by noting that $17\\cdot 5=85\\equiv 2\\pmod{83}$. However, we are looking for $n$ such that $17\\cdot n\\equiv 1\\pmod{83}$.\n\nNote that $2\\cdot 42=84\\equiv 1\\pmod{83}$. Therefore, \\begin{align*}\n17\\cdot 5\\cdot 42 &\\equiv 2\\cdot 42 \\\\\n&\\equiv 1\\pmod{83},\n\\end{align*}which tells us that $17$ and $5\\cdot 42$ are each other's inverses modulo $83$. We can evaluate $5\\cdot 42=210$, but this is not in the range $0$ to $82$, so we take its residue $\\pmod{83}$, which is $44$.\n\nTherefore, $17^{-1}\\equiv \\boxed{44}\\pmod{83}$.\n\nWe may check our answer: $17\\cdot 44 = 748 = 9\\cdot 83+1 \\equiv 1\\pmod{83}$, so our answer is correct.",
+    "level": "Level 5",
+    "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Jane vem cultivando duas fazendas de bactérias.\n\nA fazenda de bactérias **Rod** tem uma população inicial de **2 bactérias**, enquanto a fazenda de bactérias **Sphere** tem uma população inicial de **8 bactérias**. No entanto, Jane começa a cultivar **Rod** cinco horas antes de começar a cultivar **Sphere**.\n\nÀs **20h**, Jane verifica suas fazendas e descobre que elas têm exatamente a mesma população. Se a população de **Rod** dobra a cada hora, mas a população de **Sphere** quadruplica a cada hora, há quantas horas ela começou a cultivar **Sphere**?",
+  "solution": "Seja $x$ o número de horas que a esfera está crescendo. Podemos expressar este problema como uma equação exponencial, da seguinte forma: $$2^{x+6} = 2\\cdot 4^{x+1}.$$ Agora, como $4 = 2^2$, temos $2\\cdot 4^{x+1} = 2\\cdot (2^2)^{x+1} = 2\\cdot 2^{2x+2} = 2^{2x + 3}$, o que significa que nossa equação é: $$2^{x + 6} = 2^{2x + 3}.$$ Em seguida, igualamos os expoentes e obtemos $$x + 6 = 2x + 3.$$ Resolvendo para $x$, obtemos $\\boxed{x = 3}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

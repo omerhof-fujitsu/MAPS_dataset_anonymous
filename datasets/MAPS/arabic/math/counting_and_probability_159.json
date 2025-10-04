@@ -1,0 +1,6 @@
+{
+    "problem": "لجنة في مجلس الشيوخ تضم 5 ديمقراطيين، و5 جمهوريين، وعضوًا مستقلًا واحدًا. بكم طريقة يمكنهم الجلوس حول طاولة دائرية إذا جلس جميع أعضاء كل حزب جنبًا إلى جنب؟ (يُعتبر الجلوسان متكافئين إذا كان أحدهما دورانًا للآخر).",
+    "solution": "Choose any seat in which to place the Independent -- it doesn't matter which seat that we choose, since we can rotate the table. Once the Independent's seat has been chosen, either all the Democrats sit to their left and all the Republicans sit to their right, or the other way around. Either way, there are $5!$ ways to put the Democrats in their seats, and $5!$ ways to put the Republicans in their seats. So, the total number of ways to seat the people around the table is $2\\cdot5!\\cdot5!=2\\cdot120\\cdot120=\\boxed{28800}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

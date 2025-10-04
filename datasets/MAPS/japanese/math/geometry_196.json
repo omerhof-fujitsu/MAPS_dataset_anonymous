@@ -1,0 +1,6 @@
+{
+    "problem": "長さ$6$単位の弦は、円を2つの異なる領域に分割します。円の半径が6単位の場合、大きい方の領域の面積は平方単位でいくらですか？答えを最も単純な根号形式で$\\pi$を用いて表してください。",
+    "solution": "Draw radii to the intersection points of the chord with the circle. An equilateral triangle is formed with area $\\frac{6^2\\sqrt{3}}{4} = 9\\sqrt{3}$. However, the whole section has area $\\frac{36\\pi}{6} = 6\\pi$. If we take the area of the sector away from the area of the entire circle and then add back in the area of the equilateral triangle, we will get the area of the larger region. The area is therefore $36\\pi - 6\\pi + 9\\sqrt{3} = \\boxed{30\\pi + 9\\sqrt{3}}$.",
+    "level": "Level 5",
+    "type": "Geometry"
+}

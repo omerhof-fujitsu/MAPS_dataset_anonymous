@@ -1,0 +1,6 @@
+{
+  "problem": "Sei $f(x)=\\left\\lfloor\\left(-\\frac{5}{8}\\right)^x\\right\\rfloor$ eine Funktion, die für alle Werte von $x$ in $[0,\\infty)$ definiert ist, sodass $f(x)$ eine reelle Zahl ist. Wie viele verschiedene Werte gibt es im Bereich von $f(x)$?",
+  "solution": "Da $-\\frac{5}{8}$ eine negative Zahl ist, ist $f(x)$ nur für ganzzahlige Werte von $x$ definiert und wechselt zwischen positiven und negativen Werten. Zusätzlich ist $\\left|-\\frac{5}{8}\\right| < 1$, sodass $|f(x)|$ kontinuierlich abnimmt und sich 0 nähert, während $x$ im Intervall $x \\ge 0$ zunimmt. Daher tritt der größte positive Wert bei $x = 0$ auf, was die positive Obergrenze von $\\left\\lfloor\\left(-\\frac{5}{8}\\right)^0\\right\\rfloor = 1$ ergibt. Der betragsmäßig größte negative Wert tritt dann beim nächsten ganzzahligen Wert von $x$ auf: $x = 1$, was die negative Untergrenze von $\\left\\lfloor\\left(-\\frac{5}{8}\\right)^1\\right\\rfloor = -1$ ergibt. Dies bedeutet, dass $-1 \\le f(x) \\le 1$. Da $f(x)$ eine Ganzzahl sein muss, sind die einzigen möglichen unterschiedlichen Werte im Bereich -1, 0 und 1. Dies ergibt insgesamt $\\boxed{3}$ Werte von $f(x)$, wenn $x \\ge 0$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

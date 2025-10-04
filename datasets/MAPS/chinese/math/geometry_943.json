@@ -1,0 +1,6 @@
+{
+  "problem": "正方形 $ABCD$ 的边长为 $s$，以 $E$ 为圆心，半径为 $r$ 的圆，其中 $r$ 和 $s$ 均为有理数。圆经过点 $D$，且 $D$ 位于线段 $\\overline{BE}$ 上。点 $F$ 位于圆上，与 $A$ 位于 $\\overline{BE}$ 的同一侧。线段 $AF$ 与圆相切，且 $AF=\\sqrt{9+5\\sqrt{2}}$。求 $\\frac{r}{s}$ 的值。\n\n\\[\n\\boxed{\\frac{r}{s} = \\frac{\\sqrt{2}}{2}}\n\\]",
+  "solution": "设 $B=(0,0)$、$C=(s,0)$、$A=(0,s)$、$D=(s,s)$ 和 $E=\\left(s+\\frac{r}{\\sqrt{2}}, s+\\frac{r}{\\sqrt{2}}\\right)$。对 $\\triangle AFE$ 应用勾股定理，得到\n\\[\nr^2 + \\left(9 + 5\\sqrt{2}\\right) = \\left(s + \\frac{r}{\\sqrt{2}}\\right)^2 + \\left(\\frac{r}{\\sqrt{2}}\\right)^2,\n\\]\n由此得出 $9 + 5\\sqrt{2} = s^2 + rs\\sqrt{2}$。由于 $r$ 和 $s$ 是有理数，因此 $s^2 = 9$ 且 $rs = 5$，所以 $r/s = \\boxed{\\frac{5}{9}}$。\n\n或者，将 $\\overline{AD}$ 延长至与圆在 $G \\ne D$ 处相交。因为 $E$ 与 $B$ 和 $D$ 共线，所以 $\\triangle EDG$ 是等腰直角三角形。因此，$DG = r\\sqrt{2}$。根据点幂定理，\n\\begin{align*}\n9 + 5\\sqrt{2} &= AF^2 \\\\\n&= AD \\cdot AG \\\\\n&= AD \\cdot \\left(AD + DG\\right) \\\\\n&= s \\left(s + r\\sqrt{2}\\right) \\\\\n&= s^2 + rs\\sqrt{2}.\n\\end{align*}\n与第一个解法类似，我们得出 $r/s = \\boxed{\\frac{5}{9}}$。",
+  "level": "Level 5",
+  "type": "Geometry"
+}

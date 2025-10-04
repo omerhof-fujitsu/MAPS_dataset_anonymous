@@ -1,0 +1,6 @@
+{
+  "problem": "Qual é a soma de todos os valores inteiros de $$x$$ tais que $$\\frac{67}{2x - 23}$$ seja um número inteiro?",
+  "solution": "Verificando os primos menores que $\\sqrt{67}$, ou seja, 2, 3, 5 e 7, como potenciais divisores, descobrimos que 67 é primo. Portanto, $\\frac{67}{2x-23}$ é um inteiro se, e somente se, $2x-23=\\pm1$ ou $2x-23=\\pm67$. A primeira equação produz $x=12$ ou $x=11$, e a segunda produz $x=45$ ou $x=-22$. A soma é $12+11+45-22=\\boxed{46}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Il triangolo ABC ha vertici $A(0, 0)$, $B(0, 3)$ e $C(5, 0)$. Un punto $P$ all'interno del triangolo dista $\\sqrt{10}$ unità dal punto $A$ e $\\sqrt{13}$ unità dal punto $B$. Quante unità dista $P$ dal punto $C$? Esprimi la tua risposta nella forma radicale più semplice.",
+  "solution": "Sia $P$ il punto con coordinate $(a, b)$. Abbiamo $a^2 + b^2 = 10$ poiché $AP = \\sqrt{10}$, e $a^2 + (b-3)^2 = 13$ poiché $AB = \\sqrt{13}$. Espandendo $(b-3)^2$ otteniamo  \n\\[a^2 + b^2 - 6b + 9 = 13.\\]  \nDato che $a^2 + b^2 = 10$, segue $10 - 6b + 9 = 13$, quindi $b = 1$. Da $a^2 + b^2 = 10$, abbiamo $a^2 = 9$, quindi $a = \\pm 3$. Se $a = -3$, il punto non è all'interno del triangolo, quindi $a = 3$. Quindi il punto è $(3, 1)$ e la distanza da $C$ è  \n$$\\sqrt{(3-5)^2 + 1^2} = \\boxed{\\sqrt{5}}.$$",
+  "level": "Level 5",
+  "type": "Geometry"
+}

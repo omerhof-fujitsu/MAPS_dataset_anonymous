@@ -1,0 +1,6 @@
+{
+  "problem": "Tom ha ricevuto un Mr. Potato Head per il suo compleanno. Era dotato di 3 acconciature, 2 set di sopracciglia, 1 paio di occhi mobili, 2 set di orecchie, 2 set di labbra, un paio di scarpe normali e un paio bonus di scarpe da clown. Se una personalità completa di Mr. Potato Head include sopracciglia, occhi, orecchie, labbra, scarpe e, facoltativamente, capelli, quante diverse personalità stravaganti può inventare Tom? Nota che Mr. Potato Head può essere calvo. \n\n**Nota:** Non è possibile \"mescolare e abbinare\". Ad esempio, non è possibile prendere il sopracciglio sinistro da un set e il sopracciglio destro dall'altro set.",
+  "solution": "Ci sono 2 scelte per le sopracciglia, 1 scelta per gli occhi, 2 scelte per le orecchie, 2 scelte per le labbra, 2 scelte per le scarpe e 4 scelte per i capelli (3 acconciature o calvo), e ciascuna può essere scelta indipendentemente dalle altre, quindi il numero di combinazioni è il prodotto di queste, $2\\cdot 1\\cdot 2\\cdot 2\\cdot 2\\cdot 4 = \\boxed{64}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "Sia $n$ un numero intero positivo maggiore o uguale a $3$. Siano $a, b$ numeri interi tali che $ab$ sia invertibile modulo $n$ e $(ab)^{-1} \\equiv 2 \\pmod{n}$. Dato che $a+b$ è invertibile, qual è il resto della divisione di $(a+b)^{-1}(a^{-1}+b^{-1})$ per $n$?",
+  "solution": "Possiamo usare il fatto che $x\\cdot x^{-1}\\equiv 1\\pmod n$ per tutti gli $x$ invertibili nel seguente modo intelligente: \\begin{align*}\n& (a+b)^{-1}(a^{-1}+b^{-1})\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}+b^{-1})(ab)(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}ab + abb^{-1})(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a + b)(ab)^{-1}\\\\\n\\equiv~ & (ab)^{-1}\\\\\n\\equiv~ & \\boxed{2}\\pmod n\n\\end{align*}",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "El cuadrilátero $ABCD$ es un paralelogramo. Si la medida del ángulo $A$ es 62 grados y la medida del ángulo $ADB$ es 75 grados, ¿cuál es la medida del ángulo $ADC$, en grados?",
+    "solution": "Since adjacent angles of a parallelogram add up to $180^{\\circ}$, $ADC=180^{\\circ}-A=180^{\\circ}-62^{\\circ}=\\boxed{118^{\\circ}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

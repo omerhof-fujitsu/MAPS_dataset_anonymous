@@ -1,0 +1,6 @@
+{
+  "problem": "No campeonato nacional de curling, há três equipes de quatro jogadores cada. Após o término do campeonato, os participantes, muito corteses, apertam a mão **três vezes** com cada membro das equipes adversárias e **uma vez** com cada membro da sua própria equipe. \n\nQuantos apertos de mão são realizados no total?",
+  "solution": "Para cada participante, há 8 oponentes para apertar as mãos e 3 membros da equipe para apertar as mãos, dando $3\\times8+3=27$ apertos de mão para cada participante individual.\n\nHá 12 jogadores no total, o que resulta em $12\\times27=324$ apertos de mão, mas como um aperto de mão ocorre entre duas pessoas, contamos cada aperto de mão duas vezes.\n\nA resposta final é $\\dfrac{324}{2}=\\boxed{162}$ apertos de mão.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

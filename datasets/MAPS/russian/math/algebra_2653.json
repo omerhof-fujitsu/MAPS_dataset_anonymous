@@ -1,0 +1,6 @@
+{
+    "problem": "Джейн выращивает две бактериальные фермы. Бактериальная ферма Rod имеет начальную популяцию из 2 бактерий, в то время как бактериальная ферма Sphere имеет начальную популяцию из 8 бактерий. Однако Джейн начинает выращивать Rod за пять часов до того, как она начинает выращивать Sphere. В 8 часов вечера Джейн проверяет свои фермы и обнаруживает, что они имеют одинаковую популяцию. Если популяция Rod удваивается каждый час, а популяция Sphere учетверяется каждый час, сколько часов назад она начала выращивать Sphere?",
+    "solution": "Let $x$ denote the number of hours Sphere has been growing. We can express this problem as an exponential equation, as follows: $$2^{x+6} = 2\\cdot 4^{x+1}.$$Now, since $4 = 2^2$, we have $2\\cdot 4^{x+1} = 2\\cdot (2^2)^{x+1} = 2\\cdot 2^{2x+2} = 2^{2x + 3}$, which means our equation is: $$2^{x + 6} = 2^{2x + 3}.$$Then, we set the exponents equal to each other, and obtain $$x + 6 = 2x + 3.$$Solving for $x$, we get $\\boxed{x = 3}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

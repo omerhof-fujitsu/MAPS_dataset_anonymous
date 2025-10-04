@@ -1,0 +1,6 @@
+{
+  "problem": "Se $a$ e $b$ são números inteiros positivos tais que $\\gcd(a,b)=210$, $\\mathop{\\text{lcm}}[a,b]=210^3$ e $a<b$, quantos valores possíveis existem para $a$?",
+  "solution": "Observe que a fatoração prima de $210$ é $2 \\cdot 3 \\cdot 5 \\cdot 7$ e, portanto, a fatoração prima de $210^3$ é $2^3 \\cdot 3^3 \\cdot 5^3 \\cdot 7^3$. Dado que $\\gcd(a,b) = 210$ e $\\mathop{\\text{lcm}}[a,b] = 210^3$, devemos ter $a = 2^k \\cdot 3^\\ell \\cdot 5^m \\cdot 7^n$ e $b = 2^p \\cdot 3^q \\cdot 5^r \\cdot 7^s$, onde cada um dos pares ordenados $(k,p)$, $(\\ell,q)$, $(m,r)$, $(n,s)$ é ou $(1,3)$ ou $(3,1)$. Portanto, se ignorarmos a condição $a < b$, há duas escolhas independentes para cada um dos expoentes $k$, $\\ell$, $m$ e $n$, e essas escolhas determinam completamente os números $a$ e $b$. Temos $2 \\cdot 2 \\cdot 2 \\cdot 2 = 16$ maneiras de fazer todas as quatro escolhas. No entanto, esses $16$ conjuntos de escolhas gerarão cada par possível de valores para $a$ e $b$ em ambas as ordens possíveis. Metade dessas escolhas satisfará $a < b$ e a outra metade satisfará $a > b$. Assim, impondo a condição $a < b$, vemos que há $\\frac{16}{2} = \\boxed{8}$ escolhas possíveis para $a$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "矩阵 \\[\\begin{pmatrix} -\\frac{7}{25} & \\frac{24}{25} \\\\ \\frac{24}{25} & \\frac{7}{25} \\end{pmatrix}\\] 对应于对某个向量 $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ 进行反射。求 $\\frac{y}{x}$。",
+  "solution": "请注意，将向量 $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ 反射到其自身会得到其自身，因此\n\\[\\begin{pmatrix} -\\frac{7}{25} & \\frac{24}{25} \\\\ \\frac{24}{25} & \\frac{7}{25} \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} x \\\\ y \\end{pmatrix}.\\]\n由此可得 $-\\frac{7}{25} x + \\frac{24}{25} y = x$ 以及 $\\frac{24}{25} x + \\frac{7}{25} y = y$。这两个方程都导出 $\\frac{y}{x} = \\boxed{\\frac{4}{3}}$。",
+  "level": "Level 5",
+  "type": "Precalculus"
+}

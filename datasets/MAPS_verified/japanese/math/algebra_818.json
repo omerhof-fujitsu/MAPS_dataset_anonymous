@@ -1,0 +1,6 @@
+{
+  "problem": "$f(g(f(g(f(8))))) = f(g(f(g(\\sqrt{8})))) = f(g(f(g(2\\sqrt{2})))) = f(g(f((2\\sqrt{2})^2))) = f(g(f(8))) = f(g(\\sqrt{8})) = f(g(2\\sqrt{2})) = f((2\\sqrt{2})^2) = f(8) = \\sqrt{8} = \\boxed{2\\sqrt{2}}$",
+  "solution": "これを難しい方法で評価することもできますが、$g(f(8)) = (\\sqrt{8})^2 = 8$ であることに気づくこともできます。したがって、$f(g(f(g(f(8))))) = f(g(f(8))) = f(8) = \\sqrt{8} = \\boxed{2\\sqrt{2}}$ となります。",
+  "level": "Level 5",
+  "type": "Algebra"
+}

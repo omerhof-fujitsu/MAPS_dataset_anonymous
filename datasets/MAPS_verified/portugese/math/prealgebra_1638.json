@@ -1,0 +1,6 @@
+{
+  "problem": "Se a raiz quadrada do comprimento da hipotenusa de um triângulo retângulo é 2 unidades, qual é a soma dos quadrados dos comprimentos dos outros dois lados?",
+  "solution": "Seja $c$ o comprimento da hipotenusa. Nos é dito que $\\sqrt{c}=2$, então $c=4$. Pelo Teorema de Pitágoras, a soma dos quadrados dos comprimentos dos outros dois lados é igual ao quadrado do comprimento da hipotenusa ($a^2+b^2=c^2$), então nossa resposta é $c^2=\\boxed{16}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "방정식이 $y=ax^2+bx+c$이고 정점이 $(h,k)$인 포물선이 선분 $y=k$에 대해 대칭됩니다. 따라서 방정식이 $y=dx^2+ex+f$인 포물선이 생성됩니다. $k$에 대해 $a+b+c+d+e+f$의 값은 얼마입니까?",
+    "solution": "We can rewrite the equation of the original parabola as $y=f(x)=a(x-h)^2+k$ (for some $a$). After reflection of the parabola, the equation becomes $y=g(x)=-a(x-h)^2+k$. Notice that $f(x)+g(x)=2k$. Since $f(1)=a+b+c$ and $g(1)=d+e+f$, we have $a+b+c+d+e+f=f(1)+g(1)=\\boxed{2k}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

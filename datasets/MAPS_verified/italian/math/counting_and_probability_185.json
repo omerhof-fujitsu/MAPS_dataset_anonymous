@@ -1,0 +1,6 @@
+{
+  "problem": "Supponiamo che $*(n) = \\left\\{ n-2, n+2, 2n, \\frac{n}{2} \\right\\}$. Ad esempio, $*(6) = \\{4, 8, 12, 3\\}$. Per quanti interi distinti $n$ ha $*(n)$ esattamente tre elementi distinti?",
+  "solution": "Per avere tre elementi distinti, due tra $n-2$, $n+2$, $2n$ e $\\frac{n}{2}$ devono essere uguali. È chiaro che $n-2$ non può mai essere uguale a $n+2$. Tuttavia, qualsiasi altra coppia di uguaglianza tra i quattro è possibile, quindi controlliamo semplicemente la distinzione. Se $2n = \\frac{n}{2}$, la soluzione è $n=0$. Se $n+2 = 2n$, $n = 2$. Se $n - 2 = 2n$, $n = -2$. Se $\\frac{n}{2} = n - 2$, $n = 4$. Infine, se $\\frac{n}{2} = n + 2$, $n = -4$. Pertanto, ci sono $\\boxed{5}$ tali $n$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

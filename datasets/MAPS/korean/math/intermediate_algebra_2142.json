@@ -1,0 +1,6 @@
+{
+    "problem": "\\[x^{12} - 1 = p_1(x) p_2(x) \\dotsm p_k(x)\\]라고 하자. 여기서 각 비상수 다항식 \\( p_i(x) \\)는 단항식이며 정수 계수를 가지고, 정수 계수 상에서 더 이상 인수분해될 수 없다. \\( k \\)를 구하시오.",
+    "solution": "First, we can apply difference of squares, to get\n\\[x^{12} - 1 = (x^6 - 1)(x^6 + 1).\\]We can apply difference of squares to $x^6 - 1$:\n\\[x^6 - 1 = (x^3 - 1)(x^3 + 1).\\]These factor by difference of cubes and sum of cubes:\n\\[(x^3 - 1)(x^3 + 1) = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1).\\]Then by sum of cubes,\n\\[x^6 + 1 = (x^2 + 1)(x^4 - x^2 + 1).\\]Thus, the full factorization over the integers is\n\\[x^{12} - 1 = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1)(x^2 + 1)(x^4 - x^2 + 1),\\]and there are $\\boxed{6}$ factors.",
+    "level": "Level 5",
+    "type": "Intermediate Algebra"
+}

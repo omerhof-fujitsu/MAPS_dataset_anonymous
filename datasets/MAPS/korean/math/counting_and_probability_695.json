@@ -1,0 +1,6 @@
+{
+    "problem": "마리아는 동일한 사과 세 개와 동일한 오렌지 세 개를 가지고 있습니다. 만약 마리아가 재키에게 오렌지를 하나도 주지 않는다면, 네 명의 친구에게 과일을 나눠 줄 수 있는 방법은 몇 가지입니까? (참고: 마리아는 과일을 하나도 가져가지 않으며, 어떤 친구들은 과일을 전혀 받지 못할 수도 있습니다.)",
+    "solution": "First, just consider the apples. Imagine putting three dividers among the apples, so that Maria's first friend gets the apples to the left of the first divider, Maria's second friend gets the apples between the first and second dividers, Maria's third friend gets the apples between the second and third dividers, and Maria's last friend gets the apples after the third divider. With three dividers and three apples, there are $\\binom{6}{3}=20$ ways to arrange the dividers. Now, consider the oranges. Since Maria won't give Jacky any oranges, Maria has to distribute the oranges among her other three friends. With three oranges and two dividers, there are $\\binom{5}{2}=10$ ways for Maria to distribute the oranges. The total number of ways for Maria to distribute the fruit is $20\\cdot 10=\\boxed{200}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

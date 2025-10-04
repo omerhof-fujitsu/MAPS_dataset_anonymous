@@ -1,0 +1,6 @@
+{
+    "problem": "एक मानक 52-कार्ड डेक से यादृच्छिक रूप से एक कार्ड निकाला जाता है। क्या संभावना है कि यह एक विषम संख्या (3, 5, 7, 9) या एक स्पेड ($\\spadesuit$) है (या दोनों)?",
+    "solution": "There are 16 odd-numbered cards, namely 4 suits for each of the 4 odd digits. There are 13 $\\spadesuit$s, but 4 of these we already counted among the odd-numbered cards.  So the total number of cards that are odd or a $\\spadesuit$ is $16+(13-4)=25$, and the probability is $\\boxed{\\dfrac{25}{52}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

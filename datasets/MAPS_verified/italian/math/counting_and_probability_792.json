@@ -1,0 +1,6 @@
+{
+  "problem": "Camy ha stilato una lista di tutti i possibili numeri interi positivi distinti di cinque cifre che possono essere formati utilizzando ciascuna delle cifre 1, 3, 4, 5 e 9 esattamente una volta in ogni numero. Qual è la somma dei numeri nella lista di Camy?",
+  "solution": "Si noti che ci sono $4! = 24$ numeri che terminano con 1, poiché abbiamo 4 scelte per la cifra delle decine, 3 scelte per la cifra delle centinaia, 2 scelte per la cifra delle migliaia e 1 scelta per la cifra rimanente. Quindi, ci sono anche 24 numeri che terminano con ciascuno dei numeri 3, 4, 5, 9, e il contributo totale delle cifre delle unità alla somma è $24 (1 + 3 + 4 + 5 + 9) = 528$. Ma possiamo fare un ragionamento simile per il contributo delle cifre negli altri posti (decine, centinaia, ecc.), quindi la nostra somma totale è $528 + 5280 + \\ldots + 5280000 = 528 (1 + 10 + \\ldots + 10000) = 528 \\cdot 11.111 = \\boxed{5.866.608}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

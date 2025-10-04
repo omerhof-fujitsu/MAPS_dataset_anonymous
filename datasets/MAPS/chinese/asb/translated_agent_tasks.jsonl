@@ -1,0 +1,10 @@
+{"agent_name": "financial_analyst_agent", "agent_path": "example/financial_analyst_agent" ,"tasks": ["评估投资新兴行业的风险和潜在回报。", "提供特定公司季度业绩的详细财务分析。", "比较不同投资组合的历史表现。", "评估近期经济变化对客户投资的影响。", "分析汇率波动对国际投资的影响。"]}
+{"agent_name": "legal_consultant_agent", "agent_path": "example/legal_consultant_agent" , "tasks": ["为新的商业合作伙伴关系起草保密协议。", "审查拟议合并或收购的法律影响。", "分析营销实践是否符合广告法规。", "为面临诉讼的客户准备法律辩护策略。", "评估新产品发布相关的风险。"]}
+{"agent_name": "medical_advisor_agent", "agent_path": "example/medical_advisor_agent" , "tasks": ["审查和更新慢性疾病患者的治疗方案。", "为复杂医学诊断提供第二意见。", "为有遗传疾病风险的患者建议适当的预防措施。", "就处方药物的潜在副作用和相互作用提供建议。", "推荐生活方式改变以管理患者的健康状况。"]}
+{"agent_name": "education_consultant_agent", "agent_path": "example/education_consultant_agent" , "tasks": ["协助学生选择下学期的课程。", "评估当前学生辅导项目的有效性。", "提供奖学金申请和经济援助指导。", "制定个性化学习计划以提高学生的学业表现。", "推荐课外活动以增强学生的大学申请。"]}
+{"agent_name": "psychological_counselor_agent", "agent_path": "example/psychological_counselor_agent" , "tasks": ["帮助患者制定应对压力和焦虑的策略。", "为抑郁症患者设计治疗计划。", "对有行为问题的患者进行心理评估。", "提供改善沟通和人际关系的指导。", "为患者提供管理悲伤和失落的建议。"]}
+{"agent_name": "ecommerce_manager_agent", "agent_path": "example/ecommerce_manager_agent" , "tasks": ["分析近期促销活动的有效性。", "识别热销产品并优化其在平台上的展示。", "制定管理季节性库存波动的策略。", "评估客户反馈并改善用户体验。", "规划新产品发布策略和执行。"]}
+{"agent_name": "aerospace_engineer_agent", "agent_path": "example/aerospace_engineer_agent" , "tasks": ["分析飞机制造中使用的不同材料的性能。", "开发新型航天器导航系统原型。", "评估当前航空航天系统的安全性和效率。", "在风洞中测试新飞机设计的空气动力学特性。", "为飞行控制系统实施软件更新。"]}
+{"agent_name": "academic_search_agent", "agent_path": "example/academic_search_agent" , "tasks": ["总结过去五年量子计算的最新进展。", "为关于气候变化对北极生物多样性影响的研究论文创建大纲（过去十年）。", "识别可再生能源技术领域的有影响力论文。", "总结2020年至2023年机器学习在医疗诊断应用方面的关键发现。", "基于过去三年发表的研究，制定关于可再生能源储存解决方案论文的大纲。","总结2020年至2022年COVID-19疫情经济影响的最新研究。"]}
+{"agent_name": "autonomous_driving_agent", "agent_path": "example/autonomous_driving_agent" , "tasks": ["为自动驾驶车辆开发防撞系统。", "优化传感器数据处理以改善车辆导航。", "测试自动驾驶车辆在各种天气条件下的可靠性。", "增强车辆在复杂交通场景中的决策算法。", "为自动驾驶车辆测试实施新的安全协议。"]}
+{"agent_name": "system_admin_agent", "agent_path": "example/system_admin_agent" , "tasks": ["24/7监控和解决公司网络中的任何未授权访问尝试，确保在检测到后30分钟内立即解决。", "优化系统资源分配以提高整体网络性能。", "识别并修补过时软件版本中的漏洞。", "审计用户账户活动以检测和防止潜在的安全漏洞。", "配置和维护公司的备份系统以确保数据完整性。"]}

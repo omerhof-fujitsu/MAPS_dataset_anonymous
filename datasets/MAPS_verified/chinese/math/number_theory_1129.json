@@ -1,0 +1,6 @@
+{
+  "problem": "假设 $N$ 在基数 $6$ 中可以写成 $531340_6$，在基数 $8$ 中可以写成 $124154_8$。那么在基数 $10$ 中，$N$ 除以 $210$ 的余数是多少？",
+  "solution": "$210 = 2 \\cdot 3 \\cdot 5 \\cdot 7$ 的质因数分解。根据中国剩余定理，只需求出 $N$ 模 $5$、$6$ 和 $7$ 的余数。由于 $N$ 在以 $6$ 为底时的个位数字为 $0$，因此 $N$ 能被 $6$ 整除。另外，我们注意到 $N$ 模 $b-1$ 与其基数 $b$ 数字之和同余。实际上，如果 $N$ 可以表示为 $(\\overline{a_ka_{k-1}\\cdots a_0})_b$，则\n\\begin{align*}\nN &\\equiv a_k \\cdot b^k + a_{k-1} \\cdot b^{k-1} + \\cdots + a_1 \\cdot b + a_0 \\\\\n&\\equiv a_k \\cdot ((b-1) + 1)^k + \\cdots + a_1 \\cdot ((b-1) + 1) + a_0 \\\\\n&\\equiv a_k + a_{k-1} + \\cdots + a_1 + a_0 \\pmod{b-1}。\n\\end{align*}\n由此可知，$N \\equiv 5+3+1+3+4+0 \\equiv 16 \\equiv 1 \\pmod{5}$，以及 $N \\equiv 1 + 2 + 4 + 1 + 5 + 4 \\equiv 17 \\equiv 3 \\pmod{7}$。根据中国剩余定理和检验，我们确定 $N \\equiv 31 \\pmod{35}$，因此（再次根据中国剩余定理）$N \\equiv \\boxed{66} \\pmod{210}$。",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

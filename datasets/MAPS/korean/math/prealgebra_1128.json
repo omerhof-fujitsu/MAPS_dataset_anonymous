@@ -1,0 +1,6 @@
+{
+    "problem": "톰은 생일 선물로 미스터 포테이토 헤드를 받았습니다. 이 세트에는 헤어스타일 3가지, 눈썹 2세트, 깜짝 눈 1쌍, 귀 2세트, 입술 2세트, 일반 신발 한 켤레, 그리고 보너스로 광대 신발 한 켤레가 포함되어 있었습니다. 미스터 포테이토 헤드의 완전한 성격은 눈썹, 눈, 귀, 입술, 신발, 그리고 선택적으로 머리카락을 포함합니다. 톰이 만들어낼 수 있는 엉뚱한 성격의 가짓수를 계산할 때, 미스터 포테이토 헤드는 대머리일 수도 있다는 점에 유의해야 합니다. 또한, \"섞어 맞추기\"는 불가능하므로, 예를 들어, 왼쪽 눈썹은 한 세트에서, 오른쪽 눈썹은 다른 세트에서 가져올 수 없습니다.",
+    "solution": "There are 2 choices of eyebrows, 1 choice for eyes, 2 choices for ears, 2 choices for lips, 2 choices for shoes, and 4 choices for hair (3 choices of hairstyles, or bald), and each can be picked independent of the others, so the number of combinations is the product of those, $2\\cdot 1\\cdot 2\\cdot 2\\cdot 2\\cdot 4 = \\boxed{64}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

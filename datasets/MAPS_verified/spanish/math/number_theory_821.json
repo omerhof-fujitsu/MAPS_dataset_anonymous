@@ -1,0 +1,6 @@
+{
+  "problem": "¿Cuál es la suma de todos los valores enteros positivos de $n$ tales que $n^2$ es un factor de $1200$?",
+  "solution": "La factorización prima de $1200$ es $1200=2^4 \\cdot 3 \\cdot 5^2$. Por lo tanto, los factores de $1200$ que se pueden escribir en la forma $n^2$ son $1^2$, $2^2$, $4^2$, $5^2$, $10^2$ y $20^2$. La suma de estos valores de $n$ es $1+2+4+5+10+20=\\boxed{42}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}

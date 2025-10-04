@@ -1,0 +1,6 @@
+{
+    "problem": "मान लीजिए $n$ एक धनात्मक पूर्णांक है जो $3$ से बड़ा या उसके बराबर है। मान लीजिए $a, b$ ऐसे पूर्णांक हैं कि $ab$ $n$ के मॉड्यूलो में व्युत्क्रमणीय है और $(ab)^{-1} \\equiv 2 \\pmod{n}$. दिया गया है कि $a+b$ भी व्युत्क्रमणीय है, तो $(a+b)^{-1}(a^{-1} + b^{-1})$ को $n$ से विभाजित करने पर शेषफल क्या होगा?",
+    "solution": "We can use the fact that $x\\cdot x^{-1}\\equiv 1\\pmod n$ for all invertible $x$ in the following clever way: \\begin{align*}\n& (a+b)^{-1}(a^{-1}+b^{-1})\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}+b^{-1})(ab)(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a^{-1}ab+abb^{-1})(ab)^{-1}\\\\\n\\equiv~ & (a+b)^{-1}(a+b)(ab)^{-1}\\\\\n\\equiv~ & (ab)^{-1}\\\\\n\\equiv~ & \\boxed{2}\\pmod n\n\\end{align*}",
+    "level": "Level 5",
+    "type": "Number Theory"
+}

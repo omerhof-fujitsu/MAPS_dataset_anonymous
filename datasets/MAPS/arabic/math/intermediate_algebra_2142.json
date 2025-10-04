@@ -1,0 +1,6 @@
+{
+    "problem": "لنفترض أن:\n\\[x^{12} - 1 = p_1(x) p_2(x) \\dotsm p_k(x),\\]\nحيث كل كثير الحدود غير الثابت $p_i(x)$ هو أحادي مع معاملات عددية صحيحة، ولا يمكن تحليله أكثر على الأعداد الصحيحة. جد $k$.\n\n\\[x^{12} - 1 = (x^6 - 1)(x^6 + 1)\\]\n\\[= (x^3 - 1)(x^3 + 1)(x^2 - \\sqrt{3}x + 1)(x^2 + \\sqrt{3}x + 1)\\]\n\\[= (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1)(x^2 - \\sqrt{3}x + 1)(x^2 + \\sqrt{3}x + 1)\\]\n\nلكن العوامل $(x^2 - \\sqrt{3}x + 1)$ و $(x^2 + \\sqrt{3}x + 1)$ ليست ذات معاملات عددية صحيحة. بدلاً من ذلك، يمكننا كتابة:\n\\[x^6 + 1 = (x^2 + 1)(x^4 - x^2 + 1)\\]\n\nلذلك، لدينا:\n\\[x^{12} - 1 = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1)(x^2 + 1)(x^4 - x^2 + 1)\\]\n\nعدد العوامل غير القابلة للاختزال هو $k = \\boxed{6}$.",
+    "solution": "First, we can apply difference of squares, to get\n\\[x^{12} - 1 = (x^6 - 1)(x^6 + 1).\\]We can apply difference of squares to $x^6 - 1$:\n\\[x^6 - 1 = (x^3 - 1)(x^3 + 1).\\]These factor by difference of cubes and sum of cubes:\n\\[(x^3 - 1)(x^3 + 1) = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1).\\]Then by sum of cubes,\n\\[x^6 + 1 = (x^2 + 1)(x^4 - x^2 + 1).\\]Thus, the full factorization over the integers is\n\\[x^{12} - 1 = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1)(x^2 + 1)(x^4 - x^2 + 1),\\]and there are $\\boxed{6}$ factors.",
+    "level": "Level 5",
+    "type": "Intermediate Algebra"
+}

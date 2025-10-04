@@ -1,0 +1,6 @@
+{
+  "problem": "실수의 순서 있는 트리플 $(x, y, z)$의 개수를 구하세요.\n\\begin{align*}\nx + 2y + 4z &= 12, \\\\\nxy + 2xz + 4yz &= 22, \\\\\nxyz &= 6.\n\\end{align*}",
+  "solution": "$a = x,$ $b = 2y,$ 및 $c = 4z$로 두면, $x = a,$ $y = \\frac{1}{2} b,$ 및 $z = \\frac{1}{4} c$가 됩니다. 따라서 주어진 시스템은 다음과 같아집니다:\n\\begin{align*}\na + b + c &= 12, \\\\\nab + ac + bc &= 44, \\\\\nabc &= 48.\n\\end{align*}\n비에트(Vieta)의 공식에 따르면, $a,$ $b,$ 및 $c$는 다음 방정식의 근입니다:\n\\[t^3 - 12t^2 + 44t - 48 = 0.\\]\n이 방정식은 $(t - 2)(t - 4)(t - 6) = 0$로 인수분해되므로, $a,$ $b,$ $c$는 순서대로 2, 4, 6입니다.\n\n$a,$ $b,$ 및 $c$에 2, 4, 6을 할당하는 방법은 $3! = 6$가지가 있습니다. 이는 $x = a,$ $y = \\frac{1}{2} b,$ $z = \\frac{1}{4} c$를 대입하여 $\\boxed{6}$개의 서로 다른 해 $(x,y,z)$를 생성합니다.",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

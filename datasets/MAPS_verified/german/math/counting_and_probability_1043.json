@@ -1,0 +1,6 @@
+{
+  "problem": "Für wie viele dreielementige Mengen (Reihenfolge ist egal) positiver ganzer Zahlen $\\{a, b, c\\}$ gilt $a \\times b \\times c = 2310$? (Die positiven ganzen Zahlen $a, b$ und $c$ sind verschieden.)",
+  "solution": "Die Primfaktorzerlegung von $2310$ ist $2310 = 2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11.$ Daher haben wir die Gleichung \\[ abc = 2310 = 2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11,\\] wobei $a, b, c$ verschiedene positive ganze Zahlen sein müssen und die Reihenfolge keine Rolle spielt. Es gibt $3$ Möglichkeiten, jede Primzahl auf der rechten Seite einer der Variablen $a, b, c$ zuzuordnen, was $3^5 = 243$ Lösungen für $(a, b, c)$ ergibt. Drei dieser Lösungen haben jedoch zwei $1$s und eine $2310$, was der Tatsache widerspricht, dass $a, b, c$ verschieden sein müssen. Da jeder Primfaktor nur einmal vorkommt, sind alle anderen Lösungen mit $a, b, c$ verschieden. Korrigiert man dies, erhält man $243 - 3 = 240$ geordnete Tripel $(a, b, c)$, wobei $a, b, c$ alle verschieden sind. Da die Reihenfolge keine Rolle spielt, müssen wir schließlich durch $3!$, die Anzahl der Möglichkeiten zum Ordnen von $a, b, c$, teilen. Dies ergibt die endgültige Antwort: \\[\\frac{240}{3!} = \\frac{240}{6} = \\boxed{40}.\\]",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

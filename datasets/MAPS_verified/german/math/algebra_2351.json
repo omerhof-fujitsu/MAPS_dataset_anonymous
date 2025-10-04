@@ -1,0 +1,6 @@
+{
+  "problem": "Die Parabel mit der Gleichung $y=ax^2+bx+c$ und dem Scheitelpunkt $(h,k)$ wird an der Linie $y=k$ gespiegelt. Daraus ergibt sich die Parabel mit der Gleichung $y=dx^2+ex+f$. Was ist der Wert von $a+b+c+d+e+f$ in Bezug auf $k$?",
+  "solution": "Wir können die Gleichung der ursprünglichen Parabel als $y = f(x) = a(x - h)^2 + k$ (für ein $a$) umschreiben. Nach der Spiegelung der Parabel lautet die Gleichung $y = g(x) = -a(x - h)^2 + k$. Beachten Sie, dass $f(x) + g(x) = 2k$. Da $f(1) = a + b + c$ und $g(1) = d + e + f$ gelten, erhalten wir $a + b + c + d + e + f = f(1) + g(1) = \\boxed{2k}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

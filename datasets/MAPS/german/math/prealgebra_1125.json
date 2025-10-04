@@ -1,0 +1,6 @@
+{
+    "problem": "Bei den nationalen Curling-Meisterschaften gibt es drei Teams mit jeweils vier Spielern. Nach Abschluss der Meisterschaften schüttelt jeder der sehr höflichen Teilnehmer dreimal jedem Mitglied der gegnerischen Teams die Hand und einmal jedem Mitglied des eigenen Teams.\n\nWie viele Handshakes gibt es insgesamt?",
+    "solution": "For each participant, there are 8 opponents to shake hands with, and 3 team members to shake hands with, giving $3\\times8+3=27$ handshakes for each individual participant.\n\nThere are 12 players in total, which offers $12\\times27=324$ handshakes, but since a handshake takes place between two people, we've counted every handshake twice.\n\nThe final answer is $\\dfrac{324}{2}=\\boxed{162}$ handshakes.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

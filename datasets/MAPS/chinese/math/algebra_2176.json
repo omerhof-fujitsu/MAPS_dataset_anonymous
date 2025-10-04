@@ -1,0 +1,6 @@
+{
+  "problem": "假设 $f(x)=\\left\\lfloor\\left(-\\frac{5}{8}\\right)^x\\right\\rfloor$ 是一个函数，该函数针对 $[0,\\infty)$ 中所有 $x$ 的值进行定义，且 $f(x)$ 为实数。那么，在 $f(x)$ 的取值范围内，有多少个不同的值？",
+  "solution": "由于 $-\\frac{5}{8}$ 为负数，因此 $f(x)$ 仅针对 $x$ 的整数值定义，并且会在正值和负值之间交替变化。此外，$\\left|-\\frac{5}{8}\\right| < 1$，因此随着 $x$ 在区间 $x \\ge 0$ 内增加，$|f(x)|$ 会持续减小并趋近于 0。因此，最大的正值出现在 $x=0$ 处，从而得到正上限 $\\left\\lfloor\\left(-\\frac{5}{8}\\right)^0\\right\\rfloor = 1$。幅值最大的负值出现在 $x$ 的下一个整数值：$x=1$，这给出了负下限 $\\left\\lfloor\\left(-\\frac{5}{8}\\right)^1\\right\\rfloor = -1$。这告诉我们 $-1 \\le f(x) \\le 1$。由于 $f(x)$ 必须是整数，因此该范围内可能包含的不同值只有 -1、0 和 1。这样，当 $x \\ge 0$ 时，$f(x)$ 的可能取值总数为 $\\boxed{3}$。",
+  "level": "Level 5",
+  "type": "Algebra"
+}

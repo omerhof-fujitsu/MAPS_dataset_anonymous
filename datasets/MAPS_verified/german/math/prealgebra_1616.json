@@ -1,0 +1,6 @@
+{
+  "problem": "Vier Standard-Sechseckwürfel sollen geworfen werden. Wie hoch ist die Wahrscheinlichkeit, dass das Produkt der Zahlen auf den Oberseiten eine Primzahl ist? Geben Sie Ihre Antwort als gewöhnlichen Bruch an.",
+  "solution": "Das Produkt vierer positiver ganzer Zahlen ist nur dann eine Primzahl, wenn drei der Zahlen 1 sind und die vierte eine Primzahl ist. Daher ergeben von den $6^4$ möglichen Ergebnissen beim Würfeln mit vier Würfeln nur die Ergebnisse $(1,1,1,p)$, $(1,1,p,1)$, $(1,p,1,1)$ und $(p,1,1,1)$ für $p=2$, $3$ oder $5$ ein primzahliges Produkt. Die Wahrscheinlichkeit, ein primzahliges Produkt zu erhalten, beträgt daher \\[\n\\frac{12}{6\\cdot6\\cdot6\\cdot6}=\\frac{2}{6\\cdot6\\cdot6}=\\frac{1}{3\\cdot6^2}=\\boxed{\\frac{1}{108}}.\n\\]",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "माना\n\\[x^{12} - 1 = p_1(x) p_2(x) \\dotsm p_k(x),\\]\nजहाँ प्रत्येक अविराम बहुपद $p_i(x)$ एकीय है और पूर्णांक गुणांकों के साथ है, और इसे पूर्णांकों पर आगे विभाजित नहीं किया जा सकता है। $k$ का मान ज्ञात करें।",
+    "solution": "First, we can apply difference of squares, to get\n\\[x^{12} - 1 = (x^6 - 1)(x^6 + 1).\\]We can apply difference of squares to $x^6 - 1$:\n\\[x^6 - 1 = (x^3 - 1)(x^3 + 1).\\]These factor by difference of cubes and sum of cubes:\n\\[(x^3 - 1)(x^3 + 1) = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1).\\]Then by sum of cubes,\n\\[x^6 + 1 = (x^2 + 1)(x^4 - x^2 + 1).\\]Thus, the full factorization over the integers is\n\\[x^{12} - 1 = (x - 1)(x^2 + x + 1)(x + 1)(x^2 - x + 1)(x^2 + 1)(x^4 - x^2 + 1),\\]and there are $\\boxed{6}$ factors.",
+    "level": "Level 5",
+    "type": "Intermediate Algebra"
+}

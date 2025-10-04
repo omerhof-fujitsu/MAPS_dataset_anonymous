@@ -1,0 +1,6 @@
+{
+  "problem": "$ABCD$ هو شكل رباعي السطوح منتظم (هرم ثلاثي منتظم). إذا كان $M$ هو منتصف $\\overline{CD}$, فما قيمة $\\tan\\angle AMB$؟",
+  "solution": "يظهر الهرم الرباعي (التتراهيدرون) أدناه. لإيجاد $\\tan\\angle AMB$، نبني مثلثًا قائم الزاوية بحيث تكون $\\angle AMB$ إحدى زواياه. نقطة تقاطع الارتفاع من $A$ مع الوجه $BCD$ هي مركز ثقل المثلث $BCD$، والذي نسميه $G$. بما أن $\\overline{BM}$ هو متوسط المثلث $\\triangle BCD$، فإن النقطة $G$ تقع على $\\overline{BM}$ بحيث $GM = \\frac{1}{3}BM$. علاوة على ذلك، لدينا $AM = BM$، وبالتالي $GM = \\frac{AM}{3}$. تعطينا نظرية فيثاغورس:\n\n\\[\nAG = \\sqrt{AM^2 - GM^2} = \\sqrt{AM^2 - \\frac{AM^2}{9}} = AM \\cdot \\sqrt{\\frac{8}{9}} = \\frac{2\\sqrt{2}}{3} \\cdot AM.\n\\]\n\nوأخيرًا، لدينا:\n\n\\[\n\\tan \\angle AMB = \\tan\\angle AMG = \\frac{AG}{GM} = \\frac{\\left(\\frac{2\\sqrt{2}}{3}AM\\right)}{\\frac{AM}{3}} = \\boxed{2\\sqrt{2}}.\n\\]",
+  "level": "Level 5",
+  "type": "Geometry"
+}

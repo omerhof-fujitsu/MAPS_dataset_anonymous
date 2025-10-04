@@ -1,0 +1,6 @@
+{
+  "problem": "Jane hat zwei Bakterienfarmen gezüchtet. \n\nDie Bakterienfarm **Rod** hat eine Anfangspopulation von **2 Bakterien**, während die Bakterienfarm **Sphere** eine Anfangspopulation von **8 Bakterien** hat. Jane beginnt jedoch mit dem Anbau von **Rod** **fünf Stunden** bevor sie mit dem Anbau von **Sphere** beginnt.\n\nUm **20 Uhr** überprüft Jane ihre Farmen und stellt fest, dass sie genau die gleiche Population haben. Wenn sich die Population von **Rod** stündlich verdoppelt, die von **Sphere** jedoch stündlich vervierfacht, **vor wie vielen Stunden** hat sie dann mit dem Anbau von **Sphere** begonnen?",
+  "solution": "$x$ bezeichnet die Anzahl der Stunden, die Sphere gewachsen ist. Wir können dieses Problem als Exponentialgleichung wie folgt ausdrücken:\n\n$$2^{x+6} = 2 \\cdot 4^{x+1}.$$\n\nDa $4 = 2^2$ gilt, können wir die Gleichung umschreiben als:\n\n$$2^{x+6} = 2 \\cdot (2^2)^{x+1} = 2 \\cdot 2^{2x+2} = 2^{2x+3}.$$\n\nDies bedeutet, dass unsere Gleichung nun lautet:\n\n$$2^{x+6} = 2^{2x+3}.$$\n\nWenn wir die Exponenten gleichsetzen, erhalten wir:\n\n$$x + 6 = 2x + 3.$$\n\nDurch Auflösen nach $x$ erhalten wir:\n\n$$\\boxed{x = 3}.$$",
+  "level": "Level 5",
+  "type": "Algebra"
+}

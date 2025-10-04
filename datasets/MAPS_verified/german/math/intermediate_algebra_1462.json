@@ -1,0 +1,6 @@
+{
+  "problem": "Wenn\n\\[f(n + 1) = (-1)^{n + 1} n - 2f(n)\\]\nfür $n \\ge 1,$ und $f(1) = f(1986),$ berechnen Sie\n\\[f(1) + f(2) + f(3) + \\dots + f(1985).\\]",
+  "solution": "Wir können die Gleichungen auflisten:\n\\begin{align*}\nf(2) &= 1 - 2f(1), \\\\\nf(3) &= -2 - 2f(2), \\\\\nf(4) &= 3 - 2f(3), \\\\\nf(5) &= -4 - 2f(4), \\\\\n&\\dots, \\\\\nf(1985) &= -1984 - 2f(1984), \\\\\nf(1986) &= 1985 - 2f(1985).\n\\end{align*}\nWenn wir diese Gleichungen addieren, erhalten wir\n\\[\nf(2) + f(3) + \\dots + f(1986) = (1 - 2 + 3 - 4 + \\dots + 1983 - 1984 + 1985) - 2(f(1) + f(2) + \\dots + f(1985)).\n\\]\nUm \\(1 - 2 + 3 - 4 + \\dots + 1983 - 1984 + 1985\\) zu finden, können wir die Terme paaren:\n\\begin{align*}\n1 - 2 + 3 - 4 + \\dots + 1983 - 1984 + 1985 &= (1 - 2) + (3 - 4) + \\dots + (1983 - 1984) + 1985 \\\\\n&= (-1) + (-1) + \\dots + (-1) + 1985 \\\\\n&= -\\frac{1984}{2} + 1985 \\\\\n&= 993.\n\\end{align*}\nDaher gilt\n\\[\nf(2) + f(3) + \\dots + f(1986) = 993 - 2(f(1) + f(2) + \\dots + f(1985)).\n\\]\nDann folgt\n\\[\n2f(1) + 3f(2) + 3f(3) + \\dots + 3f(1985) + f(1986) = 993.\n\\]\nDa \\(f(1986) = f(1)\\), gilt\n\\[\n3f(1) + 3f(2) + 3f(3) + \\dots + 3f(1985) = 993.\n\\]\nDaher ist\n\\[\nf(1) + f(2) + f(3) + \\dots + f(1985) = \\boxed{331}.\n\\]",
+  "level": "Level 5",
+  "type": "Intermediate Algebra"
+}

@@ -1,0 +1,6 @@
+{
+    "problem": "数直線上の $0$ と $1$ の間の2つの数をランダムに選びます。2番目に選んだ数が、1番目に選んだ数より数直線上で $\\frac{1}{4}$ 単位以上離れる確率はどれくらいですか？答えを既約分数で表してください。",
+    "solution": "The probability that the second number is more than $\\frac14$ unit greater than the first number decreases linearly from $\\frac34$ to $0$ as the first number increases linearly from $0$ to $\\frac34$. The average of this probability is $\\frac12 \\cdot \\frac34= \\frac38$. Since there is a $\\frac34$ chance of choosing a number from $0$ to $\\frac34$, the probability is $\\frac34 \\cdot \\frac38 = \\boxed{\\frac{9}{32}}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

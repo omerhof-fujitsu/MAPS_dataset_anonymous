@@ -1,0 +1,6 @@
+{
+  "problem": "三角形 $ABC$ 是直角三角形。如果角 $PAB$ 的度数为 $x^\\circ$，角 $ACB$ 的度数以 $(Mx+N)^\\circ$ 的形式表示，且 $M=1$，那么 $M+N$ 的值是多少？\n\n\\[\n\\boxed{90}\n\\]",
+  "solution": "由于 $\\angle PAB$ 和 $\\angle BAC$ 互为补角，所以 $\\angle BAC = 180^{\\circ} - x^\\circ$。由于三角形内角和为 $180^{\\circ}$，所以 $\\angle ACB = 180^{\\circ} - 90^{\\circ} - (180^{\\circ} - x^\\circ) = x^\\circ - 90^{\\circ}$。因此，$M + N = \\boxed{-89}$。",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

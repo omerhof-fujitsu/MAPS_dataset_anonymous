@@ -1,0 +1,6 @@
+{
+  "problem": "Krista legte an einem Sonntagmorgen 1 Cent in ihre neue Spardose. Am Montag legte sie 2 Cent ein. Am Dienstag legte sie 4 Cent ein und verdoppelte den Betrag täglich für zwei Wochen. An welchem Wochentag überstieg der Gesamtbetrag in ihrer Spardose erstmals $\\$5$?",
+  "solution": "Wenn seit Sonntag $n$ Tage vergangen sind, beträgt die Gesamtanzahl der Cents auf ihrem Bankkonto $1+2+\\cdots+2^n$. Dies ist eine geometrische Reihe mit dem ersten Term 1, dem gemeinsamen Verhältnis 2 und $n+1$ Termen. Daher lautet die Summe:  \n$$1+2+\\cdots+2^n = \\frac{1-2^{n+1}}{1-2} = 2^{n+1}-1.$$  \nWenn diese Summe größer als 500 ist (d. h. wenn der Gesamtbetrag auf dem Konto mehr als 5 \\$ beträgt), dann gilt $2^{n+1}-1 \\ge 500$, also $2^{n+1} \\ge 501$. Die kleinste Potenz von 2, die größer als 501 ist, ist $2^9$. Daher tritt das erste Mal, dass mehr als 5 \\$ auf dem Bankkonto sind, nach $n=8$ Tagen ein. Das sind 8 Tage nach Sonntag, der Wochentag ist also $\\boxed{\\text{Montag}}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

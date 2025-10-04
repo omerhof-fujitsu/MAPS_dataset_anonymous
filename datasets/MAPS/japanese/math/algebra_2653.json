@@ -1,0 +1,6 @@
+{
+    "problem": "ジェーンは2つのバクテリア農場を育てています。バクテリア農場「ロッド」の初期個体数は2個、バクテリア農場「スフィア」の初期個体数は8個です。ただし、ジェーンは「スフィア」の栽培開始の5時間前に「ロッド」の栽培を開始しました。\n\n午後8時にジェーンは両方の農場を確認し、個体数が全く同じであることを発見しました。「ロッド」の個体数は1時間ごとに2倍になるのに対し、「スフィア」の個体数は1時間ごとに4倍になるとすると、ジェーンは何時間前に「スフィア」の栽培を開始したのでしょうか？",
+    "solution": "Let $x$ denote the number of hours Sphere has been growing. We can express this problem as an exponential equation, as follows: $$2^{x+6} = 2\\cdot 4^{x+1}.$$Now, since $4 = 2^2$, we have $2\\cdot 4^{x+1} = 2\\cdot (2^2)^{x+1} = 2\\cdot 2^{2x+2} = 2^{2x + 3}$, which means our equation is: $$2^{x + 6} = 2^{2x + 3}.$$Then, we set the exponents equal to each other, and obtain $$x + 6 = 2x + 3.$$Solving for $x$, we get $\\boxed{x = 3}$.",
+    "level": "Level 5",
+    "type": "Algebra"
+}

@@ -1,0 +1,6 @@
+{
+  "problem": "1つの球の中心は $(3, -5, 7)$ で、半径は $5 \\sqrt{5}$ です。もう1つの球の中心は $(0, 1, 1)$ で、半径は $2 \\sqrt{17}$ です。2つの球は円で交わります。この円の半径を求めなさい。",
+  "solution": "最初の球の中心を $A = (3,-5,7)$、2 番目の球の中心を $B = (0,1,1)$ とします。$AB = 9$ と計算できます。\n\n$C$ を両球の交点上の点とし、$AC = 5 \\sqrt{5}$、$BC = 2 \\sqrt{17}$ とします。\n\n[asy]\nunitsize(0.3 cm);\n\npair A, B, C;\n\nA = (0,0);\nB = (9,0);\nC = intersectionpoint(arc(A,5*sqrt(5),0,180),arc(B,2*sqrt(17),0,180));\n\ndraw(A--B--C--cycle);\ndraw(Circle(A,5*sqrt(5)));\ndraw(Circle(B,2*sqrt(17)));\n\nlabel(\"$A$\", A, W);\nlabel(\"$B$\", B, S);\nlabel(\"$C$\", C, N);\nlabel(\"$9$\", (A + B)/2, S, red);\nlabel(\"$5 \\sqrt{5}$\", (A + C)/2, NW, red, UnFill);\nlabel(\"$2 \\sqrt{17}$\", (B + C)/2, E, red, UnFill);\n[/asy]\n\nヘロンの公式により、$[ABC] = 3 \\sqrt{149}$ と計算できます。\n\n$D$ を $C$ から $\\overline{AB}$ への垂線の足とします。\n\n[asy]\nunitsize(0.3 cm);\n\npair A, B, C, D;\n\nA = (0,0);\nB = (9,0);\nC = intersectionpoint(arc(A,5*sqrt(5),0,180),arc(B,2*sqrt(17),0,180));\nD = (C.x,0);\n\ndraw(A--B--C--cycle);\ndraw(C--D);\n\nlabel(\"$A$\", A, W);\nlabel(\"$B$\", B, S);\nlabel(\"$C$\", C, N);\nlabel(\"$D$\", D, S);\n[/asy]\n\n両球の交点は、中心 $D$、半径 $CD$ の円となります。したがって、\n\\[CD = \\frac{2 [ABC]}{AB} = \\frac{6 \\sqrt{149}}{9} = \\boxed{\\frac{2 \\sqrt{149}}{3}}.\\]",
+  "level": "Level 5",
+  "type": "Precalculus"
+}

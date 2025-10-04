@@ -1,0 +1,6 @@
+{
+  "problem": "Das Viereck $ABCD$ ist ein Trapez mit $AB$ parallel zu $CD$. Wir wissen, dass $AB = 20$ und $CD = 12$. Wie ist das Verhältnis der Fläche des Dreiecks $ACB$ zur Fläche des Trapezes $ABCD$? Geben Sie Ihre Antwort als gewöhnlichen Bruch an.",
+  "solution": "Die Länge der Höhe des Trapezes $ABCD$ sei $h$; dies ist gleichzeitig die Länge der Höhe des Dreiecks $ACB$ zur Basis $AB$. Die Fläche von $ABCD$ beträgt dann $\\frac{20 + 12}{2} \\cdot h = 16h$. Die Fläche des Dreiecks $ACB$ hingegen beträgt $\\frac{1}{2} \\cdot 20 \\cdot h = 10h$. Das gewünschte Verhältnis ist also $\\frac{10}{16} = \\boxed{\\frac{5}{8}}$.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

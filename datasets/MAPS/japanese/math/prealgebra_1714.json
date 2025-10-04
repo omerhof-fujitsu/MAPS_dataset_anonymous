@@ -1,0 +1,6 @@
+{
+    "problem": "四辺形$ABCD$は平行四辺形です。もし角度$A$が62度、角度$ADB$が75度である場合、角度$ADC$は何度ですか？",
+    "solution": "Since adjacent angles of a parallelogram add up to $180^{\\circ}$, $ADC=180^{\\circ}-A=180^{\\circ}-62^{\\circ}=\\boxed{118^{\\circ}}$.",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

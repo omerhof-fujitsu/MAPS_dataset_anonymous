@@ -1,0 +1,6 @@
+{
+  "problem": "Para cada inteiro positivo $k$, seja $S_k$ a sequência aritmética crescente de inteiros cujo primeiro termo é 1 e cuja diferença comum é $k$. Por exemplo, $S_3$ é a sequência $1, 4, 7, \\ldots$. Para quantos valores de $k$ a sequência $S_k$ contém o número $2005$ como um de seus termos?",
+  "solution": "O termo geral da sequência é $a_n = 1 + kn$, onde $a_0 = 1$ é o primeiro termo. Portanto, queremos $1 + kn = 2005$, ou $kn = 2004$. Vemos que esta equação tem uma solução para $n$ se, e somente se, $k$ for um divisor de $2004$. Como $2004 = 2^2 \\cdot 3 \\cdot 167$, o número de divisores positivos de $2004$ é $(2+1)(1+1)(1+1) = \\boxed{12}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

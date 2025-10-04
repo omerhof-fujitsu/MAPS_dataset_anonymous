@@ -1,0 +1,6 @@
+{
+    "problem": "매일 한 학급의 세 팀 중 두 팀이 무작위로 선정되어 MATHCOUNTS 시범 대회에 참가합니다. 팀 A가 다음 3일 중 최소 2일 동안 선정될 확률은 얼마입니까? 답을 기약 분수로 나타내세요.",
+    "solution": "We can compute this a few ways, but the numbers seem small enough that we can go ahead and just compute the probability of A being selected all three days, and the probability of A being selected exactly 2 of the three days. Team A is selected on any given day with probability $\\frac{2}{3}$, because there are ${3 \\choose 2} = 3$ possible pairs of teams, and 2 of them contain A. So, there is a $\\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27}$ chance of being selected all three days. Of being selected exactly twice, there is a $\\frac{2}{3} \\cdot \\frac{2}{3} \\cdot \\frac{1}{3} \\cdot {3 \\choose 2} = \\frac{4}{9}$ chance. Adding these two yields $\\frac{8}{27} + \\frac{4}{9} = \\frac{8+12}{27} = \\boxed{\\frac{20}{27}}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

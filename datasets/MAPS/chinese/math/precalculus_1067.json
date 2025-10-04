@@ -1,0 +1,6 @@
+{
+  "problem": "如果 $\\frac{\\sin (2A + B)}{\\sin B} = 5,$ 则求 $\\frac{\\tan (A + B)}{\\tan A}.$",
+  "solution": "从 $\\frac{\\sin (2A + B)}{\\sin B} = 5$，我们有 $\\sin (2A + B) = 5 \\sin B$。我们可以将其写成 $\\sin (A + (A + B)) = 5 \\sin ((A + B) - A)$，根据角度的加减公式，\n\\[\\sin A \\cos (A + B) + \\cos A \\sin (A + B) = 5 \\sin (A + B) \\cos A - 5 \\cos (A + B) \\sin A.\\]\n进而得到\n\\[6 \\sin A \\cos (A + B) = 4 \\sin (A + B) \\cos A,\\]\n因此\n\\[\\frac{\\sin (A + B) \\cos A}{\\cos (A + B) \\sin A} = \\frac{3}{2}.\\]\n换句话说，\n\\[\\frac{\\tan (A + B)}{\\tan A} = \\boxed{\\frac{3}{2}}.\\]",
+  "level": "Level 5",
+  "type": "Precalculus"
+}

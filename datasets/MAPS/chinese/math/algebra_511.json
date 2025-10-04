@@ -1,0 +1,6 @@
+{
+  "problem": "图示中的圆无限延伸，直径分别为 16 英寸、8 英寸、4 英寸，以此类推。每个圆的直径是前一个圆直径的一半。所有圆的面积之和是多少平方英寸？请将答案四舍五入到最接近的整数。\n\n\\[\n\\text{图示：}\n\\]\n\n\\[\n\\size(200); \\import geometry; \\import olympiad; \\import graph;\n\\real \\radius = 64.0;\n\\real \\center = 0.0;\n\\for(int \\i = 0; \\i < 20; ++\\i){\n  \\radius = \\radius / 2.0;\n  \\center = \\center + \\radius;\n  \\draw(\\Circle((\\center,0.0),\\radius));\n  \\center += \\radius;\n}\n\\]",
+  "solution": "圆的半径构成一个等比数列，其首项为 $\\frac{16}{2} = 8$，公比为 $\\frac{1}{2}$。因此，第 $n$ 个圆的半径为 $8\\left(\\frac{1}{2}\\right)^{n-1}$。第 $n$ 个圆的面积为 $\\pi\\left[8\\left(\\frac{1}{2}\\right)^{n-1}\\right]^2 = 64\\pi\\left(\\frac{1}{4}\\right)^{n-1}$。因此，所有圆的面积总和为：\n$$A = 64\\pi + 16\\pi + 4\\pi + \\pi + \\frac{1}{4}\\pi + \\cdots$$\n这是一个无限等比级数，其首项为 $64\\pi$，公比为 $\\frac{1}{4}$，所以其总和为：\n$$A = \\frac{64\\pi}{1 - \\frac{1}{4}} = \\frac{256\\pi}{3}$$\n使用近似值 $\\pi \\approx \\frac{22}{7} = 3.1428\\ldots$，近似值为：\n$$A \\approx \\frac{256}{3} \\cdot \\frac{22}{7} = \\frac{5632}{21} \\approx \\boxed{268}$$",
+  "level": "Level 5",
+  "type": "Algebra"
+}

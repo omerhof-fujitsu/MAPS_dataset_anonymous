@@ -1,0 +1,6 @@
+{
+    "problem": "एक सीनेट समिति में 5 डेमोक्रेट, 5 रिपब्लिकन और 1 स्वतंत्र सदस्य हैं। यदि प्रत्येक पार्टी के सभी सदस्य एक-दूसरे के बगल में बैठते हैं, तो वे एक गोलाकार मेज के चारों ओर कितने तरीकों से बैठ सकते हैं? (दो बैठकें तभी समान मानी जाएंगी जब एक दूसरे का रोटेशन हो।)",
+    "solution": "Choose any seat in which to place the Independent -- it doesn't matter which seat that we choose, since we can rotate the table. Once the Independent's seat has been chosen, either all the Democrats sit to their left and all the Republicans sit to their right, or the other way around. Either way, there are $5!$ ways to put the Democrats in their seats, and $5!$ ways to put the Republicans in their seats. So, the total number of ways to seat the people around the table is $2\\cdot5!\\cdot5!=2\\cdot120\\cdot120=\\boxed{28800}$.",
+    "level": "Level 5",
+    "type": "Counting & Probability"
+}

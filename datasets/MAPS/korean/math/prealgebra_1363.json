@@ -1,0 +1,6 @@
+{
+    "problem": "지름이 $12^{\\prime \\prime}$인 피자와 지름이 $16^{\\prime \\prime}$인 피자를 각각 8등분으로 잘랐습니다. 제인은 $12^{\\prime \\prime}$ 피자를 세 조각 먹었습니다. 마크는 $16^{\\prime \\prime}$ 피자를 세 조각 먹었습니다. 마크는 제인보다 몇 제곱인치 더 많은 피자를 먹었습니까? 답을 $\\pi$에 대한 공분수로 나타내세요.",
+    "solution": "They both ate $\\frac{3}{8}$ of a pizza.  Therefore, the quantity that Mark ate in excess of Jane is simply $\\frac{3}{8} \\times$ the difference in total area of the pizzas.  The 16'' pizza has $64\\pi$ area, and the 12'' pizza has $36\\pi$ area, making for a difference of $28\\pi$. $\\frac{3}{8} \\times 28\\pi = \\boxed{\\frac{21}{2}\\pi}$",
+    "level": "Level 5",
+    "type": "Prealgebra"
+}

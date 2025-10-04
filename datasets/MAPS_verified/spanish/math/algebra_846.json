@@ -1,0 +1,6 @@
+{
+  "problem": "Encuentra la suma de los cuadrados de las soluciones de $2x^2+4x-1=0$.",
+  "solution": "Usamos el hecho de que la suma y el producto de las raíces de una ecuación cuadrática $ax^2+bx+c = 0$ están dados por $-b/a$ y $c/a$, respectivamente. Si las soluciones de la ecuación dada son $p$ y $q$, entonces $p+q = -4/2 = -2$ y $pq = -1/2$, por lo que la respuesta es $p^2+q^2 = (p+q)^2-2pq=(-2)^2-2(-1/2) = \\boxed{5}$.",
+  "level": "Level 5",
+  "type": "Algebra"
+}

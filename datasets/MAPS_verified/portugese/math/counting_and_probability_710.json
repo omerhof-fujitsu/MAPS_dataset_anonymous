@@ -1,0 +1,6 @@
+{
+  "problem": "A cada dia, duas das três equipes de uma turma são selecionadas aleatoriamente para participar de uma competição experimental de MATHCOUNTS. Qual é a probabilidade de a Equipe A ser selecionada em pelo menos dois dos próximos três dias? Expresse sua resposta como uma fração comum.",
+  "solution": "Podemos calcular isso de algumas maneiras, mas os números parecem pequenos o suficiente para que possamos prosseguir e calcular a probabilidade de A ser selecionado todos os três dias, e a probabilidade de A ser selecionado exatamente em dois dos três dias. A equipe A é selecionada em qualquer dia com probabilidade $\\frac{2}{3}$, porque há ${3 \\choose 2} = 3$ pares possíveis de equipes, e dois deles contêm A. Portanto, há uma chance de $\\left(\\frac{2}{3}\\right)^3 = \\frac{8}{27}$ de ser selecionada todos os três dias. A probabilidade de ser selecionada exatamente duas vezes é $\\frac{2}{3} \\cdot \\frac{2}{3} \\cdot \\frac{1}{3} \\cdot {3 \\choose 2} = \\frac{4}{9}$. Somando essas duas probabilidades, obtemos $\\frac{8}{27} + \\frac{4}{9} = \\frac{8+12}{27} = \\boxed{\\frac{20}{27}}$.",
+  "level": "Level 5",
+  "type": "Counting & Probability"
+}

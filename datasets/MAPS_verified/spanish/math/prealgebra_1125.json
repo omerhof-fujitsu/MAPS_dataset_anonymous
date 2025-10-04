@@ -1,0 +1,6 @@
+{
+  "problem": "En el campeonato nacional de curling, hay tres equipos de cuatro jugadores cada uno. Al finalizar el campeonato, los participantes, muy corteses, se dan la mano tres veces con cada miembro de los equipos contrarios y una vez con cada miembro de su propio equipo. ¿Cuántos apretones de manos hay en total?",
+  "solution": "Cada participante tiene 8 oponentes con los que estrechar la mano y 3 miembros de su equipo, lo que resulta en $3\\times8+3=27$ apretones de manos por cada participante individual.\n\nHay un total de 12 jugadores, lo que da $12\\times27=324$ apretones de manos, pero como cada apretón de manos involucra a dos personas, se han contado dos veces.\n\nLa respuesta final es $\\dfrac{324}{2}=\\boxed{162}$ apretones de manos.",
+  "level": "Level 5",
+  "type": "Prealgebra"
+}

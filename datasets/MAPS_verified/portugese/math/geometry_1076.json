@@ -1,0 +1,6 @@
+{
+  "problem": "Os pontos $A\\, (5,-5)$ e $B\\, (-1,-1)$ são os extremos da hipotenusa de um triângulo retângulo isósceles $\\triangle ABC$. Qual é a área de $ABC$?",
+  "solution": "O comprimento da hipotenusa é dado pela fórmula da distância como $\\sqrt{(5-(-1))^2 + (-5-(-1))^2} = \\sqrt{6^2 + 4^2} = \\sqrt{52}$. O comprimento da perna é então dado por $\\sqrt{52}/\\sqrt{2} = \\sqrt{26}$ (alternativamente, o Teorema de Pitágoras pode ser aplicado), e a área do triângulo retângulo isósceles é então igual a $\\frac{1}{2} \\cdot \\sqrt{26} \\cdot \\sqrt{26} = \\boxed{13}$.",
+  "level": "Level 5",
+  "type": "Geometry"
+}

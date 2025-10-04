@@ -1,0 +1,6 @@
+{
+    "problem": "10진법 세 자리 숫자 $n$을 무작위로 선택할 때, $n$의 9진법과 11진법 표현이 모두 세 자리 숫자일 확률은 얼마입니까?",
+    "solution": "The largest base-9 three-digit number is $9^3-1=728$ and the smallest base-11 three-digit number is $11^2=121$. There are $608$ integers that satisfy $121\\le n\\le 728$, and 900 three-digit numbers altogether, so the probability is $608/900=\\boxed{\\frac{152}{225}}$.",
+    "level": "Level 5",
+    "type": "Number Theory"
+}

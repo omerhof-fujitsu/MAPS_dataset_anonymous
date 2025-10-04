@@ -1,0 +1,6 @@
+{
+  "problem": "Qual è la somma di tutti i valori interi positivi di $n$ tali che $n^2$ sia un fattore di $1200$?",
+  "solution": "La scomposizione in fattori primi di $1200$ è $1200=2^4 \\cdot 3 \\cdot 5^2$. Pertanto, i fattori di $1200$ che possono essere scritti nella forma $n^2$ sono $1^2$, $2^2$, $4^2$, $5^2$, $10^2$ e $20^2$. La somma di questi valori di $n$ è $1+2+4+5+10+20=\\boxed{42}$.",
+  "level": "Level 5",
+  "type": "Number Theory"
+}
