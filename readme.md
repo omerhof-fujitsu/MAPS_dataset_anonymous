@@ -1,5 +1,7 @@
 # Dataset Loader for MAPS benchmark 
 
+![Alt text](images\intro_pic_v4.png)
+
 MAPS benchmark - a multilingual benchmark suite designed to evaluate agentic AI systems across diverse languages and tasks.
 
 This module provides functionality to load datasets from MAPS directories
